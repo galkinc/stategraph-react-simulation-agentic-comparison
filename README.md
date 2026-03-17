@@ -15,11 +15,11 @@ The study isolates orchestration architecture as the only variable across **135 
 
 For **short-horizon, linear information-extraction dialogues**:
 
-- **Latency:** ReAct is faster (~2s on average; mean delta: −2023ms, 95% CI: [−3847, −757])
+- **Latency:** ReAct is faster by **~600ms per step** (−568ms message + −168ms simulator), accumulating to **~2s per dialogue** (mean delta: −2023ms, 95% CI: [−3847, −757])
 - **Outcome quality:** no statistically significant difference (McNemar p=0.52)
 - **Efficiency:** no statistically significant difference in steps (p=0.85) or tokens (p=0.99)
 
-**Interpretation:**  
+**Interpretation:**
 Orchestration architecture primarily affects **latency**, not outcome quality, in this setting.
 
 **Scope:**

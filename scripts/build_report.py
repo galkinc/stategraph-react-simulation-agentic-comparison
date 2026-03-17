@@ -42,6 +42,9 @@ def build_report():
         with open(part_path, "r", encoding="utf-8") as f:
             content = f.read()
 
+        # Fix image paths: ./figures/ -> figures/ (for REPORT.md context)
+        content = content.replace('(./figures/', '(figures/')
+
         content_parts.append(content)
         content_parts.append("\n")  # Single blank line between all parts
 

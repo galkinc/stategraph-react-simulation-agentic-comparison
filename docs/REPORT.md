@@ -929,7 +929,7 @@ ReAct completes dialogues **~2 seconds faster** than StateGraph on average.
 
 ### Figure 1: E2E Latency Distribution (Violin Plot)
 
-![Figure 1: E2E Latency Distribution](../figures/figure_1_latency_violin.png)
+![Figure 1: E2E Latency Distribution](./figures/figure_1_latency_violin.png)
 
 **Purpose:** Shows the full distribution of E2E latency for both strategies.
 
@@ -943,7 +943,7 @@ ReAct completes dialogues **~2 seconds faster** than StateGraph on average.
 
 ### Figure 2: Steps Distribution (Box Plot)
 
-![Figure 2: Steps Distribution](../figures/figure_2_steps_box.png)
+![Figure 2: Steps Distribution](./figures/figure_2_steps_box.png)
 
 **Purpose:** Shows the spread of dialogue lengths (steps) for both strategies.
 
@@ -957,7 +957,7 @@ ReAct completes dialogues **~2 seconds faster** than StateGraph on average.
 
 ### Figure 3: Forest Plot (Effect Sizes + 95% CI)
 
-![Figure 3: Forest Plot](../figures/figure_3_forest_plot.png)
+![Figure 3: Forest Plot](./figures/figure_3_forest_plot.png)
 
 **Purpose:** Visualizes effect sizes (delta) with confidence intervals for all metrics.
 
@@ -972,7 +972,7 @@ ReAct completes dialogues **~2 seconds faster** than StateGraph on average.
 
 ### Figure 4: Combined Summary
 
-![Figure 4: Combined Summary](../figures/figure_4_combined_summary.png)
+![Figure 4: Combined Summary](./figures/figure_4_combined_summary.png)
 
 **Purpose:** Single-figure summary combining forest plot (left) and latency distribution (right).
 
