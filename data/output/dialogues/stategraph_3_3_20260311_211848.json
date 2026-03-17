@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253128.8995695,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How've you been treating your acne?",
+    "step": 0,
+    "timestamp": 1773253128.899573,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been using Accutane as prescribed for three months.",
+    "step": 0,
+    "timestamp": 1773253130.1877837,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773253131.696015,
+    "metadata": {
+      "thought": "User mentions using Accutane for acne treatment for three months. This provides medication and treatment information.",
+      "done": true,
+      "tool_use_id": "tooluse_AStG4IzytASoPzaCQwbYEz"
+    }
+  }
+]

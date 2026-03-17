@@ -1,0 +1,192 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247418.90531,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you in pain?",
+    "step": 0,
+    "timestamp": 1773247418.9053137,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, feeling much better now...",
+    "step": 0,
+    "timestamp": 1773247419.9595525,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773247421.37623,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_Sr8eAECHTaFvPWZ1Td10wn"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773247422.7153056,
+    "metadata": {
+      "thought": "Conversation is complete as user reports no pain and feeling better.",
+      "done": true,
+      "tool_use_id": "tooluse_GxdwLsi47PsVB9Pzds9Eab"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773247424.0983744,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_ibyE3IstLmF7wrrqJkzPlH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773247425.4048996,
+    "metadata": {
+      "thought": "Conversation is complete as user reports no pain and feeling better.",
+      "done": true,
+      "tool_use_id": "tooluse_JkaiFOEYUrQVhD7xjiSla5"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247427.6152852,
+    "metadata": {
+      "thought": "Conversation is complete as user reports no pain and feeling better.",
+      "done": true,
+      "tool_use_id": "tooluse_oznslgxUcIb5r2vcDFeEpo"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247429.1323783,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_fyJZPQaQhcr95ThBKFRSh5"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247430.5898907,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_kSMym3bvLJFCKGLh4Jx38H"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773247432.0362778,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_Scb3iuxUZXJAQEtZuEgD0d"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773247433.551076,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_igjq3B9LamaOsDjfo3lZ8F"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773247434.989891,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_IZNSofgFvdi8N255b5Sv7h"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773247436.383959,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_lvjSIj8kICgu67IgHxV27Q"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773247437.8370597,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_yRWTjrS5HLCmbZVrToADLl"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773247439.280583,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_TjtMjkIvqA6JD4tleU470S"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773247440.6223347,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_1zuh2aZL7HpFt73PCDZMbN"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773247442.1543868,
+    "metadata": {
+      "thought": "User reports no pain and feeling better, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_oXChNPQVsYVz4QxYG96Hev"
+    }
+  }
+]

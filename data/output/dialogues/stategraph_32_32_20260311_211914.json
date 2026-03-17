@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253154.7634108,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Tell me a little more about your family. Are there any significant conditions that your parents or siblings had that you know of?",
+    "step": 0,
+    "timestamp": 1773253154.7634149,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My dad had thyroid and colon cancer; one brother had stomach cancer.",
+    "step": 0,
+    "timestamp": 1773253155.9782755,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current symptoms or health concerns?",
+    "step": 1,
+    "timestamp": 1773253157.6668782,
+    "metadata": {
+      "thought": "Collected family medical history including thyroid, colon, and stomach cancer. Ready to ask about current symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_jgUkLodUWEwkJ87Nc5GJVF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No current symptoms, just staying healthy...",
+    "step": 1,
+    "timestamp": 1773253158.8521953,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 2,
+    "timestamp": 1773253160.340147,
+    "metadata": {
+      "thought": "No current symptoms reported. Collecting medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_L8kEri2wj9mxBV62gA4CGP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about current meds, but I've had thyroid issues.",
+    "step": 2,
+    "timestamp": 1773253161.595843,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any thyroid medications you've taken?",
+    "step": 3,
+    "timestamp": 1773253163.1529043,
+    "metadata": {
+      "thought": "Thyroid issues noted. Ask about thyroid medication history.",
+      "done": false,
+      "tool_use_id": "tooluse_bLzI4UA8LSF4WdpzNonAI8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any thyroid meds...",
+    "step": 3,
+    "timestamp": 1773253164.4194477,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253165.7922227,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_ckEJVZe7DAXnnUhkD8u9Wg"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253167.1988318,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_4rutALALIgdOvSBpzbWOZc"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253168.644116,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_O0OEcmaUwNZ6yGL0EPloKJ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253170.2748382,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_jsswboy9PZxjGda7dtOl3H"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253171.7404988,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_0jiqkm6TIECJ8ZXIDavXfE"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773253173.32842,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_ytCV4hD8mRxssH1Zc29nOF"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773253174.825292,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_ko7jkhb9h3VnrF4bmDZz4n"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773253176.5462124,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_eS8HSWLcrPabkIKt8unSdM"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773253178.1437435,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_IBRCLDr7uzBa01lciB83vO"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773253179.8675356,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_AcSbuaHXNGzNRg3HHA7wO7"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773253181.5929,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_144V84ef7rigNTPMp0Qbf5"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773253183.0745335,
+    "metadata": {
+      "thought": "No thyroid medication recalled. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_r5KwEVaPtexRMmf9wOmOqs"
+    }
+  }
+]

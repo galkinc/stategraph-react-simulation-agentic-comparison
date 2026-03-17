@@ -1,0 +1,135 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065421.0377722,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi, there. How are you doing?",
+    "step": 0,
+    "timestamp": 1773065421.0377781,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lately, my body feels off and strange...",
+    "step": 0,
+    "timestamp": 1773065422.1508822,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain or discomfort?",
+    "step": 1,
+    "timestamp": 1773065423.5799088,
+    "metadata": {
+      "thought": "User reports feeling unwell. Need to gather specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_akOnxOJCu0Vf0hFHw3qBZO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific pain, just general discomfort...",
+    "step": 1,
+    "timestamp": 1773065424.663982,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any dizziness, fatigue, or nausea?",
+    "step": 2,
+    "timestamp": 1773065425.458717,
+    "metadata": {
+      "thought": "User reports general discomfort without specific pain. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_ML5ucApL0eebSVcW5gk9bv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes dizzy, but not always. Fatigue too...",
+    "step": 2,
+    "timestamp": 1773065426.517404,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 3,
+    "timestamp": 1773065427.2941852,
+    "metadata": {
+      "thought": "User reports dizziness and fatigue. Need to gather timeline and other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_wRCimXCFanTLdpSUgihsgq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started about two weeks ago...",
+    "step": 3,
+    "timestamp": 1773065428.3916411,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in appetite or sleep?",
+    "step": 4,
+    "timestamp": 1773065429.112926,
+    "metadata": {
+      "thought": "User reports symptoms started two weeks ago. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_64UafnjGrgJ8eOH1ZXT9QE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My appetite's fine, but I'm sleeping more...",
+    "step": 4,
+    "timestamp": 1773065430.175621,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 5,
+    "timestamp": 1773065431.014279,
+    "metadata": {
+      "thought": "User reports increased sleep but normal appetite. Need to ask about medications.",
+      "done": false,
+      "tool_use_id": "tooluse_s7cGtoRoDklAHoECcZ0Zeg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just vitamins...",
+    "step": 5,
+    "timestamp": 1773065432.1228702,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773065432.9543319,
+    "metadata": {
+      "thought": "User reports no medications, only vitamins. Gathering complete.",
+      "done": true,
+      "tool_use_id": "tooluse_dIt4u5WMWEiDNALO5VP9rF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 6,
+    "timestamp": 1773065432.9543881,
+    "metadata": {}
+  }
+]

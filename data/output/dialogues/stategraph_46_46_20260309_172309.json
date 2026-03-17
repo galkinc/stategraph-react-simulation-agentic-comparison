@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066189.021846,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you a smoker?",
+    "step": 0,
+    "timestamp": 1773066189.0218503,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I've been smoking since I was ten.",
+    "step": 0,
+    "timestamp": 1773066190.1192698,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How many cigarettes do you smoke daily?",
+    "step": 1,
+    "timestamp": 1773066191.5002193,
+    "metadata": {
+      "thought": "Need to confirm smoking duration and frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_RFk3XymXDVvdthVkuzOYwK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm down to about 15 cigarettes now...",
+    "step": 1,
+    "timestamp": 1773066192.615668,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any breathing difficulties?",
+    "step": 2,
+    "timestamp": 1773066193.9271142,
+    "metadata": {
+      "thought": "Need to ask about any respiratory symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_pkOUgiAoo7vEMrp7CNWdcU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No breathing issues, just a bit of coughing.",
+    "step": 2,
+    "timestamp": 1773066195.0395544,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this coughing new or long-standing?",
+    "step": 3,
+    "timestamp": 1773066196.50672,
+    "metadata": {
+      "thought": "Need to confirm if the coughing is recent or long-term.",
+      "done": false,
+      "tool_use_id": "tooluse_blunaw9ViUDPgQc41RPmyy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it's been going on for a while.",
+    "step": 3,
+    "timestamp": 1773066197.6686692,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you've noticed?",
+    "step": 4,
+    "timestamp": 1773066199.0327082,
+    "metadata": {
+      "thought": "Need to ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_eDo6S9uT8u36A5OZNfA0hM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some headaches since starting Chantix...",
+    "step": 4,
+    "timestamp": 1773066200.069391,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any other medications?",
+    "step": 5,
+    "timestamp": 1773066201.4183526,
+    "metadata": {
+      "thought": "Confirm if Chantix is the only medication.",
+      "done": false,
+      "tool_use_id": "tooluse_6GWOakCfy41UlVdReZkhBM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just Chantix for quitting smoking...",
+    "step": 5,
+    "timestamp": 1773066202.5594833,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066204.070487,
+    "metadata": {
+      "thought": "Have sufficient information for now.",
+      "done": true,
+      "tool_use_id": "tooluse_pSUnt82XlWbXljR4W92gMn"
+    }
+  }
+]

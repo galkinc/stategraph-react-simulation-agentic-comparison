@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253846.833124,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi there! I am Doctor Frankland.",
+    "step": 0,
+    "timestamp": 1773253846.8331275,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for my regular check-up, Doctor...",
+    "step": 0,
+    "timestamp": 1773253848.0343518,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your last check-up occur?",
+    "step": 1,
+    "timestamp": 1773253849.5814962,
+    "metadata": {
+      "thought": "User is here for a regular check-up. I need to gather basic information to proceed.",
+      "done": false,
+      "tool_use_id": "tooluse_aRMNf90i8prb3rElEw8gm8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall the exact date of my last check-up.",
+    "step": 1,
+    "timestamp": 1773253850.7801387,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you remember the year of your last check-up?",
+    "step": 2,
+    "timestamp": 1773253852.3718545,
+    "metadata": {
+      "thought": "User cannot recall the exact date of their last check-up. I need to gather more information to proceed.",
+      "done": false,
+      "tool_use_id": "tooluse_yAkxW29Rk5mVryhkbVqGsf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall the exact year of my last check-up.",
+    "step": 2,
+    "timestamp": 1773253853.6093595,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any health changes recently?",
+    "step": 3,
+    "timestamp": 1773253855.2136748,
+    "metadata": {
+      "thought": "User still cannot recall the exact year of their last check-up. I need to gather more general information to proceed.",
+      "done": false,
+      "tool_use_id": "tooluse_aUcqvAU3UKdschE8KWz8ng"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, all feels normal...",
+    "step": 3,
+    "timestamp": 1773253856.4670818,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any symptoms you're experiencing?",
+    "step": 4,
+    "timestamp": 1773253858.063496,
+    "metadata": {
+      "thought": "User reports no recent health changes. I need to gather more specific information about their current health status.",
+      "done": false,
+      "tool_use_id": "tooluse_V7rBNtHJkWUh82b960xL7F"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel a bit dizzy sometimes.",
+    "step": 4,
+    "timestamp": 1773253859.3726232,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you feel dizzy?",
+    "step": 5,
+    "timestamp": 1773253860.9608257,
+    "metadata": {
+      "thought": "User reports occasional dizziness. I need to gather more details about this symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_WrO3wU0lH5nwWB6DVbumiL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I feel dizzy mostly when I stand up quickly.",
+    "step": 5,
+    "timestamp": 1773253862.1674201,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take any medications?",
+    "step": 6,
+    "timestamp": 1773253863.813833,
+    "metadata": {
+      "thought": "User reports dizziness upon quick standing. I need to gather more details about their lifestyle and medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_AQ6Jwe5qpcAcfDW0PAIlOU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications; I'm not on anything prescribed...",
+    "step": 6,
+    "timestamp": 1773253865.0398092,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns or symptoms?",
+    "step": 7,
+    "timestamp": 1773253866.666531,
+    "metadata": {
+      "thought": "User reports dizziness without medication use. I need to gather more details about their overall health.",
+      "done": false,
+      "tool_use_id": "tooluse_mCFDZiUbTCBSpBMCcOtOwF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other health issues, just the Firth grade.",
+    "step": 7,
+    "timestamp": 1773253867.8472853,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253869.4408212,
+    "metadata": {
+      "thought": "User reports no other health issues besides occasional dizziness. I have gathered sufficient information for a preliminary assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_d81vxHGCTJCDvZLUsFte32"
+    }
+  }
+]

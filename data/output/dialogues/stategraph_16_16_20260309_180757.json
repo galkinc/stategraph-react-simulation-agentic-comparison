@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068877.372872,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Just to go over few things let me ask, any aches and pains?",
+    "step": 0,
+    "timestamp": 1773068877.372878,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip and shoulder pain, also swelling in leg.",
+    "step": 0,
+    "timestamp": 1773068878.5789433,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did pain start?",
+    "step": 1,
+    "timestamp": 1773068880.0986772,
+    "metadata": {
+      "thought": "User reports left hip and shoulder pain, also swelling in leg. I need to extract these symptoms as medical entities.",
+      "done": false,
+      "tool_use_id": "tooluse_oE7UwlKFTeXM5fZSgkXgiW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip pain began a few weeks ago.",
+    "step": 1,
+    "timestamp": 1773068881.1865885,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries or falls?",
+    "step": 2,
+    "timestamp": 1773068882.6913972,
+    "metadata": {
+      "thought": "User reports left hip pain began a few weeks ago. I need to extract this as onset duration.",
+      "done": false,
+      "tool_use_id": "tooluse_bsLiI92FPPmJQJcjJx6KNA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries or falls, just pain...",
+    "step": 2,
+    "timestamp": 1773068883.7675812,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did shoulder pain start?",
+    "step": 3,
+    "timestamp": 1773068885.3027468,
+    "metadata": {
+      "thought": "User denies recent injuries or falls. I need to ask about shoulder pain duration.",
+      "done": false,
+      "tool_use_id": "tooluse_7ikpckUB3AMKAIyxTTBH7l"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when it started...",
+    "step": 3,
+    "timestamp": 1773068886.3721983,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did leg swelling start?",
+    "step": 4,
+    "timestamp": 1773068887.840729,
+    "metadata": {
+      "thought": "User is unsure about shoulder pain start time. I need to ask about swelling duration.",
+      "done": false,
+      "tool_use_id": "tooluse_fkhaoag77CZWwT2vM2gDHj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I noticed leg swelling a couple weeks ago.",
+    "step": 4,
+    "timestamp": 1773068888.9939353,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773068890.527946,
+    "metadata": {
+      "thought": "User reports leg swelling noticed a couple weeks ago. I need to finalize the onset duration.",
+      "done": true,
+      "tool_use_id": "tooluse_85wr12kWyqixW0oEolIRCR"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247457.7798944,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Okay, so let's go over the plan again. I'd like you to apply Acticoat dressing daily and make sure you're spending at least eight hours out of the chair for pressure relief. Any questions?",
+    "step": 0,
+    "timestamp": 1773247457.7798982,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'll try to follow the plan as best I can.",
+    "step": 0,
+    "timestamp": 1773247458.8806443,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773247460.3172462,
+    "metadata": {
+      "thought": "User has agreed to follow the plan. No further questions needed at this time.",
+      "done": true,
+      "tool_use_id": "tooluse_gUJRO5nmSklN8MsZUHhhWi"
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247329.3626513,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi mister Jones.  Do you remember me from the last time you were here? How old are you now?",
+    "step": 0,
+    "timestamp": 1773247329.3626556,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm fifty-two, doc. Remember me now...",
+    "step": 0,
+    "timestamp": 1773247330.5333297,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent symptoms or health concerns?",
+    "step": 1,
+    "timestamp": 1773247332.0012956,
+    "metadata": {
+      "thought": "User has provided their age, which is useful for medical context. Next, I need to gather more specific symptoms or health concerns.",
+      "done": false,
+      "tool_use_id": "tooluse_k00iqd1lHkwMJbQ3ZspbzW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My whole body aches, and I'm freezing all the time.",
+    "step": 1,
+    "timestamp": 1773247333.0293338,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 2,
+    "timestamp": 1773247334.5724978,
+    "metadata": {
+      "thought": "User reports body aches and feeling cold. I need to clarify if these symptoms are new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_SWFJ8jHMrs0RJ4aI7MRj8O"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started a few weeks ago, getting worse.",
+    "step": 2,
+    "timestamp": 1773247335.7162013,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or medical history?",
+    "step": 3,
+    "timestamp": 1773247337.3718028,
+    "metadata": {
+      "thought": "Symptoms are ongoing and worsening. Next, I need to ask about other potential symptoms or medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_VPF6lliCKpl8jONlGwSuIh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel really weak.",
+    "step": 3,
+    "timestamp": 1773247338.4892945,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 4,
+    "timestamp": 1773247339.9755895,
+    "metadata": {
+      "thought": "User reports feeling weak. I need to ask about any medications they are currently taking.",
+      "done": false,
+      "tool_use_id": "tooluse_n6mxx4EwiGwmO0aZ1ujuwt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any medications right now...",
+    "step": 4,
+    "timestamp": 1773247341.014158,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247342.5330312,
+    "metadata": {
+      "thought": "User reports no current medications. I need to summarize the information gathered so far.",
+      "done": true,
+      "tool_use_id": "tooluse_eWdC2ctJUpDzy5XSkpNji1"
+    }
+  }
+]

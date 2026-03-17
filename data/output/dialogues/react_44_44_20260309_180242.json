@@ -1,0 +1,192 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068562.06345,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you in pain?",
+    "step": 0,
+    "timestamp": 1773068562.063461,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I'm feeling much better now...",
+    "step": 0,
+    "timestamp": 1773068563.301946,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773068564.6818116,
+    "metadata": {
+      "thought": "User reports feeling better, no pain. No new information to collect.",
+      "done": true,
+      "tool_use_id": "tooluse_EIFiwDlHu8lxz0NdsBuusM"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773068565.3397949,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_mloghfpCmZ51myhZiTuH8W"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773068566.1108854,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_H78KC0f7qcjekKX0fl8bI4"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773068566.7675874,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_Q71siaPZYfKNuYAlxicFAE"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773068567.5187635,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_dQ2AtbUYxoDQtDXIGJBGFH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773068568.285435,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_jtLYbgyskmALMVwCSwsXSt"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773068569.076125,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_xV3Pu5ifoWnY6x6sTweiMs"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773068569.7888198,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_ieUsO0KAKblJaB7tES8WNU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773068570.5606067,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_A09Xxeqva9KSpookMLEW7X"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773068571.325631,
+    "metadata": {
+      "thought": "Conversation is complete as user reports feeling better with no pain.",
+      "done": true,
+      "tool_use_id": "tooluse_wkhBvPlOtucGX4H9vqODQ1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773068572.10509,
+    "metadata": {
+      "thought": "User reports feeling better, no pain. No new information to collect.",
+      "done": true,
+      "tool_use_id": "tooluse_L8JQbkTfTdpR6FPJ95LoQk"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773068572.8186111,
+    "metadata": {
+      "thought": "User reports feeling better, no pain. No new information to collect.",
+      "done": true,
+      "tool_use_id": "tooluse_w8C7Llh63urXKWNA7kbagi"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773068573.5439174,
+    "metadata": {
+      "thought": "User reports feeling better, no pain. No new information to collect.",
+      "done": true,
+      "tool_use_id": "tooluse_WEhJwTGyYvjNCbuAVX5rhy"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773068574.6371398,
+    "metadata": {
+      "thought": "User reports feeling better, no pain. No new information to collect.",
+      "done": true,
+      "tool_use_id": "tooluse_ZoljnmFgvKZEc94ymjJ4xQ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773068575.5370464,
+    "metadata": {
+      "thought": "User reports feeling better, no pain. No new information to collect.",
+      "done": true,
+      "tool_use_id": "tooluse_H0ukKEWqG020bpwDOW5Ll2"
+    }
+  }
+]

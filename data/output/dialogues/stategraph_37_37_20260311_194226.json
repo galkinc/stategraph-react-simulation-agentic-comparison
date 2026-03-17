@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247346.5342124,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning. So, you are here for your follow up today.",
+    "step": 0,
+    "timestamp": 1773247346.534216,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for my follow-up, feeling much better now.",
+    "step": 0,
+    "timestamp": 1773247347.6669364,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms persist?",
+    "step": 1,
+    "timestamp": 1773247349.0159686,
+    "metadata": {
+      "thought": "User is feeling much better, but still needs follow-up. Ask about specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_HuljNlt4xYverK06jfEOPK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No symptoms left, just follow-up check...",
+    "step": 1,
+    "timestamp": 1773247350.2891977,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or medications ongoing?",
+    "step": 2,
+    "timestamp": 1773247351.638605,
+    "metadata": {
+      "thought": "User has no symptoms, just needs follow-up check. Ask about any treatments or medications.",
+      "done": false,
+      "tool_use_id": "tooluse_WH9Kujbu8d7MYZ5vQg2qsr"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm following doctor's orders; meds are in the lost paper.",
+    "step": 2,
+    "timestamp": 1773247352.7535222,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Need help finding medication details?",
+    "step": 3,
+    "timestamp": 1773247354.2569435,
+    "metadata": {
+      "thought": "User mentioned medications but couldn't recall. Ask if they need help finding it.",
+      "done": false,
+      "tool_use_id": "tooluse_y9KQHtXwdeEA6jAQdRXjHK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I lost the paper with medication details...",
+    "step": 3,
+    "timestamp": 1773247355.3107424,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Need treatment plan summary?",
+    "step": 4,
+    "timestamp": 1773247356.8112063,
+    "metadata": {
+      "thought": "User lost medication details. Ask if they need a summary of their treatment plan.",
+      "done": false,
+      "tool_use_id": "tooluse_M35ZGrD6rFaZnjzEoRzrft"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Surgery for stones, antibiotics for infection, now feeling much better.",
+    "step": 4,
+    "timestamp": 1773247357.9423914,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any follow-up needed post-surgery?",
+    "step": 5,
+    "timestamp": 1773247359.3841808,
+    "metadata": {
+      "thought": "User had surgery and antibiotics, now feeling better. Confirm details and ask if follow-up needed.",
+      "done": true,
+      "tool_use_id": "tooluse_btJm4dQMsZEjl77oYKxwGX"
+    }
+  }
+]

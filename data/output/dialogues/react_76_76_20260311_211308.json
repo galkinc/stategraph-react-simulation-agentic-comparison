@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252788.9947047,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When were you diagnosed with type two diabetes?",
+    "step": 0,
+    "timestamp": 1773252788.99471,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when I was diagnosed.",
+    "step": 0,
+    "timestamp": 1773252790.2088056,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you recall any symptoms around that time?",
+    "step": 1,
+    "timestamp": 1773252791.821601,
+    "metadata": {
+      "thought": "User is unsure about the exact time of diagnosis for type two diabetes.",
+      "done": false,
+      "tool_use_id": "tooluse_uA9mKdiQg06vLXLXRD7gVx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific symptoms then...",
+    "step": 1,
+    "timestamp": 1773252793.0736907,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take any diabetes medications now?",
+    "step": 2,
+    "timestamp": 1773252793.9130878,
+    "metadata": {
+      "thought": "User does not recall specific symptoms around the time of diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_wE5upKBohPCk1wPC6TmPHd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No diabetes meds, just regular check-ups...",
+    "step": 2,
+    "timestamp": 1773252795.0416403,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you visit your doctor?",
+    "step": 3,
+    "timestamp": 1773252795.8712275,
+    "metadata": {
+      "thought": "User does not take diabetes medications but attends regular check-ups.",
+      "done": false,
+      "tool_use_id": "tooluse_xeloR7w5AVKs14iPWN95CW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't visit often; my family's health is stable.",
+    "step": 3,
+    "timestamp": 1773252797.1754048,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773252797.9085426,
+    "metadata": {
+      "thought": "User visits the doctor infrequently due to stable family health.",
+      "done": true,
+      "tool_use_id": "tooluse_J002TD31gXW8ubQkGpLh7Y"
+    }
+  }
+]

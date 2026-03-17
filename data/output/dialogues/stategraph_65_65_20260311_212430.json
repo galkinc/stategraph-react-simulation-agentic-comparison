@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253470.4325423,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you young man?",
+    "step": 0,
+    "timestamp": 1773253470.4325483,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm nineteen, not young man, but thanks for asking.",
+    "step": 0,
+    "timestamp": 1773253471.6889997,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms or health issues?",
+    "step": 1,
+    "timestamp": 1773253473.068873,
+    "metadata": {
+      "thought": "Ask about symptoms or conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_a5qwiiP4jCv44dY8TkbZKR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Severe bleeding from a cut, pain, and dizziness.",
+    "step": 1,
+    "timestamp": 1773253474.270523,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the bleeding start?",
+    "step": 2,
+    "timestamp": 1773253475.8564541,
+    "metadata": {
+      "thought": "Severe bleeding, pain, dizziness are symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_6k3hGgkKX3oeWq8nxXDLXB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Bleeding started after I punched the glass...",
+    "step": 2,
+    "timestamp": 1773253477.079677,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known medical conditions?",
+    "step": 3,
+    "timestamp": 1773253478.6309638,
+    "metadata": {
+      "thought": "Need to ask about medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_qoLtg0gTjN99gWrL35lGgl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known medical conditions, just a few scrapes.",
+    "step": 3,
+    "timestamp": 1773253479.9677322,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 4,
+    "timestamp": 1773253481.5569363,
+    "metadata": {
+      "thought": "Ask about medications.",
+      "done": false,
+      "tool_use_id": "tooluse_3hxbpMnFvDzHsiXWqY5cDN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just superglue on a cut...",
+    "step": 4,
+    "timestamp": 1773253482.7725883,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253484.3153133,
+    "metadata": {
+      "thought": "Have enough information for initial assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_07dmcgVuMROfcGAP3FpamO"
+    }
+  }
+]

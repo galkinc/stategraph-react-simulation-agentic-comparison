@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253869.45936,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "What brings you here today, sir?",
+    "step": 0,
+    "timestamp": 1773253869.4593637,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lightheadedness, shaky, weak, balance issues...",
+    "step": 0,
+    "timestamp": 1773253870.6679773,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these symptoms ongoing or resolved?",
+    "step": 1,
+    "timestamp": 1773253872.3804202,
+    "metadata": {
+      "thought": "Need to confirm if symptoms are ongoing or resolved.",
+      "done": false,
+      "tool_use_id": "tooluse_T2TpEObbxl992vJVzfAkVi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms are still ongoing, feel shaky and weak.",
+    "step": 1,
+    "timestamp": 1773253873.474281,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have these symptoms lasted?",
+    "step": 2,
+    "timestamp": 1773253874.9809368,
+    "metadata": {
+      "thought": "Need to ask about duration and any triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_Ybetjd3zFSmIGeDV5Qwmsq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About a week, since I started metoprolol...",
+    "step": 2,
+    "timestamp": 1773253876.210815,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any triggers for these symptoms?",
+    "step": 3,
+    "timestamp": 1773253877.7902937,
+    "metadata": {
+      "thought": "Need to confirm if there are any triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_5VmWef9ViC6y1xccVfcH22"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but standing up triggers it.",
+    "step": 3,
+    "timestamp": 1773253878.9566545,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any other medications?",
+    "step": 4,
+    "timestamp": 1773253880.537416,
+    "metadata": {
+      "thought": "Need to ask about other medications.",
+      "done": false,
+      "tool_use_id": "tooluse_igWJ6q56Nz2s9VneY6BrgJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no other meds mentioned.",
+    "step": 4,
+    "timestamp": 1773253881.8701003,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you're experiencing?",
+    "step": 5,
+    "timestamp": 1773253883.4760764,
+    "metadata": {
+      "thought": "Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_jRKmJJStZbs8hnxVmvjw1W"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shaky, weak, and still lightheaded after position changes.",
+    "step": 5,
+    "timestamp": 1773253884.6834967,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253886.4749289,
+    "metadata": {
+      "thought": "No more questions needed, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_SbBgjufWv30IpluRNPCCwQ"
+    }
+  }
+]

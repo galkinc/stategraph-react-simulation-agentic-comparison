@@ -1,0 +1,254 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246935.4302633,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been having this pain in your ear?",
+    "step": 0,
+    "timestamp": 1773246935.4302711,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about ear pain, just the eczema.",
+    "step": 0,
+    "timestamp": 1773246936.5176287,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain or discomfort with eczema?",
+    "step": 1,
+    "timestamp": 1773246937.8942382,
+    "metadata": {
+      "thought": "User mentioned eczema but not pain. Need to clarify if any pain.",
+      "done": false,
+      "tool_use_id": "tooluse_fr193IV0qlGTnGMhB7zdYV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It sometimes itches a lot, but no pain.",
+    "step": 1,
+    "timestamp": 1773246938.9790864,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments for eczema?",
+    "step": 2,
+    "timestamp": 1773246939.81233,
+    "metadata": {
+      "thought": "User clarified no pain, but itching is present. Need to ask about treatment.",
+      "done": false,
+      "tool_use_id": "tooluse_cTnDuP47qUpt0zNiZkvYT6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use creams, but they don't always help.",
+    "step": 2,
+    "timestamp": 1773246940.8895152,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What creams are you using?",
+    "step": 3,
+    "timestamp": 1773246941.6355913,
+    "metadata": {
+      "thought": "User uses creams but not always effective. Need to ask about specific creams used.",
+      "done": false,
+      "tool_use_id": "tooluse_twGPscQlfL3oANtnAGNfkJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use hydrocortisone cream for my eczema...",
+    "step": 3,
+    "timestamp": 1773246942.72504,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does hydrocortisone help?",
+    "step": 4,
+    "timestamp": 1773246943.6652732,
+    "metadata": {
+      "thought": "User uses hydrocortisone cream. Need to confirm if it helps.",
+      "done": false,
+      "tool_use_id": "tooluse_NaEZSzRARmxem4xJmmc7QW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It sometimes helps, but not always...",
+    "step": 4,
+    "timestamp": 1773246944.7136226,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you use hydrocortisone?",
+    "step": 5,
+    "timestamp": 1773246945.6338818,
+    "metadata": {
+      "thought": "User uses hydrocortisone cream with mixed results. Need to ask about frequency of use.",
+      "done": false,
+      "tool_use_id": "tooluse_T0iOuil74TRzqFDDB8Foin"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use hydrocortisone when the eczema flares up.",
+    "step": 5,
+    "timestamp": 1773246946.7257695,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long do flare-ups last?",
+    "step": 6,
+    "timestamp": 1773246947.5587184,
+    "metadata": {
+      "thought": "User uses hydrocortisone during flare-ups. Need to ask about duration of flare-ups.",
+      "done": false,
+      "tool_use_id": "tooluse_xYDruWat7s2NCrVjnk7NZz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They usually last a few weeks, sometimes longer.",
+    "step": 6,
+    "timestamp": 1773246948.7687452,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms during flare-ups?",
+    "step": 7,
+    "timestamp": 1773246949.775122,
+    "metadata": {
+      "thought": "User uses hydrocortisone during flare-ups lasting weeks. Need to confirm if any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_KUjO459lmA3r3TAeKv7LRe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dryness and itching, sometimes redness too...",
+    "step": 7,
+    "timestamp": 1773246950.8241997,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do these symptoms occur?",
+    "step": 8,
+    "timestamp": 1773246951.7261276,
+    "metadata": {
+      "thought": "User reports dryness, itching, and sometimes redness. Need to ask about frequency of symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_suulAARZb496yRregBDrtp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Eczema flares up several times a month...",
+    "step": 8,
+    "timestamp": 1773246952.8926666,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known triggers for flares?",
+    "step": 9,
+    "timestamp": 1773246953.8895235,
+    "metadata": {
+      "thought": "User reports flares several times a month. Need to ask about any triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_cMMpmdoyiLWFvf4FIAEemH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; it flares up with stress sometimes.",
+    "step": 9,
+    "timestamp": 1773246955.096028,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other potential triggers?",
+    "step": 10,
+    "timestamp": 1773246956.0101624,
+    "metadata": {
+      "thought": "User suggests stress as a possible trigger. Need to confirm if any other triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_3YVeQFrCaY408Tj5LBIoXW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; stress seems to worsen it.",
+    "step": 10,
+    "timestamp": 1773246957.1568284,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any lifestyle factors affecting eczema?",
+    "step": 11,
+    "timestamp": 1773246958.13995,
+    "metadata": {
+      "thought": "User suggests stress worsens eczema. Need to ask about lifestyle factors.",
+      "done": false,
+      "tool_use_id": "tooluse_60PH6TzyXoWih3SlOcWUIy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stress and hot showers seem to worsen it.",
+    "step": 11,
+    "timestamp": 1773246959.2694516,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other factors affecting your eczema?",
+    "step": 12,
+    "timestamp": 1773246960.241027,
+    "metadata": {
+      "thought": "User mentions stress and hot showers worsen eczema. Need to confirm if any other factors.",
+      "done": false,
+      "tool_use_id": "tooluse_kRcowT2JhEekK2bt4mwlz6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stress and hot showers worsen it...",
+    "step": 12,
+    "timestamp": 1773246961.3416522,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773246962.3746831,
+    "metadata": {
+      "thought": "User mentions stress and hot showers worsen eczema. No further factors mentioned. Enough information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_lRRVznfCCazXQ8wmINMkxb"
+    }
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253688.4732282,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Let me give you some medication in your I V.",
+    "step": 0,
+    "timestamp": 1773253688.4732327,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I hope this IV helps me feel better.",
+    "step": 0,
+    "timestamp": 1773253689.6179695,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms or pain areas?",
+    "step": 1,
+    "timestamp": 1773253691.0962253,
+    "metadata": {
+      "thought": "User mentions feeling better after IV, but no specific symptoms or conditions are mentioned. Need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_6sEG0yLZp2HuNPc9Jp4ceZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Nausea and stomach cramps, feel really queasy...",
+    "step": 1,
+    "timestamp": 1773253692.430766,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these symptoms new or ongoing?",
+    "step": 2,
+    "timestamp": 1773253693.992591,
+    "metadata": {
+      "thought": "User reports nausea and stomach cramps. Need to confirm if these symptoms are new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_QKgqwE8IH8ccFJLD2aXJUa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms just started today, really bad...",
+    "step": 2,
+    "timestamp": 1773253695.1497972,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes or triggers?",
+    "step": 3,
+    "timestamp": 1773253696.737356,
+    "metadata": {
+      "thought": "User reports new onset of symptoms today. Need to ask about any recent changes or triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_itwlfmlNbSjApqQxR05ZjH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just feeling really sick...",
+    "step": 3,
+    "timestamp": 1773253697.9033504,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken recently?",
+    "step": 4,
+    "timestamp": 1773253699.4496074,
+    "metadata": {
+      "thought": "User reports no recent changes, just new symptoms. Need to ask about any medications taken recently.",
+      "done": false,
+      "tool_use_id": "tooluse_0RE5TWWt912pRiBfAZojzX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any recent medications...",
+    "step": 4,
+    "timestamp": 1773253700.5954301,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms present?",
+    "step": 5,
+    "timestamp": 1773253702.072831,
+    "metadata": {
+      "thought": "User reports no recent medications. Symptoms are new and severe. Need to confirm if any other symptoms are present.",
+      "done": false,
+      "tool_use_id": "tooluse_GCxDaFXOoUa2FAVJxpqOQD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm also having a headache and stomach cramps.",
+    "step": 5,
+    "timestamp": 1773253703.3278039,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are symptoms constant or intermittent?",
+    "step": 6,
+    "timestamp": 1773253704.983178,
+    "metadata": {
+      "thought": "User reports headache in addition to nausea and cramps. Symptoms are new and severe. Need to confirm if these symptoms are constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_jajIlZPUiJD8XC6m8jGyhd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms feel constant, like I'm always nauseous...",
+    "step": 6,
+    "timestamp": 1773253706.2039065,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have symptoms lasted?",
+    "step": 7,
+    "timestamp": 1773253707.8209488,
+    "metadata": {
+      "thought": "User reports constant symptoms. Need to ask about duration and any relief measures.",
+      "done": false,
+      "tool_use_id": "tooluse_WKrbWB6YC39ULbhMWdZo05"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms have been going on for three days.",
+    "step": 7,
+    "timestamp": 1773253709.215263,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any relief measures used?",
+    "step": 8,
+    "timestamp": 1773253710.8763185,
+    "metadata": {
+      "thought": "User reports symptoms lasting three days. Need to ask about any relief measures used.",
+      "done": false,
+      "tool_use_id": "tooluse_g8AlfyPiyhYGchBw0Ly1MH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I tried drinking water, but it didn't help much.",
+    "step": 8,
+    "timestamp": 1773253712.0309734,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other interventions tried?",
+    "step": 9,
+    "timestamp": 1773253713.611778,
+    "metadata": {
+      "thought": "User reports no significant relief from water. Symptoms are persistent and severe. Need to assess if any other interventions were tried.",
+      "done": false,
+      "tool_use_id": "tooluse_97J8rt3qZKnivyHrFzWY3l"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I tried drinking water, but still feel sick.",
+    "step": 9,
+    "timestamp": 1773253714.8657444,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other interventions tried?",
+    "step": 10,
+    "timestamp": 1773253716.6040218,
+    "metadata": {
+      "thought": "User reports persistent symptoms despite water. Need to ask about any other interventions or medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_h5hgfP3nEaQ2qMgsySghR7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Tried some home remedies, but nothing worked...",
+    "step": 10,
+    "timestamp": 1773253717.7287862,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known medical conditions?",
+    "step": 11,
+    "timestamp": 1773253719.6108892,
+    "metadata": {
+      "thought": "User reports no relief from home remedies. Symptoms are persistent and severe. Need to ask about medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_9eWZFUucwJZUB1T5wYp3dy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known medical conditions, just feeling really sick today.",
+    "step": 11,
+    "timestamp": 1773253720.7988043,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family medical history?",
+    "step": 12,
+    "timestamp": 1773253722.673656,
+    "metadata": {
+      "thought": "User reports no known medical conditions. Symptoms are persistent and severe. Need to assess if any family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_iKoMZ1eBvml74Pf9l4qnWZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of sickness, just me...",
+    "step": 12,
+    "timestamp": 1773253723.7677808,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent lifestyle changes?",
+    "step": 13,
+    "timestamp": 1773253725.578416,
+    "metadata": {
+      "thought": "User reports no known medical or family history. Symptoms are persistent and severe. Need to assess if any lifestyle factors.",
+      "done": false,
+      "tool_use_id": "tooluse_EVWZu952RMsdTewmiM8k90"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just feeling really sick...",
+    "step": 13,
+    "timestamp": 1773253726.7385218,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent environmental changes?",
+    "step": 14,
+    "timestamp": 1773253728.4838223,
+    "metadata": {
+      "thought": "User reports no recent lifestyle changes. Symptoms are persistent and severe. Need to assess if any environmental factors.",
+      "done": false,
+      "tool_use_id": "tooluse_fAm3s6pF836csDeJkcDgZL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just feeling really sick...",
+    "step": 14,
+    "timestamp": 1773253729.6361327,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent dietary changes?",
+    "step": 15,
+    "timestamp": 1773253731.419478,
+    "metadata": {
+      "thought": "User reports no recent changes. Symptoms are persistent and severe. Need to assess if any dietary factors.",
+      "done": false,
+      "tool_use_id": "tooluse_qoSVLd7d9dBPdIRHvfPUeg"
+    }
+  }
+]

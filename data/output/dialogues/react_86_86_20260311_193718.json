@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247038.7917676,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any thoughts of harming yourself or others?",
+    "step": 0,
+    "timestamp": 1773247038.7917771,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No plans to harm myself or others...",
+    "step": 0,
+    "timestamp": 1773247039.9604337,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773247041.1774354,
+    "metadata": {
+      "thought": "User denies having thoughts of self-harm or harming others.",
+      "done": true,
+      "tool_use_id": "tooluse_zyCWnb9er16oeXafC7Z2xt"
+    }
+  }
+]

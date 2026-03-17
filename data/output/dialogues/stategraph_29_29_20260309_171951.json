@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065991.7136233,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi, there. How are you doing?",
+    "step": 0,
+    "timestamp": 1773065991.7136269,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lately, my body feels off, and I'm worried.",
+    "step": 0,
+    "timestamp": 1773065992.7121003,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain or discomfort?",
+    "step": 1,
+    "timestamp": 1773065993.8929112,
+    "metadata": {
+      "thought": "Need to identify specific symptoms to understand the user's condition.",
+      "done": false,
+      "tool_use_id": "tooluse_HI61AoQDcHTsgaG9yP3cF9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific pain, just general discomfort...",
+    "step": 1,
+    "timestamp": 1773065994.9549427,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fatigue, dizziness, or nausea?",
+    "step": 2,
+    "timestamp": 1773065996.3289905,
+    "metadata": {
+      "thought": "User reports general discomfort but no specific pain. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_9D5WGAEEp75Mc0xNmZLJ7U"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling really tired lately...",
+    "step": 2,
+    "timestamp": 1773065997.4065335,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt this way?",
+    "step": 3,
+    "timestamp": 1773065998.950203,
+    "metadata": {
+      "thought": "User reports fatigue. Need to ask about duration and other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_PFWAT3cHQF4j7CYKuUfYzw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About a month, things have been off lately.",
+    "step": 3,
+    "timestamp": 1773066000.0380995,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in appetite or weight?",
+    "step": 4,
+    "timestamp": 1773066001.4940312,
+    "metadata": {
+      "thought": "User reports fatigue for a month. Need to ask about other symptoms and medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_BtmSUP3muubKj732QugPEp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Appetite steady, but weight hasn't changed much...",
+    "step": 4,
+    "timestamp": 1773066002.637136,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any trouble sleeping or stress?",
+    "step": 5,
+    "timestamp": 1773066004.0483134,
+    "metadata": {
+      "thought": "User reports steady appetite and no significant weight change. Need to ask about sleep and stress.",
+      "done": false,
+      "tool_use_id": "tooluse_10MWAy6TpQ9IuBKDWbNlXz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not really, but I'm often tired...",
+    "step": 5,
+    "timestamp": 1773066005.2329915,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or medical history?",
+    "step": 6,
+    "timestamp": 1773066006.6835897,
+    "metadata": {
+      "thought": "User reports tiredness but no trouble sleeping or stress. Fatigue persists.",
+      "done": false,
+      "tool_use_id": "tooluse_X2oKAJMfpFaKWJR3JO52av"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizzy spells, fatigue, and sometimes high blood sugar.",
+    "step": 6,
+    "timestamp": 1773066007.7952821,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you feel dizzy?",
+    "step": 7,
+    "timestamp": 1773066009.3430994,
+    "metadata": {
+      "thought": "User reports dizziness, fatigue, and high blood sugar. Need to confirm details.",
+      "done": false,
+      "tool_use_id": "tooluse_nN8LltDkX6LnWSUJ5AhHVn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lately, I’ve been dizzy, especially after standing up.",
+    "step": 7,
+    "timestamp": 1773066010.3836596,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or medical history?",
+    "step": 8,
+    "timestamp": 1773066011.8337777,
+    "metadata": {
+      "thought": "User reports dizziness especially after standing. Fatigue and high blood sugar noted.",
+      "done": false,
+      "tool_use_id": "tooluse_nSKqf49wRKxdle7uC89kT6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizzy spells, fatigue, and sometimes headaches...",
+    "step": 8,
+    "timestamp": 1773066012.9398022,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or medical history?",
+    "step": 9,
+    "timestamp": 1773066014.5105035,
+    "metadata": {
+      "thought": "User reports dizziness, fatigue, high blood sugar, and headaches.",
+      "done": true,
+      "tool_use_id": "tooluse_wu4DpB94ghB7ewJft6SvSB"
+    }
+  }
+]

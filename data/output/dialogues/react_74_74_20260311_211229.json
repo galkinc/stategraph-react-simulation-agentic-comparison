@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252749.495014,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. What brings you into the practice today?",
+    "step": 0,
+    "timestamp": 1773252749.4950194,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Missing periods, not sexually active, no bleeding...",
+    "step": 0,
+    "timestamp": 1773252751.1224349,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, fatigue, or breast changes?",
+    "step": 1,
+    "timestamp": 1773252752.6519253,
+    "metadata": {
+      "thought": "User reports missing periods and no bleeding. Need to clarify symptoms and medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_xdDlsjE97wIo2n4sYZ740B"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, fatigue, or breast changes...",
+    "step": 1,
+    "timestamp": 1773252753.8098054,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you? Any past medical issues?",
+    "step": 2,
+    "timestamp": 1773252754.5766199,
+    "metadata": {
+      "thought": "User has no additional symptoms. Need to ask about age and medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_5V3eTDDe1p6lUp46YlKLXK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, no major medical issues...",
+    "step": 2,
+    "timestamp": 1773252755.9486115,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stress, changes in diet, or lifestyle?",
+    "step": 3,
+    "timestamp": 1773252756.705463,
+    "metadata": {
+      "thought": "User unsure of age and no major medical issues. Need to ask about stress, diet, and lifestyle.",
+      "done": false,
+      "tool_use_id": "tooluse_1VCJvsk6E2e8yYdk4whubd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major stress, same diet, no lifestyle changes.",
+    "step": 3,
+    "timestamp": 1773252757.903707,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in weight or exercise routine?",
+    "step": 4,
+    "timestamp": 1773252758.724197,
+    "metadata": {
+      "thought": "User reports no major changes. Need to ask about weight and exercise.",
+      "done": false,
+      "tool_use_id": "tooluse_ByJKpIqkswTxhBP9HnPR0Z"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in weight or routine recently...",
+    "step": 4,
+    "timestamp": 1773252760.0228577,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent stress or sleep changes?",
+    "step": 5,
+    "timestamp": 1773252760.9035501,
+    "metadata": {
+      "thought": "User reports no changes. Need to ask about stress and sleep.",
+      "done": false,
+      "tool_use_id": "tooluse_KwsmNFi5WCBPWHyTcgQVOf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent stress or sleep changes, really...",
+    "step": 5,
+    "timestamp": 1773252762.024093,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252762.780376,
+    "metadata": {
+      "thought": "User reports no recent changes. Gathering enough information.",
+      "done": true,
+      "tool_use_id": "tooluse_WlhfalLMTa33GTEUzefB9O"
+    }
+  }
+]

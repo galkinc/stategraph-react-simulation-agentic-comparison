@@ -1,0 +1,99 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065432.9678047,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How've you been treating your acne?",
+    "step": 0,
+    "timestamp": 1773065432.9678097,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "On Accutane for three months now...",
+    "step": 0,
+    "timestamp": 1773065434.0725162,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any side effects from Accutane?",
+    "step": 1,
+    "timestamp": 1773065435.4662054,
+    "metadata": {
+      "thought": "User is on Accutane, a medication for acne. I need to confirm the duration and any side effects.",
+      "done": false,
+      "tool_use_id": "tooluse_COfiS8hVJnnxzdpiccLax9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dry skin and chapped lips, mostly...",
+    "step": 1,
+    "timestamp": 1773065436.6301048,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other side effects?",
+    "step": 2,
+    "timestamp": 1773065437.5112193,
+    "metadata": {
+      "thought": "User reports side effects of dry skin and chapped lips from Accutane. I need to confirm if these are the only side effects.",
+      "done": false,
+      "tool_use_id": "tooluse_D1nPPbl1thxfNBJoFJxZlO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major side effects, just dry skin...",
+    "step": 2,
+    "timestamp": 1773065438.6380365,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long dry skin lasts?",
+    "step": 3,
+    "timestamp": 1773065439.4429028,
+    "metadata": {
+      "thought": "User confirms no major side effects other than dry skin. I need to confirm the duration of dry skin.",
+      "done": false,
+      "tool_use_id": "tooluse_6dBEAkJJSVm2WuNf2AoyTq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dry skin has lasted about three months too.",
+    "step": 3,
+    "timestamp": 1773065440.6105947,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773065441.4784763,
+    "metadata": {
+      "thought": "User reports dry skin lasting three months, same as Accutane treatment. I have enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_gK6DLWX0nHjvLcX9172Rjw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 4,
+    "timestamp": 1773065441.4785054,
+    "metadata": {}
+  }
+]

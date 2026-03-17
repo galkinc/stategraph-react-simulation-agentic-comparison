@@ -1,0 +1,297 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246973.1442647,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit your I V and inhalation drugs Mister X Y Z?",
+    "step": 0,
+    "timestamp": 1773246973.1442795,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about quitting those drugs yet.",
+    "step": 0,
+    "timestamp": 1773246974.8375604,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you experience any side effects from these medications?",
+    "step": 1,
+    "timestamp": 1773246976.261626,
+    "metadata": {
+      "thought": "User is not sure about quitting drugs, so I need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_aG7WRp1FLQ6PRUUcWKDyrA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I haven't noticed any side effects.",
+    "step": 1,
+    "timestamp": 1773246977.6134706,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you start taking these medications?",
+    "step": 2,
+    "timestamp": 1773246978.3228738,
+    "metadata": {
+      "thought": "User hasn't noticed side effects, but I need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_8bXrsODfHnq9xk423f2kwx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I started them about three months ago...",
+    "step": 2,
+    "timestamp": 1773246979.4847767,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these medications effective for you?",
+    "step": 3,
+    "timestamp": 1773246980.215691,
+    "metadata": {
+      "thought": "User started medications three months ago, I need to know if they're effective.",
+      "done": false,
+      "tool_use_id": "tooluse_OvdDiuaIvQPzg53qORkFQO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They seem to help, but I'm still feeling low sometimes.",
+    "step": 3,
+    "timestamp": 1773246981.436267,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you discussed this with your doctor?",
+    "step": 4,
+    "timestamp": 1773246982.2627096,
+    "metadata": {
+      "thought": "User feels low despite medication, I need to know if they've consulted a doctor.",
+      "done": false,
+      "tool_use_id": "tooluse_iZggYi1c39j3w4LCjmhV3T"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I've talked about it with my doctor.",
+    "step": 4,
+    "timestamp": 1773246983.461892,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What did your doctor recommend?",
+    "step": 5,
+    "timestamp": 1773246984.1610596,
+    "metadata": {
+      "thought": "User has discussed with doctor, I need to know doctor's advice.",
+      "done": false,
+      "tool_use_id": "tooluse_h9Ze8JyaXwMvaazdrTpo5B"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My doctor suggested therapy and some medication...",
+    "step": 5,
+    "timestamp": 1773246985.3690438,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you following the doctor's advice?",
+    "step": 6,
+    "timestamp": 1773246986.1045995,
+    "metadata": {
+      "thought": "User's doctor suggested therapy and medication, I need to know if they're following the advice.",
+      "done": false,
+      "tool_use_id": "tooluse_FvqZWrxuyfJXfpx73K3Drl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I'm following the doctor's advice closely...",
+    "step": 6,
+    "timestamp": 1773246987.2426083,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any other medications?",
+    "step": 7,
+    "timestamp": 1773246988.1237805,
+    "metadata": {
+      "thought": "User is following doctor's advice, but I need to know if they're taking other medications.",
+      "done": false,
+      "tool_use_id": "tooluse_vO5P5Mx8z1hgGUeVoXNWpx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I'm on depression meds.",
+    "step": 7,
+    "timestamp": 1773246989.3242617,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What specific depression medication are you on?",
+    "step": 8,
+    "timestamp": 1773246990.1351058,
+    "metadata": {
+      "thought": "User is on depression meds, I need to confirm the specific medication.",
+      "done": false,
+      "tool_use_id": "tooluse_neVMPKmrERLgmxMUAzbp4h"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact medication name.",
+    "step": 8,
+    "timestamp": 1773246991.2252922,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have a prescription or pill bottle?",
+    "step": 9,
+    "timestamp": 1773246992.1069283,
+    "metadata": {
+      "thought": "User unsure about medication name, I need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_roQxhzeunFq75DVzV00Mes"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I have my medication, but not the pill bottle.",
+    "step": 9,
+    "timestamp": 1773246993.1710248,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking it as prescribed?",
+    "step": 10,
+    "timestamp": 1773247004.0610373,
+    "metadata": {
+      "thought": "User has medication but not pill bottle, I need to know if they're taking it regularly.",
+      "done": false,
+      "tool_use_id": "tooluse_emhzbbgzgP9NPtbUMN1Cns"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I'm taking it as prescribed every day.",
+    "step": 10,
+    "timestamp": 1773247005.197823,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you noticed any improvement in your symptoms?",
+    "step": 11,
+    "timestamp": 1773247006.0825076,
+    "metadata": {
+      "thought": "User is taking medication as prescribed, I need to know if they're experiencing any improvement.",
+      "done": false,
+      "tool_use_id": "tooluse_iyH5CBWSKlJYIsmiMeVVJL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I feel a bit better, but it's still a struggle.",
+    "step": 11,
+    "timestamp": 1773247007.191661,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have there been any recent changes in your life?",
+    "step": 12,
+    "timestamp": 1773247008.1287992,
+    "metadata": {
+      "thought": "User feels a bit better but still struggles, I need to know if they've had any recent changes.",
+      "done": false,
+      "tool_use_id": "tooluse_oM2c4WyJLoAxDsoxJS4pJW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major changes recently, just treatment...",
+    "step": 12,
+    "timestamp": 1773247009.2516224,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any other treatments recently?",
+    "step": 13,
+    "timestamp": 1773247010.4004307,
+    "metadata": {
+      "thought": "User no major changes, I need to know if they've had any other treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_0ufZy1zfBQ7j0iOPgoXD0E"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm currently on medication for depression...",
+    "step": 13,
+    "timestamp": 1773247011.5558755,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms besides feeling low?",
+    "step": 14,
+    "timestamp": 1773247012.6485264,
+    "metadata": {
+      "thought": "User on medication for depression, I need to know if they've had any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_no62CEKGyNv1DmOj8gEKQz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms besides feeling low.",
+    "step": 14,
+    "timestamp": 1773247013.8479588,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you noticed any physical symptoms?",
+    "step": 15,
+    "timestamp": 1773247014.9354692,
+    "metadata": {
+      "thought": "User no other symptoms, I need to know if they've had any physical symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_HrQGuLVHU4PclEap71OC4W"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't noticed any specific physical symptoms...",
+    "step": 15,
+    "timestamp": 1773247016.0481353,
+    "metadata": {}
+  }
+]

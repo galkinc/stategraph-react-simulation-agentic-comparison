@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253131.7154918,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi mister Jones.  Do you remember me from the last time you were here? How old are you now?",
+    "step": 0,
+    "timestamp": 1773253131.7154963,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm fifty-two, doc. Remember me from before...",
+    "step": 0,
+    "timestamp": 1773253133.0285547,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms or pain?",
+    "step": 1,
+    "timestamp": 1773253134.5539355,
+    "metadata": {
+      "thought": "User has provided their age, which is useful for medical context. Next, I need to gather more specific symptom information.",
+      "done": false,
+      "tool_use_id": "tooluse_ZdmSWoFVjQh9xbx1VviD1U"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Whole body aches, cold, can't remember recent pain.",
+    "step": 1,
+    "timestamp": 1773253135.8820593,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had these symptoms?",
+    "step": 2,
+    "timestamp": 1773253137.4668298,
+    "metadata": {
+      "thought": "User reports whole body aches and cold symptoms. Next, I need to ask about the duration and any medications taken.",
+      "done": false,
+      "tool_use_id": "tooluse_j8KCSdtctYRdV6fLwzAgW2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started a few weeks ago, getting worse.",
+    "step": 2,
+    "timestamp": 1773253138.6691256,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 3,
+    "timestamp": 1773253140.3438756,
+    "metadata": {
+      "thought": "User reports symptoms worsening over a few weeks. Next, I need to ask about any medications they are currently taking.",
+      "done": false,
+      "tool_use_id": "tooluse_PlXCWqbK2zaRWQAPOEtTc4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just drugs. Can't remember specifics...",
+    "step": 3,
+    "timestamp": 1773253141.6657014,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these prescription or recreational drugs?",
+    "step": 4,
+    "timestamp": 1773253143.2876165,
+    "metadata": {
+      "thought": "User reports taking drugs but cannot recall specifics. I need to confirm if these are prescription or recreational. Next step is to ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_SigSBEiW56yEqbTMzADnU6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They're all recreational, not prescribed to me...",
+    "step": 4,
+    "timestamp": 1773253144.5661545,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or health changes?",
+    "step": 5,
+    "timestamp": 1773253146.2081482,
+    "metadata": {
+      "thought": "User confirms recreational drugs. Next, I need to ask about any other symptoms or changes in health.",
+      "done": false,
+      "tool_use_id": "tooluse_91cKqdPpvR1FPcPgyAPGSW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm cold, body aches, and I'm losing weight.",
+    "step": 5,
+    "timestamp": 1773253147.39835,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you start losing weight?",
+    "step": 6,
+    "timestamp": 1773253148.9747303,
+    "metadata": {
+      "thought": "User reports additional symptoms of weight loss. I need to confirm the onset and duration of these symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Tk2MSEGgu6uzjwCc4tnNvj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when I started losing weight.",
+    "step": 6,
+    "timestamp": 1773253150.1655526,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in appetite or sleep patterns?",
+    "step": 7,
+    "timestamp": 1773253151.8423364,
+    "metadata": {
+      "thought": "User is unsure about the exact onset of weight loss. I need to gather more details to determine if further action is needed.",
+      "done": false,
+      "tool_use_id": "tooluse_YXEqCEpcLPGp1GFpAeclgC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sleep's been off, appetite vanished, doc...",
+    "step": 7,
+    "timestamp": 1773253153.1136556,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253154.74359,
+    "metadata": {
+      "thought": "User reports changes in sleep and appetite. I have enough information to determine if further action is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_JdSudt1MoC2dRCYDVJEwLr"
+    }
+  }
+]

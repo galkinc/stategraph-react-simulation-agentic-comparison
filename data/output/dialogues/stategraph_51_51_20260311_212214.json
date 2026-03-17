@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253334.4761634,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit?",
+    "step": 0,
+    "timestamp": 1773253334.4761672,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure when I'll quit yet...",
+    "step": 0,
+    "timestamp": 1773253335.748166,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any symptoms?",
+    "step": 1,
+    "timestamp": 1773253337.1194975,
+    "metadata": {
+      "thought": "User is not ready to quit yet, need more information.",
+      "done": false,
+      "tool_use_id": "tooluse_77fF3ofYLMFc9o1TPBlEgF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel a bit dizzy sometimes.",
+    "step": 1,
+    "timestamp": 1773253338.3262029,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you feel dizzy?",
+    "step": 2,
+    "timestamp": 1773253339.8681915,
+    "metadata": {
+      "thought": "User feels dizzy sometimes, need to confirm.",
+      "done": false,
+      "tool_use_id": "tooluse_zeZ5B9UucpFMRt81d7eKfl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I feel dizzy mostly after standing up quickly.",
+    "step": 2,
+    "timestamp": 1773253341.001466,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long does it last?",
+    "step": 3,
+    "timestamp": 1773253342.560102,
+    "metadata": {
+      "thought": "User feels dizzy after standing up quickly, need to confirm duration.",
+      "done": false,
+      "tool_use_id": "tooluse_kU9uOK31vSnSt2LkigZoyd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it usually lasts a few days.",
+    "step": 3,
+    "timestamp": 1773253343.7688396,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 4,
+    "timestamp": 1773253345.362119,
+    "metadata": {
+      "thought": "User feels dizzy after standing up quickly for a few days.",
+      "done": false,
+      "tool_use_id": "tooluse_0cH2wk4VQu2lD1czcvLpfo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms right now.",
+    "step": 4,
+    "timestamp": 1773253346.552012,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medication?",
+    "step": 5,
+    "timestamp": 1773253348.1193593,
+    "metadata": {
+      "thought": "No other symptoms reported, check for medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_ZK4XGgzor8pJJupCQFF5E8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about current meds, but I check regularly.",
+    "step": 5,
+    "timestamp": 1773253349.3292954,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have a list?",
+    "step": 6,
+    "timestamp": 1773253350.9737642,
+    "metadata": {
+      "thought": "User checks medication regularly, but unsure of current use.",
+      "done": false,
+      "tool_use_id": "tooluse_B9shodvN8GuAec3H5AzOIY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't have a list with me right now.",
+    "step": 6,
+    "timestamp": 1773253352.2468505,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other concerns?",
+    "step": 7,
+    "timestamp": 1773253353.8707645,
+    "metadata": {
+      "thought": "User does not have medication list, but checks regularly.",
+      "done": true,
+      "tool_use_id": "tooluse_7t0rAF4J1mclHCvGLRyxRH"
+    }
+  }
+]

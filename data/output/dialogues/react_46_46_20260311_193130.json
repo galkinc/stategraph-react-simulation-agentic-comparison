@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246690.023864,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you a smoker?",
+    "step": 0,
+    "timestamp": 1773246690.02387,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been smoking since I was ten...",
+    "step": 0,
+    "timestamp": 1773246691.159605,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How many cigarettes do you smoke daily?",
+    "step": 1,
+    "timestamp": 1773246692.5300114,
+    "metadata": {
+      "thought": "User disclosed smoking history, which is a significant risk factor for various conditions. Next step is to ask about the duration and intensity of smoking.",
+      "done": false,
+      "tool_use_id": "tooluse_t1QhXNjPQujQmcDg8Dy9lv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm down to about 15 cigarettes daily now.",
+    "step": 1,
+    "timestamp": 1773246693.6913853,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any breathing difficulties?",
+    "step": 2,
+    "timestamp": 1773246694.4857645,
+    "metadata": {
+      "thought": "User disclosed smoking history and current consumption. Next step is to ask about any respiratory symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_W1uU20iH6zZxtBjJRJeuiF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't noticed any breathing issues yet...",
+    "step": 2,
+    "timestamp": 1773246695.6895368,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other unusual symptoms?",
+    "step": 3,
+    "timestamp": 1773246696.4829323,
+    "metadata": {
+      "thought": "User disclosed smoking history and current consumption, and no immediate respiratory symptoms. Next step is to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_q23Kza5m9jpZWnFszfMIsH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms, just some dizziness...",
+    "step": 3,
+    "timestamp": 1773246697.5957465,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you feel dizzy?",
+    "step": 4,
+    "timestamp": 1773246698.573906,
+    "metadata": {
+      "thought": "User disclosed dizziness as a symptom. Next step is to ask about the frequency and duration of dizziness.",
+      "done": false,
+      "tool_use_id": "tooluse_piaVhjyVQ1WU8WzqQlaiCU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I haven't felt dizzy.",
+    "step": 4,
+    "timestamp": 1773246699.790376,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been smoking?",
+    "step": 5,
+    "timestamp": 1773246700.5579658,
+    "metadata": {
+      "thought": "User clarified dizziness is not frequent. Need to gather more information on smoking history.",
+      "done": false,
+      "tool_use_id": "tooluse_2vuLsmIOLpS8AqfKNbTvzk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been smoking since I was ten years old.",
+    "step": 5,
+    "timestamp": 1773246701.7931366,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 6,
+    "timestamp": 1773246702.5409787,
+    "metadata": {
+      "thought": "User disclosed long-term smoking history. Need to ask about any medical treatments or medications.",
+      "done": false,
+      "tool_use_id": "tooluse_UUXlQN0tTRsm3mmvy5Jdrm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I'm on Chantix to help quit smoking.",
+    "step": 6,
+    "timestamp": 1773246703.7086477,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246704.5587976,
+    "metadata": {
+      "thought": "User disclosed Chantix use. Gathered sufficient information for now.",
+      "done": true,
+      "tool_use_id": "tooluse_DRNb1wVvVP8BL5RMwZ9xeA"
+    }
+  }
+]

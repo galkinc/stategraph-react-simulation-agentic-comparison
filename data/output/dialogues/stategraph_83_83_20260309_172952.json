@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066592.1717894,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Let me give you some medication in your I V.",
+    "step": 0,
+    "timestamp": 1773066592.171794,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I hope this IV helps; I’m feeling really nauseous.",
+    "step": 0,
+    "timestamp": 1773066593.2394633,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your nausea start?",
+    "step": 1,
+    "timestamp": 1773066594.5816965,
+    "metadata": {
+      "thought": "User mentions feeling nauseous, indicating a symptom. I need to confirm if this is a new symptom or an ongoing one.",
+      "done": false,
+      "tool_use_id": "tooluse_QfTbuhCWI8CgxEucsgEiVL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Nausea started yesterday afternoon, feels constant...",
+    "step": 1,
+    "timestamp": 1773066595.637979,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with nausea?",
+    "step": 2,
+    "timestamp": 1773066597.0531223,
+    "metadata": {
+      "thought": "User reports constant nausea since yesterday afternoon. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_zMrkIdfEsu1FtIAFkKYzlf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Headache and stomach cramps, too...",
+    "step": 2,
+    "timestamp": 1773066598.1608558,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken recently?",
+    "step": 3,
+    "timestamp": 1773066599.6365008,
+    "metadata": {
+      "thought": "User reports headache and stomach cramps in addition to nausea. I need to ask about any medications taken.",
+      "done": false,
+      "tool_use_id": "tooluse_r29R2boTNKuAkrrGZyKhNj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent meds; just over-the-counter stuff...",
+    "step": 3,
+    "timestamp": 1773066600.7417126,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What over-the-counter medications?",
+    "step": 4,
+    "timestamp": 1773066602.2459223,
+    "metadata": {
+      "thought": "User reports no recent medications, only over-the-counter. I need to confirm the type of OTC medications.",
+      "done": false,
+      "tool_use_id": "tooluse_Bq1Xhwph3c4vvWFAhpOIDJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don’t take any over-the-counter meds...",
+    "step": 4,
+    "timestamp": 1773066603.3476048,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066604.954865,
+    "metadata": {
+      "thought": "User reports no recent OTC medications. I have enough information to conclude the symptom elicitation.",
+      "done": true,
+      "tool_use_id": "tooluse_PmXxx9sgMMK0vGuRpvVZMx"
+    }
+  }
+]

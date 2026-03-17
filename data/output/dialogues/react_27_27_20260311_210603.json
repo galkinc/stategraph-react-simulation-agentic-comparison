@@ -1,0 +1,199 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252363.4085548,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you ever had surgery?",
+    "step": 0,
+    "timestamp": 1773252363.40856,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, had appendix, gallbladder, and colon surgeries...",
+    "step": 0,
+    "timestamp": 1773252364.6213343,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any complications from surgeries?",
+    "step": 1,
+    "timestamp": 1773252366.0031514,
+    "metadata": {
+      "thought": "User has mentioned having multiple surgeries. This information is important for medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_K45KYLWHlwoUJ0QIoXNcrm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No complications since my surgeries last year...",
+    "step": 1,
+    "timestamp": 1773252367.1720064,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773252367.9349778,
+    "metadata": {
+      "thought": "User has no complications from surgeries. This is useful information for medical history.",
+      "done": true,
+      "tool_use_id": "tooluse_aeRiBwEPQlz2E28LxBezP1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773252368.7236137,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_LILbaWthg194gNTnz3OMA9"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773252369.5193791,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_RHImRlkRIU7C6eHqgIkhGg"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252370.3077312,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_H5F0a1sTCVbLonxx60DV9W"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252371.2036374,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_bcRvNTx2dNXut8jx4dQgVb"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773252372.0149822,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_7RyyQXPdgy2hlRKkWBIPPc"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773252372.7796357,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_o7MKnE4a3FKTX6Zbk2fsOB"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252373.585104,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_J6nO9QCtDqiaT4BFaUkX4m"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773252374.3729384,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_kyXnS89K2DuCpBDFlEQocB"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252375.1628788,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_AXfVigWuFcFDOohZ1r8xV8"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773252375.959595,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_e8ytv5feiiNYMu3g7lFVZz"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773252376.8025198,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_ICFfXruTUc32lq38TdYQyE"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773252377.5468082,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_yq33AqrI1ACOOooW4qs1aH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773252378.3665054,
+    "metadata": {
+      "thought": "Conversation is complete as we have sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_vD2SmRGcWxAEDs09uXeuLx"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247166.968053,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Do you smoke?",
+    "step": 0,
+    "timestamp": 1773247166.9680612,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't smoke, but I used to be around smoke.",
+    "step": 0,
+    "timestamp": 1773247168.1771472,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often were you around smoke?",
+    "step": 1,
+    "timestamp": 1773247169.5925817,
+    "metadata": {
+      "thought": "Ask about exposure to smoke",
+      "done": false,
+      "tool_use_id": "tooluse_WEN2uWVCCCuwgbbkE1RAmn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rarely around smoke, mostly in office...",
+    "step": 1,
+    "timestamp": 1773247170.6723504,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Was office smoke-free or smoky?",
+    "step": 2,
+    "timestamp": 1773247171.438802,
+    "metadata": {
+      "thought": "Clarify office smoke exposure",
+      "done": false,
+      "tool_use_id": "tooluse_ze4PHUyXX7X39yMVhxoGZU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I mostly worked from home.",
+    "step": 2,
+    "timestamp": 1773247172.559843,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health issues?",
+    "step": 3,
+    "timestamp": 1773247173.284401,
+    "metadata": {
+      "thought": "Ask about other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_f9gDYjKPVCqsnkJyJB8EmH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major health issues, just occasional headaches...",
+    "step": 3,
+    "timestamp": 1773247174.399198,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do headaches occur?",
+    "step": 4,
+    "timestamp": 1773247175.1879725,
+    "metadata": {
+      "thought": "Confirm headache details",
+      "done": false,
+      "tool_use_id": "tooluse_r0qwQUfwsE5Ly1CwaYnyZy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I get headaches mostly after long workdays...",
+    "step": 4,
+    "timestamp": 1773247176.2412474,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stress or fatigue triggers?",
+    "step": 5,
+    "timestamp": 1773247177.062005,
+    "metadata": {
+      "thought": "Check for other triggers",
+      "done": false,
+      "tool_use_id": "tooluse_G8qh6EEfSuKNZi5xhWoTWI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Long hours and deadlines cause me stress...",
+    "step": 5,
+    "timestamp": 1773247178.1812103,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247178.9579775,
+    "metadata": {
+      "thought": "Summarize findings",
+      "done": true,
+      "tool_use_id": "tooluse_8AGw2Hc3eQ7rgSf2wWcn1Y"
+    }
+  }
+]

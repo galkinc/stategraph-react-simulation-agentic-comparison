@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068849.3348017,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How is everything else?",
+    "step": 0,
+    "timestamp": 1773068849.3348074,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shoulder's the main concern; otherwise, I'm okay...",
+    "step": 0,
+    "timestamp": 1773068850.5664854,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did shoulder pain start?",
+    "step": 1,
+    "timestamp": 1773068851.7046878,
+    "metadata": {
+      "thought": "Need to confirm if shoulder pain is ongoing or recent.",
+      "done": false,
+      "tool_use_id": "tooluse_A7EH6MLCpaYJunwPP0TWjO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when it started...",
+    "step": 1,
+    "timestamp": 1773068852.759068,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is shoulder pain sharp or dull?",
+    "step": 2,
+    "timestamp": 1773068854.1137536,
+    "metadata": {
+      "thought": "Need to ask about pain characteristics.",
+      "done": false,
+      "tool_use_id": "tooluse_emoHG1A9MqYGW9Y1jzzZfT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's more of a dull ache, honestly...",
+    "step": 2,
+    "timestamp": 1773068855.1728594,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How intense is the dull ache?",
+    "step": 3,
+    "timestamp": 1773068856.5950239,
+    "metadata": {
+      "thought": "Need to ask about pain intensity and frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_S6KwzaX04KaBBDfC697yo9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The dull ache is mild, not too bothersome.",
+    "step": 3,
+    "timestamp": 1773068857.746079,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does pain affect your daily activities?",
+    "step": 4,
+    "timestamp": 1773068859.1239185,
+    "metadata": {
+      "thought": "Need to ask if pain affects daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_u6K58xVN5OtDqZZgP07ZkX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shoulder pain limits my daily tasks...",
+    "step": 4,
+    "timestamp": 1773068860.1990628,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments?",
+    "step": 5,
+    "timestamp": 1773068861.5957992,
+    "metadata": {
+      "thought": "Need to ask if any treatments have been tried.",
+      "done": false,
+      "tool_use_id": "tooluse_NmIX2oC5HS1S6O5LDKEU92"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't tried any treatments yet...",
+    "step": 5,
+    "timestamp": 1773068862.7217307,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 6,
+    "timestamp": 1773068864.222555,
+    "metadata": {
+      "thought": "Need to ask if any medications are being taken.",
+      "done": false,
+      "tool_use_id": "tooluse_Kco7g1NF8dpIxJeipc0m8r"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any medications for my shoulder.",
+    "step": 6,
+    "timestamp": 1773068865.3431246,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773068866.7207959,
+    "metadata": {
+      "thought": "Gathering complete symptom information.",
+      "done": true,
+      "tool_use_id": "tooluse_9laYjMYpPNKUMBweCEJyFU"
+    }
+  }
+]

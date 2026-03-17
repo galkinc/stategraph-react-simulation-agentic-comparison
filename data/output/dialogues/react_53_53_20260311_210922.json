@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252562.9946985,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you Miss G?",
+    "step": 0,
+    "timestamp": 1773252562.994705,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still dealing with ear pain and sinus pressure.",
+    "step": 0,
+    "timestamp": 1773252564.18304,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Ear pain, sharp or dull?",
+    "step": 1,
+    "timestamp": 1773252565.7913418,
+    "metadata": {
+      "thought": "Ask about pain specifics to gather more symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_tVm8Qg4Eeucc4vSdkYM4e9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's mostly dull, but sometimes it gets sharper.",
+    "step": 1,
+    "timestamp": 1773252567.0455997,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did pain begin?",
+    "step": 2,
+    "timestamp": 1773252568.2258081,
+    "metadata": {
+      "thought": "Need to know when pain started and duration.",
+      "done": false,
+      "tool_use_id": "tooluse_oPUBhWeaaR4LEhmUQT2o5u"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started almost three weeks ago...",
+    "step": 2,
+    "timestamp": 1773252569.3584778,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 3,
+    "timestamp": 1773252570.1620698,
+    "metadata": {
+      "thought": "Ask about any treatments tried.",
+      "done": false,
+      "tool_use_id": "tooluse_MrpUNVAzIlA37lB7LLswIU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments tried, just rest and over-the-counter meds.",
+    "step": 3,
+    "timestamp": 1773252571.3905425,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Which OTC meds?",
+    "step": 4,
+    "timestamp": 1773252572.191992,
+    "metadata": {
+      "thought": "Need to know specific OTC meds used.",
+      "done": false,
+      "tool_use_id": "tooluse_hPOCBtir7fvERwEoyQBC5h"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; ask doctor first...",
+    "step": 4,
+    "timestamp": 1773252573.3955927,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Other symptoms?",
+    "step": 5,
+    "timestamp": 1773252574.1726632,
+    "metadata": {
+      "thought": "Ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ItO62mOhXbQ1bIWYD3x6SE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Chronic left-sided headache and sinus pressure...",
+    "step": 5,
+    "timestamp": 1773252575.3599474,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252576.238175,
+    "metadata": {
+      "thought": "Gathering enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_66DHA22vw6o4BAfHtRLGL5"
+    }
+  }
+]

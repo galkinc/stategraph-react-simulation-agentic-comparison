@@ -1,0 +1,220 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247214.385334,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you keeping up with your food journal?",
+    "step": 0,
+    "timestamp": 1773247214.3853383,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I try to, but sometimes I forget...",
+    "step": 0,
+    "timestamp": 1773247215.5081193,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stomach pain or bloating recently?",
+    "step": 1,
+    "timestamp": 1773247216.6871862,
+    "metadata": {
+      "thought": "Ask about specific symptoms related to diet",
+      "done": false,
+      "tool_use_id": "tooluse_gAdFDXHmRug7zSmScKnZ3R"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No stomach pain, just occasional bloating...",
+    "step": 1,
+    "timestamp": 1773247217.9646122,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in bowel movements recently?",
+    "step": 2,
+    "timestamp": 1773247219.2252455,
+    "metadata": {
+      "thought": "Need to ask about other symptoms related to diet",
+      "done": false,
+      "tool_use_id": "tooluse_CgpdiufCHwRiKk1H25FceA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in bowel movements recently...",
+    "step": 2,
+    "timestamp": 1773247220.5007062,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fatigue or weakness lately?",
+    "step": 3,
+    "timestamp": 1773247221.9136615,
+    "metadata": {
+      "thought": "Ask about other symptoms that could be related",
+      "done": false,
+      "tool_use_id": "tooluse_hE58GXeDcwY9mNFRAGv52e"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fatigue, just feeling more energetic lately...",
+    "step": 3,
+    "timestamp": 1773247223.1292965,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headaches or dizziness recently?",
+    "step": 4,
+    "timestamp": 1773247224.5516434,
+    "metadata": {
+      "thought": "Ask about any other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_zFZAsD70N5UAFjG8rUR1fR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches or dizziness lately, just feeling great.",
+    "step": 4,
+    "timestamp": 1773247225.6266534,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247226.9907503,
+    "metadata": {
+      "thought": "No more symptoms to ask about",
+      "done": true,
+      "tool_use_id": "tooluse_gDiax5pgGn5hPgNim8nllZ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247228.4305105,
+    "metadata": {
+      "thought": "Conversation is complete",
+      "done": true,
+      "tool_use_id": "tooluse_ZbNEbQLJU0wZmBpeNBQgI0"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247230.0015714,
+    "metadata": {
+      "thought": "No more symptoms to ask about",
+      "done": true,
+      "tool_use_id": "tooluse_cJHkMMe8VT4AePNPq12r83"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773247231.433287,
+    "metadata": {
+      "thought": "Conversation is complete",
+      "done": true,
+      "tool_use_id": "tooluse_XbHIUQWWd4eGWdUSKxh9tw"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773247232.8169591,
+    "metadata": {
+      "thought": "No more symptoms to ask about",
+      "done": true,
+      "tool_use_id": "tooluse_Rt08EMgkgic2FnQW1ooKzR"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773247234.2465696,
+    "metadata": {
+      "thought": "Conversation is complete",
+      "done": true,
+      "tool_use_id": "tooluse_7wSY4ql6ZbhH2KzymmYK6R"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773247235.6537275,
+    "metadata": {
+      "thought": "No more symptoms to ask about",
+      "done": true,
+      "tool_use_id": "tooluse_LVnFDR2ThTbl0vmXyHD2QV"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773247237.0948112,
+    "metadata": {
+      "thought": "Conversation is complete",
+      "done": true,
+      "tool_use_id": "tooluse_YMs1cAs0c5ZL9PHEpofETF"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773247238.4876523,
+    "metadata": {
+      "thought": "No more symptoms to ask about",
+      "done": true,
+      "tool_use_id": "tooluse_mJtkq0kwF0T8dyJq2SvZXU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773247239.905171,
+    "metadata": {
+      "thought": "No more symptoms to ask about",
+      "done": true,
+      "tool_use_id": "tooluse_PLWxd12emjgcL94HkfY91m"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773247241.3388467,
+    "metadata": {
+      "thought": "No more symptoms to ask about",
+      "done": true,
+      "tool_use_id": "tooluse_HL2Z1Hm6O5hKOeW4z1X6gR"
+    }
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065441.4884188,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi mister Jones.  Do you remember me from the last time you were here? How old are you now?",
+    "step": 0,
+    "timestamp": 1773065441.4884253,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm fifty-two, doc. Remember me from before...",
+    "step": 0,
+    "timestamp": 1773065442.6108785,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms or pain?",
+    "step": 1,
+    "timestamp": 1773065444.127999,
+    "metadata": {
+      "thought": "User has provided their age, which is useful for context but does not directly contribute to symptom elicitation. I need to ask about symptoms or medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_XlCJApIetx1MbwXElf7C6n"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Whole body aches, cold, can't stop thinking about heroin.",
+    "step": 1,
+    "timestamp": 1773065445.2199306,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had these symptoms?",
+    "step": 2,
+    "timestamp": 1773065446.1181097,
+    "metadata": {
+      "thought": "User reports whole body aches, cold, and preoccupation with heroin. These could be symptoms of withdrawal or other conditions. I need to ask more about the specifics of these symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_0iWk32xI3P1Ph4bkJMPBlc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started a few weeks ago, getting worse.",
+    "step": 2,
+    "timestamp": 1773065447.4586878,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in appetite or sleep?",
+    "step": 3,
+    "timestamp": 1773065448.3002117,
+    "metadata": {
+      "thought": "User's symptoms have been worsening over a few weeks. I need to ask about any other symptoms or medical history that could help diagnose the condition.",
+      "done": false,
+      "tool_use_id": "tooluse_LXz6s2ED3kxjcLuC9E12Ol"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sleep's off, appetite's vanished...",
+    "step": 3,
+    "timestamp": 1773065449.352577,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any history of mental health issues?",
+    "step": 4,
+    "timestamp": 1773065450.2649822,
+    "metadata": {
+      "thought": "User reports disturbed sleep and loss of appetite. These are common in withdrawal or depression. I need to ask about any previous medical conditions or treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_d6haTiFddodIKz7hZMzXFx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some trouble with anxiety, but nothing major.",
+    "step": 4,
+    "timestamp": 1773065451.3725238,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current medications or drug use?",
+    "step": 5,
+    "timestamp": 1773065452.25602,
+    "metadata": {
+      "thought": "User has a history of mild anxiety. I need to ask about current medications or substance use that could affect their condition.",
+      "done": false,
+      "tool_use_id": "tooluse_F6BAqailXMxJq2O4PuekoW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I only use heroin and some coke now.",
+    "step": 5,
+    "timestamp": 1773065453.4353163,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "History of substance use disorders?",
+    "step": 6,
+    "timestamp": 1773065454.4824507,
+    "metadata": {
+      "thought": "User reports current use of heroin and cocaine. This is critical information for understanding their condition. I need to confirm if they have a history of substance use disorders.",
+      "done": false,
+      "tool_use_id": "tooluse_KnjQCLcuwn7Lw0HI0LXold"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Switched from alcohol to heroin, cocaine too...",
+    "step": 6,
+    "timestamp": 1773065455.605851,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you start using heroin and cocaine?",
+    "step": 7,
+    "timestamp": 1773065456.681028,
+    "metadata": {
+      "thought": "User has a history of switching from alcohol to heroin and cocaine. This indicates a potential substance use disorder. I need to gather more details to determine the next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_2Ofctu2SlbCTYgoyA74Gpg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Started using drugs a few years ago, can't remember exact dates.",
+    "step": 7,
+    "timestamp": 1773065457.806161,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatment for substance use?",
+    "step": 8,
+    "timestamp": 1773065458.8524816,
+    "metadata": {
+      "thought": "User reports starting drug use a few years ago but cannot recall exact dates. I need to ask about any medical interventions or treatments they have received for their substance use.",
+      "done": false,
+      "tool_use_id": "tooluse_L6SyDRsAZsQ3w6nYhRwYPd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Need help quitting heroin, doc. It’s too much.",
+    "step": 8,
+    "timestamp": 1773065460.008224,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried quitting before?",
+    "step": 9,
+    "timestamp": 1773065461.0906112,
+    "metadata": {
+      "thought": "User expresses a desire to quit heroin and acknowledges the severity of their situation. This indicates a need for intervention and support. I need to confirm if they have received any help or treatment for quitting.",
+      "done": false,
+      "tool_use_id": "tooluse_T83OBULuvgexyj2tKWrVMv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I tried quitting before, but it didn't work.",
+    "step": 9,
+    "timestamp": 1773065462.1418087,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What challenges did you face quitting?",
+    "step": 10,
+    "timestamp": 1773065463.421629,
+    "metadata": {
+      "thought": "User has previously attempted to quit but was unsuccessful. This indicates a need for more intensive support. I need to ask about any specific challenges they faced during previous attempts.",
+      "done": false,
+      "tool_use_id": "tooluse_ZMyIcmyirLGC4AwqHwuQOy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Withdrawals are brutal, and cravings are relentless...",
+    "step": 10,
+    "timestamp": 1773065464.5096202,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have support or treatment programs?",
+    "step": 11,
+    "timestamp": 1773065467.3742144,
+    "metadata": {
+      "thought": "User describes severe withdrawal symptoms and relentless cravings, indicating a high level of distress and need for support. I need to assess if they have any support system or access to treatment programs.",
+      "done": false,
+      "tool_use_id": "tooluse_TuqCGwlKMooxa1M9FSTjsy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No support, just need help quitting heroin...",
+    "step": 11,
+    "timestamp": 1773065468.5022213,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Would you like help finding treatment options?",
+    "step": 12,
+    "timestamp": 1773065469.7317035,
+    "metadata": {
+      "thought": "User has no support and is in urgent need of help to quit heroin. I need to inform them about available resources and offer assistance in finding appropriate treatment.",
+      "done": true,
+      "tool_use_id": "tooluse_fYGgxnQl9ofL2sNUsZx0wJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, please, I need help with heroin...",
+    "step": 12,
+    "timestamp": 1773065470.8807108,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253381.46779,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you today?",
+    "step": 0,
+    "timestamp": 1773253381.4677937,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Headaches persist daily; not feeling well...",
+    "step": 0,
+    "timestamp": 1773253382.7070553,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did headaches start?",
+    "step": 1,
+    "timestamp": 1773253384.015222,
+    "metadata": {
+      "thought": "Need to clarify specifics of headache",
+      "done": false,
+      "tool_use_id": "tooluse_pVGBrgC1pG6QCb2OuxZgJr"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Headaches began six months ago, daily since then.",
+    "step": 1,
+    "timestamp": 1773253385.2358508,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are headaches throbbing or dull?",
+    "step": 2,
+    "timestamp": 1773253386.7160892,
+    "metadata": {
+      "thought": "Next step is to ask about headache characteristics",
+      "done": false,
+      "tool_use_id": "tooluse_knAoXkXe9b7CClxnhZwYKn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Throbbing, mostly on the left side...",
+    "step": 2,
+    "timestamp": 1773253387.904613,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known headache triggers?",
+    "step": 3,
+    "timestamp": 1773253389.4978213,
+    "metadata": {
+      "thought": "Need to ask about headache triggers",
+      "done": false,
+      "tool_use_id": "tooluse_6GMwgcM74ZgLSpfvaZOy01"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but stress might be a factor.",
+    "step": 3,
+    "timestamp": 1773253390.7242482,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, vomiting, or light sensitivity?",
+    "step": 4,
+    "timestamp": 1773253392.2670825,
+    "metadata": {
+      "thought": "Next step is to ask about associated symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_cwC2rxggjskBmud7ziuE57"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea or vomiting, but light bothers me.",
+    "step": 4,
+    "timestamp": 1773253393.5224297,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 5,
+    "timestamp": 1773253395.1467433,
+    "metadata": {
+      "thought": "Gathering complete symptom profile",
+      "done": false,
+      "tool_use_id": "tooluse_c9nNcqri4SQBJMsGM7AjC1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I also feel dizzy sometimes, but not often.",
+    "step": 5,
+    "timestamp": 1773253396.428984,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253397.9669006,
+    "metadata": {
+      "thought": "Information sufficient for preliminary assessment",
+      "done": true,
+      "tool_use_id": "tooluse_NsnA2ek8x63qVBSaxgPxb0"
+    }
+  }
+]

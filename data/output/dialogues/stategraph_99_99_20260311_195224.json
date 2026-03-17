@@ -1,0 +1,74 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247944.0178938,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I'm glad to hear that your Afib is under control. I'd like for you to start taking baby aspirin again.",
+    "step": 0,
+    "timestamp": 1773247944.017898,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the aspirin, though...",
+    "step": 0,
+    "timestamp": 1773247945.4756927,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 1,
+    "timestamp": 1773247946.7937539,
+    "metadata": {
+      "thought": "Need to confirm if the user is currently taking any medications, including aspirin, to avoid any potential conflicts or contraindications.",
+      "done": false,
+      "tool_use_id": "tooluse_sYSqDDGzEenbZlIKkZAdrt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm taking Nexium and a few other pills.",
+    "step": 1,
+    "timestamp": 1773247947.8010747,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take Nexium or aspirin?",
+    "step": 2,
+    "timestamp": 1773247949.1648767,
+    "metadata": {
+      "thought": "Need to confirm if Nexium or any other medications include aspirin or similar antiplatelet drugs.",
+      "done": false,
+      "tool_use_id": "tooluse_mYBnr11TpP8ojxTjtdhTyX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I take Nexium, not aspirin...",
+    "step": 2,
+    "timestamp": 1773247950.2549481,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773247951.5797074,
+    "metadata": {
+      "thought": "No contraindications found. Can proceed with advice on aspirin.",
+      "done": true,
+      "tool_use_id": "tooluse_UyvALKC2446KxKHW69xzI3"
+    }
+  }
+]

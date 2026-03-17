@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252713.6402414,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How many days has it been since your headaches started?",
+    "step": 0,
+    "timestamp": 1773252713.6402524,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Two days now, with consistent dizziness...",
+    "step": 0,
+    "timestamp": 1773252714.9547698,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like nausea or vomiting?",
+    "step": 1,
+    "timestamp": 1773252716.562182,
+    "metadata": {
+      "thought": "User reports headaches and dizziness for two days. Need to confirm if these are new or worsening.",
+      "done": false,
+      "tool_use_id": "tooluse_dUo7Fb2kQ7KYCzZUNe6qPL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea or vomiting, just dizziness...",
+    "step": 1,
+    "timestamp": 1773252717.668936,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers or relief for dizziness?",
+    "step": 2,
+    "timestamp": 1773252718.5093663,
+    "metadata": {
+      "thought": "User reports no nausea or vomiting, just dizziness. Need to ask about any triggers or relief.",
+      "done": false,
+      "tool_use_id": "tooluse_A5uEfsTbyI5BnsLdfmrEqF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No clear triggers, just happens with headaches...",
+    "step": 2,
+    "timestamp": 1773252720.1396184,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in routine?",
+    "step": 3,
+    "timestamp": 1773252721.013679,
+    "metadata": {
+      "thought": "User reports dizziness coinciding with headaches, no clear triggers. Need to ask about any recent changes.",
+      "done": false,
+      "tool_use_id": "tooluse_08uEGWDabvt4GyygtSn1wI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just the usual routine...",
+    "step": 3,
+    "timestamp": 1773252722.1393533,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new medications recently?",
+    "step": 4,
+    "timestamp": 1773252722.9659789,
+    "metadata": {
+      "thought": "User reports no recent changes in routine. Need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_iVu6lAavrHCvOamFs4mANK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new meds, just the usual...",
+    "step": 4,
+    "timestamp": 1773252724.11609,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252724.8475642,
+    "metadata": {
+      "thought": "User reports no new medications. Symptoms persist for two days.",
+      "done": true,
+      "tool_use_id": "tooluse_0QOfnPHbTQaGKnAAhHztD4"
+    }
+  }
+]

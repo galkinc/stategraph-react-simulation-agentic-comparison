@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247288.5655446,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How've you been treating your acne?",
+    "step": 0,
+    "timestamp": 1773247288.5655496,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Following Accutane prescription, no other treatments...",
+    "step": 0,
+    "timestamp": 1773247289.6499972,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any side effects from Accutane?",
+    "step": 1,
+    "timestamp": 1773247291.07509,
+    "metadata": {
+      "thought": "User mentions using Accutane, a known medication for acne. Need to confirm if this is the only treatment used.",
+      "done": false,
+      "tool_use_id": "tooluse_u69kwzfbUc2YrWhhagBlIO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dry skin, occasional nosebleeds, but no major issues.",
+    "step": 1,
+    "timestamp": 1773247292.228298,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any eye or mouth dryness?",
+    "step": 2,
+    "timestamp": 1773247293.7095335,
+    "metadata": {
+      "thought": "User reports side effects from Accutane. Need to gather more details on these side effects.",
+      "done": false,
+      "tool_use_id": "tooluse_He2g27MKIYK5XPqzuUMcKD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No dryness, but my skin feels really dry.",
+    "step": 2,
+    "timestamp": 1773247294.8211026,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does skin dryness affect daily activities?",
+    "step": 3,
+    "timestamp": 1773247296.364664,
+    "metadata": {
+      "thought": "User confirms skin dryness but no other dryness. Need to determine if this is impacting daily life.",
+      "done": false,
+      "tool_use_id": "tooluse_qbDKvaT8Eo2LL2WKmoIogN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Skin dryness makes daily tasks a bit uncomfortable.",
+    "step": 3,
+    "timestamp": 1773247297.4922016,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is skin dryness constant?",
+    "step": 4,
+    "timestamp": 1773247298.9526753,
+    "metadata": {
+      "thought": "User reports discomfort due to skin dryness. Need to confirm if this is ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_J6lcgtyIEwlmpRVKx3tAs1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Skin dryness is almost always there, really annoying.",
+    "step": 4,
+    "timestamp": 1773247300.1009514,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other new symptoms?",
+    "step": 5,
+    "timestamp": 1773247301.5382442,
+    "metadata": {
+      "thought": "User confirms persistent skin dryness. Need to determine if any other symptoms have emerged.",
+      "done": false,
+      "tool_use_id": "tooluse_O0zG6T9R93qSqRJ3OyHfES"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new symptoms since starting Accutane...",
+    "step": 5,
+    "timestamp": 1773247302.6111567,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does skin dryness affect sleep?",
+    "step": 6,
+    "timestamp": 1773247304.153023,
+    "metadata": {
+      "thought": "User reports no new symptoms. Need to confirm if skin dryness is impacting sleep.",
+      "done": false,
+      "tool_use_id": "tooluse_UGktpHacyCnrbnIkkr2ANj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Skin dryness makes it hard for me to sleep.",
+    "step": 6,
+    "timestamp": 1773247305.4053745,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does this affect overall well-being?",
+    "step": 7,
+    "timestamp": 1773247306.9049773,
+    "metadata": {
+      "thought": "User reports skin dryness affecting sleep. Need to determine if this is impacting overall well-being.",
+      "done": false,
+      "tool_use_id": "tooluse_Qe2vzI1NvSM4U2HEDJUaeE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some mood swings, but overall, I'm okay.",
+    "step": 7,
+    "timestamp": 1773247307.9477637,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are mood swings new?",
+    "step": 8,
+    "timestamp": 1773247309.5541475,
+    "metadata": {
+      "thought": "User reports mood swings but overall okay. Need to confirm if these are new.",
+      "done": false,
+      "tool_use_id": "tooluse_gVbBLJ9znkz3pKCxRZXdj3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but they feel different lately.",
+    "step": 8,
+    "timestamp": 1773247310.7986515,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other behavioral changes?",
+    "step": 9,
+    "timestamp": 1773247312.4281697,
+    "metadata": {
+      "thought": "User unsure if mood swings are new. Need to determine if any other changes in behavior.",
+      "done": false,
+      "tool_use_id": "tooluse_xfSV8dzW3cizD4pXUjdHRM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No notable changes in behavior since starting Accutane.",
+    "step": 9,
+    "timestamp": 1773247313.6609273,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does dryness affect work/school?",
+    "step": 10,
+    "timestamp": 1773247315.1987064,
+    "metadata": {
+      "thought": "User reports no notable behavioral changes. Need to confirm if skin dryness is impacting work or school.",
+      "done": false,
+      "tool_use_id": "tooluse_yQMR5VWVtuNJQJjnvvLL6w"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dryness makes it hard to focus sometimes...",
+    "step": 10,
+    "timestamp": 1773247316.4731154,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does this affect performance?",
+    "step": 11,
+    "timestamp": 1773247318.1665494,
+    "metadata": {
+      "thought": "User reports difficulty focusing due to skin dryness. Need to determine if this is impacting performance.",
+      "done": false,
+      "tool_use_id": "tooluse_sYQeB2BrdrnxEeRIBU8unL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No side effects on my performance, so far.",
+    "step": 11,
+    "timestamp": 1773247319.2749126,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does dryness affect social life?",
+    "step": 12,
+    "timestamp": 1773247320.968005,
+    "metadata": {
+      "thought": "User reports no performance impact. Need to confirm if skin dryness is impacting social interactions.",
+      "done": false,
+      "tool_use_id": "tooluse_pplL9PdSJh90RG3K7mIuTF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dryness makes me avoid social gatherings sometimes...",
+    "step": 12,
+    "timestamp": 1773247322.1119971,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does this affect mental health?",
+    "step": 13,
+    "timestamp": 1773247323.853459,
+    "metadata": {
+      "thought": "User reports avoiding social gatherings due to skin dryness. Need to determine if this is impacting mental health.",
+      "done": false,
+      "tool_use_id": "tooluse_f5xrvQVEZDACh6ocQ9V54j"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt anxious, but I'm not sure why.",
+    "step": 13,
+    "timestamp": 1773247324.895869,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is anxiety new?",
+    "step": 14,
+    "timestamp": 1773247326.4715168,
+    "metadata": {
+      "thought": "User reports feeling anxious but unsure why. Need to determine if anxiety is new.",
+      "done": false,
+      "tool_use_id": "tooluse_noAaRr348boXgZozcxyyLw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure if anxiety started recently...",
+    "step": 14,
+    "timestamp": 1773247327.5957193,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other new symptoms?",
+    "step": 15,
+    "timestamp": 1773247329.3388462,
+    "metadata": {
+      "thought": "User unsure if anxiety is new. Need to determine if any other new symptoms have emerged.",
+      "done": false,
+      "tool_use_id": "tooluse_OME7fr0AY7naIktKSycJG6"
+    }
+  }
+]

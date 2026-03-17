@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773248048.2633235,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I looked over your report from urgent care.",
+    "step": 0,
+    "timestamp": 1773248048.2633276,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specifics from urgent care visit.",
+    "step": 0,
+    "timestamp": 1773248049.31244,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any symptoms you remember from visit?",
+    "step": 1,
+    "timestamp": 1773248050.631674,
+    "metadata": {
+      "thought": "User needs to recall specific details from their urgent care visit.",
+      "done": false,
+      "tool_use_id": "tooluse_kM0OKNCLMCiJTOFKX9RJI3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific symptoms from that visit.",
+    "step": 1,
+    "timestamp": 1773248051.7638392,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or medications mentioned?",
+    "step": 2,
+    "timestamp": 1773248053.1831038,
+    "metadata": {
+      "thought": "User needs to recall any treatments or medications from their urgent care visit.",
+      "done": false,
+      "tool_use_id": "tooluse_5e9MdEnRerxFnT7oXG1zEH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific treatments or medications mentioned yet...",
+    "step": 2,
+    "timestamp": 1773248054.229353,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any follow-ups or tests planned?",
+    "step": 3,
+    "timestamp": 1773248055.7025971,
+    "metadata": {
+      "thought": "User needs to recall any follow-up actions or tests from their urgent care visit.",
+      "done": false,
+      "tool_use_id": "tooluse_FixkiSQYBJkzjUcSXsqi3H"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No follow-ups or tests planned yet...",
+    "step": 3,
+    "timestamp": 1773248056.9516096,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773248058.3611972,
+    "metadata": {
+      "thought": "User has provided no specific details about their urgent care visit.",
+      "done": true,
+      "tool_use_id": "tooluse_UFhvst8sh6xRNuMcB0fY7W"
+    }
+  }
+]

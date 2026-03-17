@@ -1,0 +1,171 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065476.1360948,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you ready for home?",
+    "step": 0,
+    "timestamp": 1773065476.1361005,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure yet, need to check with family.",
+    "step": 0,
+    "timestamp": 1773065477.2358708,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773065478.5599954,
+    "metadata": {
+      "thought": "User is unsure about symptoms, need to gather more info",
+      "done": false,
+      "tool_use_id": "tooluse_W8zXjYY81U82EhlIqUqUBk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm feeling a bit dizzy lately...",
+    "step": 1,
+    "timestamp": 1773065479.624859,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Dizziness constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773065480.3152885,
+    "metadata": {
+      "thought": "User reports dizziness, need to gather more details",
+      "done": false,
+      "tool_use_id": "tooluse_gt40jIakX5b9X5RwlCg3Gh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's mostly intermittent, not constant...",
+    "step": 2,
+    "timestamp": 1773065481.4410968,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with dizziness?",
+    "step": 3,
+    "timestamp": 1773065482.1171436,
+    "metadata": {
+      "thought": "User reports intermittent dizziness, need to gather more details",
+      "done": false,
+      "tool_use_id": "tooluse_I8kbcLBXueD4dKxo5PVLUS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just dizziness...",
+    "step": 3,
+    "timestamp": 1773065483.2894447,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did dizziness start?",
+    "step": 4,
+    "timestamp": 1773065484.0612867,
+    "metadata": {
+      "thought": "User reports intermittent dizziness with no other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_gRedgKgvBbcL1dzh0M7Ysp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizziness started last week, can't recall exact date.",
+    "step": 4,
+    "timestamp": 1773065485.1607454,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in medication recently?",
+    "step": 5,
+    "timestamp": 1773065485.987041,
+    "metadata": {
+      "thought": "User reports dizziness started last week",
+      "done": false,
+      "tool_use_id": "tooluse_V1J2TvS5O44QCpDMTLShkv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in my medication recently...",
+    "step": 5,
+    "timestamp": 1773065487.0737016,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 6,
+    "timestamp": 1773065487.8528292,
+    "metadata": {
+      "thought": "User reports no recent medication changes",
+      "done": false,
+      "tool_use_id": "tooluse_bf82B1uvuoNsOjSCWZhrEI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other health issues, just routine check-ups...",
+    "step": 6,
+    "timestamp": 1773065488.9656909,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of dizziness?",
+    "step": 7,
+    "timestamp": 1773065489.759397,
+    "metadata": {
+      "thought": "User reports no other health issues",
+      "done": false,
+      "tool_use_id": "tooluse_T9Qe3CvnQVzeEwZeHwjb2t"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of dizziness, really...",
+    "step": 7,
+    "timestamp": 1773065490.831537,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other questions or concerns?",
+    "step": 8,
+    "timestamp": 1773065491.7177975,
+    "metadata": {
+      "thought": "User reports no family history of dizziness",
+      "done": true,
+      "tool_use_id": "tooluse_4TlqhLREY6oesqfjN1eYD3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other questions, just need my meds...",
+    "step": 8,
+    "timestamp": 1773065492.8668475,
+    "metadata": {}
+  }
+]

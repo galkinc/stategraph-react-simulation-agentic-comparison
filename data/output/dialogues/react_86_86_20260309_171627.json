@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065787.8032105,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any thoughts of harming yourself or others?",
+    "step": 0,
+    "timestamp": 1773065787.8032162,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No plans, just thoughts of not wanting to be alive.",
+    "step": 0,
+    "timestamp": 1773065788.93185,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these thoughts active or passive?",
+    "step": 1,
+    "timestamp": 1773065790.3137298,
+    "metadata": {
+      "thought": "Need to clarify if thoughts are active or passive.",
+      "done": false,
+      "tool_use_id": "tooluse_QlYfg0f0tqpqkShI9VD22Y"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They're active thoughts, but I have no plans.",
+    "step": 1,
+    "timestamp": 1773065791.4306185,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these thoughts frequent or occasional?",
+    "step": 2,
+    "timestamp": 1773065792.2251163,
+    "metadata": {
+      "thought": "Clarify if active thoughts are frequent or occasional.",
+      "done": false,
+      "tool_use_id": "tooluse_OAR5OehlTWL1vCWyYscRGx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Occasional, but they come and go...",
+    "step": 2,
+    "timestamp": 1773065793.4081414,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any triggers for these thoughts?",
+    "step": 3,
+    "timestamp": 1773065794.1646676,
+    "metadata": {
+      "thought": "Determine if there are any triggers for these thoughts.",
+      "done": false,
+      "tool_use_id": "tooluse_ud7AQeh79c4UCFUfRiiDkT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stressful work deadlines often bring these thoughts...",
+    "step": 3,
+    "timestamp": 1773065795.2668178,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other related symptoms?",
+    "step": 4,
+    "timestamp": 1773065795.9934149,
+    "metadata": {
+      "thought": "Need to assess if there are any other related symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_RhXMGSFm2RIsiqNWIFDNMV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes feel anxious, but no specific plans...",
+    "step": 4,
+    "timestamp": 1773065797.0882475,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773065798.0885155,
+    "metadata": {
+      "thought": "Gathering enough information to determine next steps.",
+      "done": true,
+      "tool_use_id": "tooluse_cl4PIX3WypvFpedpBuj9hE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 5,
+    "timestamp": 1773065798.0885737,
+    "metadata": {}
+  }
+]

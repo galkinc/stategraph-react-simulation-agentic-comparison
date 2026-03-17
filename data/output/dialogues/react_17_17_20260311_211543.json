@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252943.3639948,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi there! I am Doctor Frankland.",
+    "step": 0,
+    "timestamp": 1773252943.3640003,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Hi, Doctor Frankland. I'm here for my Firth grade checkup.",
+    "step": 0,
+    "timestamp": 1773252944.5877693,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms today?",
+    "step": 1,
+    "timestamp": 1773252946.1029024,
+    "metadata": {
+      "thought": "User mentions a follow-up checkup, need to confirm specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_0p0hCNhomjYKTHpfWZLHlj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm having some fatigue and headaches today...",
+    "step": 1,
+    "timestamp": 1773252947.3572676,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did fatigue start?",
+    "step": 2,
+    "timestamp": 1773252948.2675173,
+    "metadata": {
+      "thought": "User reported fatigue and headaches, need to confirm details.",
+      "done": false,
+      "tool_use_id": "tooluse_fS9Ns14IjdDCGwgz9IPIVJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when it began...",
+    "step": 2,
+    "timestamp": 1773252949.46478,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had them?",
+    "step": 3,
+    "timestamp": 1773252950.2954237,
+    "metadata": {
+      "thought": "User unsure about symptom onset, need to ask about duration.",
+      "done": false,
+      "tool_use_id": "tooluse_yGjKdVniUpbUxDs9JuSdEN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure how long I've had these symptoms.",
+    "step": 3,
+    "timestamp": 1773252952.0503073,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms today?",
+    "step": 4,
+    "timestamp": 1773252952.874123,
+    "metadata": {
+      "thought": "User unsure about symptom duration, need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_SjHb2dHz5iX04dzH69ESgT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just fatigue today...",
+    "step": 4,
+    "timestamp": 1773252954.1370857,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medication?",
+    "step": 5,
+    "timestamp": 1773252954.9910517,
+    "metadata": {
+      "thought": "User reports only fatigue, need to confirm medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_EiIXmH88WmAnmrxJb9nt1W"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications; I'm not on anything right now.",
+    "step": 5,
+    "timestamp": 1773252956.1702952,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252957.0739892,
+    "metadata": {
+      "thought": "User reports no medications, checkup complete.",
+      "done": true,
+      "tool_use_id": "tooluse_VDpg3Uw4Ln57mdZWygTstQ"
+    }
+  }
+]

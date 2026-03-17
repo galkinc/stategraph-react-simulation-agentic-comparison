@@ -1,0 +1,220 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066279.221692,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Welcome to the office, Miss A. I am Doctor Luna.",
+    "step": 0,
+    "timestamp": 1773066279.2216966,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My mom had lung cancer; I’m not sure about my dad’s exact",
+    "step": 0,
+    "timestamp": 1773066280.2760742,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is your dad currently healthy?",
+    "step": 1,
+    "timestamp": 1773066281.6402085,
+    "metadata": {
+      "thought": "Need to clarify the father's health condition.",
+      "done": false,
+      "tool_use_id": "tooluse_dMteJxwjNYx1K4ACTSdqyt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dad had gout and clots, not sure about now.",
+    "step": 1,
+    "timestamp": 1773066282.8809066,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is dad on any medication now?",
+    "step": 2,
+    "timestamp": 1773066284.2960453,
+    "metadata": {
+      "thought": "Dad had gout and clots, now I need to know if he's on any medication.",
+      "done": false,
+      "tool_use_id": "tooluse_3jTh9dpcCwXEZZSO2EHMJD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dad had gout, but I don't know if he's on meds now.",
+    "step": 2,
+    "timestamp": 1773066285.4515176,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other family health history?",
+    "step": 3,
+    "timestamp": 1773066286.8706772,
+    "metadata": {
+      "thought": "Dad had gout, no current medication info. Need to ask about family history.",
+      "done": false,
+      "tool_use_id": "tooluse_UXt9vYP7eHyn7zdHPdFQz3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; dad had gout, maybe clots.",
+    "step": 3,
+    "timestamp": 1773066288.0469947,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any health issues?",
+    "step": 4,
+    "timestamp": 1773066289.516993,
+    "metadata": {
+      "thought": "Gathered family health history. Now need to ask about personal health.",
+      "done": false,
+      "tool_use_id": "tooluse_0XUU7L7LS6OTRvRDKEtO1B"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No personal health issues, just family history...",
+    "step": 4,
+    "timestamp": 1773066290.643076,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066292.0621178,
+    "metadata": {
+      "thought": "No personal health issues. Family history is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_GkIwJnTiSZubQ2IhR4KDcI"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066293.4982677,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_0eKKm89yaMGlaFf1Odr5by"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773066294.9516416,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_tl1qikmWOUmRpTSPIBHwm1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066296.3420188,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_ciVNYuw8cTTGePZZxPhAZs"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066297.7828627,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_LptWFc2oUtF2jGqHfWCCNx"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773066299.2207232,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_QYaZfKaYhzxnHaRSYgSxMk"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773066300.7170281,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_G3nTo64vq0lHpRjPVqFyYT"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773066302.1743448,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_gbyVrb7XpCqThHidZzXYF4"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773066303.591688,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_R94bCB9bhfdxMcgZRNXGod"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773066305.0004237,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_XMZ85E3juheNRhs9HRdX11"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773066306.512409,
+    "metadata": {
+      "thought": "Family history is complete. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_opsjtPxWz0vGqwZn9XS1kq"
+    }
+  }
+]

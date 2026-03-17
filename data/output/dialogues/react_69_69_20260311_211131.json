@@ -1,0 +1,234 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252691.9626698,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever, chills?",
+    "step": 0,
+    "timestamp": 1773252691.962676,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or chills, all's well...",
+    "step": 0,
+    "timestamp": 1773252693.1676219,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any cough, shortness of breath?",
+    "step": 1,
+    "timestamp": 1773252694.7386303,
+    "metadata": {
+      "thought": "User reports no fever or chills, which are common symptoms of many conditions. Next step is to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_phLowaOPgUjALuBmgZt729"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No cough or shortness of breath, all fine.",
+    "step": 1,
+    "timestamp": 1773252695.9681714,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, vomiting, diarrhea?",
+    "step": 2,
+    "timestamp": 1773252696.7983408,
+    "metadata": {
+      "thought": "User reports no cough or shortness of breath. Next step is to ask about gastrointestinal symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_5O4YIE1NTaQBoWsW7ntdmm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, vomiting, or diarrhea here...",
+    "step": 2,
+    "timestamp": 1773252698.0307672,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headache, dizziness, confusion?",
+    "step": 3,
+    "timestamp": 1773252698.8228402,
+    "metadata": {
+      "thought": "User reports no gastrointestinal symptoms. Next step is to ask about neurological symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_zGTA8MXaXp7oCPQWRpBpZ4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches, dizziness, or confusion here...",
+    "step": 3,
+    "timestamp": 1773252700.088058,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any muscle, joint pain?",
+    "step": 4,
+    "timestamp": 1773252700.9248476,
+    "metadata": {
+      "thought": "User reports no neurological symptoms. Next step is to ask about muscle or joint pain.",
+      "done": false,
+      "tool_use_id": "tooluse_dIEb2Amo2z1zeN8VYH0mmv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No muscle or joint pain here, all good.",
+    "step": 4,
+    "timestamp": 1773252702.1016881,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any rash, itching, skin changes?",
+    "step": 5,
+    "timestamp": 1773252702.9658098,
+    "metadata": {
+      "thought": "User reports no muscle or joint pain. Next step is to ask about skin symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_N9PKqEXjUSupmybPQl7FYA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No rash or itching, everything's fine...",
+    "step": 5,
+    "timestamp": 1773252704.1111403,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 6,
+    "timestamp": 1773252704.8434796,
+    "metadata": {
+      "thought": "User reports no skin symptoms. Next step is to ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Z3Ap2UL3j0f60seYF7aVSU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, everything is fine...",
+    "step": 6,
+    "timestamp": 1773252706.0882475,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773252706.9398537,
+    "metadata": {
+      "thought": "User reports no other symptoms. No significant symptoms detected. Consider done.",
+      "done": true,
+      "tool_use_id": "tooluse_vQlspp4QGo9tBFpLJwzPYp"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773252707.7637875,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_gKIbkaEFmL2ygoM1HHk07V"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252708.601015,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_XP8mQ0bWTbgRkQ2jNoSsPG"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773252709.4164088,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_BuRmxowmei6Nck3T9wXZfi"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252710.2523024,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_3ZupdrfYzQzJeRPIuy9HzY"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773252711.0622897,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_ieyCJnR5UeCeZjjdqJhh52"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773252711.8620017,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_GermJapDvfOtHoM8ilsqtm"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773252712.7631438,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_IfwDSw15IgM9zXvgg4APba"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773252713.622783,
+    "metadata": {
+      "thought": "Conversation completed. No significant symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_37eld0m0bplvh8AYe4ttXP"
+    }
+  }
+]

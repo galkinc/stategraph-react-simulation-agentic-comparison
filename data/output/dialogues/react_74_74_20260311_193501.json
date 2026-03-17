@@ -1,0 +1,171 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246901.2485423,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. What brings you into the practice today?",
+    "step": 0,
+    "timestamp": 1773246901.248553,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Missing periods, not sexually active, no bleeding...",
+    "step": 0,
+    "timestamp": 1773246902.4141676,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your last period occur?",
+    "step": 1,
+    "timestamp": 1773246903.7687,
+    "metadata": {
+      "thought": "User reports missing periods and no bleeding. Need to confirm if this is a new symptom or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_lGekNc0xbz0PZ6Epp1mN7Z"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My last period was three months ago...",
+    "step": 1,
+    "timestamp": 1773246904.8813686,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides missing periods?",
+    "step": 2,
+    "timestamp": 1773246905.6552467,
+    "metadata": {
+      "thought": "User reports missing periods for three months. Need to ask about symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_M8TtaNDrLnDMNHQvc0cewo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just missing periods...",
+    "step": 2,
+    "timestamp": 1773246906.701394,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this your first time missing periods?",
+    "step": 3,
+    "timestamp": 1773246907.5333996,
+    "metadata": {
+      "thought": "User reports no other symptoms besides missing periods. Need to confirm if this is new.",
+      "done": false,
+      "tool_use_id": "tooluse_tFSV8ESDthmPOZCASoCRwY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, this is the first time I've missed periods.",
+    "step": 3,
+    "timestamp": 1773246908.5437465,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent stress or lifestyle changes?",
+    "step": 4,
+    "timestamp": 1773246909.4543998,
+    "metadata": {
+      "thought": "User reports first-time missing periods. Need to ask about stress or lifestyle changes.",
+      "done": false,
+      "tool_use_id": "tooluse_HSoDvos3eYgVlywTVKLozb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent stress; just busy work lately...",
+    "step": 4,
+    "timestamp": 1773246910.7782383,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or exercise?",
+    "step": 5,
+    "timestamp": 1773246911.683256,
+    "metadata": {
+      "thought": "No recent stress noted. Need to ask about diet, exercise.",
+      "done": false,
+      "tool_use_id": "tooluse_ISZhORGKTYRJVdFlbwG85u"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in diet or exercise recently...",
+    "step": 5,
+    "timestamp": 1773246912.75355,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any health issues or medications?",
+    "step": 6,
+    "timestamp": 1773246913.615329,
+    "metadata": {
+      "thought": "No recent changes in diet or exercise. Need to ask about health history.",
+      "done": false,
+      "tool_use_id": "tooluse_SxlBR7C8BXqsRJZXIQl3l7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No health issues or medications, just missing periods.",
+    "step": 6,
+    "timestamp": 1773246914.686268,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of menstrual issues?",
+    "step": 7,
+    "timestamp": 1773246915.522919,
+    "metadata": {
+      "thought": "No health issues or medications noted. Missing periods persist.",
+      "done": false,
+      "tool_use_id": "tooluse_bpOcHP1PgZcyfglsbUqNAL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of menstrual issues...",
+    "step": 7,
+    "timestamp": 1773246916.6219792,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Would you like a follow-up appointment?",
+    "step": 8,
+    "timestamp": 1773246917.4805756,
+    "metadata": {
+      "thought": "No family history noted. Missing periods persist without clear cause.",
+      "done": true,
+      "tool_use_id": "tooluse_4gbsl5tnRJl8jD2Qt6HxLO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'd prefer a follow-up, doctor. Thanks...",
+    "step": 8,
+    "timestamp": 1773246918.5632837,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066604.972708,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any thoughts of harming yourself or others?",
+    "step": 0,
+    "timestamp": 1773066604.9727125,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No plans, just thoughts, nothing to hurt others.",
+    "step": 0,
+    "timestamp": 1773066606.187239,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these thoughts frequent or situational?",
+    "step": 1,
+    "timestamp": 1773066607.582461,
+    "metadata": {
+      "thought": "Clarify if thoughts are persistent or situational.",
+      "done": false,
+      "tool_use_id": "tooluse_6hH9l8HZe3e2Dc6yfpl5f7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes they come, but not all the time.",
+    "step": 1,
+    "timestamp": 1773066608.691376,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do these thoughts occur often or rarely?",
+    "step": 2,
+    "timestamp": 1773066610.1559095,
+    "metadata": {
+      "thought": "Determine if thoughts are situational or persistent.",
+      "done": false,
+      "tool_use_id": "tooluse_tD9iLTwH3o3KmtfBY4IzGc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They come and go, not always present...",
+    "step": 2,
+    "timestamp": 1773066611.2279701,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do these thoughts appear?",
+    "step": 3,
+    "timestamp": 1773066612.678234,
+    "metadata": {
+      "thought": "Need to assess frequency and impact of thoughts.",
+      "done": false,
+      "tool_use_id": "tooluse_kxrsfoZOClNjG33QMsusfq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They come and go, sometimes more than others.",
+    "step": 3,
+    "timestamp": 1773066613.7839134,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do these thoughts affect your daily life?",
+    "step": 4,
+    "timestamp": 1773066615.1921782,
+    "metadata": {
+      "thought": "Determine if thoughts impact daily functioning.",
+      "done": false,
+      "tool_use_id": "tooluse_hvLRLaY6G2pdb0ZdIUhfdV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They make some days really tough for me.",
+    "step": 4,
+    "timestamp": 1773066616.2455845,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have coping strategies?",
+    "step": 5,
+    "timestamp": 1773066617.5949814,
+    "metadata": {
+      "thought": "Gather information on coping mechanisms.",
+      "done": false,
+      "tool_use_id": "tooluse_g6GXeYYlRJXc4tjqkGAgCp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use meditation and journaling to cope...",
+    "step": 5,
+    "timestamp": 1773066618.6868975,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you seen a therapist?",
+    "step": 6,
+    "timestamp": 1773066620.0817783,
+    "metadata": {
+      "thought": "Determine if professional help is sought.",
+      "done": false,
+      "tool_use_id": "tooluse_Ty2tA582OBhfzevgjFv76q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No therapist visits, just general doctor...",
+    "step": 6,
+    "timestamp": 1773066621.1898499,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773066622.5928998,
+    "metadata": {
+      "thought": "Conclude assessment based on gathered information.",
+      "done": true,
+      "tool_use_id": "tooluse_GGahfZLEgn0TcFpagkEK32"
+    }
+  }
+]

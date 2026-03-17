@@ -1,0 +1,153 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065679.0755858,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. What brings you into the practice today?",
+    "step": 0,
+    "timestamp": 1773065679.0756013,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Missing periods, not sexually active, no bleeding...",
+    "step": 0,
+    "timestamp": 1773065680.1344604,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, fatigue, or breast changes?",
+    "step": 1,
+    "timestamp": 1773065681.4503279,
+    "metadata": {
+      "thought": "User reports missing periods and no bleeding. Need to clarify symptoms and medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_0kQd89fzKU53zmdJCTmHGx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, fatigue, or breast changes...",
+    "step": 1,
+    "timestamp": 1773065682.540461,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications or supplements?",
+    "step": 2,
+    "timestamp": 1773065683.3830101,
+    "metadata": {
+      "thought": "User reports no additional symptoms. Need to confirm medical history and any medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_wj4WFH81D82LIEcAqwBinU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications or supplements, doctor...",
+    "step": 2,
+    "timestamp": 1773065684.497182,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did periods start missing?",
+    "step": 3,
+    "timestamp": 1773065685.2875824,
+    "metadata": {
+      "thought": "User reports no medications. Need to confirm onset of symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_CBW57pGi1CiA0jzajQZsGM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Periods have been missing for about three months now.",
+    "step": 3,
+    "timestamp": 1773065686.3808641,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "First time missing periods?",
+    "step": 4,
+    "timestamp": 1773065687.1266983,
+    "metadata": {
+      "thought": "User reports missing periods for three months. Need to confirm if this is new.",
+      "done": false,
+      "tool_use_id": "tooluse_RVHC5cjlNWdQknkNazhQn5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, it’s the first time I’ve missed them.",
+    "step": 4,
+    "timestamp": 1773065688.1839004,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stress, weight changes, or lifestyle shifts?",
+    "step": 5,
+    "timestamp": 1773065688.9429798,
+    "metadata": {
+      "thought": "User confirms this is first time missing periods. Need to gather more context.",
+      "done": false,
+      "tool_use_id": "tooluse_UcHQHhdf2tjUXb5D8iobXT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major stress or weight changes recently...",
+    "step": 5,
+    "timestamp": 1773065689.99923,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new lifestyle changes?",
+    "step": 6,
+    "timestamp": 1773065690.8262892,
+    "metadata": {
+      "thought": "User reports no major stress or weight changes. Need to confirm if this is new.",
+      "done": false,
+      "tool_use_id": "tooluse_kI1fOAAC6aw8ZywsSpcIMz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new changes, just missing periods...",
+    "step": 6,
+    "timestamp": 1773065691.9795954,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773065692.8128505,
+    "metadata": {
+      "thought": "User reports no new lifestyle changes. Missing periods are new.",
+      "done": true,
+      "tool_use_id": "tooluse_2VPxvbwkC65ooYQbA0wsZx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 7,
+    "timestamp": 1773065692.8128734,
+    "metadata": {}
+  }
+]

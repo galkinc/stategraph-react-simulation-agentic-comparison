@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066731.516219,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Do you smoke?",
+    "step": 0,
+    "timestamp": 1773066731.5162232,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I've never smoked in my life...",
+    "step": 0,
+    "timestamp": 1773066732.6044264,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773066733.913592,
+    "metadata": {
+      "thought": "User has stated they have never smoked. This negates any smoking-related conditions.",
+      "done": true,
+      "tool_use_id": "tooluse_Ws1clHWGDIMJaMoIskp1he"
+    }
+  }
+]

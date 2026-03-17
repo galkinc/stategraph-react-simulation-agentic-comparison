@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246794.820356,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hey, bud. What brings you in today?",
+    "step": 0,
+    "timestamp": 1773246794.8203666,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash on my arms and torso, been bothering me.",
+    "step": 0,
+    "timestamp": 1773246795.984437,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did rash first appear?",
+    "step": 1,
+    "timestamp": 1773246797.3572516,
+    "metadata": {
+      "thought": "Need to confirm if rash is a condition",
+      "done": false,
+      "tool_use_id": "tooluse_bWz5rsRrKSJCx9RqCLL1F1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash started about a day or two ago.",
+    "step": 1,
+    "timestamp": 1773246798.4593086,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Rash itchy, painful, or spreading?",
+    "step": 2,
+    "timestamp": 1773246799.2504203,
+    "metadata": {
+      "thought": "Next step is to ask about rash characteristics",
+      "done": false,
+      "tool_use_id": "tooluse_EbpiG7I5pyATQlraDuiZTO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Itchy, but not painful or spreading much...",
+    "step": 2,
+    "timestamp": 1773246800.4096804,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any skin color changes?",
+    "step": 3,
+    "timestamp": 1773246801.2301366,
+    "metadata": {
+      "thought": "Need to ask about skin changes",
+      "done": false,
+      "tool_use_id": "tooluse_KQjotZHckMdwEHMtPCswv6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No skin color changes, just the rash...",
+    "step": 3,
+    "timestamp": 1773246802.3598576,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new soaps, lotions, or plants?",
+    "step": 4,
+    "timestamp": 1773246803.1988034,
+    "metadata": {
+      "thought": "Final step is to ask about recent exposures",
+      "done": false,
+      "tool_use_id": "tooluse_PRGH7FWqDEN47QkEHb2TQF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new soaps or lotions recently...",
+    "step": 4,
+    "timestamp": 1773246804.2722664,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "None, thanks for details.",
+    "step": 5,
+    "timestamp": 1773246805.1273966,
+    "metadata": {
+      "thought": "No recent plant exposure noted",
+      "done": true,
+      "tool_use_id": "tooluse_XRLlj99yobnzZMUEQoGgTL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash appeared suddenly on upper arms and torso.",
+    "step": 5,
+    "timestamp": 1773246806.2347999,
+    "metadata": {}
+  }
+]

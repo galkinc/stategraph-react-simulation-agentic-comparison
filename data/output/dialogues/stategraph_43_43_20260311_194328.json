@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247408.4170911,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, sir. What brought you in today?",
+    "step": 0,
+    "timestamp": 1773247408.417096,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling from a Yellow Jacket wasp sting yesterday.",
+    "step": 0,
+    "timestamp": 1773247409.5690556,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is swelling localized or widespread?",
+    "step": 1,
+    "timestamp": 1773247411.0150402,
+    "metadata": {
+      "thought": "Need to confirm if swelling is localized or widespread, and if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_2EI67DDvru20ng07rQUpHW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling's mostly in the stung areas, not widespread.",
+    "step": 1,
+    "timestamp": 1773247412.1340406,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain, redness, or itching?",
+    "step": 2,
+    "timestamp": 1773247413.6065297,
+    "metadata": {
+      "thought": "Need to ask about other symptoms like pain, redness, or itching.",
+      "done": false,
+      "tool_use_id": "tooluse_XDV6zs6UWQq7ql7u3wBTRY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just some redness and mild itching.",
+    "step": 2,
+    "timestamp": 1773247414.687722,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or medications used?",
+    "step": 3,
+    "timestamp": 1773247416.2172441,
+    "metadata": {
+      "thought": "Ask if user has applied any treatments or taken medications.",
+      "done": false,
+      "tool_use_id": "tooluse_uxXRpcDeFDCLHW7zwCIFdX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I usually just ice it and take over-the-counter pain relievers.",
+    "step": 3,
+    "timestamp": 1773247417.3145585,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773247418.8824239,
+    "metadata": {
+      "thought": "Have enough information to assess the situation.",
+      "done": true,
+      "tool_use_id": "tooluse_TI9e5aMLkqnOAIfD1t3z4m"
+    }
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065620.1060128,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you young man?",
+    "step": 0,
+    "timestamp": 1773065620.106019,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm nineteen, not young man, but thanks...",
+    "step": 0,
+    "timestamp": 1773065621.2379472,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773065622.6281157,
+    "metadata": {
+      "thought": "Need to gather more specific symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_3m3XEg4QJpHtpHW5Yf6QdL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just bleeding, can't stop it, tried superglue...",
+    "step": 1,
+    "timestamp": 1773065623.7635665,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly is the bleeding?",
+    "step": 2,
+    "timestamp": 1773065624.5265098,
+    "metadata": {
+      "thought": "Bleeding is a serious symptom, need more details.",
+      "done": false,
+      "tool_use_id": "tooluse_N5aWDe2g4USnmnYkcRG8Tt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My cut is still bleeding badly...",
+    "step": 2,
+    "timestamp": 1773065625.6764324,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is it a deep or shallow cut?",
+    "step": 3,
+    "timestamp": 1773065626.450069,
+    "metadata": {
+      "thought": "Need to know more about the injury.",
+      "done": false,
+      "tool_use_id": "tooluse_6FzTQR7qkJl9x42hbnaGVJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, it was bleeding a lot...",
+    "step": 3,
+    "timestamp": 1773065627.5373414,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is there any pain with it?",
+    "step": 4,
+    "timestamp": 1773065628.3326063,
+    "metadata": {
+      "thought": "Need to know if there's any pain.",
+      "done": false,
+      "tool_use_id": "tooluse_u3lhtVRcyGXOY9HAi5LajY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, it's really painful, especially when I move.",
+    "step": 4,
+    "timestamp": 1773065629.408834,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling or redness?",
+    "step": 5,
+    "timestamp": 1773065630.2520957,
+    "metadata": {
+      "thought": "Need to know if there's swelling or other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_C8AMW5xLFLMTzF1NEY6Leq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling, but some redness around the cut.",
+    "step": 5,
+    "timestamp": 1773065631.3638728,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Taking any medications now?",
+    "step": 6,
+    "timestamp": 1773065632.2308228,
+    "metadata": {
+      "thought": "Need to know if any medications are being used.",
+      "done": false,
+      "tool_use_id": "tooluse_12R7WWb2YfrjicPmocgP5b"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications; just superglue on my cut...",
+    "step": 6,
+    "timestamp": 1773065633.427922,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773065634.2861326,
+    "metadata": {
+      "thought": "Have enough information for initial assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_JOOEvaresOnBd1AOaPfh4l"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 7,
+    "timestamp": 1773065634.2861557,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065884.21827,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi there! I am Doctor Frankland.",
+    "step": 0,
+    "timestamp": 1773065884.2182758,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for my regular check-up, Doctor...",
+    "step": 0,
+    "timestamp": 1773065885.293256,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your last check-up occur?",
+    "step": 1,
+    "timestamp": 1773065886.7103682,
+    "metadata": {
+      "thought": "User is here for a regular check-up. I need to gather basic information to proceed.",
+      "done": false,
+      "tool_use_id": "tooluse_fyvls1bablmhIBbYqHNMGy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, last was a few months ago.",
+    "step": 1,
+    "timestamp": 1773065887.7992601,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent symptoms or concerns?",
+    "step": 2,
+    "timestamp": 1773065888.7042894,
+    "metadata": {
+      "thought": "User's last check-up was a few months ago. I need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_5Mq2qNA4RfX2VQTsfTnYUd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent symptoms, just fatigue lately...",
+    "step": 2,
+    "timestamp": 1773065889.8278034,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 3,
+    "timestamp": 1773065890.6284401,
+    "metadata": {
+      "thought": "User reports fatigue. I need to ask about duration and severity.",
+      "done": false,
+      "tool_use_id": "tooluse_a9zrUxEgQaF8F5lztEAwKt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Fatigued for weeks, can't pinpoint exact start...",
+    "step": 3,
+    "timestamp": 1773065891.7571924,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides fatigue?",
+    "step": 4,
+    "timestamp": 1773065892.4731207,
+    "metadata": {
+      "thought": "User reports fatigue for weeks. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_r9Mlmmmp4xm0yOTuJ5QmkL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had headaches and muscle weakness lately...",
+    "step": 4,
+    "timestamp": 1773065893.5271509,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 5,
+    "timestamp": 1773065894.3757756,
+    "metadata": {
+      "thought": "User reports headaches and muscle weakness. I need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_MsVDfHA2sr9JalJrWmpYyl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications currently, just vitamins...",
+    "step": 5,
+    "timestamp": 1773065895.4750907,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773065896.2936454,
+    "metadata": {
+      "thought": "User reports no medications, only vitamins. I need to confirm if enough information is collected.",
+      "done": true,
+      "tool_use_id": "tooluse_Hw3mi7S0e7NlqdEAY5pA3S"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 6,
+    "timestamp": 1773065896.2937024,
+    "metadata": {}
+  }
+]

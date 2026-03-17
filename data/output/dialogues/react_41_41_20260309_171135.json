@@ -1,0 +1,243 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065495.4551983,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "It looks like your white blood cell count is normal according to your most recent labs. But, I do want to keep an eye on it given your history of high white blood cells.",
+    "step": 0,
+    "timestamp": 1773065495.4552042,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My white blood cell count is normal now? That's good.",
+    "step": 0,
+    "timestamp": 1773065496.5704844,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any recent infections or illnesses?",
+    "step": 1,
+    "timestamp": 1773065498.0234811,
+    "metadata": {
+      "thought": "User's white blood cell count is normal now, but I need to confirm the context and history.",
+      "done": false,
+      "tool_use_id": "tooluse_lVCqEfYyhZ2grFhsEBRiJJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent infections or illnesses, just pain...",
+    "step": 1,
+    "timestamp": 1773065499.1185324,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where and what type of pain are you experiencing?",
+    "step": 2,
+    "timestamp": 1773065499.9426975,
+    "metadata": {
+      "thought": "User has no recent infections but mentions pain. I need to know the location and nature of the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_hQL4KjG92wvRucPayH97ur"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left shoulder and lower back pain, mostly...",
+    "step": 2,
+    "timestamp": 1773065501.0188255,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this pain new or ongoing?",
+    "step": 3,
+    "timestamp": 1773065501.8517003,
+    "metadata": {
+      "thought": "User reports left shoulder and lower back pain. I need to know if this pain is new or has been ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_FS0jH13X8tZmgbClu93ZD0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been ongoing for several days now...",
+    "step": 3,
+    "timestamp": 1773065502.955749,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with the pain?",
+    "step": 4,
+    "timestamp": 1773065503.6806848,
+    "metadata": {
+      "thought": "User reports ongoing pain for several days. I need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ueTi2f42sUc2LZr9vrTrL4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm also peeing more than usual lately...",
+    "step": 4,
+    "timestamp": 1773065504.7824297,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is increased urination new or ongoing?",
+    "step": 5,
+    "timestamp": 1773065505.645978,
+    "metadata": {
+      "thought": "User reports increased urination. I need to confirm if this is new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_9amt7rUqaootmJAcuKhTsB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't noticed any changes with peeing...",
+    "step": 5,
+    "timestamp": 1773065506.7406397,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you've noticed?",
+    "step": 6,
+    "timestamp": 1773065507.5845063,
+    "metadata": {
+      "thought": "User reports no changes in urination. I need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_rMPsr1JT19eR1wYkfhkKiw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Peeing more often, but nothing else new...",
+    "step": 6,
+    "timestamp": 1773065508.749603,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain when urinating?",
+    "step": 7,
+    "timestamp": 1773065509.611535,
+    "metadata": {
+      "thought": "User reports increased urination but no new symptoms. I need to confirm if there's any pain related to urination.",
+      "done": false,
+      "tool_use_id": "tooluse_pe33thGwlkgDof92d0Nf7q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain when peeing, just shoulder and back.",
+    "step": 7,
+    "timestamp": 1773065510.7625558,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Changes in urine color or odor?",
+    "step": 8,
+    "timestamp": 1773065511.646485,
+    "metadata": {
+      "thought": "User reports no pain when urinating. I need to know if there's any change in urine color or odor.",
+      "done": false,
+      "tool_use_id": "tooluse_rWhaoKPo3Tp7fLasWbd939"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in my urine color or odor.",
+    "step": 8,
+    "timestamp": 1773065512.6809022,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 9,
+    "timestamp": 1773065513.4997349,
+    "metadata": {
+      "thought": "User reports no changes in urine. I need to know if there's any medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_fAkp4kGEruyLSeVCDnPnWL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not taking any meds, just smoking to manage pain.",
+    "step": 9,
+    "timestamp": 1773065514.662239,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you smoke?",
+    "step": 10,
+    "timestamp": 1773065515.5489652,
+    "metadata": {
+      "thought": "User reports no medication but smoking to manage pain. I need to confirm the frequency of smoking.",
+      "done": false,
+      "tool_use_id": "tooluse_n3Fjbj8mqoPvD0REQcAZ8F"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I smoke almost constantly, trying to quit...",
+    "step": 10,
+    "timestamp": 1773065516.6752212,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of medical conditions?",
+    "step": 11,
+    "timestamp": 1773065517.6084857,
+    "metadata": {
+      "thought": "User reports almost constant smoking. I need to know if there's any family history of medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_ZSDfMSL0WM8WJP170p4FhF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of medical conditions, really...",
+    "step": 11,
+    "timestamp": 1773065518.676061,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773065519.7336333,
+    "metadata": {
+      "thought": "User reports no family medical history. I have sufficient information to proceed.",
+      "done": true,
+      "tool_use_id": "tooluse_KwbdSGXXvbilAddiJ1zwFt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 12,
+    "timestamp": 1773065519.73369,
+    "metadata": {}
+  }
+]

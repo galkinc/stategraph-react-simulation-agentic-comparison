@@ -1,0 +1,153 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252408.513977,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi mister Jones.  Do you remember me from the last time you were here? How old are you now?",
+    "step": 0,
+    "timestamp": 1773252408.5139828,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm fifty-two, doc. Remember me from before...",
+    "step": 0,
+    "timestamp": 1773252409.9241865,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms or pain?",
+    "step": 1,
+    "timestamp": 1773252411.5048528,
+    "metadata": {
+      "thought": "User has provided their age, which is useful for context but not directly relevant to symptom elicitation. I need to ask about specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_xZIRw7G8ywAZZJOasOWEp8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My whole body aches, and I feel really cold.",
+    "step": 1,
+    "timestamp": 1773252412.7928815,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 2,
+    "timestamp": 1773252413.6563044,
+    "metadata": {
+      "thought": "User reports body aches and feeling cold. I need to ask about the onset and duration of these symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_mbHHLtRZCaDXRGh5YQJMQ5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when it started...",
+    "step": 2,
+    "timestamp": 1773252414.7666943,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever, fatigue, or other changes?",
+    "step": 3,
+    "timestamp": 1773252415.6810253,
+    "metadata": {
+      "thought": "User is unsure about the exact onset of symptoms. I need to ask about any other related symptoms or changes.",
+      "done": false,
+      "tool_use_id": "tooluse_Emqe05xUE4okLl1uOyLlna"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever, but I'm always tired, body aches.",
+    "step": 3,
+    "timestamp": 1773252418.0417955,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 4,
+    "timestamp": 1773252418.9192555,
+    "metadata": {
+      "thought": "User reports fatigue and persistent body aches. I need to ask about any medications they are taking.",
+      "done": false,
+      "tool_use_id": "tooluse_Bsc9eDsKH7m2QHI2ZrEnD3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about any meds I'm taking right now.",
+    "step": 4,
+    "timestamp": 1773252420.217614,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any chronic conditions or illnesses?",
+    "step": 5,
+    "timestamp": 1773252421.124886,
+    "metadata": {
+      "thought": "User is unsure about current medications. I need to ask if they have any chronic conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_WE6Qg8XrfHFiEUndb6nMUl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No chronic conditions, just pain from drug use.",
+    "step": 5,
+    "timestamp": 1773252422.342843,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you describe the drug use?",
+    "step": 6,
+    "timestamp": 1773252423.254018,
+    "metadata": {
+      "thought": "User mentions pain from drug use. I need to clarify specifics about the drug use.",
+      "done": false,
+      "tool_use_id": "tooluse_s4aF9Ofq3AUCF6OK6MTj6X"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I used heroin and did some coke...",
+    "step": 6,
+    "timestamp": 1773252424.5170856,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Important: Seek medical evaluation.",
+    "step": 7,
+    "timestamp": 1773252425.4088182,
+    "metadata": {
+      "thought": "User disclosed drug use. I need to ensure they understand the importance of medical evaluation.",
+      "done": true,
+      "tool_use_id": "tooluse_BkFsz1vOTnuOG3wrPVBc4k"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I need help quitting heroin; it hurts everywhere.",
+    "step": 7,
+    "timestamp": 1773252426.723954,
+    "metadata": {}
+  }
+]

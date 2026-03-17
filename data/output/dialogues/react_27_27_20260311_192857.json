@@ -1,0 +1,199 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246537.7505646,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you ever had surgery?",
+    "step": 0,
+    "timestamp": 1773246537.7505727,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, had appendix and gallbladder surgeries, plus colon resection.",
+    "step": 0,
+    "timestamp": 1773246538.8503144,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any complications or issues post-surgeries?",
+    "step": 1,
+    "timestamp": 1773246540.2600214,
+    "metadata": {
+      "thought": "User has mentioned having multiple surgeries, which are significant medical procedures. This information is crucial for understanding potential complications or conditions related to these surgeries.",
+      "done": false,
+      "tool_use_id": "tooluse_7D2QQ5rXOUbOoHbEjQw3kJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No complications since surgeries, all went smoothly...",
+    "step": 1,
+    "timestamp": 1773246541.4255614,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773246542.22471,
+    "metadata": {
+      "thought": "User has no reported complications post-surgeries. This information is useful for understanding the current health status related to past surgical procedures.",
+      "done": true,
+      "tool_use_id": "tooluse_gmrHGPuZlT20idttUbg51S"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773246542.9145615,
+    "metadata": {
+      "thought": "Conversation is complete as no further information is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_semGZkmDnzlg7SUMqfoBVC"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773246543.7146425,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_QzEtbikDKCPEe0lFoanFJr"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246544.4786596,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_RfsbHQhs25Nmsb4Wqfl07Y"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773246545.2254105,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_DFBZ2V4sN6UidvBg3et2YE"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246545.9801397,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_u9eU11AtTc956r7lNDG9m8"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773246546.764821,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_XSx2QmHbhyD5L5FQDb8c59"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773246547.7753303,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_TTVGYaNeviEwrW7GWttgrU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773246548.6186335,
+    "metadata": {
+      "thought": "Conversation is complete as no further information is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_5RLBNmKoQpzVAxeHjGw8p3"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773246549.4158783,
+    "metadata": {
+      "thought": "Conversation is complete as no further information is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_utnGcSrQ7O7u42UJUuUto4"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773246550.1918461,
+    "metadata": {
+      "thought": "Conversation is complete as no further information is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_I1a1DsxRgNCOPDA2tgtY3e"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773246551.0392087,
+    "metadata": {
+      "thought": "Conversation is complete as no further information is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_nTxlxjUoCY4RtP4mKmSFw6"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773246551.864618,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_lxNFm1dZxd7rCctvKGZ0yo"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773246552.584587,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_ktlwYwgYjiMfPafgkCOPak"
+    }
+  }
+]

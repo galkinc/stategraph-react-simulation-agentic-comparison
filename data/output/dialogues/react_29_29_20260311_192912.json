@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246552.5989637,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi, there. How are you doing?",
+    "step": 0,
+    "timestamp": 1773246552.5989747,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lately, my body feels off, and I'm not sure why.",
+    "step": 0,
+    "timestamp": 1773246553.703709,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773246554.9939692,
+    "metadata": {
+      "thought": "Ask about specific symptoms to identify potential medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_vXVhhuMc02twt172qAcaCd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizzy spells and fatigue, lately...",
+    "step": 1,
+    "timestamp": 1773246556.1210442,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are dizziness and fatigue constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773246556.8809874,
+    "metadata": {
+      "thought": "Need to confirm if dizziness and fatigue are constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_Hez0WProkQeKP9L8sHrGoU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They're more intermittent, not constant...",
+    "step": 2,
+    "timestamp": 1773246557.9426088,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do these episodes occur?",
+    "step": 3,
+    "timestamp": 1773246558.7604003,
+    "metadata": {
+      "thought": "Ask about duration and frequency of symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_d1llxr6fXpNShFEZbnuJTA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but they happen sometimes...",
+    "step": 3,
+    "timestamp": 1773246559.8433416,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers or related symptoms?",
+    "step": 4,
+    "timestamp": 1773246560.6224306,
+    "metadata": {
+      "thought": "Need to ask about any triggers or associated symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_DkcyZfQFbqDDqSzSgArTqI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but headaches sometimes happen...",
+    "step": 4,
+    "timestamp": 1773246561.752375,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246562.5376284,
+    "metadata": {
+      "thought": "Gathering information is complete; assess if enough data is collected.",
+      "done": true,
+      "tool_use_id": "tooluse_jubrRFFMcOSfr5oHEUcApJ"
+    }
+  }
+]

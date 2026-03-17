@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252449.3897984,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you ready for home?",
+    "step": 0,
+    "timestamp": 1773252449.3898034,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I'll need some help.",
+    "step": 0,
+    "timestamp": 1773252450.5662794,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773252451.9202046,
+    "metadata": {
+      "thought": "Need to gather basic symptom information to determine next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_VHEqjDZmWyq6UEgzKRD1as"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling dizzy and nauseous lately...",
+    "step": 1,
+    "timestamp": 1773252453.0652041,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt dizzy and nauseous?",
+    "step": 2,
+    "timestamp": 1773252453.8107479,
+    "metadata": {
+      "thought": "User reported dizziness and nausea. Need to clarify details.",
+      "done": false,
+      "tool_use_id": "tooluse_lZWgySxcDquRZQgxg4Ehaa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizzy for a week, nauseous for three days.",
+    "step": 2,
+    "timestamp": 1773252455.1230779,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides dizziness and nausea?",
+    "step": 3,
+    "timestamp": 1773252456.1106153,
+    "metadata": {
+      "thought": "Symptoms duration noted. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_JHMVlqTwIhDnBNtxPrmbfp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms besides those.",
+    "step": 3,
+    "timestamp": 1773252457.337294,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 4,
+    "timestamp": 1773252458.1894066,
+    "metadata": {
+      "thought": "No other symptoms reported. Need to ask about medications.",
+      "done": false,
+      "tool_use_id": "tooluse_o0dd7D4LLmDeUJM2a0cA8W"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about specific medications right now.",
+    "step": 4,
+    "timestamp": 1773252459.3509798,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252460.2236063,
+    "metadata": {
+      "thought": "No medication details provided. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_Y51qNXu6n0r5y3TD1mUU1B"
+    }
+  }
+]

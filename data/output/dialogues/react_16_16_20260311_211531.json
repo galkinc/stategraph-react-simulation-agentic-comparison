@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252931.5734875,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Just to go over few things let me ask, any aches and pains?",
+    "step": 0,
+    "timestamp": 1773252931.5734932,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip and shoulder pain, also leg swelling.",
+    "step": 0,
+    "timestamp": 1773252933.2891755,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever or night sweats?",
+    "step": 1,
+    "timestamp": 1773252934.8762827,
+    "metadata": {
+      "thought": "User reports left hip, shoulder pain, and leg swelling. These are symptoms that need to be categorized under conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_tdmo4fJ8bqdatxxAIf2uZ8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or night sweats here...",
+    "step": 1,
+    "timestamp": 1773252936.1437602,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries or falls?",
+    "step": 2,
+    "timestamp": 1773252936.972652,
+    "metadata": {
+      "thought": "User denies fever or night sweats. No new information to add to entities.",
+      "done": false,
+      "tool_use_id": "tooluse_W7ixFZu2WPsTihtgB2I3kh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries or falls, just pain...",
+    "step": 2,
+    "timestamp": 1773252938.1535828,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain duration and intensity?",
+    "step": 3,
+    "timestamp": 1773252938.9333396,
+    "metadata": {
+      "thought": "User denies recent injuries or falls. No new information to add to entities.",
+      "done": false,
+      "tool_use_id": "tooluse_c5HAlJnbYbsFwab5HGrAg0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip pain for months, shoulder pain recently.",
+    "step": 3,
+    "timestamp": 1773252940.1101787,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any numbness or tingling?",
+    "step": 4,
+    "timestamp": 1773252941.136235,
+    "metadata": {
+      "thought": "User reports left hip pain for months, shoulder pain recently. Adding onset duration to entities.",
+      "done": false,
+      "tool_use_id": "tooluse_e7b5tczSqjdLUutTgacEco"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No numbness or tingling, just pain...",
+    "step": 4,
+    "timestamp": 1773252942.4643357,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252943.353089,
+    "metadata": {
+      "thought": "User denies numbness or tingling. No new information to add to entities.",
+      "done": true,
+      "tool_use_id": "tooluse_0wWyJB3CMqyqhbAuXwfWky"
+    }
+  }
+]

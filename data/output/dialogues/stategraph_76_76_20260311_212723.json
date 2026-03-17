@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253643.819545,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When were you diagnosed with type two diabetes?",
+    "step": 0,
+    "timestamp": 1773253643.819549,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Two years ago, but I'm not sure of the exact date.",
+    "step": 0,
+    "timestamp": 1773253645.0065024,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you recall the month of diagnosis?",
+    "step": 1,
+    "timestamp": 1773253646.442896,
+    "metadata": {
+      "thought": "User mentioned having type two diabetes but not the exact date.",
+      "done": false,
+      "tool_use_id": "tooluse_snE49D2Fvj6hxvm8v866yB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall the exact month of diagnosis.",
+    "step": 1,
+    "timestamp": 1773253647.5985234,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take any medications for diabetes?",
+    "step": 2,
+    "timestamp": 1773253649.1449287,
+    "metadata": {
+      "thought": "User cannot recall the exact month of diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_wLYVHuKsmgls0yUCKGTvPn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't take any diabetes meds...",
+    "step": 2,
+    "timestamp": 1773253650.3352005,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms?",
+    "step": 3,
+    "timestamp": 1773253651.7837021,
+    "metadata": {
+      "thought": "User does not take any diabetes medications.",
+      "done": false,
+      "tool_use_id": "tooluse_xz7J6CZ9RV9fRI3NeDNWIG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; I only have fatigue...",
+    "step": 3,
+    "timestamp": 1773253652.9812174,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had fatigue?",
+    "step": 4,
+    "timestamp": 1773253654.529448,
+    "metadata": {
+      "thought": "User reports fatigue as a symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_3jelMy0dKoIpJBavrrM7b2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had fatigue for about three months now.",
+    "step": 4,
+    "timestamp": 1773253655.756792,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or health issues?",
+    "step": 5,
+    "timestamp": 1773253657.3213863,
+    "metadata": {
+      "thought": "User reports fatigue for about three months.",
+      "done": false,
+      "tool_use_id": "tooluse_GODuyHIdNUogmmBRT2GgPl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms; family mostly healthy...",
+    "step": 5,
+    "timestamp": 1773253658.6028066,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253660.1557772,
+    "metadata": {
+      "thought": "User reports no other symptoms and family mostly healthy.",
+      "done": true,
+      "tool_use_id": "tooluse_HiCSLvMeae5vwXPGzazfW5"
+    }
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246606.2068849,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you ready for home?",
+    "step": 0,
+    "timestamp": 1773246606.2068956,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure yet, but I'll think about it.",
+    "step": 0,
+    "timestamp": 1773246607.2738616,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any symptoms or discomfort today?",
+    "step": 1,
+    "timestamp": 1773246608.6294422,
+    "metadata": {
+      "thought": "User is not ready to decide yet, need more information.",
+      "done": false,
+      "tool_use_id": "tooluse_lqdC4cAYfF36NBQGciu7St"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No symptoms today, just feeling fine...",
+    "step": 1,
+    "timestamp": 1773246609.7868547,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in health?",
+    "step": 2,
+    "timestamp": 1773246610.5051892,
+    "metadata": {
+      "thought": "User has no symptoms today, but needs more context for decision.",
+      "done": false,
+      "tool_use_id": "tooluse_HrYanVfDEEZwcE35Y67xCh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes in my health, everything feels normal.",
+    "step": 2,
+    "timestamp": 1773246611.5893023,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any concerns about health?",
+    "step": 3,
+    "timestamp": 1773246612.3471272,
+    "metadata": {
+      "thought": "User has no symptoms or changes, but needs final confirmation.",
+      "done": false,
+      "tool_use_id": "tooluse_Iv7XL1KbFUOkCLk9YMhr8s"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major health concerns, just minor aches...",
+    "step": 3,
+    "timestamp": 1773246613.4961624,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these aches start?",
+    "step": 4,
+    "timestamp": 1773246614.207835,
+    "metadata": {
+      "thought": "User has minor aches but no major concerns.",
+      "done": false,
+      "tool_use_id": "tooluse_ga7Jgsgs4hsdleGz5ST6Yf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when they began...",
+    "step": 4,
+    "timestamp": 1773246615.2729185,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or issues?",
+    "step": 5,
+    "timestamp": 1773246616.099823,
+    "metadata": {
+      "thought": "User unsure about when aches started.",
+      "done": false,
+      "tool_use_id": "tooluse_kNiNAoKkZcJIqUdisHC8q3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just fatigue lately...",
+    "step": 5,
+    "timestamp": 1773246617.2008965,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 6,
+    "timestamp": 1773246618.1043448,
+    "metadata": {
+      "thought": "User reports fatigue in addition to aches.",
+      "done": false,
+      "tool_use_id": "tooluse_4rgDFByRJCU8Q1PbolV8xT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt tired for about a month now.",
+    "step": 6,
+    "timestamp": 1773246619.25647,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or routine?",
+    "step": 7,
+    "timestamp": 1773246620.1124313,
+    "metadata": {
+      "thought": "User reports fatigue lasting a month.",
+      "done": false,
+      "tool_use_id": "tooluse_9LGTHyZlbHzxNhKfuxHcDv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in my diet or routine lately.",
+    "step": 7,
+    "timestamp": 1773246621.180276,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stress or lifestyle factors?",
+    "step": 8,
+    "timestamp": 1773246621.930759,
+    "metadata": {
+      "thought": "User has no changes in diet or routine.",
+      "done": false,
+      "tool_use_id": "tooluse_ra1ZCyybRBW1sBVIY45FVU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Work can be stressful, but I don't smoke.",
+    "step": 8,
+    "timestamp": 1773246623.0146978,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of illness?",
+    "step": 9,
+    "timestamp": 1773246623.9348178,
+    "metadata": {
+      "thought": "User reports stress but no smoking.",
+      "done": false,
+      "tool_use_id": "tooluse_pymB8mvghKXhfCS1KwxxKN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No significant family history of illness, I don't recall.",
+    "step": 9,
+    "timestamp": 1773246625.0819561,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 10,
+    "timestamp": 1773246626.0153909,
+    "metadata": {
+      "thought": "User has no significant family illness history.",
+      "done": false,
+      "tool_use_id": "tooluse_IXrR1LifPsgoUsaw9M6gqK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any specific medications right now.",
+    "step": 10,
+    "timestamp": 1773246627.1795387,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you'd like to share?",
+    "step": 11,
+    "timestamp": 1773246628.0064816,
+    "metadata": {
+      "thought": "User reports no current medications.",
+      "done": true,
+      "tool_use_id": "tooluse_ghAHkq4OvBNknzk2ld7Dtt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other details come to mind right now.",
+    "step": 11,
+    "timestamp": 1773246629.17719,
+    "metadata": {}
+  }
+]

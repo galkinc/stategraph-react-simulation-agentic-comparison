@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247442.1783473,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you a smoker?",
+    "step": 0,
+    "timestamp": 1773247442.1783512,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been smoking since I was ten...",
+    "step": 0,
+    "timestamp": 1773247443.5002525,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How many cigarettes do you smoke daily?",
+    "step": 1,
+    "timestamp": 1773247444.9641316,
+    "metadata": {
+      "thought": "User disclosed smoking history. Need to confirm duration and frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_Y1O7Kh6BXMxGlOaoLw9oj7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I smoke about 15 cigarettes a day now.",
+    "step": 1,
+    "timestamp": 1773247446.0759854,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any health issues related to smoking?",
+    "step": 2,
+    "timestamp": 1773247447.4983764,
+    "metadata": {
+      "thought": "User disclosed smoking frequency. Need to ask about any health issues.",
+      "done": false,
+      "tool_use_id": "tooluse_rnKwWFBwPSsW0uFzF95Dxt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I have high blood pressure, likely from smoking.",
+    "step": 2,
+    "timestamp": 1773247448.658912,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on medication for it?",
+    "step": 3,
+    "timestamp": 1773247450.1058378,
+    "metadata": {
+      "thought": "User disclosed high blood pressure. Need to confirm if it's managed with medication.",
+      "done": false,
+      "tool_use_id": "tooluse_fOWcaQCL7MOnRvydKwysff"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I'm taking Chantix to help reduce smoking.",
+    "step": 3,
+    "timestamp": 1773247451.1831284,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other medications you're taking?",
+    "step": 4,
+    "timestamp": 1773247452.6973617,
+    "metadata": {
+      "thought": "User disclosed medication for high blood pressure. Chantix is for smoking cessation.",
+      "done": false,
+      "tool_use_id": "tooluse_OtbClJ7d6ujO6szxQ5XTN4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Only Chantix for quitting smoking...",
+    "step": 4,
+    "timestamp": 1773247453.8296318,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247455.2283728,
+    "metadata": {
+      "thought": "User has disclosed all relevant medical information.",
+      "done": true,
+      "tool_use_id": "tooluse_pUZJfoANsH1uEHYasfHnzo"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065600.1181457,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "So, ma'am, what brings you in for a visit today?",
+    "step": 0,
+    "timestamp": 1773065600.1181517,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Hay fever acting up today, doctor...",
+    "step": 0,
+    "timestamp": 1773065601.378609,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is hay fever currently active?",
+    "step": 1,
+    "timestamp": 1773065602.7811303,
+    "metadata": {
+      "thought": "Need to confirm if symptoms are ongoing or resolved.",
+      "done": false,
+      "tool_use_id": "tooluse_hWjzlLfHUGCdLljTvmntoh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's usually active this season, not always...",
+    "step": 1,
+    "timestamp": 1773065603.9007032,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medication for hay fever?",
+    "step": 2,
+    "timestamp": 1773065604.6414523,
+    "metadata": {
+      "thought": "Need to know if the patient is taking any medication for hay fever.",
+      "done": false,
+      "tool_use_id": "tooluse_afgIdxO9Lb90L6EPV7tUKK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No hay fever meds; just benzoyl peroxide and Daypro.",
+    "step": 2,
+    "timestamp": 1773065605.7806392,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773065606.5257509,
+    "metadata": {
+      "thought": "Have enough information to determine if further steps are needed.",
+      "done": true,
+      "tool_use_id": "tooluse_F2sW1pIckMuIyR3PPJnyp0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 3,
+    "timestamp": 1773065606.5257735,
+    "metadata": {}
+  }
+]

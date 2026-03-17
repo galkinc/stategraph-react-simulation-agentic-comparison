@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253629.605341,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been having this pain in your ear?",
+    "step": 0,
+    "timestamp": 1773253629.6053448,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall having ear pain before...",
+    "step": 0,
+    "timestamp": 1773253630.8219953,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other unusual symptoms lately?",
+    "step": 1,
+    "timestamp": 1773253632.3033295,
+    "metadata": {
+      "thought": "User denies having ear pain, need to ask about other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_NbANdMXWaQ9ODX0YeNi1lW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just itchy patches, nothing new...",
+    "step": 1,
+    "timestamp": 1773253633.4497778,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any skin conditions or rashes?",
+    "step": 2,
+    "timestamp": 1773253635.0192237,
+    "metadata": {
+      "thought": "User denies new symptoms, need to ask about skin conditions",
+      "done": false,
+      "tool_use_id": "tooluse_iwq4fGGvVNI0i3ICCSk6gO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My eczema flares up often since childhood...",
+    "step": 2,
+    "timestamp": 1773253636.1547942,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in treatment?",
+    "step": 3,
+    "timestamp": 1773253637.759655,
+    "metadata": {
+      "thought": "User has a known condition, need to ask about treatment",
+      "done": false,
+      "tool_use_id": "tooluse_WdsYLcx5hf6vvCxtxvignv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, still using the same cream.",
+    "step": 3,
+    "timestamp": 1773253638.9399211,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any side effects from the cream?",
+    "step": 4,
+    "timestamp": 1773253640.5073256,
+    "metadata": {
+      "thought": "User uses same treatment, need to ask about medication side effects",
+      "done": false,
+      "tool_use_id": "tooluse_DUZP6ESylvMsYXXHk5pnAr"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No side effects, just dry patches sometimes...",
+    "step": 4,
+    "timestamp": 1773253641.719422,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253643.7997468,
+    "metadata": {
+      "thought": "User denies side effects, no new information",
+      "done": true,
+      "tool_use_id": "tooluse_uAotSepGLX9NsXJZVJ834e"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252405.6786704,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How've you been treating your acne?",
+    "step": 0,
+    "timestamp": 1773252405.6786761,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been taking Accutane as prescribed...",
+    "step": 0,
+    "timestamp": 1773252407.0287519,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773252408.5081334,
+    "metadata": {
+      "thought": "User mentions taking Accutane, a medication for acne. This is a medication entity.",
+      "done": true,
+      "tool_use_id": "tooluse_JJ9l42VG1jkmPUBtYzQSL5"
+    }
+  }
+]

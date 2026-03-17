@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066106.4753323,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did your pain begin?",
+    "step": 0,
+    "timestamp": 1773066106.4753366,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started eight years ago after a fall.",
+    "step": 0,
+    "timestamp": 1773066107.5200193,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain location?",
+    "step": 1,
+    "timestamp": 1773066108.9530492,
+    "metadata": {
+      "thought": "User reports pain onset after a fall eight years ago.",
+      "done": false,
+      "tool_use_id": "tooluse_h5tMOw8CnWfwaxPNpewU81"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Low back, sometimes near my tailbone...",
+    "step": 1,
+    "timestamp": 1773066110.0031826,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain intensity or character?",
+    "step": 2,
+    "timestamp": 1773066123.8456302,
+    "metadata": {
+      "thought": "User specifies pain location in low back, near tailbone.",
+      "done": false,
+      "tool_use_id": "tooluse_FI7YEU13qRw4iPvk5U7D0R"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been steady, sometimes worse, sometimes better...",
+    "step": 2,
+    "timestamp": 1773066124.9553668,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain triggers?",
+    "step": 3,
+    "timestamp": 1773066126.3856618,
+    "metadata": {
+      "thought": "User describes pain as steady, varying in intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_3NL54Qvj4K62GXc30NV835"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lifting heavy things triggers my back pain...",
+    "step": 3,
+    "timestamp": 1773066127.5388255,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other pain triggers?",
+    "step": 4,
+    "timestamp": 1773066128.9112635,
+    "metadata": {
+      "thought": "User mentions lifting heavy things as a pain trigger.",
+      "done": false,
+      "tool_use_id": "tooluse_h5XGpWwrR5IWXcOk7YfH6t"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other pain triggers, just the usual back pain.",
+    "step": 4,
+    "timestamp": 1773066130.0609343,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 5,
+    "timestamp": 1773066131.4646597,
+    "metadata": {
+      "thought": "User confirms no other pain triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_cWRDg4zFV5e2ijw1pdElJ1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Tried heat pads, but no big treatments...",
+    "step": 5,
+    "timestamp": 1773066132.6526408,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication used?",
+    "step": 6,
+    "timestamp": 1773066134.1764314,
+    "metadata": {
+      "thought": "User tried heat pads, no major treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_4s9IuB92iG7wh88HI1IuDK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication for back pain, just heat pads.",
+    "step": 6,
+    "timestamp": 1773066135.2748814,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773066136.7241783,
+    "metadata": {
+      "thought": "User uses only heat pads, no medication.",
+      "done": true,
+      "tool_use_id": "tooluse_hQbXXnKtybnun33Uc2WG5M"
+    }
+  }
+]

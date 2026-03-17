@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065896.304802,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "What brings you here today, sir?",
+    "step": 0,
+    "timestamp": 1773065896.3048077,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lightheadedness, balance issues, shaky, weak after metoprolol...",
+    "step": 0,
+    "timestamp": 1773065897.3911476,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are symptoms still present now?",
+    "step": 1,
+    "timestamp": 1773065898.7867212,
+    "metadata": {
+      "thought": "Need to confirm if symptoms are ongoing or resolved",
+      "done": false,
+      "tool_use_id": "tooluse_3HZe6O6AhmIvNroLakjCWm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still lightheaded, shaky, and weak, mostly when standing.",
+    "step": 1,
+    "timestamp": 1773065899.878,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do symptoms worsen when you stand?",
+    "step": 2,
+    "timestamp": 1773065900.689461,
+    "metadata": {
+      "thought": "Need to determine if symptoms worsen with standing",
+      "done": false,
+      "tool_use_id": "tooluse_69B34PgJqnGP3RO42IZrVf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms get worse when I stand up...",
+    "step": 2,
+    "timestamp": 1773065901.7717881,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had these symptoms?",
+    "step": 3,
+    "timestamp": 1773065902.6299734,
+    "metadata": {
+      "thought": "Need to ask about duration and any other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_XN8gztrq9cvS10mHsftoiM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started a few days ago, especially after standing up.",
+    "step": 3,
+    "timestamp": 1773065903.6606698,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other new symptoms?",
+    "step": 4,
+    "timestamp": 1773065904.4883027,
+    "metadata": {
+      "thought": "Need to ask about other symptoms or changes",
+      "done": false,
+      "tool_use_id": "tooluse_osYNlpWCz9EsVpPpPWcWJd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still shaky and weak, no new symptoms...",
+    "step": 4,
+    "timestamp": 1773065905.5963583,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773065906.3709562,
+    "metadata": {
+      "thought": "Have enough information to assess",
+      "done": true,
+      "tool_use_id": "tooluse_4Ji761pBfLeffAFPkDgjg8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 5,
+    "timestamp": 1773065906.3709803,
+    "metadata": {}
+  }
+]

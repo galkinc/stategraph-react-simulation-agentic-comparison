@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247553.5188115,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "So, ma'am, what brings you in for a visit today?",
+    "step": 0,
+    "timestamp": 1773247553.5188153,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Hay fever acting up, plus eczema flare-ups...",
+    "step": 0,
+    "timestamp": 1773247554.6687603,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did hay fever start?",
+    "step": 1,
+    "timestamp": 1773247556.1827762,
+    "metadata": {
+      "thought": "User mentions hay fever and eczema flare-ups. I need to confirm these conditions and ask about their onset and duration.",
+      "done": false,
+      "tool_use_id": "tooluse_NL7S1sZfARCOosCN5FRbaT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when it started...",
+    "step": 1,
+    "timestamp": 1773247557.3137136,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in environment?",
+    "step": 2,
+    "timestamp": 1773247558.7254913,
+    "metadata": {
+      "thought": "User is unsure about the exact onset of hay fever. I need to ask about any recent changes in environment or activities.",
+      "done": false,
+      "tool_use_id": "tooluse_1wkwWKdoQ7hFyTSLmX2ZzB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Beach visits increased; hay fever acting up more.",
+    "step": 2,
+    "timestamp": 1773247559.8735409,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Eczema linked to beach visits?",
+    "step": 3,
+    "timestamp": 1773247561.3629944,
+    "metadata": {
+      "thought": "User mentions increased beach visits correlating with hay fever. I need to confirm if there's a pattern with eczema.",
+      "done": false,
+      "tool_use_id": "tooluse_qUdMztj1r9HkeZxR2Rrjiu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, eczema flares up at the beach often.",
+    "step": 3,
+    "timestamp": 1773247562.7198799,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments for these?",
+    "step": 4,
+    "timestamp": 1773247564.2015946,
+    "metadata": {
+      "thought": "User confirms eczema flares up at the beach. I need to ask about any treatments used.",
+      "done": false,
+      "tool_use_id": "tooluse_17l06OYbXtBGdcAwkqhdWe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use creams for eczema and Daypro for pain.",
+    "step": 4,
+    "timestamp": 1773247568.7603092,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Daypro correct for pain?",
+    "step": 5,
+    "timestamp": 1773247570.2759266,
+    "metadata": {
+      "thought": "User mentions using creams for eczema and Daypro for pain. I need to confirm the medication names.",
+      "done": false,
+      "tool_use_id": "tooluse_YtDxkxWNUhgUX4SZTes2Rd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Daypro helps with my pain, I think...",
+    "step": 5,
+    "timestamp": 1773247571.495029,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247573.046322,
+    "metadata": {
+      "thought": "User confirms Daypro helps with pain. I have enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_ZplJU9W7IlhLSQNJdrEsej"
+    }
+  }
+]

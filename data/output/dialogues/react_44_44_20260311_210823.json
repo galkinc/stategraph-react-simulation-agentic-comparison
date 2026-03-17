@@ -1,0 +1,200 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252503.7426634,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you in pain?",
+    "step": 0,
+    "timestamp": 1773252503.7426689,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I don't feel any pain now...",
+    "step": 0,
+    "timestamp": 1773252505.0111523,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773252506.504824,
+    "metadata": {
+      "thought": "User does not report pain, but we need to gather more symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Gg9mPgNyT09bjg3oCMNDqg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms lately...",
+    "step": 1,
+    "timestamp": 1773252507.692766,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual fatigue or weakness?",
+    "step": 2,
+    "timestamp": 1773252508.5110219,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_9EGePgKYr9eVLiF3wSsQjU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual fatigue, just feeling much better...",
+    "step": 2,
+    "timestamp": 1773252509.708256,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in your appetite or weight?",
+    "step": 3,
+    "timestamp": 1773252510.5340385,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_iXIla5ZXBvaSSYtXdkI4F1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My appetite hasn't changed much lately...",
+    "step": 3,
+    "timestamp": 1773252511.7605097,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in sleep patterns?",
+    "step": 4,
+    "timestamp": 1773252513.0596883,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_E2ZzW2G6XtN67Dy7P3S2f5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My sleep hasn't changed much lately...",
+    "step": 4,
+    "timestamp": 1773252514.206445,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any dizziness or headaches?",
+    "step": 5,
+    "timestamp": 1773252515.0536432,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_XhqFIfPi9R1TT2p30pbDGU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No dizziness or headaches, just feeling better...",
+    "step": 5,
+    "timestamp": 1773252516.305995,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea or stomach discomfort?",
+    "step": 6,
+    "timestamp": 1773252517.1914504,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_nrx6nQmGmvawIO1yfUeqr2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No stomach discomfort, just feeling much better...",
+    "step": 6,
+    "timestamp": 1773252518.4196067,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in mood or behavior?",
+    "step": 7,
+    "timestamp": 1773252519.397678,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_ULfnBDqZvLQJW8Q469QP30"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mood steady, no changes, just feeling better...",
+    "step": 7,
+    "timestamp": 1773252520.6920617,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries or trauma?",
+    "step": 8,
+    "timestamp": 1773252521.558744,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_Mth2VcqUjFF7Mlwe2tEnnh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries, just feeling much better...",
+    "step": 8,
+    "timestamp": 1773252522.8586397,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any allergies or medication use?",
+    "step": 9,
+    "timestamp": 1773252523.7535,
+    "metadata": {
+      "thought": "User does not recall other symptoms, but we need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_3aPh7I1lSdEsJkAdc9RI1U"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies, but I take occasional ibuprofen.",
+    "step": 9,
+    "timestamp": 1773252524.9117398,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773252525.7814314,
+    "metadata": {
+      "thought": "User takes occasional ibuprofen, updating medication list.",
+      "done": true,
+      "tool_use_id": "tooluse_U41l8MY8uzl1NPtJSoji4v"
+    }
+  }
+]

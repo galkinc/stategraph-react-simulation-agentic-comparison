@@ -1,0 +1,85 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066227.6987827,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Okay, so let's go over the plan again. I'd like you to apply Acticoat dressing daily and make sure you're spending at least eight hours out of the chair for pressure relief. Any questions?",
+    "step": 0,
+    "timestamp": 1773066227.698787,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'll follow the plan, but I'm unsure about Acticoat.",
+    "step": 0,
+    "timestamp": 1773066228.8624992,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What do you want to know about Acticoat?",
+    "step": 1,
+    "timestamp": 1773066230.1046827,
+    "metadata": {
+      "thought": "Need to explain Acticoat dressing to the user",
+      "done": false,
+      "tool_use_id": "tooluse_Y7NRGE7RXO9TWcldjpC0uZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don’t know much about Acticoat. Can you explain?",
+    "step": 1,
+    "timestamp": 1773066231.1966758,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773066232.5935736,
+    "metadata": {
+      "thought": "Provide information about Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_9ju6B1mFQEYf3b2m94DeA9"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any other questions about Acticoat?",
+    "step": 3,
+    "timestamp": 1773066233.9974685,
+    "metadata": {
+      "thought": "Ask if there are any other questions",
+      "done": false,
+      "tool_use_id": "tooluse_qaUvzdzKO72DfWLUc253MY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No questions about Acticoat, just trying to learn.",
+    "step": 3,
+    "timestamp": 1773066235.1072645,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773066236.5143814,
+    "metadata": {
+      "thought": "No further questions about Acticoat",
+      "done": true,
+      "tool_use_id": "tooluse_AVUrKQ7aNWCEkNz02f2n43"
+    }
+  }
+]

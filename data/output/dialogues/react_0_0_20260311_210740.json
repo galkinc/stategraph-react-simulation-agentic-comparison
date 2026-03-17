@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252460.230051,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did your pain begin?",
+    "step": 0,
+    "timestamp": 1773252460.2300568,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started eight years ago after a fall.",
+    "step": 0,
+    "timestamp": 1773252461.4704819,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain start?",
+    "step": 1,
+    "timestamp": 1773252462.9377007,
+    "metadata": {
+      "thought": "Extract time expression from user's response",
+      "done": false,
+      "tool_use_id": "tooluse_XrhI8ChSpO2pEArnS5shKG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It began after I fell in an A B C store.",
+    "step": 1,
+    "timestamp": 1773252464.1398673,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where did the fall happen?",
+    "step": 2,
+    "timestamp": 1773252464.9219105,
+    "metadata": {
+      "thought": "Extract location from user's response",
+      "done": false,
+      "tool_use_id": "tooluse_GWnoE1Twg48Yg2ucDLgPcv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I fell while mopping the floor at home.",
+    "step": 2,
+    "timestamp": 1773252466.1682255,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where did you fall at home?",
+    "step": 3,
+    "timestamp": 1773252466.9569635,
+    "metadata": {
+      "thought": "Extract location from user's response",
+      "done": false,
+      "tool_use_id": "tooluse_lZRaO3SUJUhkb20XPGP56g"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I fell while mopping the floor...",
+    "step": 3,
+    "timestamp": 1773252468.200417,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where on the floor did you fall?",
+    "step": 4,
+    "timestamp": 1773252469.0065205,
+    "metadata": {
+      "thought": "Extract location from user's response",
+      "done": false,
+      "tool_use_id": "tooluse_zLaafG4j8nG0ffOgifNDif"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Fell on my tailbone while mopping...",
+    "step": 4,
+    "timestamp": 1773252470.271851,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly did you land?",
+    "step": 5,
+    "timestamp": 1773252471.0854156,
+    "metadata": {
+      "thought": "Extract anatomical site from user's response",
+      "done": false,
+      "tool_use_id": "tooluse_FpEL3K8piJ0eSWGM1Gn3BK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I landed on my back after the fall.",
+    "step": 5,
+    "timestamp": 1773252472.2696092,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Did you hit any other parts?",
+    "step": 6,
+    "timestamp": 1773252473.1698165,
+    "metadata": {
+      "thought": "Extract anatomical site from user's response",
+      "done": false,
+      "tool_use_id": "tooluse_QNgawofMIBDDSdmGhGe7Ry"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I didn't hit any other parts, just my back.",
+    "step": 6,
+    "timestamp": 1773252474.3896675,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773252475.2028613,
+    "metadata": {
+      "thought": "Summarize and check if enough information is collected",
+      "done": true,
+      "tool_use_id": "tooluse_Bg3jqmtN3kHQDutLS4QAbh"
+    }
+  }
+]

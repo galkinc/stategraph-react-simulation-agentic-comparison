@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066398.1234035,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How many days has it been since your headaches started?",
+    "step": 0,
+    "timestamp": 1773066398.1234076,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About two days now, but no vision changes.",
+    "step": 0,
+    "timestamp": 1773066399.142816,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are your headaches constant or intermittent?",
+    "step": 1,
+    "timestamp": 1773066400.5236387,
+    "metadata": {
+      "thought": "Need to confirm if headaches are continuous or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_UpSyTvHobmnOMk1iklnLDu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They come and go, not always there...",
+    "step": 1,
+    "timestamp": 1773066401.5731463,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How severe are your headaches?",
+    "step": 2,
+    "timestamp": 1773066402.943406,
+    "metadata": {
+      "thought": "Ask about pain intensity and location.",
+      "done": false,
+      "tool_use_id": "tooluse_sNXRdZKMQKNBiPaqKejy8i"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They're pretty bad, but not constant...",
+    "step": 2,
+    "timestamp": 1773066404.1465762,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do headaches interfere with daily activities?",
+    "step": 3,
+    "timestamp": 1773066405.6088054,
+    "metadata": {
+      "thought": "Need to know if headaches affect daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_PC7t4eYibh3UVSVwgL0A62"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They make it hard to focus sometimes...",
+    "step": 3,
+    "timestamp": 1773066406.577991,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, dizziness, or sensitivity to light?",
+    "step": 4,
+    "timestamp": 1773066408.0493615,
+    "metadata": {
+      "thought": "Ask about associated symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_sVXiIzzu2MI0sVyhE5DROq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, dizziness is constant, no light sensitivity.",
+    "step": 4,
+    "timestamp": 1773066409.1085904,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is dizziness constant or intermittent?",
+    "step": 5,
+    "timestamp": 1773066410.5509431,
+    "metadata": {
+      "thought": "Gather information on dizziness.",
+      "done": false,
+      "tool_use_id": "tooluse_SchfxZnSNcYeNg2BbeTsui"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizziness comes and goes, not always present...",
+    "step": 5,
+    "timestamp": 1773066411.64835,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like fatigue or weakness?",
+    "step": 6,
+    "timestamp": 1773066413.1150968,
+    "metadata": {
+      "thought": "Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_OHMy4kb3oTo6guoTBBjgCV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fatigue or weakness, just dizziness and headaches.",
+    "step": 6,
+    "timestamp": 1773066414.2266576,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent stress, trauma, or changes?",
+    "step": 7,
+    "timestamp": 1773066415.7798414,
+    "metadata": {
+      "thought": "Ask about recent triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_zuZahFznJBGkC7mnygoLdQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent stress or trauma, just usual life.",
+    "step": 7,
+    "timestamp": 1773066416.8737524,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 8,
+    "timestamp": 1773066418.4005423,
+    "metadata": {
+      "thought": "Final check for medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_RvFxbFMuB8ZcB5152wAkYR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just over-the-counter painkillers...",
+    "step": 8,
+    "timestamp": 1773066419.4729104,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066429.3111393,
+    "metadata": {
+      "thought": "Have sufficient information for initial assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_J3kr9RhjqiqXoEZ4unaBQD"
+    }
+  }
+]

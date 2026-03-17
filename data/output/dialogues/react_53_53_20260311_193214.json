@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246734.057019,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you Miss G?",
+    "step": 0,
+    "timestamp": 1773246734.0570252,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still dealing with ear pain and sinus pressure.",
+    "step": 0,
+    "timestamp": 1773246735.2054486,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Ear pain, sharp or dull?",
+    "step": 1,
+    "timestamp": 1773246736.678546,
+    "metadata": {
+      "thought": "Ask about pain specifics to gather more symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_5SbTx60BItrGwOi58l8D45"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mostly dull, but sometimes it gets sharper...",
+    "step": 1,
+    "timestamp": 1773246737.9457953,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773246738.7526588,
+    "metadata": {
+      "thought": "Need to know if pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_ihLSB1lr7u0px15GuyqtzE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Intermittent pain, mostly in my left sinus...",
+    "step": 2,
+    "timestamp": 1773246739.9993687,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers for pain?",
+    "step": 3,
+    "timestamp": 1773246740.7972975,
+    "metadata": {
+      "thought": "Ask about pain triggers to identify possible causes.",
+      "done": false,
+      "tool_use_id": "tooluse_SXWymNmYKLjvNKJHkFTKeh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but cold weather seems to worsen it.",
+    "step": 3,
+    "timestamp": 1773246741.9468539,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Other symptoms like headaches?",
+    "step": 4,
+    "timestamp": 1773246742.8067575,
+    "metadata": {
+      "thought": "Need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_AyjwTmYjVbu0SjnjBbtzxa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Chronic left-sided headaches persist, but not now...",
+    "step": 4,
+    "timestamp": 1773246743.890333,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 5,
+    "timestamp": 1773246744.7568905,
+    "metadata": {
+      "thought": "Ask about medication use to identify possible interactions.",
+      "done": false,
+      "tool_use_id": "tooluse_Ao0TFFH61Mc9yH28PWCXia"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just over-the-counter pain relief...",
+    "step": 5,
+    "timestamp": 1773246746.1788747,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had this?",
+    "step": 6,
+    "timestamp": 1773246747.0339298,
+    "metadata": {
+      "thought": "Gather information on pain duration.",
+      "done": false,
+      "tool_use_id": "tooluse_8t8tw7zOF6KCdtOB2jurR1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ear pain and sinus pressure for about three weeks.",
+    "step": 6,
+    "timestamp": 1773246748.1654284,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246748.9469137,
+    "metadata": {
+      "thought": "Consolidate information to determine if further action is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_nbchLTtfT9FnA4pHqfNNUg"
+    }
+  }
+]

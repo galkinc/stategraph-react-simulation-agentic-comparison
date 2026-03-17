@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253425.683594,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hey, bud. What brings you in today?",
+    "step": 0,
+    "timestamp": 1773253425.6835983,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash on my upper arms and torso, a day ago.",
+    "step": 0,
+    "timestamp": 1773253426.9569867,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is rash itchy or painful?",
+    "step": 1,
+    "timestamp": 1773253428.494379,
+    "metadata": {
+      "thought": "Need to confirm if rash is a condition",
+      "done": false,
+      "tool_use_id": "tooluse_Eo0oMFaKzkAZ9y9RM0kDck"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's mostly itchy, but sometimes a bit painful.",
+    "step": 1,
+    "timestamp": 1773253429.6741536,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is rash spreading or changing?",
+    "step": 2,
+    "timestamp": 1773253431.278353,
+    "metadata": {
+      "thought": "Need to know if rash spreading or changing",
+      "done": false,
+      "tool_use_id": "tooluse_DKhXvpJYJ0bRtbVPU79jJj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash hasn't spread much, just a bit bigger.",
+    "step": 2,
+    "timestamp": 1773253432.5681336,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like fever?",
+    "step": 3,
+    "timestamp": 1773253434.0782192,
+    "metadata": {
+      "thought": "Need to know if rash associated with other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_LSRHJTNgPjkMTJ4eG2mxpG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever, just the rash on my arms and torso.",
+    "step": 3,
+    "timestamp": 1773253435.3568685,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new soaps, lotions, or plants?",
+    "step": 4,
+    "timestamp": 1773253436.9682708,
+    "metadata": {
+      "thought": "Gathering information on recent activities",
+      "done": false,
+      "tool_use_id": "tooluse_ksTuosUMB8EaKwBkSAmtZC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new soaps or lotions recently...",
+    "step": 4,
+    "timestamp": 1773253438.1646385,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Were you outdoors recently?",
+    "step": 5,
+    "timestamp": 1773253439.7535713,
+    "metadata": {
+      "thought": "Need to know if rash after any outdoor activities",
+      "done": false,
+      "tool_use_id": "tooluse_9sxo78gAjDvX2KHiZ82TUY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't been outdoors much lately...",
+    "step": 5,
+    "timestamp": 1773253440.8989506,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253442.4644213,
+    "metadata": {
+      "thought": "Rash details collected, but not enough to determine cause",
+      "done": true,
+      "tool_use_id": "tooluse_FpasRn1IW716gnbeId6x3v"
+    }
+  }
+]

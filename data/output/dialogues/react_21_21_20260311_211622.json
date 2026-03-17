@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252982.386063,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Do you smoke?",
+    "step": 0,
+    "timestamp": 1773252982.3860686,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't smoke, but I'm around smoke sometimes.",
+    "step": 0,
+    "timestamp": 1773252983.646383,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any allergies to smoke?",
+    "step": 1,
+    "timestamp": 1773252985.0065122,
+    "metadata": {
+      "thought": "Ask about exposure to smoke.",
+      "done": false,
+      "tool_use_id": "tooluse_0AJet8drsV9HJvd7aWyg9M"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies to smoke, but I'm sensitive to some chemicals.",
+    "step": 1,
+    "timestamp": 1773252986.185351,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known chemical sensitivities?",
+    "step": 2,
+    "timestamp": 1773252987.1030858,
+    "metadata": {
+      "thought": "Ask about chemical sensitivity.",
+      "done": false,
+      "tool_use_id": "tooluse_1ItKrQgcWjY1FdGvunfjjC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known chemical sensitivities, but I work with chemicals.",
+    "step": 2,
+    "timestamp": 1773252988.3325503,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any symptoms from chemical exposure?",
+    "step": 3,
+    "timestamp": 1773252989.0890667,
+    "metadata": {
+      "thought": "Ask about work-related chemical exposure.",
+      "done": false,
+      "tool_use_id": "tooluse_oIMkARNjeIbm98PVxiDWJL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any specific symptoms from chemicals.",
+    "step": 3,
+    "timestamp": 1773252990.2525938,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773252991.0186353,
+    "metadata": {
+      "thought": "No specific symptoms noted.",
+      "done": true,
+      "tool_use_id": "tooluse_4Tx0bs7acCa6hbS2Z2mins"
+    }
+  }
+]

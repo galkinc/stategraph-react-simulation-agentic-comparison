@@ -1,0 +1,241 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066666.8772485,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you, sir?",
+    "step": 0,
+    "timestamp": 1773066666.8772526,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm sixty-two years old...",
+    "step": 0,
+    "timestamp": 1773066667.9880314,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773066669.378855,
+    "metadata": {
+      "thought": "User provided age, but no specific symptoms or medical history. Need to ask about symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ihqkYHLwE6vRVBowvcYizP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still feeling clumsiness, no new symptoms lately...",
+    "step": 1,
+    "timestamp": 1773066670.5269656,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did clumsiness start?",
+    "step": 2,
+    "timestamp": 1773066671.956409,
+    "metadata": {
+      "thought": "User reports ongoing clumsiness but no new symptoms. Need to explore this further.",
+      "done": false,
+      "tool_use_id": "tooluse_eo58fwjX1oQkBM8UOZaS5M"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Clumsiness started around six months ago...",
+    "step": 2,
+    "timestamp": 1773066673.0213375,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any weakness or numbness?",
+    "step": 3,
+    "timestamp": 1773066674.5071669,
+    "metadata": {
+      "thought": "User reports clumsiness started six months ago. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_djY99RKOwRyB0GFD1G3hmw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No weakness, just clumsiness and sensation issues...",
+    "step": 3,
+    "timestamp": 1773066675.6568356,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current medications?",
+    "step": 4,
+    "timestamp": 1773066677.1097536,
+    "metadata": {
+      "thought": "User reports no weakness but sensation issues. Need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_N5ufnJZTTLqENChhoM6EpK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Taking tablets for diabetes, oxycodone for pain...",
+    "step": 4,
+    "timestamp": 1773066678.2100172,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do symptoms worsen with meds?",
+    "step": 5,
+    "timestamp": 1773066679.709743,
+    "metadata": {
+      "thought": "User reports taking diabetes and pain medication. Need to confirm if symptoms correlate with medication.",
+      "done": false,
+      "tool_use_id": "tooluse_zeOuvMaWNnxMwEQeL114uI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Insulin stopped, but pain still bad...",
+    "step": 5,
+    "timestamp": 1773066680.8434613,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or exercise?",
+    "step": 6,
+    "timestamp": 1773066682.3177426,
+    "metadata": {
+      "thought": "User reports stopping insulin but pain persists. Need to ask about lifestyle factors.",
+      "done": false,
+      "tool_use_id": "tooluse_mJ7rE73f4YtVZMh0sXufkY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in diet or exercise routine...",
+    "step": 6,
+    "timestamp": 1773066683.410365,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of similar issues?",
+    "step": 7,
+    "timestamp": 1773066684.9386058,
+    "metadata": {
+      "thought": "User reports no changes in diet or exercise. Symptoms persist despite medication changes.",
+      "done": false,
+      "tool_use_id": "tooluse_jipX8qprtkfvFh1HKnaLwa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of diabetes or heart issues.",
+    "step": 7,
+    "timestamp": 1773066686.0333652,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066687.5402634,
+    "metadata": {
+      "thought": "User reports no family history. Need to summarize and assess information.",
+      "done": true,
+      "tool_use_id": "tooluse_q3e7uoVLTXTPtkWQBTnOZt"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066689.0706646,
+    "metadata": {
+      "thought": "Summarizing information for assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_EPXo2L3PCwrvI7EbQT1Hoy"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773066690.5966706,
+    "metadata": {
+      "thought": "Summarizing information for assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_dLCDV0ekrcsuIQSptNViXU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773066692.0887644,
+    "metadata": {
+      "thought": "Summarizing information for assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_ezot3S7hOTFbIa30KGDz6k"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773066693.624473,
+    "metadata": {
+      "thought": "Summarizing information for assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_WoL7v7vGbA7lzVpllGNhk0"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773066695.1407413,
+    "metadata": {
+      "thought": "Summarizing information for assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_HQE1x1fn1WUh3DLJYrr5hw"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773066696.6852741,
+    "metadata": {
+      "thought": "Summarizing information for assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_s2hpx5yGEF3KNeXctRTaRr"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773066698.3063147,
+    "metadata": {
+      "thought": "Summarizing information for assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_OSYUlLZLYMWR9qTtRQbxzB"
+    }
+  }
+]

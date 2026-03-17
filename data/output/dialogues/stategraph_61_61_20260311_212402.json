@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253442.4860325,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "So, ma'am, what brings you in for a visit today?",
+    "step": 0,
+    "timestamp": 1773253442.4860363,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Hay fever acting up today, also eczema flare-up.",
+    "step": 0,
+    "timestamp": 1773253443.8247378,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did symptoms start?",
+    "step": 1,
+    "timestamp": 1773253445.4925497,
+    "metadata": {
+      "thought": "User reports hay fever and eczema flare-up. Need to confirm details.",
+      "done": false,
+      "tool_use_id": "tooluse_hr0mRSpfmnkcKgAHCgoFRM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when they all started.",
+    "step": 1,
+    "timestamp": 1773253446.7293563,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have they lasted?",
+    "step": 2,
+    "timestamp": 1773253448.3243663,
+    "metadata": {
+      "thought": "User unsure about exact start time. Ask about duration.",
+      "done": false,
+      "tool_use_id": "tooluse_gdRowZpzUkDyylysKfzxnV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My hay fever and eczema have been ongoing for years.",
+    "step": 2,
+    "timestamp": 1773253449.544985,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in symptoms?",
+    "step": 3,
+    "timestamp": 1773253451.028789,
+    "metadata": {
+      "thought": "User reports long-term symptoms. Ask about recent changes.",
+      "done": false,
+      "tool_use_id": "tooluse_qL70UalMXGfPvWaAmsAHtF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My hay fever feels a bit worse lately.",
+    "step": 3,
+    "timestamp": 1773253452.2273233,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments used?",
+    "step": 4,
+    "timestamp": 1773253453.8327773,
+    "metadata": {
+      "thought": "User reports worsening hay fever. Ask about treatments used.",
+      "done": false,
+      "tool_use_id": "tooluse_1GYUTOBS0j5XotO5vmkvDw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use benzoyl peroxide and Daypro for my conditions.",
+    "step": 4,
+    "timestamp": 1773253455.0675223,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253456.6561177,
+    "metadata": {
+      "thought": "User reports using treatments. Confirm if sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_7YnW1zQzHEYfs7RPIkzD1V"
+    }
+  }
+]

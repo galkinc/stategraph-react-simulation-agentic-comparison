@@ -1,0 +1,261 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252647.014685,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you young man?",
+    "step": 0,
+    "timestamp": 1773252647.0146906,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm nineteen, not a young man, but thanks for asking.",
+    "step": 0,
+    "timestamp": 1773252648.397833,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773252649.9691799,
+    "metadata": {
+      "thought": "Need to gather more specific symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_uhJpMseGCgGLkYdmwDpSii"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; my head hurts a lot.",
+    "step": 1,
+    "timestamp": 1773252651.1441643,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did headache start?",
+    "step": 2,
+    "timestamp": 1773252651.9748876,
+    "metadata": {
+      "thought": "User reports headache, need more details.",
+      "done": false,
+      "tool_use_id": "tooluse_QK2pq4dgXDnZ5TnCnScVOM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall when headache started exactly...",
+    "step": 2,
+    "timestamp": 1773252653.140661,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with headache?",
+    "step": 3,
+    "timestamp": 1773252653.9775681,
+    "metadata": {
+      "thought": "User reports headache but unsure of onset.",
+      "done": false,
+      "tool_use_id": "tooluse_9YXJzXvWHbDW5V2cEp7FEy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headache, just a throbbing pain...",
+    "step": 3,
+    "timestamp": 1773252655.1692188,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea or dizziness?",
+    "step": 4,
+    "timestamp": 1773252656.2329688,
+    "metadata": {
+      "thought": "User describes throbbing headache pain.",
+      "done": false,
+      "tool_use_id": "tooluse_6gl3Pzbfz8ZTFUZXmry1PL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No dizziness, but I feel a bit nauseous.",
+    "step": 4,
+    "timestamp": 1773252657.4724233,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever or sensitivity to light?",
+    "step": 5,
+    "timestamp": 1773252658.3501096,
+    "metadata": {
+      "thought": "User reports nausea with headache.",
+      "done": false,
+      "tool_use_id": "tooluse_K3Uc6KEaqmsQFIbDidJoLF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever, but light feels okay...",
+    "step": 5,
+    "timestamp": 1773252659.5777984,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use recently?",
+    "step": 6,
+    "timestamp": 1773252660.4509602,
+    "metadata": {
+      "thought": "User reports headache, nausea, no fever, light tolerance.",
+      "done": false,
+      "tool_use_id": "tooluse_BVEjsYnVvRt7RLkpELwZ4j"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any recent medication use...",
+    "step": 6,
+    "timestamp": 1773252661.7970366,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain level on scale 1-10?",
+    "step": 7,
+    "timestamp": 1773252662.600526,
+    "metadata": {
+      "thought": "User reports headache, nausea, no fever, no recent meds.",
+      "done": false,
+      "tool_use_id": "tooluse_VH3w9xrR5IHHhYuRXhAWkX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain feels pretty intense, around an 8...",
+    "step": 7,
+    "timestamp": 1773252663.8899832,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 8,
+    "timestamp": 1773252664.7460988,
+    "metadata": {
+      "thought": "User reports intense headache, nausea, no recent meds.",
+      "done": false,
+      "tool_use_id": "tooluse_1ruPeWrCxaRoVGVLg4qR1y"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but my mouth hurts a lot.",
+    "step": 8,
+    "timestamp": 1773252666.042271,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any jaw or neck pain?",
+    "step": 9,
+    "timestamp": 1773252667.028263,
+    "metadata": {
+      "thought": "User reports headache, nausea, mouth pain.",
+      "done": false,
+      "tool_use_id": "tooluse_uNDVL6gb3uIKai6muwFIkJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No jaw or neck pain, just a headache.",
+    "step": 9,
+    "timestamp": 1773252668.1984088,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain duration and frequency?",
+    "step": 10,
+    "timestamp": 1773252669.2007887,
+    "metadata": {
+      "thought": "User reports headache, nausea, mouth pain, no jaw/neck.",
+      "done": false,
+      "tool_use_id": "tooluse_IUxfrDcv2pRqAKydVSokBo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been constant since the fight, hours now.",
+    "step": 10,
+    "timestamp": 1773252670.3716042,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers or relief?",
+    "step": 11,
+    "timestamp": 1773252671.342367,
+    "metadata": {
+      "thought": "User reports constant headache since fight.",
+      "done": false,
+      "tool_use_id": "tooluse_naWXMOWAmlaEpywQY1rFGx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I get angry easily; no relief yet...",
+    "step": 11,
+    "timestamp": 1773252672.5649211,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any allergies or past issues?",
+    "step": 12,
+    "timestamp": 1773252673.5679116,
+    "metadata": {
+      "thought": "User reports headache, no relief, anger triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_tyUgHmt2svXO3Z8NGfGZQV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies, just a cut from a fight.",
+    "step": 12,
+    "timestamp": 1773252674.8792284,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 13,
+    "timestamp": 1773252675.9741392,
+    "metadata": {
+      "thought": "User reports headache, no relief, no allergies, cut.",
+      "done": true,
+      "tool_use_id": "tooluse_Y70pdJaEP6PuiBHI5CyFJY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no other pain...",
+    "step": 13,
+    "timestamp": 1773252677.1862764,
+    "metadata": {}
+  }
+]

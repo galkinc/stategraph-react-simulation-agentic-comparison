@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066329.0686898,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "So, ma'am, what brings you in for a visit today?",
+    "step": 0,
+    "timestamp": 1773066329.068694,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sinus problems acting up today...",
+    "step": 0,
+    "timestamp": 1773066330.1418483,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain or pressure in sinuses?",
+    "step": 1,
+    "timestamp": 1773066331.3265908,
+    "metadata": {
+      "thought": "Need to gather more details about the sinus problems.",
+      "done": false,
+      "tool_use_id": "tooluse_HUovxkEpd5tYleAgvqeKAK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sinus pressure sometimes, but not always...",
+    "step": 1,
+    "timestamp": 1773066332.4741974,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nasal discharge or pain?",
+    "step": 2,
+    "timestamp": 1773066333.8474216,
+    "metadata": {
+      "thought": "Need to know if there's any pain or discharge.",
+      "done": false,
+      "tool_use_id": "tooluse_vwUv6DwKA8XpT6813B3bsU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nasal discharge, but some sinus pain...",
+    "step": 2,
+    "timestamp": 1773066334.8561506,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain constant or intermittent?",
+    "step": 3,
+    "timestamp": 1773066336.1972342,
+    "metadata": {
+      "thought": "Need to know if the pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_ZxreTWnMa7JRyRp3BbqjRi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mostly constant, especially with sinus issues...",
+    "step": 3,
+    "timestamp": 1773066337.3016207,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like cough?",
+    "step": 4,
+    "timestamp": 1773066338.6914873,
+    "metadata": {
+      "thought": "Need to know if there are other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_XcrKgHhtA3xHUCDVLQRrTE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, no cough, just the usual hay fever.",
+    "step": 4,
+    "timestamp": 1773066339.8029346,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066341.2617903,
+    "metadata": {
+      "thought": "Have enough information to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_t4ZosbY4s48JCW1d0xs6iN"
+    }
+  }
+]

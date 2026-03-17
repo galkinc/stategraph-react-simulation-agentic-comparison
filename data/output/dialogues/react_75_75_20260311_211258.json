@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252778.4535365,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been having this pain in your ear?",
+    "step": 0,
+    "timestamp": 1773252778.453542,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the ear pain duration.",
+    "step": 0,
+    "timestamp": 1773252779.6522877,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your ear pain start?",
+    "step": 1,
+    "timestamp": 1773252781.2278666,
+    "metadata": {
+      "thought": "Need to clarify ear pain duration",
+      "done": false,
+      "tool_use_id": "tooluse_oej9ofE2uy09DnIObKe7IU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about ear pain, I don't recall.",
+    "step": 1,
+    "timestamp": 1773252782.4411173,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you experienced any ear pain recently?",
+    "step": 2,
+    "timestamp": 1773252783.1104076,
+    "metadata": {
+      "thought": "Need to clarify if there's any ear pain",
+      "done": false,
+      "tool_use_id": "tooluse_19WpQbiiA0WO3RZjlsCheN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I haven't felt any ear pain lately.",
+    "step": 2,
+    "timestamp": 1773252784.3004527,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you're experiencing?",
+    "step": 3,
+    "timestamp": 1773252785.0791318,
+    "metadata": {
+      "thought": "No ear pain, need other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_gzw1KSYjiHVWc0HnnkTHw2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just itchy patches, nothing major else...",
+    "step": 3,
+    "timestamp": 1773252786.3337011,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where are the itchy patches located?",
+    "step": 4,
+    "timestamp": 1773252787.0449252,
+    "metadata": {
+      "thought": "Need to clarify itchy patches details",
+      "done": false,
+      "tool_use_id": "tooluse_6r263UXLXROTCArvRv7L3W"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Eczema patches mostly on my arms and legs.",
+    "step": 4,
+    "timestamp": 1773252788.2080064,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252788.988905,
+    "metadata": {
+      "thought": "Gathered enough information",
+      "done": true,
+      "tool_use_id": "tooluse_o9vFru9Tz6rePFS9F5stUr"
+    }
+  }
+]

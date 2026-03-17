@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773248366.8578777,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, I will ask you a few basic questions, okay?",
+    "step": 0,
+    "timestamp": 1773248366.8578832,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I drink a bit daily, but not heavily.",
+    "step": 0,
+    "timestamp": 1773248368.0947537,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you experience any hangover symptoms?",
+    "step": 1,
+    "timestamp": 1773248369.5441225,
+    "metadata": {
+      "thought": "User mentioned drinking daily but not heavily. This could relate to lifestyle habits.",
+      "done": false,
+      "tool_use_id": "tooluse_CIrDrP475DeqQ6e6n3K8jo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I rarely feel hangovers, just a bit of headache.",
+    "step": 1,
+    "timestamp": 1773248370.6933866,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the headaches start?",
+    "step": 2,
+    "timestamp": 1773248372.1374726,
+    "metadata": {
+      "thought": "User reports occasional headache after drinking. This could be a symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_VWan6Ar5ARrSig7ADqDwxv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when the headaches began.",
+    "step": 2,
+    "timestamp": 1773248373.2571008,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you get headaches?",
+    "step": 3,
+    "timestamp": 1773248374.6504908,
+    "metadata": {
+      "thought": "User is unsure when headaches started. Need to ask about frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_IXKo8T4Rv4Nm6a4mae4cnS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall having frequent headaches lately...",
+    "step": 3,
+    "timestamp": 1773248375.7830865,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you notice?",
+    "step": 4,
+    "timestamp": 1773248377.1833715,
+    "metadata": {
+      "thought": "User reports infrequent headaches recently. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ssFD3BWF49uO9Ei0fxkjT1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't notice other symptoms, just the drinks.",
+    "step": 4,
+    "timestamp": 1773248378.3100626,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you take regularly?",
+    "step": 5,
+    "timestamp": 1773248379.665747,
+    "metadata": {
+      "thought": "User reports no other symptoms besides occasional headaches linked to drinking.",
+      "done": false,
+      "tool_use_id": "tooluse_wq4gNoAbu9YhJDz2OIyzMz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No regular medications, just occasional drinks...",
+    "step": 5,
+    "timestamp": 1773248380.7449925,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does drinking affect your health?",
+    "step": 6,
+    "timestamp": 1773248382.2323573,
+    "metadata": {
+      "thought": "User takes no regular medications. Need to confirm if drinking affects health.",
+      "done": false,
+      "tool_use_id": "tooluse_D5ZSYb16pTWjFZ7nuI70vF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I drink occasionally; it doesn't seem to hurt me much.",
+    "step": 6,
+    "timestamp": 1773248383.3494802,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773248384.81363,
+    "metadata": {
+      "thought": "User drinks occasionally without significant health impact. Information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_UrCBQMReFXCHdtKuToQCbE"
+    }
+  }
+]

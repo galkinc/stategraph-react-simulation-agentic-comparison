@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252495.216821,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, sir. What brought you in today?",
+    "step": 0,
+    "timestamp": 1773252495.2168264,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for the swelling from a wasp sting.",
+    "step": 0,
+    "timestamp": 1773252496.4302943,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly is the swelling?",
+    "step": 1,
+    "timestamp": 1773252497.722655,
+    "metadata": {
+      "thought": "Need to confirm specific location of swelling",
+      "done": false,
+      "tool_use_id": "tooluse_guCCs0BRd0q1P2gCyaHfh8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling on my right hand and arm...",
+    "step": 1,
+    "timestamp": 1773252498.889464,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long has it been?",
+    "step": 2,
+    "timestamp": 1773252499.5951328,
+    "metadata": {
+      "thought": "Next step is to ask about duration",
+      "done": false,
+      "tool_use_id": "tooluse_5nc27HuLPn7whXpxBkNeKi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It’s been about 24 hours since the sting.",
+    "step": 2,
+    "timestamp": 1773252500.8684683,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 3,
+    "timestamp": 1773252501.7008924,
+    "metadata": {
+      "thought": "Next step is to ask about any medications taken",
+      "done": false,
+      "tool_use_id": "tooluse_2YXAcVIF3cVKxZUOHpX5QP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication taken, just swelling...",
+    "step": 3,
+    "timestamp": 1773252502.9066036,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773252503.7365842,
+    "metadata": {
+      "thought": "No further questions needed",
+      "done": true,
+      "tool_use_id": "tooluse_vtSval7OfFawe5lYkmwLU3"
+    }
+  }
+]

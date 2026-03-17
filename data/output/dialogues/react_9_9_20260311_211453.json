@@ -1,0 +1,241 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252893.6840246,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good afternoon, ma'am.",
+    "step": 0,
+    "timestamp": 1773252893.68403,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right foot hurts more than the left.",
+    "step": 0,
+    "timestamp": 1773252895.5904899,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain start?",
+    "step": 1,
+    "timestamp": 1773252897.061427,
+    "metadata": {
+      "thought": "Need to gather more details about the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_8o1VxnX0rzKGLEd4bwWCg6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started slowly, years after the surgery...",
+    "step": 1,
+    "timestamp": 1773252898.334787,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773252899.12158,
+    "metadata": {
+      "thought": "Need to know if the pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_JRMYm7lCqamoVhhrjkKNaV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Intermittent, but it hurts a lot when it comes back.",
+    "step": 2,
+    "timestamp": 1773252900.3203611,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling, redness, or warmth?",
+    "step": 3,
+    "timestamp": 1773252901.1324162,
+    "metadata": {
+      "thought": "Need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_XeB8k5cfIy138CrwzcBHFI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling, redness, or warmth on my feet.",
+    "step": 3,
+    "timestamp": 1773252902.3610752,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does it affect your daily activities?",
+    "step": 4,
+    "timestamp": 1773252903.1169727,
+    "metadata": {
+      "thought": "Need to know if the pain affects daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_DVgfz0znGhXJqrgtvY5Ar5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right foot pain makes walking hard, affects daily life.",
+    "step": 4,
+    "timestamp": 1773252904.3407345,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Related to any specific activity?",
+    "step": 5,
+    "timestamp": 1773252905.1508749,
+    "metadata": {
+      "thought": "Need to know if the pain is related to any specific activity.",
+      "done": false,
+      "tool_use_id": "tooluse_eN9lpIcKd5JMCI4Kk9D3Yy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Walking makes my right foot hurt the most.",
+    "step": 5,
+    "timestamp": 1773252906.3487391,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 6,
+    "timestamp": 1773252907.2091753,
+    "metadata": {
+      "thought": "Need to know if the patient uses any medications.",
+      "done": false,
+      "tool_use_id": "tooluse_pscPR1CQ1Wys5vRzPGhT7k"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about my current medications...",
+    "step": 6,
+    "timestamp": 1773252908.386692,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any past foot surgeries?",
+    "step": 7,
+    "timestamp": 1773252909.2227888,
+    "metadata": {
+      "thought": "No current medications provided. Need to ask about past surgeries.",
+      "done": false,
+      "tool_use_id": "tooluse_fhWTDrXEdn7gIj9BLKk4eg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I had bunion surgery thirteen years ago.",
+    "step": 7,
+    "timestamp": 1773252910.4432228,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773252911.191352,
+    "metadata": {
+      "thought": "Surgery history provided. Enough information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_XvgBHwRwfdr4WwYb8absDl"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252912.046231,
+    "metadata": {
+      "thought": "No current medications provided. Need to ask about past surgeries.",
+      "done": true,
+      "tool_use_id": "tooluse_lrq4BxWgWgKEQ5U61pgviF"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773252913.50983,
+    "metadata": {
+      "thought": "Surgery history provided. Enough information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_2xpPcayQ3TJImW9Oqy8Yuo"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252914.3967865,
+    "metadata": {
+      "thought": "No current medications provided. Need to ask about past surgeries.",
+      "done": true,
+      "tool_use_id": "tooluse_nQb0UcJqJFLfssiYIBielH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773252915.2174406,
+    "metadata": {
+      "thought": "Surgery history provided. Enough information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_DngQYPS8G5ZY70RQmKKKey"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773252916.2524805,
+    "metadata": {
+      "thought": "No current medications provided. Need to ask about past surgeries.",
+      "done": true,
+      "tool_use_id": "tooluse_YGDKVU4glKRXGbcwmml4Hm"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773252917.1421273,
+    "metadata": {
+      "thought": "Surgery history provided. Enough information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_lQ8vuUI69kPCJQw4ve2EtA"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773252918.0216963,
+    "metadata": {
+      "thought": "No current medications provided. Need to ask about past surgeries.",
+      "done": true,
+      "tool_use_id": "tooluse_oze85xVzv2DNm0DLJIYnt7"
+    }
+  }
+]

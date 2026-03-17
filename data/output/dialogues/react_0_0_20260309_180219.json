@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068539.7710285,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did your pain begin?",
+    "step": 0,
+    "timestamp": 1773068539.7710383,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started eight years ago after a fall.",
+    "step": 0,
+    "timestamp": 1773068540.980796,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain location?",
+    "step": 1,
+    "timestamp": 1773068542.4754288,
+    "metadata": {
+      "thought": "User reported pain onset after a fall eight years ago.",
+      "done": false,
+      "tool_use_id": "tooluse_8Nme7d3dTxkQmtUtaz3z1G"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mostly lower back, sometimes up to the middle.",
+    "step": 1,
+    "timestamp": 1773068543.581404,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain intensity level?",
+    "step": 2,
+    "timestamp": 1773068544.3911319,
+    "metadata": {
+      "thought": "User reported lower back pain, sometimes in the middle.",
+      "done": false,
+      "tool_use_id": "tooluse_2WzWaXcyaT4OqsGGmdY9wy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been moderate, sometimes worse after standing too long.",
+    "step": 2,
+    "timestamp": 1773068545.5091908,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain relief methods?",
+    "step": 3,
+    "timestamp": 1773068546.3734875,
+    "metadata": {
+      "thought": "User described pain worsening after standing.",
+      "done": false,
+      "tool_use_id": "tooluse_ROCP0MeMGNBTQ3zUxlZAUY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use heat pads and sometimes over-the-counter meds.",
+    "step": 3,
+    "timestamp": 1773068547.4747264,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any side effects?",
+    "step": 4,
+    "timestamp": 1773068548.369469,
+    "metadata": {
+      "thought": "User uses heat pads and OTC meds for pain relief.",
+      "done": false,
+      "tool_use_id": "tooluse_dCtOsUXNwSq35Zc1YmI23N"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No side effects from pain medication, but I'm not sure.",
+    "step": 4,
+    "timestamp": 1773068549.439168,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 5,
+    "timestamp": 1773068550.3135817,
+    "metadata": {
+      "thought": "User unsure about side effects from medication.",
+      "done": false,
+      "tool_use_id": "tooluse_WW3THVREibIquTPAKJHbxV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no other major symptoms.",
+    "step": 5,
+    "timestamp": 1773068551.3988664,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773068552.1641881,
+    "metadata": {
+      "thought": "User reports no other major symptoms.",
+      "done": true,
+      "tool_use_id": "tooluse_xZZTKxaha2PeVoWrR7Ut49"
+    }
+  }
+]

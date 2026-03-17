@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246875.7476645,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How many days has it been since your headaches started?",
+    "step": 0,
+    "timestamp": 1773246875.7476702,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About two days, dizziness too...",
+    "step": 0,
+    "timestamp": 1773246876.8802655,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are headaches and dizziness ongoing?",
+    "step": 1,
+    "timestamp": 1773246878.3739283,
+    "metadata": {
+      "thought": "Need to confirm if symptoms are ongoing or resolved.",
+      "done": false,
+      "tool_use_id": "tooluse_uvEZ30fw0Jn2DUjY6vlr4N"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, headaches and dizziness have been ongoing...",
+    "step": 1,
+    "timestamp": 1773246879.5260413,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 2,
+    "timestamp": 1773246880.4156404,
+    "metadata": {
+      "thought": "Need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_budcqsOdzs063BjNPiHHz6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just dizziness and headaches...",
+    "step": 2,
+    "timestamp": 1773246881.5665588,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 3,
+    "timestamp": 1773246882.3911474,
+    "metadata": {
+      "thought": "Need to ask about any medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_NNXl1zIjaKtcdqXL3M77IC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just over-the-counter pain relief...",
+    "step": 3,
+    "timestamp": 1773246883.4985688,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773246884.3776972,
+    "metadata": {
+      "thought": "Have enough information to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_FgkgTKBb507RLN3AurBE4i"
+    }
+  }
+]

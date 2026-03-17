@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066579.5526114,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I hear someone just had a birthday! How young are you now, ma'am?",
+    "step": 0,
+    "timestamp": 1773066579.5526152,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just turned fifty-eight, doctor...",
+    "step": 0,
+    "timestamp": 1773066580.5972939,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773066582.0318975,
+    "metadata": {
+      "thought": "Need to gather more specific symptom details for a comprehensive diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_hf8kqjkmSVJilnqorGCqMI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain and swelling in my knee's outside...",
+    "step": 1,
+    "timestamp": 1773066583.1865418,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Duration of knee pain and swelling?",
+    "step": 2,
+    "timestamp": 1773066584.5523756,
+    "metadata": {
+      "thought": "Identified specific symptom: knee pain and swelling.",
+      "done": false,
+      "tool_use_id": "tooluse_2wW29WkGMpQglDkZkfkcuL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Knee pain's been around for years, not sure of exact timing.",
+    "step": 2,
+    "timestamp": 1773066585.7307503,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries to the knee?",
+    "step": 3,
+    "timestamp": 1773066587.1852055,
+    "metadata": {
+      "thought": "Need to gather more details about knee pain history.",
+      "done": false,
+      "tool_use_id": "tooluse_AJ7jCHMcbeYT9LRZm8irG0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries to the knee...",
+    "step": 3,
+    "timestamp": 1773066588.2212362,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 4,
+    "timestamp": 1773066589.646545,
+    "metadata": {
+      "thought": "No recent injuries, need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_pfcUohrck3DyUg6do9Q7bb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just over-the-counter creams...",
+    "step": 4,
+    "timestamp": 1773066590.6860971,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066592.152524,
+    "metadata": {
+      "thought": "Gathered all necessary symptom details.",
+      "done": true,
+      "tool_use_id": "tooluse_jkzVPJeuwktL8OX0Wb0KDn"
+    }
+  }
+]

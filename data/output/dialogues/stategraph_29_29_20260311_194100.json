@@ -1,0 +1,218 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247260.0255458,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi, there. How are you doing?",
+    "step": 0,
+    "timestamp": 1773247260.0255494,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lately, my body feels off, and I'm not sure why.",
+    "step": 0,
+    "timestamp": 1773247261.1569023,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain or discomfort?",
+    "step": 1,
+    "timestamp": 1773247262.5019593,
+    "metadata": {
+      "thought": "Need to identify specific symptoms to understand the user's condition.",
+      "done": false,
+      "tool_use_id": "tooluse_SkM2oV4lmXdG8J2JKdvqCE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some headaches lately, not sure why.",
+    "step": 1,
+    "timestamp": 1773247263.6747622,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the headaches start?",
+    "step": 2,
+    "timestamp": 1773247265.1398482,
+    "metadata": {
+      "thought": "Headaches are a symptom that needs further exploration.",
+      "done": false,
+      "tool_use_id": "tooluse_Jund3dE9Zvls4y52XgBfqI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when the headaches began.",
+    "step": 2,
+    "timestamp": 1773247266.2018085,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, dizziness, or fatigue?",
+    "step": 3,
+    "timestamp": 1773247267.6738613,
+    "metadata": {
+      "thought": "Need to ask about other symptoms or triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_UghiXVQLBnNrqVN5B1wzjo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes dizzy, but no nausea or fatigue...",
+    "step": 3,
+    "timestamp": 1773247268.7825608,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in vision or hearing?",
+    "step": 4,
+    "timestamp": 1773247270.1969194,
+    "metadata": {
+      "thought": "Dizziness is another symptom that needs to be documented.",
+      "done": false,
+      "tool_use_id": "tooluse_oTiFbdLfYgCJ61Xo8xRiVj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in vision or hearing, everything seems normal.",
+    "step": 4,
+    "timestamp": 1773247271.315067,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent stress or sleep changes?",
+    "step": 5,
+    "timestamp": 1773247272.794808,
+    "metadata": {
+      "thought": "No changes in vision or hearing are good signs.",
+      "done": false,
+      "tool_use_id": "tooluse_gEBZLJzt3DlxOF21cYUbYl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent stress, but my sleep's been off lately.",
+    "step": 5,
+    "timestamp": 1773247273.9286318,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any trouble falling or staying asleep?",
+    "step": 6,
+    "timestamp": 1773247275.4360306,
+    "metadata": {
+      "thought": "Sleep issues can contribute to headaches and dizziness.",
+      "done": false,
+      "tool_use_id": "tooluse_CdZvrre3SR7qks463Spape"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some trouble sleeping lately...",
+    "step": 6,
+    "timestamp": 1773247276.517877,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use recently?",
+    "step": 7,
+    "timestamp": 1773247278.0740016,
+    "metadata": {
+      "thought": "Trouble sleeping is a significant factor.",
+      "done": false,
+      "tool_use_id": "tooluse_L6jhGx7Gw1Pc3b4VYxy7fx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent medication use, just vitamins...",
+    "step": 7,
+    "timestamp": 1773247279.1339548,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or concerns?",
+    "step": 8,
+    "timestamp": 1773247280.6597242,
+    "metadata": {
+      "thought": "No new medications, vitamins are generally safe.",
+      "done": false,
+      "tool_use_id": "tooluse_sZXlc8Xn89N7yzMSoCBXtP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel dizzy sometimes.",
+    "step": 8,
+    "timestamp": 1773247281.8070922,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you feel most dizzy?",
+    "step": 9,
+    "timestamp": 1773247283.3153973,
+    "metadata": {
+      "thought": "Dizziness is a recurring symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_bQiaiGHucaQek6aWc9YC6m"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but mostly after meals...",
+    "step": 9,
+    "timestamp": 1773247284.4639776,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms after eating?",
+    "step": 10,
+    "timestamp": 1773247286.0286632,
+    "metadata": {
+      "thought": "Dizziness post-meals could indicate a different issue.",
+      "done": false,
+      "tool_use_id": "tooluse_wGugGtynT4ZhLmCwtZ0yi8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any specific symptoms after eating.",
+    "step": 10,
+    "timestamp": 1773247287.050757,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other concerns or questions?",
+    "step": 11,
+    "timestamp": 1773247288.5458808,
+    "metadata": {
+      "thought": "No specific post-meal symptoms noted.",
+      "done": true,
+      "tool_use_id": "tooluse_Z9DHswm9CsnoBGW9yMPJRK"
+    }
+  }
+]

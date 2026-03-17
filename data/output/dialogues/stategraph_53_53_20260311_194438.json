@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247478.236939,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you Miss G?",
+    "step": 0,
+    "timestamp": 1773247478.2369423,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still dealing with ear pain and sinus pressure.",
+    "step": 0,
+    "timestamp": 1773247479.407289,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Ear pain, sharp or dull?",
+    "step": 1,
+    "timestamp": 1773247480.8454206,
+    "metadata": {
+      "thought": "Ask about pain specifics to gather more symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_H0w9wvIMFIGi1bnIzQE1vc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's more of a dull ache, mostly on the left side.",
+    "step": 1,
+    "timestamp": 1773247481.931779,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had this pain?",
+    "step": 2,
+    "timestamp": 1773247483.5793052,
+    "metadata": {
+      "thought": "Need to ask about duration and any treatments tried.",
+      "done": false,
+      "tool_use_id": "tooluse_Ckac8UgSycivC20wsuuLsW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Almost three weeks of left-sided sinus pressure...",
+    "step": 2,
+    "timestamp": 1773247484.6520767,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 3,
+    "timestamp": 1773247486.0825198,
+    "metadata": {
+      "thought": "Ask if any treatments have been tried.",
+      "done": false,
+      "tool_use_id": "tooluse_1lyzvV6FIskx1zyLodBm95"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I tried some over-the-counter pain relievers...",
+    "step": 3,
+    "timestamp": 1773247487.2225268,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Which pain relievers?",
+    "step": 4,
+    "timestamp": 1773247488.620189,
+    "metadata": {
+      "thought": "Need to ask about medication specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_oZFNnxerscBnIEEHLL40Pj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific pain relievers I've tried.",
+    "step": 4,
+    "timestamp": 1773247489.736546,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Other symptoms?",
+    "step": 5,
+    "timestamp": 1773247491.0951042,
+    "metadata": {
+      "thought": "Ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_NFOTLl4y6NXXSRPnMx1vEG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Chronic left-sided headache and sinus pressure...",
+    "step": 5,
+    "timestamp": 1773247492.2138047,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247493.765978,
+    "metadata": {
+      "thought": "Gathering enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_NmqP8GDKyLwwtO0YUD0vxA"
+    }
+  }
+]

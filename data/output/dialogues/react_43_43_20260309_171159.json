@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065519.7448685,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, sir. What brought you in today?",
+    "step": 0,
+    "timestamp": 1773065519.7448745,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling from a Yellow Jacket wasp sting...",
+    "step": 0,
+    "timestamp": 1773065520.9723196,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is swelling localized or widespread?",
+    "step": 1,
+    "timestamp": 1773065522.3110478,
+    "metadata": {
+      "thought": "Need to confirm if swelling is localized or widespread, and if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_wz8uoV5h6aGM4OVQ6KsMij"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling mostly in the stung areas, not widespread.",
+    "step": 1,
+    "timestamp": 1773065523.4685693,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain, redness, or itching?",
+    "step": 2,
+    "timestamp": 1773065524.2292829,
+    "metadata": {
+      "thought": "Next, I need to ask about other symptoms like pain, redness, or itching.",
+      "done": false,
+      "tool_use_id": "tooluse_VlO2hcxp5ixKJKIJ6SSEua"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just some itching, not much redness.",
+    "step": 2,
+    "timestamp": 1773065525.2759042,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did swelling start?",
+    "step": 3,
+    "timestamp": 1773065526.0400438,
+    "metadata": {
+      "thought": "Now, I need to know when the swelling started and how long it's lasted.",
+      "done": false,
+      "tool_use_id": "tooluse_kcrTYNXmEjkbJE6wn3aMPB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling began right after the wasp sting yesterday.",
+    "step": 3,
+    "timestamp": 1773065527.279487,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 4,
+    "timestamp": 1773065528.1453712,
+    "metadata": {
+      "thought": "Lastly, I need to ask if the user is taking any medications.",
+      "done": false,
+      "tool_use_id": "tooluse_Oel1W492v3EVkXiCvDdlj5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication, just ice on the stings...",
+    "step": 4,
+    "timestamp": 1773065529.238353,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773065530.099804,
+    "metadata": {
+      "thought": "Conversation complete, have enough information for symptom elicitation.",
+      "done": true,
+      "tool_use_id": "tooluse_wmHVdlRo0b4jMbZXvwXjlw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 5,
+    "timestamp": 1773065530.0998333,
+    "metadata": {}
+  }
+]

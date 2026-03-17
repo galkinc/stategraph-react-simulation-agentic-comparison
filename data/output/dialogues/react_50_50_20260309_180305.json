@@ -1,0 +1,297 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068585.6408212,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Okay, so let's go over the plan again. I'd like you to apply Acticoat dressing daily and make sure you're spending at least eight hours out of the chair for pressure relief. Any questions?",
+    "step": 0,
+    "timestamp": 1773068585.6408327,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about Acticoat, but I'll try to follow the plan.",
+    "step": 0,
+    "timestamp": 1773068586.9380949,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What do you know about Acticoat dressing?",
+    "step": 1,
+    "timestamp": 1773068588.3571374,
+    "metadata": {
+      "thought": "Need to confirm understanding of Acticoat dressing and its application",
+      "done": false,
+      "tool_use_id": "tooluse_hnGTWCSIIpmPx7iwNhEoET"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've heard of it but never used it myself.",
+    "step": 1,
+    "timestamp": 1773068589.4859157,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you used any other dressings?",
+    "step": 2,
+    "timestamp": 1773068590.182513,
+    "metadata": {
+      "thought": "Need to explain Acticoat dressing and its benefits",
+      "done": false,
+      "tool_use_id": "tooluse_CxxN1cAdLJZcM2FZO0JWnY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've only used gauze for my wounds before.",
+    "step": 2,
+    "timestamp": 1773068591.2922902,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What are your wound care preferences?",
+    "step": 3,
+    "timestamp": 1773068592.0503542,
+    "metadata": {
+      "thought": "Need to provide information about Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_TVK84i65kgmY0VDKKD4TVp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I prefer simple, clean dressing changes...",
+    "step": 3,
+    "timestamp": 1773068593.2054045,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you open to trying new methods?",
+    "step": 4,
+    "timestamp": 1773068593.9569018,
+    "metadata": {
+      "thought": "Explain Acticoat dressing benefits",
+      "done": false,
+      "tool_use_id": "tooluse_NsxfwUQ11cyl54WqtquYaR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm open to trying new methods, if safe.",
+    "step": 4,
+    "timestamp": 1773068595.0144613,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any allergies?",
+    "step": 5,
+    "timestamp": 1773068595.7860737,
+    "metadata": {
+      "thought": "Provide detailed information about Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_wkTIcgUJDnOwrqzSDPZuCd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies, but I'm not sure about reactions to medications.",
+    "step": 5,
+    "timestamp": 1773068596.9039092,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any previous reactions to dressings?",
+    "step": 6,
+    "timestamp": 1773068597.8023784,
+    "metadata": {
+      "thought": "Need to confirm safety of Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_I8uBOLbJ9Qvz4riNdJmSMM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No previous reactions to dressings, I'm fine...",
+    "step": 6,
+    "timestamp": 1773068598.8738472,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Would you like to learn more about Acticoat?",
+    "step": 7,
+    "timestamp": 1773068599.7499573,
+    "metadata": {
+      "thought": "Acticoat dressing is safe and effective",
+      "done": false,
+      "tool_use_id": "tooluse_wtOeQqG3IdzfKxOeaYWnve"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what Acticoat is. Can you explain?",
+    "step": 7,
+    "timestamp": 1773068600.8316982,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any questions about Acticoat?",
+    "step": 8,
+    "timestamp": 1773068601.6982405,
+    "metadata": {
+      "thought": "Explain Acticoat dressing in simple terms",
+      "done": false,
+      "tool_use_id": "tooluse_upvkfvVpxbx2Yr4XttxjQe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall details about Acticoat. What is it?",
+    "step": 8,
+    "timestamp": 1773068602.8207417,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you comfortable with trying new wound care methods?",
+    "step": 9,
+    "timestamp": 1773068603.7567394,
+    "metadata": {
+      "thought": "Provide a detailed explanation of Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_OvSOtYudn0ISKSoD1m9N7J"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm open to trying new wound care methods.",
+    "step": 9,
+    "timestamp": 1773068604.8638542,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Would you like to try Acticoat?",
+    "step": 10,
+    "timestamp": 1773068605.8412945,
+    "metadata": {
+      "thought": "Acticoat dressing is a safe, effective option",
+      "done": false,
+      "tool_use_id": "tooluse_4A4844pGsAV1kAtQhDoxXl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about Acticoat, what is it?",
+    "step": 10,
+    "timestamp": 1773068606.911812,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any questions about Acticoat?",
+    "step": 11,
+    "timestamp": 1773068607.7751217,
+    "metadata": {
+      "thought": "Explain Acticoat dressing in simple terms",
+      "done": false,
+      "tool_use_id": "tooluse_MlfNCo0Dnq3Vpv6nzThNHw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what Acticoat is. Can you explain?",
+    "step": 11,
+    "timestamp": 1773068608.9020176,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Would you like to learn more about Acticoat?",
+    "step": 12,
+    "timestamp": 1773068609.8956327,
+    "metadata": {
+      "thought": "Provide a detailed explanation of Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_jLJKjdvUY34jMVU8qJqvMT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what Acticoat is. Can you explain?",
+    "step": 12,
+    "timestamp": 1773068611.0028782,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any questions about Acticoat?",
+    "step": 13,
+    "timestamp": 1773068611.966165,
+    "metadata": {
+      "thought": "Explain Acticoat dressing in simple terms",
+      "done": false,
+      "tool_use_id": "tooluse_R3J2ePPZjbtAqLEHNlHbVP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't know much about Acticoat, though...",
+    "step": 13,
+    "timestamp": 1773068613.050771,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Would you like to try Acticoat?",
+    "step": 14,
+    "timestamp": 1773068614.0947149,
+    "metadata": {
+      "thought": "Provide a detailed explanation of Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_Ddi2jG5bNaiV7qQl04Z2bz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about Acticoat; what is it?",
+    "step": 14,
+    "timestamp": 1773068615.1760473,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any questions about Acticoat?",
+    "step": 15,
+    "timestamp": 1773068616.2030048,
+    "metadata": {
+      "thought": "Explain Acticoat dressing in simple terms",
+      "done": false,
+      "tool_use_id": "tooluse_9zMIthZvw5yWNXmBsm9Rhv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what Acticoat is. Can you explain?",
+    "step": 15,
+    "timestamp": 1773068617.3250513,
+    "metadata": {}
+  }
+]

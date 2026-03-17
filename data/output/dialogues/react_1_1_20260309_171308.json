@@ -1,0 +1,135 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065588.1544847,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hey, bud. What brings you in today?",
+    "step": 0,
+    "timestamp": 1773065588.1544907,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash on my arms and torso, been bothering me.",
+    "step": 0,
+    "timestamp": 1773065589.2319412,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did rash first appear?",
+    "step": 1,
+    "timestamp": 1773065590.6172855,
+    "metadata": {
+      "thought": "Need to gather more details about the rash.",
+      "done": false,
+      "tool_use_id": "tooluse_dkjpgl1lxO6EdgdgWxdojM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash started about a day or two ago.",
+    "step": 1,
+    "timestamp": 1773065591.6453555,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Rash color, shape, texture?",
+    "step": 2,
+    "timestamp": 1773065592.4599147,
+    "metadata": {
+      "thought": "Next, ask about rash characteristics.",
+      "done": false,
+      "tool_use_id": "tooluse_dT7RPchRddNWtnChEmL3TL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Red, circular, slightly itchy, no bumps...",
+    "step": 2,
+    "timestamp": 1773065593.595882,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Rash spreading or changing?",
+    "step": 3,
+    "timestamp": 1773065594.3996015,
+    "metadata": {
+      "thought": "Need to ask if rash spreading or changing.",
+      "done": false,
+      "tool_use_id": "tooluse_TQb7KnoKLOlq4RfjwJQNuR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash feels the same, no spreading...",
+    "step": 3,
+    "timestamp": 1773065595.5369995,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new soaps, lotions, plants?",
+    "step": 4,
+    "timestamp": 1773065596.331453,
+    "metadata": {
+      "thought": "Ask about recent activities or exposures.",
+      "done": false,
+      "tool_use_id": "tooluse_8bGPvWrYV53fItRHScmg9d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new soaps or lotions recently...",
+    "step": 4,
+    "timestamp": 1773065597.387122,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Fever, headache, fatigue?",
+    "step": 5,
+    "timestamp": 1773065598.2156403,
+    "metadata": {
+      "thought": "Check for fever or other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_h0EGsUtl9kT104DfhlZ233"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever, headache, or fatigue...",
+    "step": 5,
+    "timestamp": 1773065599.257374,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773065600.1123815,
+    "metadata": {
+      "thought": "Gathering enough info, marking as done.",
+      "done": true,
+      "tool_use_id": "tooluse_QL3Brnm98imDdEd8qsdIOD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 6,
+    "timestamp": 1773065600.112407,
+    "metadata": {}
+  }
+]

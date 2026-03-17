@@ -1,0 +1,135 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252539.4620423,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Okay, so let's go over the plan again. I'd like you to apply Acticoat dressing daily and make sure you're spending at least eight hours out of the chair for pressure relief. Any questions?",
+    "step": 0,
+    "timestamp": 1773252539.462049,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about Acticoat, but I'll try to follow the plan.",
+    "step": 0,
+    "timestamp": 1773252540.689036,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What do you know about Acticoat dressing?",
+    "step": 1,
+    "timestamp": 1773252542.3294024,
+    "metadata": {
+      "thought": "The user is unsure about Acticoat dressing, so I need to provide more information about it.",
+      "done": false,
+      "tool_use_id": "tooluse_8k0M6dM0QNvfGpsvc2jYik"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've heard of it but don't know much about it.",
+    "step": 1,
+    "timestamp": 1773252543.50757,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What are the benefits of Acticoat dressing?",
+    "step": 2,
+    "timestamp": 1773252544.483655,
+    "metadata": {
+      "thought": "The user has some basic knowledge about Acticoat dressing. I need to provide more details about its benefits and usage.",
+      "done": false,
+      "tool_use_id": "tooluse_fSxVbInd4Te562zcTfAsOR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about Acticoat dressing benefits...",
+    "step": 2,
+    "timestamp": 1773252545.7144704,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Acticoat helps with wound healing and infection prevention.",
+    "step": 3,
+    "timestamp": 1773252546.5470135,
+    "metadata": {
+      "thought": "The user is still unsure about Acticoat dressing benefits. I need to explain its benefits in simple terms.",
+      "done": false,
+      "tool_use_id": "tooluse_nUdZrVYVX6VEF4bdP4g53q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure how Acticoat works, but I'll follow instructions.",
+    "step": 3,
+    "timestamp": 1773252547.7246253,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Acticoat has silver ions that kill bacteria.",
+    "step": 4,
+    "timestamp": 1773252548.6986196,
+    "metadata": {
+      "thought": "The user is willing to follow instructions but still needs more information. I need to explain how Acticoat works.",
+      "done": false,
+      "tool_use_id": "tooluse_EvlSEcKoeoC4AWr4nhGxW9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I heard about Acticoat; it's good for wounds.",
+    "step": 4,
+    "timestamp": 1773252549.975447,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other questions?",
+    "step": 5,
+    "timestamp": 1773252550.867509,
+    "metadata": {
+      "thought": "The user now understands Acticoat's benefits. I need to confirm if they have any other questions.",
+      "done": false,
+      "tool_use_id": "tooluse_z3CMJwrO8efGL4vPgwnZrs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No questions now, just follow the plan...",
+    "step": 5,
+    "timestamp": 1773252552.0429766,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Will you follow the plan?",
+    "step": 6,
+    "timestamp": 1773252552.8915415,
+    "metadata": {
+      "thought": "The user has no more questions and is ready to follow the plan. I need to confirm the plan details.",
+      "done": true,
+      "tool_use_id": "tooluse_pz7LojfObLLvsuyyl2c9P9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'll do my best to follow the plan.",
+    "step": 6,
+    "timestamp": 1773252554.0810332,
+    "metadata": {}
+  }
+]

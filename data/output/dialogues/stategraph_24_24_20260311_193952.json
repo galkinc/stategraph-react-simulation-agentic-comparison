@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247192.8515506,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, ma'am. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773247192.8515549,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right hand still hurts, but I'm managing...",
+    "step": 0,
+    "timestamp": 1773247194.1488416,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly does the pain occur?",
+    "step": 1,
+    "timestamp": 1773247195.566202,
+    "metadata": {
+      "thought": "Ask about pain specifics to identify potential medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_YJHAAxczVjyvjymWhX3xUJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain mainly in my right thumb and sometimes wrist.",
+    "step": 1,
+    "timestamp": 1773247196.6762764,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain sharp, dull, or throbbing?",
+    "step": 2,
+    "timestamp": 1773247198.1681015,
+    "metadata": {
+      "thought": "Need to know pain characteristics for better diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_aqZLFvdPCiZPQOqTN3ghZA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The pain is mostly dull, sometimes sharp...",
+    "step": 2,
+    "timestamp": 1773247199.355221,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 3,
+    "timestamp": 1773247200.8582354,
+    "metadata": {
+      "thought": "Determine if pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_OV9hH1cvY3zGodsFR4qOzN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The pain is mostly intermittent, though...",
+    "step": 3,
+    "timestamp": 1773247202.1086428,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injury or heavy lifting?",
+    "step": 4,
+    "timestamp": 1773247203.6114285,
+    "metadata": {
+      "thought": "Ask about any recent activities or injuries.",
+      "done": false,
+      "tool_use_id": "tooluse_EvNjqgggWzMlaX6i7XQGQe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injury, just normal use...",
+    "step": 4,
+    "timestamp": 1773247204.8021443,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does it affect your daily tasks?",
+    "step": 5,
+    "timestamp": 1773247206.343742,
+    "metadata": {
+      "thought": "Need to know if pain affects daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_ivVWiRicHPQt0Rj7370Zsa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right hand pain affects my daily tasks.",
+    "step": 5,
+    "timestamp": 1773247207.4647698,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medication?",
+    "step": 6,
+    "timestamp": 1773247209.043133,
+    "metadata": {
+      "thought": "Determine if any medications are being used.",
+      "done": false,
+      "tool_use_id": "tooluse_UhCAJPTGsO69IulC6QzeIU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about any medication I'm taking.",
+    "step": 6,
+    "timestamp": 1773247210.2098124,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain start?",
+    "step": 7,
+    "timestamp": 1773247211.6249166,
+    "metadata": {
+      "thought": "Need to know the onset and duration of the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_87JZeDx7GwSq2z069Slo5T"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started last week, after heavy lifting...",
+    "step": 7,
+    "timestamp": 1773247212.754304,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773247214.2136314,
+    "metadata": {
+      "thought": "Gathered enough information for preliminary assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_0yxxJH2qnQ0M2OZlmCplIj"
+    }
+  }
+]

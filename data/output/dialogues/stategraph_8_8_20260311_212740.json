@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253660.1745548,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit your I V and inhalation drugs Mister X Y Z?",
+    "step": 0,
+    "timestamp": 1773253660.1745586,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; I'll ask my doctor about that.",
+    "step": 0,
+    "timestamp": 1773253661.4481215,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What IV and inhalation drugs are you currently taking?",
+    "step": 1,
+    "timestamp": 1773253663.239799,
+    "metadata": {
+      "thought": "User is unsure about quitting IV and inhalation drugs, so I will ask for more details on the current medications.",
+      "done": false,
+      "tool_use_id": "tooluse_8PkQHa5AiWVNtg56q3N43k"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about specific drugs; I'll ask my nurse.",
+    "step": 1,
+    "timestamp": 1773253664.5679913,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What treatments are you currently receiving?",
+    "step": 2,
+    "timestamp": 1773253666.0281205,
+    "metadata": {
+      "thought": "User is still unsure about specific drugs, so I will ask for general information about the treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_Uvjqq2nhejWHQOIRUqobtr"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm on medication and have weekly therapy sessions.",
+    "step": 2,
+    "timestamp": 1773253667.2333198,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What medication and therapy do you receive weekly?",
+    "step": 3,
+    "timestamp": 1773253668.8228693,
+    "metadata": {
+      "thought": "User mentioned medication and therapy, but specifics are still unclear. I will ask for details on the medication and therapy.",
+      "done": false,
+      "tool_use_id": "tooluse_1DZIJ9OsQqJrS0EYZw93qp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm on antidepressants and weekly counseling sessions...",
+    "step": 3,
+    "timestamp": 1773253670.0771065,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253671.6420171,
+    "metadata": {
+      "thought": "User provided details on medication and therapy. I will extract the entities.",
+      "done": true,
+      "tool_use_id": "tooluse_h3HiXj8I4eUs2QYV4yGWVK"
+    }
+  }
+]

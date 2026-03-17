@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065566.0197883,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you today?",
+    "step": 0,
+    "timestamp": 1773065566.0197968,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still dealing with daily headaches, though...",
+    "step": 0,
+    "timestamp": 1773065567.1791651,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did headaches start?",
+    "step": 1,
+    "timestamp": 1773065568.4379072,
+    "metadata": {
+      "thought": "Ask about headache specifics to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_XcV9tdw8MPpp1muafupgFF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Headaches began six months ago, daily since then.",
+    "step": 1,
+    "timestamp": 1773065569.6105635,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are headaches throbbing or dull?",
+    "step": 2,
+    "timestamp": 1773065570.2626152,
+    "metadata": {
+      "thought": "Need to know headache characteristics.",
+      "done": false,
+      "tool_use_id": "tooluse_c9CcgIE84SMaIVjZ4wsseq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Throbbing, mostly, but sometimes they feel dull...",
+    "step": 2,
+    "timestamp": 1773065571.5022538,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers for headaches?",
+    "step": 3,
+    "timestamp": 1773065572.2363799,
+    "metadata": {
+      "thought": "Ask about headache triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_IPaUPWshFXIEX1e8WLsm6L"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but stress might be a factor.",
+    "step": 3,
+    "timestamp": 1773065573.3264728,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken for headaches?",
+    "step": 4,
+    "timestamp": 1773065574.1284523,
+    "metadata": {
+      "thought": "Need to know if any medications are used.",
+      "done": false,
+      "tool_use_id": "tooluse_WBcrszOFPl2UPMrZXmlGdF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I take ibuprofen for headaches, but it helps only a bit.",
+    "step": 4,
+    "timestamp": 1773065575.2656393,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773065575.960285,
+    "metadata": {
+      "thought": "Gathering enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_sJz5BLjYQPXGTrJCNwak2l"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 5,
+    "timestamp": 1773065575.9603488,
+    "metadata": {}
+  }
+]

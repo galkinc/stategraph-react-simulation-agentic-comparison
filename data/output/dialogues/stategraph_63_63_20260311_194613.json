@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247573.0654163,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How is everything else?",
+    "step": 0,
+    "timestamp": 1773247573.065422,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shoulder's still bothering me; otherwise, okay...",
+    "step": 0,
+    "timestamp": 1773247574.1698856,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling, numbness, or weakness in shoulder?",
+    "step": 1,
+    "timestamp": 1773247575.6166942,
+    "metadata": {
+      "thought": "Need to identify specific symptoms related to shoulder pain.",
+      "done": false,
+      "tool_use_id": "tooluse_wDM54NqoXTscUIZ4FDx77X"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling, but some numbness and weakness...",
+    "step": 1,
+    "timestamp": 1773247577.2028234,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain level on a scale from 1 to 10?",
+    "step": 2,
+    "timestamp": 1773247578.6394904,
+    "metadata": {
+      "thought": "Shoulder pain with numbness and weakness suggests possible nerve involvement.",
+      "done": false,
+      "tool_use_id": "tooluse_5RiOd4v3gOIgHBxQiE3Oss"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it's usually a 6.",
+    "step": 2,
+    "timestamp": 1773247579.8772526,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is pain constant or intermittent?",
+    "step": 3,
+    "timestamp": 1773247581.346853,
+    "metadata": {
+      "thought": "Need to determine if pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_G5C7xcBgiSlIkJdllmnAEv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been mostly intermittent lately...",
+    "step": 3,
+    "timestamp": 1773247582.4130392,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific activities that worsen pain?",
+    "step": 4,
+    "timestamp": 1773247583.862294,
+    "metadata": {
+      "thought": "Pain mostly intermittent suggests possible activity-related triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_Ixtp05CzYNOrdItcAaxONf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific activities worsening it...",
+    "step": 4,
+    "timestamp": 1773247584.9330828,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries or trauma to shoulder?",
+    "step": 5,
+    "timestamp": 1773247586.4317532,
+    "metadata": {
+      "thought": "Need to ask about any recent injuries or trauma.",
+      "done": false,
+      "tool_use_id": "tooluse_57Jrxoq0DoDkZUJBAiVTS8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries, just general wear and tear.",
+    "step": 5,
+    "timestamp": 1773247587.4796228,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain duration and frequency?",
+    "step": 6,
+    "timestamp": 1773247589.0154648,
+    "metadata": {
+      "thought": "General wear and tear suggests chronic condition or degenerative process.",
+      "done": false,
+      "tool_use_id": "tooluse_upVquel7J9WGdZPR9ibdRP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; it's been sporadic...",
+    "step": 6,
+    "timestamp": 1773247590.054249,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried for shoulder pain?",
+    "step": 7,
+    "timestamp": 1773247591.5652206,
+    "metadata": {
+      "thought": "Need to determine if any treatments have been tried.",
+      "done": false,
+      "tool_use_id": "tooluse_sKFtqtAQhGCZ6fxJhrwsWl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't tried any treatments yet...",
+    "step": 7,
+    "timestamp": 1773247592.7379391,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications currently taken?",
+    "step": 8,
+    "timestamp": 1773247594.2787275,
+    "metadata": {
+      "thought": "No treatments tried indicates need for further diagnostic steps.",
+      "done": false,
+      "tool_use_id": "tooluse_PYMKV1Z31vsLsJOgu8vD7d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not taking any medications for my shoulder.",
+    "step": 8,
+    "timestamp": 1773247595.5044832,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773247597.0018587,
+    "metadata": {
+      "thought": "No medications or treatments indicate need for medical consultation.",
+      "done": true,
+      "tool_use_id": "tooluse_0mO5qkhn6fXr3vJKfbjIVa"
+    }
+  }
+]

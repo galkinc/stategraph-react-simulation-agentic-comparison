@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066067.1374707,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you ready for home?",
+    "step": 0,
+    "timestamp": 1773066067.1374745,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but I’ll try my best...",
+    "step": 0,
+    "timestamp": 1773066068.2369308,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms today?",
+    "step": 1,
+    "timestamp": 1773066069.61575,
+    "metadata": {
+      "thought": "User is uncertain but willing to try. Need to gather more specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_AuZ7aS9RLOYY4PppY7jk74"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific symptoms today, just fatigue...",
+    "step": 1,
+    "timestamp": 1773066070.7219653,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 2,
+    "timestamp": 1773066072.1313567,
+    "metadata": {
+      "thought": "User reports fatigue. Need to clarify details.",
+      "done": false,
+      "tool_use_id": "tooluse_8a34D0DsNl6F8yFZrneldb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Been feeling tired for a few weeks now.",
+    "step": 2,
+    "timestamp": 1773066073.1297786,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides fatigue?",
+    "step": 3,
+    "timestamp": 1773066074.5339608,
+    "metadata": {
+      "thought": "User reports fatigue lasting weeks. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_YHxVZ1B7qOKSMdzYx4zkNl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just feeling really tired...",
+    "step": 3,
+    "timestamp": 1773066075.5874531,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or sleep?",
+    "step": 4,
+    "timestamp": 1773066077.2985878,
+    "metadata": {
+      "thought": "User reports fatigue without other symptoms. Need to ask about lifestyle factors.",
+      "done": false,
+      "tool_use_id": "tooluse_jsshYWGHMjIXGutFTzajQK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in diet or sleep recently...",
+    "step": 4,
+    "timestamp": 1773066078.439363,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent stress or major life changes?",
+    "step": 5,
+    "timestamp": 1773066079.9502683,
+    "metadata": {
+      "thought": "No recent changes. Fatigue persists. Consider asking about stress.",
+      "done": false,
+      "tool_use_id": "tooluse_w1MFlrGneMgUvBPUXR8XFT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major changes, just usual family stuff...",
+    "step": 5,
+    "timestamp": 1773066081.1060352,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any past medical history?",
+    "step": 6,
+    "timestamp": 1773066082.59328,
+    "metadata": {
+      "thought": "No major changes. Fatigue continues. Consider asking about medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_LUE7nrDrlhbsmsc9tjsAt9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No significant past medical history...",
+    "step": 6,
+    "timestamp": 1773066083.6698782,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 7,
+    "timestamp": 1773066085.135144,
+    "metadata": {
+      "thought": "No significant past history. Fatigue continues. Consider asking about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_7794L8kyrT4Y29WELDPADx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No current medications, just vitamins...",
+    "step": 7,
+    "timestamp": 1773066086.2405002,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any regular exercise routine?",
+    "step": 8,
+    "timestamp": 1773066087.6940439,
+    "metadata": {
+      "thought": "No significant changes. Fatigue continues. Consider asking about exercise.",
+      "done": false,
+      "tool_use_id": "tooluse_dIRhq19tv0y6fWQwl8i2O3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don’t usually exercise regularly...",
+    "step": 8,
+    "timestamp": 1773066088.8154895,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How is your sleep quality?",
+    "step": 9,
+    "timestamp": 1773066090.3957922,
+    "metadata": {
+      "thought": "No regular exercise. Fatigue continues. Consider asking about sleep quality.",
+      "done": false,
+      "tool_use_id": "tooluse_NQyhhQUY99yd028HjNtlwU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sleeps okay, but sometimes I wake up early.",
+    "step": 9,
+    "timestamp": 1773066091.4711075,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any work stress or deadlines?",
+    "step": 10,
+    "timestamp": 1773066093.0820494,
+    "metadata": {
+      "thought": "Sleep quality is okay but early waking noted. Fatigue continues. Consider asking about work stress.",
+      "done": false,
+      "tool_use_id": "tooluse_9hlE7mHwV0JR7lD148p5N4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No work stress, just family matters...",
+    "step": 10,
+    "timestamp": 1773066094.1772037,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any irregular sleep patterns?",
+    "step": 11,
+    "timestamp": 1773066095.7100801,
+    "metadata": {
+      "thought": "No work stress. Fatigue continues. Consider asking about sleep patterns.",
+      "done": false,
+      "tool_use_id": "tooluse_93yi8TiMsYcb7FGaOSEibq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My sleep is usually pretty regular, no issues.",
+    "step": 11,
+    "timestamp": 1773066096.820483,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in lifestyle habits?",
+    "step": 12,
+    "timestamp": 1773066098.4155288,
+    "metadata": {
+      "thought": "No irregular sleep. Fatigue continues. Consider asking about lifestyle habits.",
+      "done": false,
+      "tool_use_id": "tooluse_NY3riL3uxm6pWEolbGKdOy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major changes, just trying to stay active.",
+    "step": 12,
+    "timestamp": 1773066099.472176,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in your diet recently?",
+    "step": 13,
+    "timestamp": 1773066100.9767175,
+    "metadata": {
+      "thought": "No major changes. Fatigue continues. Consider asking about diet.",
+      "done": false,
+      "tool_use_id": "tooluse_NlfQOnNnMJ29auQOl7KLnS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes in my diet...",
+    "step": 13,
+    "timestamp": 1773066102.0024989,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in your sleep environment?",
+    "step": 14,
+    "timestamp": 1773066103.6649163,
+    "metadata": {
+      "thought": "No recent diet changes. Fatigue continues. Consider asking about sleep environment.",
+      "done": false,
+      "tool_use_id": "tooluse_ffoffxOpa7MQol5jxqQCdI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My room is quiet, no changes lately...",
+    "step": 14,
+    "timestamp": 1773066104.7450404,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How many hours do you sleep?",
+    "step": 15,
+    "timestamp": 1773066106.4520664,
+    "metadata": {
+      "thought": "No changes in sleep environment. Fatigue continues. Consider asking about sleep duration.",
+      "done": false,
+      "tool_use_id": "tooluse_xHOWNimf0cxIJ1Q5nem52X"
+    }
+  }
+]

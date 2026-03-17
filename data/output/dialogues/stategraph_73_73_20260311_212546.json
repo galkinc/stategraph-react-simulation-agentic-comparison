@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253546.6069603,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, I will ask you a few basic questions, okay?",
+    "step": 0,
+    "timestamp": 1773253546.6069639,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I drink occasionally, not heavily. My husband's here too.",
+    "step": 0,
+    "timestamp": 1773253547.7714868,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms or pain?",
+    "step": 1,
+    "timestamp": 1773253549.3529396,
+    "metadata": {
+      "thought": "User mentioned drinking occasionally, not heavily. No immediate red flags noted. Next step is to ask about specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_FDBM03Ko4LAkuNcHoFdBIt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms, just my usual drinks...",
+    "step": 1,
+    "timestamp": 1773253550.579331,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known medical history or conditions?",
+    "step": 2,
+    "timestamp": 1773253552.1634717,
+    "metadata": {
+      "thought": "User has no unusual symptoms. Next step is to ask about any medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_6VNsOLaooP51fcEDkAcuWp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major medical history, just occasional light drinking.",
+    "step": 2,
+    "timestamp": 1773253553.362402,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any significant family medical history?",
+    "step": 3,
+    "timestamp": 1773253554.9087958,
+    "metadata": {
+      "thought": "User has no major medical history. Next step is to ask about family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_F8Oz4HCn6ZmZDZtMeeKR4i"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No significant family medical history, I don't recall.",
+    "step": 3,
+    "timestamp": 1773253556.0718515,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253557.6112342,
+    "metadata": {
+      "thought": "User has no significant family medical history. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_IadU9rllopH0gmEZVhK1CM"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253559.082978,
+    "metadata": {
+      "thought": "Conversation is complete. No immediate concerns noted.",
+      "done": true,
+      "tool_use_id": "tooluse_gOxqCS4X1wlcJRn1ExatZh"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253560.597758,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_63bvAVNNM3IbnKrx5b7Z6J"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253562.0648665,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_yBZZEple40c7Gzy31WaEJq"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253563.7379282,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_GczAPRGbDWSTFgIyXKLnpn"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773253565.3136897,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_RRe3fNI1KZV5z5Yn4f7APJ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773253566.8631701,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_ZAbiDx4a1vdZ1H4lvvJNxX"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773253568.412478,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_bXJv7hpSTPck65Ex3M2kHR"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773253570.0333395,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_gnsiotYHZlEXYwKvslZs0Y"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773253571.6154342,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_VF28y04XmQHkJfrZdBqtQd"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773253573.1344047,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_y9aOWydsQJ1wlmtQcihdWI"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773253574.7220533,
+    "metadata": {
+      "thought": "No further questions needed. Conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_3P8WGVVWxgDQIEHCCouf3W"
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246504.8967056,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, ma'am. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773246504.8967168,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right hand still hurts a lot today.",
+    "step": 0,
+    "timestamp": 1773246506.385577,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain start?",
+    "step": 1,
+    "timestamp": 1773246507.8862004,
+    "metadata": {
+      "thought": "Ask for specific details about the pain to identify potential medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_D1E2z4u65oueKmwy7Ux0j8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started last week, sharp and sudden...",
+    "step": 1,
+    "timestamp": 1773246509.1415784,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any injury or trigger?",
+    "step": 2,
+    "timestamp": 1773246509.9740283,
+    "metadata": {
+      "thought": "Need to know if there were any triggers or incidents that caused the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_M9G9jrB5aEUgaolcEsgtUf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No injury, just gradual thumb stiffness...",
+    "step": 2,
+    "timestamp": 1773246511.1485527,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain affecting daily tasks?",
+    "step": 3,
+    "timestamp": 1773246512.0024724,
+    "metadata": {
+      "thought": "Need to know if the pain is affecting daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_b9p0gDKvtn0jegj1kVfZpN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right hand pain makes tasks hard...",
+    "step": 3,
+    "timestamp": 1773246513.17588,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Other symptoms?",
+    "step": 4,
+    "timestamp": 1773246513.9123816,
+    "metadata": {
+      "thought": "Need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_AaaKfmT0JNfvNQr5n1roq0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right hand sometimes feels weak, too...",
+    "step": 4,
+    "timestamp": 1773246515.2507179,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246516.104329,
+    "metadata": {
+      "thought": "Have enough information to determine if further action is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_J5VuLTVm86riveBt1ngtJk"
+    }
+  }
+]

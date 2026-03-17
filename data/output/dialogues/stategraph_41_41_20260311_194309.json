@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247389.903783,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "It looks like your white blood cell count is normal according to your most recent labs. But, I do want to keep an eye on it given your history of high white blood cells.",
+    "step": 0,
+    "timestamp": 1773247389.9037874,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm glad it's normal, but still have pain.",
+    "step": 0,
+    "timestamp": 1773247391.0007055,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly do you feel the pain?",
+    "step": 1,
+    "timestamp": 1773247392.501096,
+    "metadata": {
+      "thought": "I need to ask about the nature and location of the pain to better understand the user's symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_RfRpcLMqCNB6ILmIMts6bG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mainly in my left shoulder and lower back.",
+    "step": 1,
+    "timestamp": 1773247393.6122103,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How intense is the pain?",
+    "step": 2,
+    "timestamp": 1773247395.1054082,
+    "metadata": {
+      "thought": "I need to ask about the pain's intensity and duration to better understand the user's symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_MW9Dgs0jjgNNoAlcP8GUWy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been pretty intense, mostly in shoulder and back.",
+    "step": 2,
+    "timestamp": 1773247396.2512777,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had this pain?",
+    "step": 3,
+    "timestamp": 1773247397.7470968,
+    "metadata": {
+      "thought": "I need to ask about the pain's duration to better understand the user's symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_OtRMoLiYJsUK5weXbuEmyL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain in shoulder and back for weeks now.",
+    "step": 3,
+    "timestamp": 1773247398.8780992,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does the pain affect your daily activities?",
+    "step": 4,
+    "timestamp": 1773247400.37313,
+    "metadata": {
+      "thought": "I need to ask if the pain is affecting daily activities to better understand the user's symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_nfvf3k3ZwObeHnur1q45z8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, it's hard to do daily tasks now.",
+    "step": 4,
+    "timestamp": 1773247401.4850037,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments?",
+    "step": 5,
+    "timestamp": 1773247403.0032976,
+    "metadata": {
+      "thought": "I need to ask if the user has tried any treatments or medications for the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_aRoiSTk60YpBOEg54eZJ5H"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments yet, just smoking to manage pain.",
+    "step": 5,
+    "timestamp": 1773247404.1737082,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms?",
+    "step": 6,
+    "timestamp": 1773247405.6852894,
+    "metadata": {
+      "thought": "I need to ask if the user has any other symptoms to better understand the full picture.",
+      "done": false,
+      "tool_use_id": "tooluse_jsv1Jik8B8ifkAREEi4gsH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about other symptoms, but my peeing's fine.",
+    "step": 6,
+    "timestamp": 1773247406.8521576,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247408.398509,
+    "metadata": {
+      "thought": "I need to confirm if the conversation is complete and if I have enough information.",
+      "done": true,
+      "tool_use_id": "tooluse_VPKAVV4mRmT1Ilv7RKD8h2"
+    }
+  }
+]

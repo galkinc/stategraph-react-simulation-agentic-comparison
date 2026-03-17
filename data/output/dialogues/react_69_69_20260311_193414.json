@@ -1,0 +1,220 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246854.7523115,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever, chills?",
+    "step": 0,
+    "timestamp": 1773246854.7523177,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or chills, everything is fine...",
+    "step": 0,
+    "timestamp": 1773246855.8845012,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any cough, shortness of breath?",
+    "step": 1,
+    "timestamp": 1773246857.2470744,
+    "metadata": {
+      "thought": "User reports no fever or chills, which are common symptoms of many conditions. Next step is to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_tmZOZuJl7PR3jF0Tm0M6KB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No cough, no shortness of breath...",
+    "step": 1,
+    "timestamp": 1773246858.2804027,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, vomiting, diarrhea?",
+    "step": 2,
+    "timestamp": 1773246859.1245108,
+    "metadata": {
+      "thought": "User reports no cough or shortness of breath. Next step is to ask about gastrointestinal symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_quTZyZ5QW3kFRTkMdJlnfE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, vomiting, or diarrhea here...",
+    "step": 2,
+    "timestamp": 1773246860.2956603,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headache, dizziness, confusion?",
+    "step": 3,
+    "timestamp": 1773246861.0781465,
+    "metadata": {
+      "thought": "User reports no gastrointestinal symptoms. Next step is to ask about neurological symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_K97qLKJqzMo4RxJJI2tKoJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches, dizziness, or confusion here...",
+    "step": 3,
+    "timestamp": 1773246862.253144,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any muscle, joint pain?",
+    "step": 4,
+    "timestamp": 1773246863.0665393,
+    "metadata": {
+      "thought": "User reports no neurological symptoms. Next step is to ask about muscle or joint pain.",
+      "done": false,
+      "tool_use_id": "tooluse_WApPT1SU9QzDwhFhm5yVUe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No muscle or joint pain here, all's good.",
+    "step": 4,
+    "timestamp": 1773246864.2830353,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246865.3615696,
+    "metadata": {
+      "thought": "User reports no muscle or joint pain. No major symptoms detected. End of symptom elicitation.",
+      "done": true,
+      "tool_use_id": "tooluse_B1hmMjN9HhLL8I1Gfsryad"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773246866.3604476,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_J5NC2LzlAocP9lvB5VktNE"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246867.3579135,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_OJgmIPxIkZqgU8pjcgsRE9"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773246868.3506129,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_iLL1rstdyQoAvSyvLw7O2h"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773246869.4018407,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_MdQjeAfSuzaTArdA4pWCT8"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773246870.3961923,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_Xo7Po4x3mthqxaryawblgU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773246871.3964236,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_I9OuayJaPPx80c4G3tBhnc"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773246872.419014,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_wY1Av01IxGr0i38c9afm7P"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773246873.6726143,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_cTd7dMzPf5ls4Ixmvt32S3"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773246874.753856,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_EzL2RdJPtRbwVImhlO8M4D"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773246875.730957,
+    "metadata": {
+      "thought": "End of symptom elicitation. No major symptoms detected.",
+      "done": true,
+      "tool_use_id": "tooluse_zqfeYFbiaeRAgbkEzEQyl5"
+    }
+  }
+]

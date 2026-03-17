@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068817.7789955,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi mister Jones.  Do you remember me from the last time you were here? How old are you now?",
+    "step": 0,
+    "timestamp": 1773068817.779001,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm fifty-two, doc. Remember me from before...",
+    "step": 0,
+    "timestamp": 1773068818.9995604,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms or pain?",
+    "step": 1,
+    "timestamp": 1773068820.7905295,
+    "metadata": {
+      "thought": "User has provided their age, which is useful for context but not directly relevant to symptom elicitation. Next, I need to gather more specific symptom information.",
+      "done": false,
+      "tool_use_id": "tooluse_zj3gAF7jpCqJRB5dxT273o"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My whole body aches; I feel really cold.",
+    "step": 1,
+    "timestamp": 1773068822.0400786,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt this way?",
+    "step": 2,
+    "timestamp": 1773068824.5586936,
+    "metadata": {
+      "thought": "User reports whole body aches and feeling cold. These could be symptoms of various conditions. Next, I need to ask about the duration and any other related symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_lp8tKIoBKl7g9iBLvgOJjY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling this way for weeks now.",
+    "step": 2,
+    "timestamp": 1773068825.819177,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or medical history?",
+    "step": 3,
+    "timestamp": 1773068827.471072,
+    "metadata": {
+      "thought": "User reports symptoms lasting for weeks. Next, I need to ask about any other symptoms or medical history that could help diagnose the issue.",
+      "done": false,
+      "tool_use_id": "tooluse_ItuM9yJtgY2fxds3Z6X2YC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel really weak.",
+    "step": 3,
+    "timestamp": 1773068828.5739167,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or conditions?",
+    "step": 4,
+    "timestamp": 1773068830.13064,
+    "metadata": {
+      "thought": "User reports feeling weak in addition to previous symptoms. I need to confirm if there are any other symptoms or medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_9tZaBtiOLJ6hddsCpmVACe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but my body feels really weak.",
+    "step": 4,
+    "timestamp": 1773068831.2579737,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 5,
+    "timestamp": 1773068832.7190282,
+    "metadata": {
+      "thought": "User confirms feeling weak. I need to ask about any medications they are currently taking.",
+      "done": false,
+      "tool_use_id": "tooluse_nwIkSmOY801HpzIYA4HmVI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about any meds I'm taking.",
+    "step": 5,
+    "timestamp": 1773068833.838983,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any chronic conditions or illnesses?",
+    "step": 6,
+    "timestamp": 1773068835.451936,
+    "metadata": {
+      "thought": "User unsure about medications. I need to ask if they have any chronic conditions that might be relevant.",
+      "done": false,
+      "tool_use_id": "tooluse_5W4nCwEMxml3BXUMxZwGqe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any chronic illnesses...",
+    "step": 6,
+    "timestamp": 1773068836.5578449,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773068838.1095786,
+    "metadata": {
+      "thought": "User reports no chronic illnesses. I need to summarize the information and suggest a visit to a healthcare professional.",
+      "done": true,
+      "tool_use_id": "tooluse_0lz6lSaJ7zApV0Co0SdW3o"
+    }
+  }
+]

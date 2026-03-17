@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065634.2923834,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773065634.292389,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's acting up, but I'm okay otherwise.",
+    "step": 0,
+    "timestamp": 1773065635.3396828,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific skin issues or symptoms?",
+    "step": 1,
+    "timestamp": 1773065636.6269834,
+    "metadata": {
+      "thought": "Ask about specific skin issues to identify potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_sNS6yvtV7tfLjBwOqeR277"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's been really weird and itchy lately.",
+    "step": 1,
+    "timestamp": 1773065637.6709566,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long has this been?",
+    "step": 2,
+    "timestamp": 1773065638.339377,
+    "metadata": {
+      "thought": "Need to know duration and any treatments tried.",
+      "done": false,
+      "tool_use_id": "tooluse_1MgAGmwN6Nv9iKPKYQrSLG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About three weeks, getting worse each day...",
+    "step": 2,
+    "timestamp": 1773065639.4517896,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 3,
+    "timestamp": 1773065640.2400768,
+    "metadata": {
+      "thought": "Ask if any treatments have been tried.",
+      "done": false,
+      "tool_use_id": "tooluse_MgwEExp4xbMwiaT6gLGBsb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't tried any treatments yet...",
+    "step": 3,
+    "timestamp": 1773065641.3001223,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're taking?",
+    "step": 4,
+    "timestamp": 1773065642.1188314,
+    "metadata": {
+      "thought": "No treatments have been tried, ask about medications.",
+      "done": false,
+      "tool_use_id": "tooluse_bt00CADOizwmg5zEPHhu66"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just creams for my skin...",
+    "step": 4,
+    "timestamp": 1773065643.1711035,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773065643.9622297,
+    "metadata": {
+      "thought": "Gathered enough information for initial assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_ctch8ETvyOpnI9VbgUxbz7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 5,
+    "timestamp": 1773065643.9622722,
+    "metadata": {}
+  }
+]

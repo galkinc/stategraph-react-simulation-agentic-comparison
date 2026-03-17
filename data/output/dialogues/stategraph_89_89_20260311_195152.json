@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247912.7393043,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning, young man.",
+    "step": 0,
+    "timestamp": 1773247912.739308,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Morning, doctor. Just fine, no new pain...",
+    "step": 0,
+    "timestamp": 1773247913.8553548,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual symptoms or changes recently?",
+    "step": 1,
+    "timestamp": 1773247915.300588,
+    "metadata": {
+      "thought": "User seems to be in a good state but needs further symptom elicitation to ensure no underlying issues.",
+      "done": false,
+      "tool_use_id": "tooluse_gJXxhrXCo8CobY95sVlVhP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms, just ankle pain...",
+    "step": 1,
+    "timestamp": 1773247916.401963,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did ankle pain start?",
+    "step": 2,
+    "timestamp": 1773247917.7507875,
+    "metadata": {
+      "thought": "User has mentioned ankle pain, need to gather more details about it.",
+      "done": false,
+      "tool_use_id": "tooluse_Fji6PCj8EzW29dpn3yMmoo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain started during the fight, I think.",
+    "step": 2,
+    "timestamp": 1773247918.8250256,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling or bruising in the ankle?",
+    "step": 3,
+    "timestamp": 1773247920.2800045,
+    "metadata": {
+      "thought": "User mentioned ankle pain started during a fight, need to know more about the fight.",
+      "done": false,
+      "tool_use_id": "tooluse_zElhPkFf4xv2G2jNTGvb3h"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling, but some bruising around the ankle.",
+    "step": 3,
+    "timestamp": 1773247921.419459,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any difficulty walking or bearing weight?",
+    "step": 4,
+    "timestamp": 1773247922.893904,
+    "metadata": {
+      "thought": "User has bruising but no swelling, need to confirm if any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_o0sd3QxB9llXp6OjZSfa7d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No difficulty, I can walk just fine...",
+    "step": 4,
+    "timestamp": 1773247924.0271266,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other areas of discomfort?",
+    "step": 5,
+    "timestamp": 1773247925.588833,
+    "metadata": {
+      "thought": "User can walk despite pain, no further immediate symptoms noted.",
+      "done": true,
+      "tool_use_id": "tooluse_7f24DxpPqEXBiCaa1cTTMF"
+    }
+  }
+]

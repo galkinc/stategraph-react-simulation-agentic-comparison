@@ -1,0 +1,199 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253183.0950432,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning. So, you are here for your follow up today.",
+    "step": 0,
+    "timestamp": 1773253183.095047,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for my follow-up, feeling much better now.",
+    "step": 0,
+    "timestamp": 1773253184.2507446,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms persist?",
+    "step": 1,
+    "timestamp": 1773253185.6078904,
+    "metadata": {
+      "thought": "User is feeling much better, but still needs follow-up. Ask about specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ppUk4b8GkWPd97HXfwCus9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No symptoms left; all better now...",
+    "step": 1,
+    "timestamp": 1773253186.8822753,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773253188.3259678,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_JPTm2fESchRXJFXQP2CnD0"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773253189.8836043,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_xqpDBkHeMsnbGFevsXnseA"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253191.419392,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_qVS0i1MqAYutuC6RfuSMyw"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253192.9155982,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_4YqMuLuTvZjQrY0QQJv1WQ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253194.465853,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_2pZBUuTxSsFbJEodA49Fp1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253195.867392,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_2yUlwAVdS0nyjnWm9ldX60"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253197.4704058,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_JQ5oHJtjKKxSk7aWjU7e0i"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773253198.913717,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_rWyRkTfVU8h570GkKjEgMy"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773253200.4186532,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_2ur7uYls0TScmAsqo4Ked2"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773253201.912367,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_AGDN3CNTsdpAneB4tGLP3x"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773253203.4652362,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_ASA6i2hVj67ZronVp3oJvY"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773253205.0200315,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_UGaBXXAyg3njFnRpp02qXp"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773253206.53968,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_wgtUAifId0tkjq08LC7gu6"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773253208.033889,
+    "metadata": {
+      "thought": "User reports no symptoms, indicating possible resolution. Confirm and conclude follow-up.",
+      "done": true,
+      "tool_use_id": "tooluse_S0lhkOsRdarfFlZjLj2NtR"
+    }
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065835.0717998,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you, sir?",
+    "step": 0,
+    "timestamp": 1773065835.0718102,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm sixty-two years old...",
+    "step": 0,
+    "timestamp": 1773065836.1686475,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773065837.5123863,
+    "metadata": {
+      "thought": "Need to ask about symptoms or medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_0StDUi2PonbOzgkh6fINIo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still feeling clumsiness, mainly in hands...",
+    "step": 1,
+    "timestamp": 1773065838.6370485,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any weakness or numbness in hands?",
+    "step": 2,
+    "timestamp": 1773065839.4436533,
+    "metadata": {
+      "thought": "Clumsiness in hands could indicate neurological issues.",
+      "done": false,
+      "tool_use_id": "tooluse_JjiSQDZqnPekmrvLxoB314"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Hands feel numb, can't feel hot things...",
+    "step": 2,
+    "timestamp": 1773065840.5324726,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 3,
+    "timestamp": 1773065841.3393161,
+    "metadata": {
+      "thought": "Numbness and lack of sensation could be serious.",
+      "done": false,
+      "tool_use_id": "tooluse_NteimCtqdhoBIN4nBxdPtH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started six months ago, feeling clumsiness and jerks.",
+    "step": 3,
+    "timestamp": 1773065842.4592354,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of similar issues?",
+    "step": 4,
+    "timestamp": 1773065843.424149,
+    "metadata": {
+      "thought": "Symptoms started six months ago, need to ask about other factors.",
+      "done": false,
+      "tool_use_id": "tooluse_j8cBBG1JHM9Cr8tJw9UfQS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of diabetes or heart issues.",
+    "step": 4,
+    "timestamp": 1773065844.4360735,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries or stress?",
+    "step": 5,
+    "timestamp": 1773065845.3827639,
+    "metadata": {
+      "thought": "No known family history, need to ask about lifestyle.",
+      "done": false,
+      "tool_use_id": "tooluse_OPHhn25E7uS4xVZBqIOri7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries, but stress from pain...",
+    "step": 5,
+    "timestamp": 1773065846.442161,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 6,
+    "timestamp": 1773065847.3026175,
+    "metadata": {
+      "thought": "Stress from pain could be a factor, but symptoms are concerning.",
+      "done": false,
+      "tool_use_id": "tooluse_y0FGa7yHq6hd4rSfU4r6lc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still no feeling in hands, clumsiness, and jerks.",
+    "step": 6,
+    "timestamp": 1773065848.3646295,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in vision or speech?",
+    "step": 7,
+    "timestamp": 1773065852.3820972,
+    "metadata": {
+      "thought": "Symptoms persist, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_U1RzRwaozvelDRPWPoMhwQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in vision or speech...",
+    "step": 7,
+    "timestamp": 1773065853.4753866,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent medication changes?",
+    "step": 8,
+    "timestamp": 1773065854.3546443,
+    "metadata": {
+      "thought": "No changes in vision or speech, but symptoms are serious.",
+      "done": false,
+      "tool_use_id": "tooluse_TPSUDtwsLPhkirC5vG6aTS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Insulin stopped, now on tablets only...",
+    "step": 8,
+    "timestamp": 1773065855.4539711,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you stop insulin?",
+    "step": 9,
+    "timestamp": 1773065856.463369,
+    "metadata": {
+      "thought": "Medication change noted, symptoms are serious.",
+      "done": false,
+      "tool_use_id": "tooluse_S3ErNhF7MPs6x3lK7YDrN9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Around six months ago, after my heart attack.",
+    "step": 9,
+    "timestamp": 1773065857.5195968,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other medical conditions?",
+    "step": 10,
+    "timestamp": 1773065858.5323446,
+    "metadata": {
+      "thought": "Symptoms correlate with medication change post-heart attack.",
+      "done": false,
+      "tool_use_id": "tooluse_eFetGAOOhl3KYhanBVRBs0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other major conditions, just diabetes and high blood pressure.",
+    "step": 10,
+    "timestamp": 1773065859.6008165,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of neurological issues?",
+    "step": 11,
+    "timestamp": 1773065860.5666094,
+    "metadata": {
+      "thought": "No other major conditions, but symptoms are serious.",
+      "done": false,
+      "tool_use_id": "tooluse_2EZZPczQvzw6L2eISqLnQr"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of neurological issues...",
+    "step": 11,
+    "timestamp": 1773065861.6160452,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent alcohol or drug use?",
+    "step": 12,
+    "timestamp": 1773065862.6819477,
+    "metadata": {
+      "thought": "No family history, but symptoms are concerning.",
+      "done": false,
+      "tool_use_id": "tooluse_2oN4zKxR1GCrlZWWRyCIYa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No alcohol or drugs, just my meds...",
+    "step": 12,
+    "timestamp": 1773065863.8203676,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent travel or exposure to toxins?",
+    "step": 13,
+    "timestamp": 1773065864.8929234,
+    "metadata": {
+      "thought": "No recent alcohol or drugs, but symptoms are serious.",
+      "done": false,
+      "tool_use_id": "tooluse_ARReatJP0XpnA3C5jr76fA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent travel or toxin exposure...",
+    "step": 13,
+    "timestamp": 1773065866.0283482,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent weight changes?",
+    "step": 14,
+    "timestamp": 1773065867.0525446,
+    "metadata": {
+      "thought": "No recent travel or toxin exposure, symptoms are serious.",
+      "done": false,
+      "tool_use_id": "tooluse_VWZ7AiS9xkud4odvh509hP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent weight changes, been stable...",
+    "step": 14,
+    "timestamp": 1773065868.1313908,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent sleep disturbances?",
+    "step": 15,
+    "timestamp": 1773065868.997005,
+    "metadata": {
+      "thought": "No recent weight changes, symptoms are serious.",
+      "done": false,
+      "tool_use_id": "tooluse_TWRBeJ5Zjf63AnDcd9qI4q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still can't sleep well due to pain, years now.",
+    "step": 15,
+    "timestamp": 1773065870.0735705,
+    "metadata": {}
+  }
+]

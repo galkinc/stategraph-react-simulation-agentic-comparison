@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065532.799216,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you a smoker?",
+    "step": 0,
+    "timestamp": 1773065532.79923,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I've been smoking since I was ten.",
+    "step": 0,
+    "timestamp": 1773065533.9161143,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How many cigarettes do you smoke daily?",
+    "step": 1,
+    "timestamp": 1773065535.25401,
+    "metadata": {
+      "thought": "Need to confirm smoking duration and frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_WLOOnLwScgJMu2cp6hBsQm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Now I smoke about five cigarettes a day.",
+    "step": 1,
+    "timestamp": 1773065536.3196034,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any breathing difficulties?",
+    "step": 2,
+    "timestamp": 1773065537.0013516,
+    "metadata": {
+      "thought": "Need to ask about any respiratory symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_7F8TT4PGSubAG4HHUziuC8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No breathing issues, just a bit tired lately.",
+    "step": 2,
+    "timestamp": 1773065538.1141667,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this tiredness new or long-term?",
+    "step": 3,
+    "timestamp": 1773065538.8592174,
+    "metadata": {
+      "thought": "Need to confirm if fatigue is new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_087Biljtxrk8580gAbkFIJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "New since starting Chantix...",
+    "step": 3,
+    "timestamp": 1773065539.8345878,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been on Chantix?",
+    "step": 4,
+    "timestamp": 1773065540.6217916,
+    "metadata": {
+      "thought": "Need to confirm Chantix usage details.",
+      "done": false,
+      "tool_use_id": "tooluse_mV9G7vdw2QBGkrIMksrtQb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just started Chantix, maybe a week or so.",
+    "step": 4,
+    "timestamp": 1773065541.7272663,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773065542.4695141,
+    "metadata": {
+      "thought": "Have enough information for now.",
+      "done": true,
+      "tool_use_id": "tooluse_0X4XlDVeafHgSJ1bDDThEL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 5,
+    "timestamp": 1773065542.469585,
+    "metadata": {}
+  }
+]

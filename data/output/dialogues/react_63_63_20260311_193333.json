@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246813.925715,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How is everything else?",
+    "step": 0,
+    "timestamp": 1773246813.925721,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shoulder's the only thing bothering me right now.",
+    "step": 0,
+    "timestamp": 1773246815.0034153,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did shoulder pain start?",
+    "step": 1,
+    "timestamp": 1773246816.2737243,
+    "metadata": {
+      "thought": "Ask about shoulder pain specifics",
+      "done": false,
+      "tool_use_id": "tooluse_BZkJfvsEgDuhYie83htXsf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure when exactly it began...",
+    "step": 1,
+    "timestamp": 1773246817.4634445,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is shoulder pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773246818.15154,
+    "metadata": {
+      "thought": "Need to know if pain is constant or intermittent",
+      "done": false,
+      "tool_use_id": "tooluse_X6gFFj0nuAdOinHSXyybU8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Intermittent pain, mostly when lifting things...",
+    "step": 2,
+    "timestamp": 1773246819.2757456,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How intense is the pain?",
+    "step": 3,
+    "timestamp": 1773246820.0547616,
+    "metadata": {
+      "thought": "Ask about pain intensity and triggers",
+      "done": false,
+      "tool_use_id": "tooluse_f7qveGg47hFFqfjDCED5Nz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's moderate, mostly when I move it...",
+    "step": 3,
+    "timestamp": 1773246821.115281,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does pain affect daily activities?",
+    "step": 4,
+    "timestamp": 1773246821.921287,
+    "metadata": {
+      "thought": "Need to know if pain affects daily activities",
+      "done": false,
+      "tool_use_id": "tooluse_evRKnt0QoiKkmVFFkeeJVQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shoulder pain makes some tasks hard...",
+    "step": 4,
+    "timestamp": 1773246822.9617686,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling or other symptoms?",
+    "step": 5,
+    "timestamp": 1773246823.773753,
+    "metadata": {
+      "thought": "Ask about any swelling or other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_HeJC4MrakO6EyvZzlgBbB0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling, just pain when I move it.",
+    "step": 5,
+    "timestamp": 1773246825.0758429,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken for pain?",
+    "step": 6,
+    "timestamp": 1773246825.9844255,
+    "metadata": {
+      "thought": "Need to know if any medications are taken",
+      "done": false,
+      "tool_use_id": "tooluse_f0E2XoowLku9TeFoDBT5Kc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain meds, just rest...",
+    "step": 6,
+    "timestamp": 1773246826.9963653,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246827.815138,
+    "metadata": {
+      "thought": "Gathering enough information",
+      "done": true,
+      "tool_use_id": "tooluse_bESn2P2kRfYwbqDID6pPJf"
+    }
+  }
+]

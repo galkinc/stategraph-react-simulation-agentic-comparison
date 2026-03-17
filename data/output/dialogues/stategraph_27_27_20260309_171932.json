@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065972.1871552,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you ever had surgery?",
+    "step": 0,
+    "timestamp": 1773065972.1871593,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, had appendix and gallbladder surgeries...",
+    "step": 0,
+    "timestamp": 1773065973.266906,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When were these surgeries performed?",
+    "step": 1,
+    "timestamp": 1773065974.658208,
+    "metadata": {
+      "thought": "User has mentioned having surgeries for appendix and gallbladder. This provides information on past medical procedures.",
+      "done": false,
+      "tool_use_id": "tooluse_TFYyICAJa9ijmtMjFREN50"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Appendix in recent months, gallbladder ten years ago.",
+    "step": 1,
+    "timestamp": 1773065975.748347,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any complications post-surgery?",
+    "step": 2,
+    "timestamp": 1773065977.151895,
+    "metadata": {
+      "thought": "User provided the time frame for surgeries. This information helps in understanding the timeline of medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_so72cPNpKSBNZasRMmX8qE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No complications since my surgeries...",
+    "step": 2,
+    "timestamp": 1773065978.2242322,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current symptoms?",
+    "step": 3,
+    "timestamp": 1773065979.7369466,
+    "metadata": {
+      "thought": "User reported no complications post-surgery. This information is valuable for medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_qpCdYiWtnFJplWlolAuFfG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No symptoms lately, just tired...",
+    "step": 3,
+    "timestamp": 1773065980.797723,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt tired?",
+    "step": 4,
+    "timestamp": 1773065982.355048,
+    "metadata": {
+      "thought": "User mentioned feeling tired but no specific symptoms. This could be related to various conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_4TfSqt1vVoOzTqtXe9u5u9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Been tired for months, not sure why...",
+    "step": 4,
+    "timestamp": 1773065983.4687295,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or lifestyle?",
+    "step": 5,
+    "timestamp": 1773065984.9547422,
+    "metadata": {
+      "thought": "User has been feeling tired for months without a clear cause. This warrants further investigation.",
+      "done": false,
+      "tool_use_id": "tooluse_y3rEzmKgC9hOUFxXBGp2Pj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major changes, just trying to stay healthy.",
+    "step": 5,
+    "timestamp": 1773065986.0704064,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 6,
+    "timestamp": 1773065988.8752923,
+    "metadata": {
+      "thought": "User reported no major changes in diet or lifestyle. This helps rule out some potential causes.",
+      "done": false,
+      "tool_use_id": "tooluse_gRDGwmPmCiBnCrVVCJNOqB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major concerns, just routine check-ups...",
+    "step": 6,
+    "timestamp": 1773065990.1023214,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773065991.6962569,
+    "metadata": {
+      "thought": "User has no major health concerns aside from tiredness and routine check-ups.",
+      "done": true,
+      "tool_use_id": "tooluse_n79jZ67oOY2DU13SbaqopE"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065937.2816088,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, ma'am. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773065937.2816136,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right hand still hurts today...",
+    "step": 0,
+    "timestamp": 1773065938.3789623,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "On a scale, how severe is the pain?",
+    "step": 1,
+    "timestamp": 1773065939.681819,
+    "metadata": {
+      "thought": "Ask about pain specifics to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_x03qlzCoPvGSDtCxpl6m1z"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain feels pretty intense, like a 7 out of 10.",
+    "step": 1,
+    "timestamp": 1773065940.8833244,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain begin?",
+    "step": 2,
+    "timestamp": 1773065942.2939894,
+    "metadata": {
+      "thought": "Need to know when pain started.",
+      "done": false,
+      "tool_use_id": "tooluse_XWOY1AFWKVPMzGHnPtaNC0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started a few weeks ago, getting worse.",
+    "step": 2,
+    "timestamp": 1773065943.3274221,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with pain?",
+    "step": 3,
+    "timestamp": 1773065944.716438,
+    "metadata": {
+      "thought": "Ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_2PEWzSvieiFi5eW6j9sah2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes my whole hand feels weak, too...",
+    "step": 3,
+    "timestamp": 1773065945.8389661,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 4,
+    "timestamp": 1773065947.1982307,
+    "metadata": {
+      "thought": "Need to know if any treatments were tried.",
+      "done": false,
+      "tool_use_id": "tooluse_RbuFvNqAwNoVH52QVajKvU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I tried ice and rest, but it didn't help.",
+    "step": 4,
+    "timestamp": 1773065948.335141,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 5,
+    "timestamp": 1773065949.778678,
+    "metadata": {
+      "thought": "Ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_exjom4KkpGdytEVHQEBlHB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just over-the-counter pain relievers...",
+    "step": 5,
+    "timestamp": 1773065950.7786152,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773065952.123974,
+    "metadata": {
+      "thought": "Have enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_hWlpyWVMGHmfYXsAvfkdUx"
+    }
+  }
+]

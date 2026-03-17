@@ -1,0 +1,192 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066044.9772642,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning. So, you are here for your follow up today.",
+    "step": 0,
+    "timestamp": 1773066044.977268,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Feeling much better, no pain or burning left.",
+    "step": 0,
+    "timestamp": 1773066046.0508504,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773066047.3694222,
+    "metadata": {
+      "thought": "User reports no pain or burning left, indicating symptom improvement. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_7asKv3Ru2XUfOAngKZxg45"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773066048.7951477,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_WB3yNKLS5Sh0gadkzDHX35"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773066050.2064059,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_yRg4hxok28DHeqLgSjNdOy"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773066051.5401995,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_kB26Ci53B15u1guiA47QHn"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066052.9371917,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_n2qa2eKTd7LPrYJEbppQPl"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066054.2996528,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_0xlr0bRkw2KGXNQtzjZTbq"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773066055.6986303,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_SGMhAPUul7ubaxvIwq6niH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066057.0858638,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_e4VmAlkgYR3TCeUSZ8WolQ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066058.633085,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_EQ9By82vVwBMcsOTYfiL80"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773066060.099726,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_ELBUXDD7Dvz4NA3i0TOotD"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773066061.5593696,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_o4gF7Z4Dieg7exVJQh6hgc"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773066063.056354,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_AZJKuQHXW6SGMPKuuYEqQ1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773066064.3528378,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_4Mof8QCda2soYdodiwgyGG"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773066065.728823,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_M85aiDT1Vdjb5pTwGj0OLk"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773066067.119552,
+    "metadata": {
+      "thought": "No further questions needed as sufficient information has been collected.",
+      "done": true,
+      "tool_use_id": "tooluse_FBEFwjazMzVNHibQqznygZ"
+    }
+  }
+]

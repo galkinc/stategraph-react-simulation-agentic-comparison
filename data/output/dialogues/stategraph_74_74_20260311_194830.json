@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247711.0005047,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. What brings you into the practice today?",
+    "step": 0,
+    "timestamp": 1773247711.000509,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Missing periods, not sexually active, no bleeding...",
+    "step": 0,
+    "timestamp": 1773247712.158262,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your last period start?",
+    "step": 1,
+    "timestamp": 1773247713.4904356,
+    "metadata": {
+      "thought": "User reports missing periods and no bleeding. Need to confirm if this is a new symptom or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_2qbKV7jWpqPGBSXpdIRBIz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My last period was three months ago...",
+    "step": 1,
+    "timestamp": 1773247714.650044,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides missing periods?",
+    "step": 2,
+    "timestamp": 1773247716.0660434,
+    "metadata": {
+      "thought": "User reports missing periods for three months. Need to ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_OyKWc95MX7ZIG7rBXrqnG2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just missing periods...",
+    "step": 2,
+    "timestamp": 1773247717.1405077,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stress, diet, or lifestyle changes?",
+    "step": 3,
+    "timestamp": 1773247718.5726452,
+    "metadata": {
+      "thought": "User reports missing periods for three months with no other symptoms. Need to ask about stress, diet, or lifestyle changes.",
+      "done": false,
+      "tool_use_id": "tooluse_rCJEfBtzr8LaalbozBO3cz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major stress, same diet, no lifestyle changes.",
+    "step": 3,
+    "timestamp": 1773247719.6668355,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent weight changes?",
+    "step": 4,
+    "timestamp": 1773247721.0369556,
+    "metadata": {
+      "thought": "No major changes noted. Need to ask about weight changes.",
+      "done": false,
+      "tool_use_id": "tooluse_HAMXY8N1x0LHbnkca7K1FM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent weight changes, just missed periods...",
+    "step": 4,
+    "timestamp": 1773247722.190077,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other concerns or questions?",
+    "step": 5,
+    "timestamp": 1773247723.73731,
+    "metadata": {
+      "thought": "No recent changes noted. Need to ask about stress, diet, or lifestyle changes.",
+      "done": true,
+      "tool_use_id": "tooluse_t1hNdaX5HVXH3AsfdevFxy"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068413.0841544,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Tell me a little more about your family. Are there any significant conditions that your parents or siblings had that you know of?",
+    "step": 0,
+    "timestamp": 1773068413.0841649,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dad had color and thyroid cancer; two brothers died.",
+    "step": 0,
+    "timestamp": 1773068414.309388,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773068415.7012653,
+    "metadata": {
+      "thought": "User mentioned family medical history including cancer and deaths. Extracted medical entities.",
+      "done": true,
+      "tool_use_id": "tooluse_5IMi5SUGSikzKVOz2NGGHj"
+    }
+  }
+]

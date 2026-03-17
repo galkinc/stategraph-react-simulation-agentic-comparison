@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252475.2097442,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "It looks like your white blood cell count is normal according to your most recent labs. But, I do want to keep an eye on it given your history of high white blood cells.",
+    "step": 0,
+    "timestamp": 1773252475.2097497,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My pain hasn't changed; it's still in my shoulder and back.",
+    "step": 0,
+    "timestamp": 1773252476.4822285,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly is the pain located?",
+    "step": 1,
+    "timestamp": 1773252478.400466,
+    "metadata": {
+      "thought": "I need to gather more details about the pain in the shoulder and back.",
+      "done": false,
+      "tool_use_id": "tooluse_xX6b95f4DgN4zbkWkDaNOi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left shoulder and lower back, mostly...",
+    "step": 1,
+    "timestamp": 1773252479.59973,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773252480.4192445,
+    "metadata": {
+      "thought": "I need to know if the pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_RmSL8LLgFmYkJZCQNAJPyu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The pain's been mostly constant, really bothering me.",
+    "step": 2,
+    "timestamp": 1773252481.6594508,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "On a scale of 1-10, how intense is the pain?",
+    "step": 3,
+    "timestamp": 1773252482.5765367,
+    "metadata": {
+      "thought": "I need to ask about the pain's intensity and any factors that worsen or alleviate it.",
+      "done": false,
+      "tool_use_id": "tooluse_eFSC3w4gN7n43qdgiZiA66"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been pretty intense, about an 8 lately.",
+    "step": 3,
+    "timestamp": 1773252483.7616768,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does anything worsen or alleviate the pain?",
+    "step": 4,
+    "timestamp": 1773252484.6265588,
+    "metadata": {
+      "thought": "I need to know if any activities or positions worsen or alleviate the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_fdxpVugZSrJ3fHgHl2mOTY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Smoking helps a bit, but it's still mostly bad.",
+    "step": 4,
+    "timestamp": 1773252485.9852154,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any associated symptoms?",
+    "step": 5,
+    "timestamp": 1773252486.8708868,
+    "metadata": {
+      "thought": "I need to ask about any associated symptoms or changes in the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_GaeHOMz2R0GshYyNgwbada"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No associated symptoms, just pain in shoulder and back.",
+    "step": 5,
+    "timestamp": 1773252488.0640345,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had this pain?",
+    "step": 6,
+    "timestamp": 1773252488.9419763,
+    "metadata": {
+      "thought": "I need to ask about the duration of the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_coWDW0ph8kGLzz8hM0whpc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been there for weeks, mostly in shoulder and back.",
+    "step": 6,
+    "timestamp": 1773252490.1970003,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have there been any recent changes in the pain?",
+    "step": 7,
+    "timestamp": 1773252491.1143196,
+    "metadata": {
+      "thought": "I need to ask about any recent changes in the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_vrNMzbmQyh2NCVEtqxQdw4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's worse, especially in my left shoulder lately.",
+    "step": 7,
+    "timestamp": 1773252492.3005822,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you using any treatments or medications?",
+    "step": 8,
+    "timestamp": 1773252493.1665998,
+    "metadata": {
+      "thought": "I need to ask about any treatments or medications being used.",
+      "done": false,
+      "tool_use_id": "tooluse_6UFrCRlv1odJqgztJcYtLb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments or meds, just smoking to manage pain.",
+    "step": 8,
+    "timestamp": 1773252494.3533998,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252495.2075047,
+    "metadata": {
+      "thought": "I have gathered sufficient information about the pain.",
+      "done": true,
+      "tool_use_id": "tooluse_eQ5dGojKghHsuXFYn9R1uo"
+    }
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253907.0512679,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I looked over your report from urgent care.",
+    "step": 0,
+    "timestamp": 1773253907.0512717,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specifics from urgent care visit.",
+    "step": 0,
+    "timestamp": 1773253908.3271873,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent fever or chills?",
+    "step": 1,
+    "timestamp": 1773253909.8797538,
+    "metadata": {
+      "thought": "User lacks memory of urgent care visit details. Need to gather specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_xnim9UV1eRNPl2BLkRWcRK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or chills recently, just fatigue...",
+    "step": 1,
+    "timestamp": 1773253911.0738182,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 2,
+    "timestamp": 1773253912.6098127,
+    "metadata": {
+      "thought": "User reports fatigue but no fever or chills. Need to explore fatigue specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_N3pmCEpkOrOQPeLNjcxaxu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt tired for about a month now.",
+    "step": 2,
+    "timestamp": 1773253913.855583,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headaches or muscle aches?",
+    "step": 3,
+    "timestamp": 1773253915.4563982,
+    "metadata": {
+      "thought": "User reports fatigue for a month. Need to explore other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_9J9lvbgCBx5IYbp33Rwh3B"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches or muscle aches lately...",
+    "step": 3,
+    "timestamp": 1773253916.6895404,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How's your sleep been recently?",
+    "step": 4,
+    "timestamp": 1773253918.3135343,
+    "metadata": {
+      "thought": "User reports no headaches or muscle aches. Need to ask about sleep.",
+      "done": false,
+      "tool_use_id": "tooluse_a5cYmGaZ81EPbPZVDmf4fS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My sleep's been pretty restless lately...",
+    "step": 4,
+    "timestamp": 1773253919.5113096,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any increased stress levels?",
+    "step": 5,
+    "timestamp": 1773253921.1154356,
+    "metadata": {
+      "thought": "User reports restless sleep. Need to ask about stress.",
+      "done": false,
+      "tool_use_id": "tooluse_7bC4fsIf2bZyuqPh1njx4Y"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling a bit more stressed lately.",
+    "step": 5,
+    "timestamp": 1773253922.31963,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or exercise?",
+    "step": 6,
+    "timestamp": 1773253924.0164506,
+    "metadata": {
+      "thought": "User reports increased stress. Fatigue, restless sleep, stress noted.",
+      "done": false,
+      "tool_use_id": "tooluse_m3QIkqAnxvlx29XUFlRdwC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in diet or exercise recently...",
+    "step": 6,
+    "timestamp": 1773253926.151202,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you've noticed?",
+    "step": 7,
+    "timestamp": 1773253927.7409418,
+    "metadata": {
+      "thought": "No changes in diet or exercise. Fatigue, restless sleep, stress noted.",
+      "done": false,
+      "tool_use_id": "tooluse_4objLa8rceA7rA96cgFM9C"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel a bit dizzy sometimes.",
+    "step": 7,
+    "timestamp": 1773253929.0738125,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you feel dizzy?",
+    "step": 8,
+    "timestamp": 1773253930.6596284,
+    "metadata": {
+      "thought": "User reports dizziness. Need to confirm timing and frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_eWlsFEhhF4ml44UA9VeDwh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I feel dizzy mostly when I stand up quickly.",
+    "step": 8,
+    "timestamp": 1773253931.936948,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or concerns?",
+    "step": 9,
+    "timestamp": 1773253933.6459277,
+    "metadata": {
+      "thought": "User reports dizziness on standing up quickly. Fatigue, restless sleep, stress, and dizziness noted.",
+      "done": false,
+      "tool_use_id": "tooluse_caDxbscUX3opRR2hCKzII4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms, just the usual pain.",
+    "step": 9,
+    "timestamp": 1773253934.9731154,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773253936.7462995,
+    "metadata": {
+      "thought": "User reports usual pain but no new symptoms. Fatigue, restless sleep, stress, and dizziness noted.",
+      "done": true,
+      "tool_use_id": "tooluse_LlmqkvVTb8V4u61muG4rZf"
+    }
+  }
+]

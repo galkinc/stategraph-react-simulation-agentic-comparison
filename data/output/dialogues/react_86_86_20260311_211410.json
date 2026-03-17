@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252850.04348,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any thoughts of harming yourself or others?",
+    "step": 0,
+    "timestamp": 1773252850.043485,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No plans to hurt myself, just sad thoughts.",
+    "step": 0,
+    "timestamp": 1773252851.2401533,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these sad thoughts start?",
+    "step": 1,
+    "timestamp": 1773252852.5905688,
+    "metadata": {
+      "thought": "Need to clarify the nature of the sadness.",
+      "done": false,
+      "tool_use_id": "tooluse_9kpS8UvPcjAO82fReQwcAm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall the exact time they began.",
+    "step": 1,
+    "timestamp": 1773252853.7929335,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any physical symptoms with sadness?",
+    "step": 2,
+    "timestamp": 1773252854.483883,
+    "metadata": {
+      "thought": "Clarify if there are any physical symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_DxisU7dPIafINiwlPqxR7r"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had headaches and stomachaches sometimes...",
+    "step": 2,
+    "timestamp": 1773252855.6710713,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are headaches and stomachaches new?",
+    "step": 3,
+    "timestamp": 1773252856.410687,
+    "metadata": {
+      "thought": "Need to confirm if these symptoms are new.",
+      "done": false,
+      "tool_use_id": "tooluse_VBgSBjqmuwPkZECt0PCQpd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had headaches, but not stomachaches recently...",
+    "step": 3,
+    "timestamp": 1773252857.648352,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms recently?",
+    "step": 4,
+    "timestamp": 1773252858.484713,
+    "metadata": {
+      "thought": "Determine if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_E3GUF9IeBz5lMSKfloK1ei"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling more anxious lately, though...",
+    "step": 4,
+    "timestamp": 1773252859.7180402,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is anxiety a new feeling?",
+    "step": 5,
+    "timestamp": 1773252860.559432,
+    "metadata": {
+      "thought": "Need to confirm if anxiety is new.",
+      "done": false,
+      "tool_use_id": "tooluse_3355dFq9AJSjLGGEKceZNR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had anxiety for years, but it's worse now.",
+    "step": 5,
+    "timestamp": 1773252861.732626,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in medication recently?",
+    "step": 6,
+    "timestamp": 1773252862.601117,
+    "metadata": {
+      "thought": "Determine if there are any medication changes.",
+      "done": false,
+      "tool_use_id": "tooluse_jhKKJwO6zzw3Xb0vfmGkpK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes to my medication recently...",
+    "step": 6,
+    "timestamp": 1773252863.8151057,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "High stress levels recently?",
+    "step": 7,
+    "timestamp": 1773252864.6357121,
+    "metadata": {
+      "thought": "Gather information on stress levels.",
+      "done": false,
+      "tool_use_id": "tooluse_TdzVP20nHAsLanhSlco2zE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling pretty overwhelmed lately...",
+    "step": 7,
+    "timestamp": 1773252865.8090363,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is stress a new factor?",
+    "step": 8,
+    "timestamp": 1773252866.5502741,
+    "metadata": {
+      "thought": "Need to confirm if stress is new.",
+      "done": false,
+      "tool_use_id": "tooluse_3n9hEDsbGkobyB6tPrHdGD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've always had stress, but it's worse now.",
+    "step": 8,
+    "timestamp": 1773252867.7062495,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252868.6333878,
+    "metadata": {
+      "thought": "No new information to gather.",
+      "done": true,
+      "tool_use_id": "tooluse_2sdAKG4jtAOlN4cg8nYGex"
+    }
+  }
+]

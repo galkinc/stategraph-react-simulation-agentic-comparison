@@ -1,0 +1,297 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246760.411464,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Welcome to the office, Miss A. I am Doctor Luna.",
+    "step": 0,
+    "timestamp": 1773246760.4114723,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My mom had lung cancer; I'm not sure about my dad's health.",
+    "step": 0,
+    "timestamp": 1773246761.4742103,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other family members with cancer?",
+    "step": 1,
+    "timestamp": 1773246762.864094,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_ZZ19Dnpo54i3HWNVJnbpbs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; not sure about others.",
+    "step": 1,
+    "timestamp": 1773246763.984543,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with cancer history?",
+    "step": 2,
+    "timestamp": 1773246764.6689897,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_WBKynpVbZ87SnOsyqafLFx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My mom had lung cancer, but no other family cancer history.",
+    "step": 2,
+    "timestamp": 1773246765.757871,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health issues in family?",
+    "step": 3,
+    "timestamp": 1773246766.5268054,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_aB86xYld8PyItmW1A44un0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; dad had gout, maybe clots.",
+    "step": 3,
+    "timestamp": 1773246767.6357203,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with clots?",
+    "step": 4,
+    "timestamp": 1773246768.3857055,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_7xeXCZfTdscn9sjVbhpPYG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall anyone else with blood clots.",
+    "step": 4,
+    "timestamp": 1773246769.524697,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns in family?",
+    "step": 5,
+    "timestamp": 1773246770.3248563,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_uIlEHqhCYnVdMvIpa6Wtg3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Unclear, but family had high blood pressure, cholesterol, stroke.",
+    "step": 5,
+    "timestamp": 1773246771.394475,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with high cholesterol?",
+    "step": 6,
+    "timestamp": 1773246772.1228514,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_KPMJfJRdoBn8JcUOvvBScb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any relatives with high cholesterol.",
+    "step": 6,
+    "timestamp": 1773246773.1826851,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health issues in family?",
+    "step": 7,
+    "timestamp": 1773246773.9074135,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_AEsLSad4KLiLZFTnU561ES"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; dad had gout, maybe clots.",
+    "step": 7,
+    "timestamp": 1773246775.15426,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with gout?",
+    "step": 8,
+    "timestamp": 1773246775.9962285,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_rXRse5nHs2Gd2oAybCinOS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other relatives with gout.",
+    "step": 8,
+    "timestamp": 1773246777.1076946,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health issues in family?",
+    "step": 9,
+    "timestamp": 1773246777.9350095,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_fIHHUT2xSwJEEUqw5cOnOb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; dad had gout and clots.",
+    "step": 9,
+    "timestamp": 1773246779.0788937,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with clots?",
+    "step": 10,
+    "timestamp": 1773246780.0149477,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_JTtFI2ExjvXtlZxi7k7NSo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No relatives with blood clots that I know.",
+    "step": 10,
+    "timestamp": 1773246781.1318815,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns in family?",
+    "step": 11,
+    "timestamp": 1773246782.056384,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_6s5ZFfyke0Jj11EdgfsCu2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; dad had gout and clots.",
+    "step": 11,
+    "timestamp": 1773246786.500133,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with high blood pressure?",
+    "step": 12,
+    "timestamp": 1773246787.29485,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_6zSTWKa3s8CPU2UQOfh9jQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but mom mentioned high blood pressure in family.",
+    "step": 12,
+    "timestamp": 1773246788.444709,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with high cholesterol?",
+    "step": 13,
+    "timestamp": 1773246789.5105517,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_vGQl5ChJmeKLeACbh9Gk4W"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall anyone with high cholesterol...",
+    "step": 13,
+    "timestamp": 1773246790.604779,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health issues in family?",
+    "step": 14,
+    "timestamp": 1773246791.7184057,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_NhrTILV1pZhiwKbjbq65Yd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; not sure about other specifics.",
+    "step": 14,
+    "timestamp": 1773246792.8004148,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other relatives with stroke?",
+    "step": 15,
+    "timestamp": 1773246793.6965747,
+    "metadata": {
+      "thought": "I need to gather more information about the user's family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_ya2Mbzth8yb8S62wF4cKzv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any relatives with a stroke.",
+    "step": 15,
+    "timestamp": 1773246794.8132586,
+    "metadata": {}
+  }
+]

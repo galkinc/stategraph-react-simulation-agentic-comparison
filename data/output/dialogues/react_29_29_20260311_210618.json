@@ -1,0 +1,243 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252378.3716817,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi, there. How are you doing?",
+    "step": 0,
+    "timestamp": 1773252378.3716874,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lately, my body feels off and weird...",
+    "step": 0,
+    "timestamp": 1773252379.6204975,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain or discomfort?",
+    "step": 1,
+    "timestamp": 1773252380.9599664,
+    "metadata": {
+      "thought": "User mentions feeling unwell. Need to gather specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_KsipZJicLM4cRs8JJ1j8Je"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some headaches lately, not sure why.",
+    "step": 1,
+    "timestamp": 1773252382.133444,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Headaches frequency and duration?",
+    "step": 2,
+    "timestamp": 1773252382.9448164,
+    "metadata": {
+      "thought": "User reports headaches. Need to clarify details.",
+      "done": false,
+      "tool_use_id": "tooluse_URqDlCDAvS6bvLWLVTUyh4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall headaches, but I'm not sure.",
+    "step": 2,
+    "timestamp": 1773252384.1842012,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any dizziness, nausea, or fatigue?",
+    "step": 3,
+    "timestamp": 1773252385.0308027,
+    "metadata": {
+      "thought": "User unsure about headaches. Need more symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_B8yCVBkCAGnUu9FcpC4AsL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes dizzy, but no nausea or fatigue...",
+    "step": 3,
+    "timestamp": 1773252386.1750226,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Dizziness duration and triggers?",
+    "step": 4,
+    "timestamp": 1773252387.0443223,
+    "metadata": {
+      "thought": "User reports dizziness. Need to confirm symptom specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_KHT1bf8zdYP6dqmP5J7L5D"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it happens mostly when I stand up.",
+    "step": 4,
+    "timestamp": 1773252388.2717905,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 5,
+    "timestamp": 1773252389.113663,
+    "metadata": {
+      "thought": "User reports dizziness on standing. Need to gather more context.",
+      "done": false,
+      "tool_use_id": "tooluse_xYo0Csr3eAaZlC2Kze1Avl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been dizzy and sometimes feel lightheaded...",
+    "step": 5,
+    "timestamp": 1773252390.3940861,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Lightheadedness frequency and duration?",
+    "step": 6,
+    "timestamp": 1773252391.2678905,
+    "metadata": {
+      "thought": "User reports lightheadedness. Need to confirm symptom specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_qOcwcrqyCfyLUoLsxPGyB4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt lightheaded a few times, maybe once a week.",
+    "step": 6,
+    "timestamp": 1773252392.499893,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current medications or supplements?",
+    "step": 7,
+    "timestamp": 1773252393.4620757,
+    "metadata": {
+      "thought": "User reports lightheadedness weekly. Need to gather medication history.",
+      "done": false,
+      "tool_use_id": "tooluse_eYl5MEN3pD6htGXWMys1M1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I take some vitamins.",
+    "step": 7,
+    "timestamp": 1773252394.6719584,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Which vitamins do you take?",
+    "step": 8,
+    "timestamp": 1773252395.5642753,
+    "metadata": {
+      "thought": "User takes vitamins. Need to specify type.",
+      "done": false,
+      "tool_use_id": "tooluse_hr5vCen5KjL40JFJ7i36ua"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I take some multivitamins.",
+    "step": 8,
+    "timestamp": 1773252396.7949796,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you take multivitamins?",
+    "step": 9,
+    "timestamp": 1773252397.7865267,
+    "metadata": {
+      "thought": "User takes multivitamins. Need to confirm frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_kRDpv01lgUYQ6Pt4H58wUT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't take multivitamins regularly...",
+    "step": 9,
+    "timestamp": 1773252398.9773614,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 10,
+    "timestamp": 1773252399.925409,
+    "metadata": {
+      "thought": "User irregular multivitamin use. Need to finalize symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_IguX011k0A2AoF85kOKCxw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lately, I've had some dizziness and fatigue...",
+    "step": 10,
+    "timestamp": 1773252401.229711,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Fatigue frequency and duration?",
+    "step": 11,
+    "timestamp": 1773252402.2505944,
+    "metadata": {
+      "thought": "User reports fatigue. Need to confirm symptom specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_7HujPtdcETKRRSsrvyXyna"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been tired often, lasting hours sometimes...",
+    "step": 11,
+    "timestamp": 1773252403.5189924,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 12,
+    "timestamp": 1773252404.5486746,
+    "metadata": {
+      "thought": "User reports frequent fatigue. Need to finalize symptom details.",
+      "done": true,
+      "tool_use_id": "tooluse_3x4JUBe1Tq3wUFk9rX3W3n"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel dizzy sometimes.",
+    "step": 12,
+    "timestamp": 1773252405.6721852,
+    "metadata": {}
+  }
+]

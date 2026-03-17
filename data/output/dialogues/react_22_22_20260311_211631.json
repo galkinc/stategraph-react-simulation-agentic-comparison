@@ -1,0 +1,297 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252991.0254688,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I looked over your report from urgent care.",
+    "step": 0,
+    "timestamp": 1773252991.0254745,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specifics from that urgent care visit.",
+    "step": 0,
+    "timestamp": 1773252992.8126578,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773252994.145621,
+    "metadata": {
+      "thought": "Ask user about symptoms to identify medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_GKEPe4ewp24m3cl578V8Kd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms recently, just fatigue...",
+    "step": 1,
+    "timestamp": 1773252995.3616574,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 2,
+    "timestamp": 1773252996.1723273,
+    "metadata": {
+      "thought": "Fatigue can be a symptom of many conditions. Ask about duration and severity.",
+      "done": false,
+      "tool_use_id": "tooluse_h7xJFyHqEUcc7youV9TciE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt fatigued for about two weeks now.",
+    "step": 2,
+    "timestamp": 1773252997.456564,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides fatigue?",
+    "step": 3,
+    "timestamp": 1773252998.2635846,
+    "metadata": {
+      "thought": "Fatigue duration is noted. Ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_wApEoKbZO8KIossT7gtIbm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms besides fatigue.",
+    "step": 3,
+    "timestamp": 1773252999.4671736,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or sleep?",
+    "step": 4,
+    "timestamp": 1773253000.238061,
+    "metadata": {
+      "thought": "No other symptoms noted. Ask about lifestyle factors.",
+      "done": false,
+      "tool_use_id": "tooluse_sE901nN7g8ATzqhDnb8ydN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in diet or sleep recently...",
+    "step": 4,
+    "timestamp": 1773253001.416546,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 5,
+    "timestamp": 1773253002.193589,
+    "metadata": {
+      "thought": "No lifestyle changes noted. Ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_tC6p4Jr6afNKHJdC7vsCnX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any medications I'm taking...",
+    "step": 5,
+    "timestamp": 1773253003.4779606,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "High stress levels recently?",
+    "step": 6,
+    "timestamp": 1773253004.2886262,
+    "metadata": {
+      "thought": "No medication use noted. Consider asking about stress.",
+      "done": false,
+      "tool_use_id": "tooluse_rbbTAEFr8DcFbngyi7F5O0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling really overwhelmed lately, yes...",
+    "step": 6,
+    "timestamp": 1773253005.600059,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Sleep quality been affected?",
+    "step": 7,
+    "timestamp": 1773253006.3870015,
+    "metadata": {
+      "thought": "Stress can cause fatigue. Consider asking about sleep quality.",
+      "done": false,
+      "tool_use_id": "tooluse_4bzqkQyEezwhr6h9bPA7P8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My sleep hasn't been great lately...",
+    "step": 7,
+    "timestamp": 1773253007.5644042,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in sleep patterns?",
+    "step": 8,
+    "timestamp": 1773253008.428753,
+    "metadata": {
+      "thought": "Sleep issues noted. Consider asking about sleep patterns.",
+      "done": false,
+      "tool_use_id": "tooluse_N0KlMZKAk7KHbIaMUk9igG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My sleep hasn't changed much recently...",
+    "step": 8,
+    "timestamp": 1773253009.6764731,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Typical sleep duration?",
+    "step": 9,
+    "timestamp": 1773253010.5536609,
+    "metadata": {
+      "thought": "No changes in sleep patterns noted. Consider asking about sleep duration.",
+      "done": false,
+      "tool_use_id": "tooluse_8S2iBd2jEoss6enfJBJbK7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I usually sleep around seven hours each night.",
+    "step": 9,
+    "timestamp": 1773253011.7000055,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any interruptions in your sleep?",
+    "step": 10,
+    "timestamp": 1773253012.537626,
+    "metadata": {
+      "thought": "Seven hours sleep noted. Consider asking about sleep interruptions.",
+      "done": false,
+      "tool_use_id": "tooluse_SM6Y9Es6WYlmDhL1K8p7Zl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I usually wake up several times during the night.",
+    "step": 10,
+    "timestamp": 1773253013.6814284,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in sleep environment?",
+    "step": 11,
+    "timestamp": 1773253014.543839,
+    "metadata": {
+      "thought": "Sleep interruptions noted. Consider asking about sleep environment.",
+      "done": false,
+      "tool_use_id": "tooluse_gp8MSgQiEqFBYpoFW4DCAG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any changes in my sleep environment.",
+    "step": 11,
+    "timestamp": 1773253015.7655408,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in sleep hygiene?",
+    "step": 12,
+    "timestamp": 1773253016.6236389,
+    "metadata": {
+      "thought": "No changes in sleep environment noted. Consider asking about sleep hygiene.",
+      "done": false,
+      "tool_use_id": "tooluse_1cCOZ5FMWHlJALQ1txxY9Q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been trying to sleep better lately...",
+    "step": 12,
+    "timestamp": 1773253017.8882065,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Using any sleep aids?",
+    "step": 13,
+    "timestamp": 1773253018.8728712,
+    "metadata": {
+      "thought": "Attempts to improve sleep noted. Consider asking about sleep aids.",
+      "done": false,
+      "tool_use_id": "tooluse_nlqD0qXcZGdOW6zwEGSB65"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't used any sleep aids recently...",
+    "step": 13,
+    "timestamp": 1773253020.1300788,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Sleep patterns consistent?",
+    "step": 14,
+    "timestamp": 1773253021.217419,
+    "metadata": {
+      "thought": "No sleep aids used. Consider asking about sleep patterns consistency.",
+      "done": false,
+      "tool_use_id": "tooluse_EhE8mSQUWC1q3XXjaFHf7C"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I usually sleep around eight hours a night.",
+    "step": 14,
+    "timestamp": 1773253022.3770764,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Sleep quality been good?",
+    "step": 15,
+    "timestamp": 1773253023.821573,
+    "metadata": {
+      "thought": "Consistent sleep patterns noted. Consider asking about sleep quality.",
+      "done": false,
+      "tool_use_id": "tooluse_r4toTQ265jLHz1RM0zYSBB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not great, been waking up often at night.",
+    "step": 15,
+    "timestamp": 1773253025.1198213,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252609.3547597,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hey, bud. What brings you in today?",
+    "step": 0,
+    "timestamp": 1773252609.3547647,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash on my arms and torso, been bothering me.",
+    "step": 0,
+    "timestamp": 1773252610.734927,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did rash first appear?",
+    "step": 1,
+    "timestamp": 1773252612.0712821,
+    "metadata": {
+      "thought": "Need to confirm if rash is a condition",
+      "done": false,
+      "tool_use_id": "tooluse_svXyjE8VuiJTYuSZ0KGCbw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash started about a day or two ago.",
+    "step": 1,
+    "timestamp": 1773252613.309251,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is rash itchy, painful, or spreading?",
+    "step": 2,
+    "timestamp": 1773252614.1328743,
+    "metadata": {
+      "thought": "Next step is to ask about rash characteristics",
+      "done": false,
+      "tool_use_id": "tooluse_dFVL5DcgxBYVxLl4bqy6WW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's itchy, not painful, and hasn't spread much.",
+    "step": 2,
+    "timestamp": 1773252615.4481757,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any creams or ointments used?",
+    "step": 3,
+    "timestamp": 1773252616.2940063,
+    "metadata": {
+      "thought": "Need to ask if any treatments tried",
+      "done": false,
+      "tool_use_id": "tooluse_y25hRhHTCCWt2Tr8dfIGO1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No creams or ointments used yet...",
+    "step": 3,
+    "timestamp": 1773252617.5030284,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms noticed?",
+    "step": 4,
+    "timestamp": 1773252618.3006985,
+    "metadata": {
+      "thought": "Final step is to ask about other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_uyWdU2ZcTyUvhNEp6Cu12Q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just the rash...",
+    "step": 4,
+    "timestamp": 1773252619.5173202,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252620.4413538,
+    "metadata": {
+      "thought": "Have enough info to conclude",
+      "done": true,
+      "tool_use_id": "tooluse_Lj96J5I2hMahSe4bChGAl6"
+    }
+  }
+]

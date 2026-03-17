@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252554.0904672,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit?",
+    "step": 0,
+    "timestamp": 1773252554.0904725,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about my quitting plans yet.",
+    "step": 0,
+    "timestamp": 1773252555.2440364,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any symptoms or discomfort you're experiencing?",
+    "step": 1,
+    "timestamp": 1773252556.6741116,
+    "metadata": {
+      "thought": "User is not sure about quitting plans yet, no specific condition identified.",
+      "done": false,
+      "tool_use_id": "tooluse_FUxHkwx9jUT3QbkjoYUP5l"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling a bit tired lately...",
+    "step": 1,
+    "timestamp": 1773252557.8985176,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt this tired?",
+    "step": 2,
+    "timestamp": 1773252558.841159,
+    "metadata": {
+      "thought": "User mentioned feeling tired, but no specific condition identified yet.",
+      "done": false,
+      "tool_use_id": "tooluse_seUUleWNZcpyI3T7wQEreu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt tired for about three weeks now.",
+    "step": 2,
+    "timestamp": 1773252560.1030538,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or discomfort?",
+    "step": 3,
+    "timestamp": 1773252561.004331,
+    "metadata": {
+      "thought": "User has been feeling tired for three weeks, but no other symptoms or conditions identified.",
+      "done": false,
+      "tool_use_id": "tooluse_CyPpM3PpM0ZkOHurB6eWHt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just the usual fatigue...",
+    "step": 3,
+    "timestamp": 1773252562.190641,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773252562.9885983,
+    "metadata": {
+      "thought": "User has fatigue but no other symptoms, insufficient information for a diagnosis.",
+      "done": true,
+      "tool_use_id": "tooluse_3OiNiPTiciufkq3NSVTthw"
+    }
+  }
+]

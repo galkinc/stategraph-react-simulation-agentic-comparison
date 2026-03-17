@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246844.2423594,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773246844.2423646,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's been acting up lately, doctor...",
+    "step": 0,
+    "timestamp": 1773246845.5207133,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What specific skin issues are you experiencing?",
+    "step": 1,
+    "timestamp": 1773246846.960058,
+    "metadata": {
+      "thought": "Ask about specific skin issues for symptom elicitation.",
+      "done": false,
+      "tool_use_id": "tooluse_j1WDAsWMcg5Tf4JOBvz15f"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's been burning and weird lately...",
+    "step": 1,
+    "timestamp": 1773246848.1701698,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the burning start? Any rash or swelling?",
+    "step": 2,
+    "timestamp": 1773246848.9642577,
+    "metadata": {
+      "thought": "Elicit more details about the burning sensation.",
+      "done": false,
+      "tool_use_id": "tooluse_jCTNtaFTggUYqGJy1t1WZb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The burning started a few weeks ago; no rash or swelling.",
+    "step": 2,
+    "timestamp": 1773246850.286233,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments?",
+    "step": 3,
+    "timestamp": 1773246850.981916,
+    "metadata": {
+      "thought": "Determine if any treatments have been tried.",
+      "done": false,
+      "tool_use_id": "tooluse_kHxhAKMn4v9AxXS86SbkvU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not yet, just waiting for specialist advice...",
+    "step": 3,
+    "timestamp": 1773246852.0268636,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 4,
+    "timestamp": 1773246852.8219671,
+    "metadata": {
+      "thought": "Ask about any medications being taken.",
+      "done": false,
+      "tool_use_id": "tooluse_RlEN21ZvQqCDaB70nO73Gp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; my local doctor didn't mention meds.",
+    "step": 4,
+    "timestamp": 1773246854.025805,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246854.7373035,
+    "metadata": {
+      "thought": "Conclude the symptom elicitation.",
+      "done": true,
+      "tool_use_id": "tooluse_Oxvsb1Pe29oBGGujD6r1CN"
+    }
+  }
+]

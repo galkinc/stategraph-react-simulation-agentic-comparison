@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246704.5802138,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any difficulty in hearing?",
+    "step": 0,
+    "timestamp": 1773246704.5802243,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No hearing issues, everything seems normal to me.",
+    "step": 0,
+    "timestamp": 1773246705.7330484,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any trouble with vision or balance?",
+    "step": 1,
+    "timestamp": 1773246707.0720518,
+    "metadata": {
+      "thought": "User reports no hearing issues, no symptoms noted yet.",
+      "done": false,
+      "tool_use_id": "tooluse_RnUAqgI4S6xgWoIHXstvkg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No trouble with vision or balance, same as before.",
+    "step": 1,
+    "timestamp": 1773246708.2446592,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain or discomfort anywhere?",
+    "step": 2,
+    "timestamp": 1773246708.9938724,
+    "metadata": {
+      "thought": "User reports no vision or balance issues, continuing to gather more symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_e0JTnw12sTNWuCBGjBtTJQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just same old discomfort...",
+    "step": 2,
+    "timestamp": 1773246710.1397064,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fatigue or weakness?",
+    "step": 3,
+    "timestamp": 1773246710.905823,
+    "metadata": {
+      "thought": "User reports no pain but mentions discomfort, continuing to gather more symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_pwpB9qKwfRZfUDZSw4w5pi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not feeling any unusual fatigue lately...",
+    "step": 3,
+    "timestamp": 1773246712.0532322,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any digestive issues or nausea?",
+    "step": 4,
+    "timestamp": 1773246712.8587103,
+    "metadata": {
+      "thought": "User reports no unusual fatigue, continuing to gather more symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Q8eBS0C3aySHHDWrqWiSRs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No digestive issues or nausea here...",
+    "step": 4,
+    "timestamp": 1773246714.019477,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any respiratory problems or cough?",
+    "step": 5,
+    "timestamp": 1773246714.9414062,
+    "metadata": {
+      "thought": "User reports no digestive issues or nausea, continuing to gather more symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_j59vdiTxUlN113VgBmT0I4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No respiratory issues, just the usual cough...",
+    "step": 5,
+    "timestamp": 1773246716.0814953,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773246717.0585215,
+    "metadata": {
+      "thought": "User reports a usual cough but no new respiratory issues, concluding symptom collection.",
+      "done": true,
+      "tool_use_id": "tooluse_zbHUJm2KpIIZ8mimhVs7Pd"
+    }
+  }
+]

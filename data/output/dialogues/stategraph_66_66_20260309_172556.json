@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066356.7649477,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773066356.764953,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's been acting up lately...",
+    "step": 0,
+    "timestamp": 1773066357.9727724,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What specific skin issues are you experiencing?",
+    "step": 1,
+    "timestamp": 1773066359.2483742,
+    "metadata": {
+      "thought": "Ask about specific skin issues to identify potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_C9hcpE95OB69m9795wVSRs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's been acting up, lots of weird spots.",
+    "step": 1,
+    "timestamp": 1773066360.3691905,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are the spots red, itchy, or painful?",
+    "step": 2,
+    "timestamp": 1773066361.7326703,
+    "metadata": {
+      "thought": "Clarify the nature of the spots to identify potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_NlfuToqKrVUqh4MK5CrfkV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but they're definitely itchy...",
+    "step": 2,
+    "timestamp": 1773066362.7657795,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have these spots been there?",
+    "step": 3,
+    "timestamp": 1773066364.1782646,
+    "metadata": {
+      "thought": "Ask about duration and other symptoms to refine diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_O2NdC2jI04RmAa42YRiEuP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About three weeks, but they've changed a lot.",
+    "step": 3,
+    "timestamp": 1773066365.2997837,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in texture or color?",
+    "step": 4,
+    "timestamp": 1773066366.8405662,
+    "metadata": {
+      "thought": "Determine if there are other symptoms or changes in skin.",
+      "done": false,
+      "tool_use_id": "tooluse_mLBkTc3NEGAyq6TAnsYfyt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Texture's rough, color's patchy, can't really tell...",
+    "step": 4,
+    "timestamp": 1773066367.9920382,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments?",
+    "step": 5,
+    "timestamp": 1773066369.4062097,
+    "metadata": {
+      "thought": "Summarize findings and ask if any treatments have been tried.",
+      "done": false,
+      "tool_use_id": "tooluse_cGk3sW6nzFVBXeDhXUGUJD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not yet, just monitoring changes...",
+    "step": 5,
+    "timestamp": 1773066370.482481,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066371.967342,
+    "metadata": {
+      "thought": "Conclude the conversation with a recommendation for professional advice.",
+      "done": true,
+      "tool_use_id": "tooluse_FdGlJHwYmoJUsMRv7PHTlo"
+    }
+  }
+]

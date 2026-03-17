@@ -1,0 +1,220 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068472.1664248,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning. So, you are here for your follow up today.",
+    "step": 0,
+    "timestamp": 1773068472.166435,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for my follow-up, feeling much better now.",
+    "step": 0,
+    "timestamp": 1773068473.3831983,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773068474.778773,
+    "metadata": {
+      "thought": "User is here for follow-up and feels much better. No specific symptoms mentioned yet.",
+      "done": false,
+      "tool_use_id": "tooluse_mej7cyTD4wtaQDOExYTm15"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No symptoms now, just here for checkup...",
+    "step": 1,
+    "timestamp": 1773068475.9459176,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in your health since last visit?",
+    "step": 2,
+    "timestamp": 1773068476.7357323,
+    "metadata": {
+      "thought": "User has no symptoms but is here for a checkup. No specific medical entities identified yet.",
+      "done": false,
+      "tool_use_id": "tooluse_CoS0X63u8BT5KKx84yRGNZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes, all symptoms are gone now...",
+    "step": 2,
+    "timestamp": 1773068477.9128454,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new medications or treatments?",
+    "step": 3,
+    "timestamp": 1773068478.7012644,
+    "metadata": {
+      "thought": "User reports no changes and no symptoms. Still no specific medical entities identified.",
+      "done": false,
+      "tool_use_id": "tooluse_9AbxXfb64P0DM9jhzA8h8d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new meds; just follow-up care...",
+    "step": 3,
+    "timestamp": 1773068479.827163,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any concerns or questions today?",
+    "step": 4,
+    "timestamp": 1773068480.6750262,
+    "metadata": {
+      "thought": "User reports no new medications and is here for follow-up care. Still no specific medical entities identified.",
+      "done": false,
+      "tool_use_id": "tooluse_yhVoqGSEqch6vdIe35admz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No concerns, just checking on my follow-up...",
+    "step": 4,
+    "timestamp": 1773068481.6546752,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773068482.4889684,
+    "metadata": {
+      "thought": "User has no concerns and is here for follow-up. Still no specific medical entities identified.",
+      "done": true,
+      "tool_use_id": "tooluse_IH8WkNaPD1ESPAFtoODiaN"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773068483.307832,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_T6qtx8ZZD9dnMFPoTUKKwn"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773068484.0921364,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_TKiU3s8WTRfhBrlgOn3w4A"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773068484.88553,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_bgB291EA3iy7TYY6gorjlm"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773068485.6790404,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_0ZFh2b91QrOE0hq3ehXk5P"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773068486.5510676,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_2JeqI2yCe03SKhchRoj6DH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773068487.347541,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_9tZ7axVcUuj5O7JbTeiBuQ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773068488.1240134,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_jfT33xXEgiok6jAOEcEYPP"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773068488.9385943,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_yGNEkMrj69knHPJNNM48R2"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773068489.7949383,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_LKybnECrzkQCqRZjNA8S62"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773068490.579921,
+    "metadata": {
+      "thought": "Conversation is complete with sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_8b2MKirUGvdRobzQqRc8Jg"
+    }
+  }
+]

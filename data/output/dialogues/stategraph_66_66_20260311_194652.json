@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247612.4559617,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773247612.4559655,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's been acting up lately...",
+    "step": 0,
+    "timestamp": 1773247613.5148268,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What specific skin issues are you experiencing?",
+    "step": 1,
+    "timestamp": 1773247614.8273995,
+    "metadata": {
+      "thought": "Ask about specific skin issues to identify potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_NLNMMFXDXXEmNjf3y77Feu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's burning a lot, and it's really itchy.",
+    "step": 1,
+    "timestamp": 1773247615.9725573,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the symptoms first appear?",
+    "step": 2,
+    "timestamp": 1773247617.4413867,
+    "metadata": {
+      "thought": "Burning and itching can indicate dermatitis or allergic reaction.",
+      "done": false,
+      "tool_use_id": "tooluse_8UgGeLtzxSmWmqho1UlTQx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About three months ago, things started changing...",
+    "step": 2,
+    "timestamp": 1773247618.544076,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you used new skincare products?",
+    "step": 3,
+    "timestamp": 1773247620.012869,
+    "metadata": {
+      "thought": "Need to know if any new products or changes in environment.",
+      "done": false,
+      "tool_use_id": "tooluse_QCUMQj9elZuuICfdanUmST"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall if I used new products recently.",
+    "step": 3,
+    "timestamp": 1773247621.1225798,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in your environment?",
+    "step": 4,
+    "timestamp": 1773247622.5957756,
+    "metadata": {
+      "thought": "Need to ask about environmental changes or allergies.",
+      "done": false,
+      "tool_use_id": "tooluse_35ACl7TZS0wtNAVwkbsSZP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just stress at work...",
+    "step": 4,
+    "timestamp": 1773247623.7680151,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 5,
+    "timestamp": 1773247625.125856,
+    "metadata": {
+      "thought": "Stress can exacerbate skin conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_bm59yb53E0zJRspvNYGgNA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it's itchy and sometimes burns.",
+    "step": 5,
+    "timestamp": 1773247626.2383833,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247627.7014077,
+    "metadata": {
+      "thought": "Have enough information to identify potential conditions.",
+      "done": true,
+      "tool_use_id": "tooluse_c3r02QnLrVvXcvnnRiYgIi"
+    }
+  }
+]

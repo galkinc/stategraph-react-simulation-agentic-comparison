@@ -1,0 +1,241 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252724.856839,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, I will ask you a few basic questions, okay?",
+    "step": 0,
+    "timestamp": 1773252724.8568442,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I drink a bit, but not heavily...",
+    "step": 0,
+    "timestamp": 1773252726.0727675,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms or discomfort?",
+    "step": 1,
+    "timestamp": 1773252728.7176378,
+    "metadata": {
+      "thought": "User mentioned drinking but not heavily. No specific medical condition mentioned yet.",
+      "done": false,
+      "tool_use_id": "tooluse_t3P9BynZNNBDwyV7KH2q7a"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any specific symptoms really...",
+    "step": 1,
+    "timestamp": 1773252729.958816,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How's your general health?",
+    "step": 2,
+    "timestamp": 1773252730.8124058,
+    "metadata": {
+      "thought": "User does not recall specific symptoms. Need to ask about general health.",
+      "done": false,
+      "tool_use_id": "tooluse_t7V7gBI3hbWaFllGSJcI24"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm generally okay, just manage some stress...",
+    "step": 2,
+    "timestamp": 1773252732.099171,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stress-related symptoms?",
+    "step": 3,
+    "timestamp": 1773252732.8307817,
+    "metadata": {
+      "thought": "User mentions managing stress but no specific condition. Need to ask about stress-related symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ZJSnMgfRoVSK2q7oiISh51"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any stress-related symptoms specifically...",
+    "step": 3,
+    "timestamp": 1773252734.062351,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 4,
+    "timestamp": 1773252734.8951068,
+    "metadata": {
+      "thought": "User does not recall stress-related symptoms. No specific medical condition identified yet.",
+      "done": false,
+      "tool_use_id": "tooluse_Pkcf8EyxTjDPa9khfTl8aT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major health concerns, just my daily drinks.",
+    "step": 4,
+    "timestamp": 1773252736.158366,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken daily?",
+    "step": 5,
+    "timestamp": 1773252737.052299,
+    "metadata": {
+      "thought": "User mentions daily drinks but no major health concerns. Need to confirm if any medications are taken.",
+      "done": false,
+      "tool_use_id": "tooluse_Ezt4qblDii0WLGsBW0GXzU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No daily medications, just occasional drinks...",
+    "step": 5,
+    "timestamp": 1773252738.280737,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you'd like to share?",
+    "step": 6,
+    "timestamp": 1773252739.1684058,
+    "metadata": {
+      "thought": "User does not take daily medications. No specific medical condition identified yet.",
+      "done": false,
+      "tool_use_id": "tooluse_S1MkoAUKzhyJXWeNk4JbRa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't drink heavily, just a couple of drinks daily.",
+    "step": 6,
+    "timestamp": 1773252740.5569363,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you'd like to mention?",
+    "step": 7,
+    "timestamp": 1773252741.4083877,
+    "metadata": {
+      "thought": "User clarifies drinking habits. No specific medical condition identified yet.",
+      "done": false,
+      "tool_use_id": "tooluse_ypgx1CxRCnVCCizx8VAGoe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall anything else about my habits.",
+    "step": 7,
+    "timestamp": 1773252742.6316774,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773252743.5343761,
+    "metadata": {
+      "thought": "User does not recall anything else. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_GBPD71ZmfUrdSFaTrWPAqP"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252744.448991,
+    "metadata": {
+      "thought": "Conversation is complete. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_XOBgfcZGseF4UcCpmMoVES"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773252745.219132,
+    "metadata": {
+      "thought": "Conversation is complete. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_V4SIsdaBY4zsF59tO50h0h"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252746.0508657,
+    "metadata": {
+      "thought": "Conversation is complete. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_6RooMBVaKI7yFNM1U8rO8Q"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773252746.9081953,
+    "metadata": {
+      "thought": "Conversation is complete. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_QjJJO9UrzmGV41oLfEKCwE"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773252747.7890792,
+    "metadata": {
+      "thought": "Conversation is complete. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_C35jf6Uy90Y2wEXUTYxn0w"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773252748.6691468,
+    "metadata": {
+      "thought": "Conversation is complete. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_5N4HXpoOSVPE6rdNDQGsOm"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773252749.4834445,
+    "metadata": {
+      "thought": "Conversation is complete. No specific medical condition identified yet.",
+      "done": true,
+      "tool_use_id": "tooluse_CuvLUKrIa3RFX6ABLg05vg"
+    }
+  }
+]

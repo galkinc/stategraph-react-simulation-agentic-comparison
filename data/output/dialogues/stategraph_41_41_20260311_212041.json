@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253241.5876992,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "It looks like your white blood cell count is normal according to your most recent labs. But, I do want to keep an eye on it given your history of high white blood cells.",
+    "step": 0,
+    "timestamp": 1773253241.587703,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My white count is normal now, but I'm still in pain.",
+    "step": 0,
+    "timestamp": 1773253242.9026854,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly are you experiencing pain?",
+    "step": 1,
+    "timestamp": 1773253244.3538518,
+    "metadata": {
+      "thought": "The user mentioned ongoing pain despite normal white blood cell count. I need to gather more details about the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_NIckeSt2H9iYxvslNIyoir"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left shoulder and lower back, mostly...",
+    "step": 1,
+    "timestamp": 1773253245.4751086,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773253247.0402067,
+    "metadata": {
+      "thought": "User reported pain in left shoulder and lower back. I need to know if it's constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_Eancv85jbIRCvKdv1WH3ew"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The pain's mostly constant, though it flares up.",
+    "step": 2,
+    "timestamp": 1773253248.2811446,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does the pain affect your daily activities?",
+    "step": 3,
+    "timestamp": 1773253249.8444483,
+    "metadata": {
+      "thought": "User described constant pain with flare-ups. I need to know if the pain is affecting their daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_Yl3VnDNcv8j0EVDrZmiTyx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, it's making daily tasks hard for me.",
+    "step": 3,
+    "timestamp": 1773253251.033483,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments for the pain?",
+    "step": 4,
+    "timestamp": 1773253252.647051,
+    "metadata": {
+      "thought": "User confirmed that pain affects daily activities. I need to know if they have tried any treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_ee7zeW0ojoCwXvW2Zf0M70"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments, just smoking to manage the pain.",
+    "step": 4,
+    "timestamp": 1773253254.0112538,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms?",
+    "step": 5,
+    "timestamp": 1773253255.5933626,
+    "metadata": {
+      "thought": "User uses smoking to manage pain. I need to know if they have any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_DXATkJ8PPN4WMbOxEiJVbo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about other symptoms, but my peeing feels fine.",
+    "step": 5,
+    "timestamp": 1773253256.820301,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 6,
+    "timestamp": 1773253258.500663,
+    "metadata": {
+      "thought": "User mentioned no other symptoms except for normal urination. I need to know about any medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_pp91sml3pXKypRvdvEBxY7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just smoking to manage pain...",
+    "step": 6,
+    "timestamp": 1773253259.7817576,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253261.4068515,
+    "metadata": {
+      "thought": "User does not use medications but smokes to manage pain. I have enough information to conclude the conversation.",
+      "done": true,
+      "tool_use_id": "tooluse_jTh3ZHZETTAayRNTXWxxlK"
+    }
+  }
+]

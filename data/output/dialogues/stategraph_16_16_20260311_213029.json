@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253829.719408,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Just to go over few things let me ask, any aches and pains?",
+    "step": 0,
+    "timestamp": 1773253829.7194118,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip and shoulder pain, also leg swelling.",
+    "step": 0,
+    "timestamp": 1773253830.887319,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain start?",
+    "step": 1,
+    "timestamp": 1773253832.4431913,
+    "metadata": {
+      "thought": "User reported left hip and shoulder pain, also leg swelling. These are symptoms that need to be categorized under conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_yFhwwDMmEEDdqbadBdAdIQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it's been weeks...",
+    "step": 1,
+    "timestamp": 1773253833.610694,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries or falls?",
+    "step": 2,
+    "timestamp": 1773253835.2129002,
+    "metadata": {
+      "thought": "User reported the pain has been ongoing for weeks. This information helps in understanding the duration of the symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_hZEoutaafRivyQVPa7ttXp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries or falls, just pain...",
+    "step": 2,
+    "timestamp": 1773253836.47345,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain level on a scale 1-10?",
+    "step": 3,
+    "timestamp": 1773253838.1864674,
+    "metadata": {
+      "thought": "User denies any recent injuries or falls. This information helps rule out trauma as a cause.",
+      "done": false,
+      "tool_use_id": "tooluse_Tlb1lvcD40ajK4lnaGEAsa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My left hip and shoulder both hurt a lot, around 8.",
+    "step": 3,
+    "timestamp": 1773253839.494146,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any numbness or tingling?",
+    "step": 4,
+    "timestamp": 1773253841.095754,
+    "metadata": {
+      "thought": "User reports significant pain in both left hip and shoulder, rated around 8 on a scale of 1-10.",
+      "done": false,
+      "tool_use_id": "tooluse_7TDr6dPSAn494Q1hAF3IjM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No numbness or tingling in my left hip or shoulder.",
+    "step": 4,
+    "timestamp": 1773253842.3785787,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever or chills?",
+    "step": 5,
+    "timestamp": 1773253843.9323676,
+    "metadata": {
+      "thought": "User denies any numbness or tingling in the affected areas. This helps in ruling out nerve involvement.",
+      "done": false,
+      "tool_use_id": "tooluse_ihy2BsP2gtNeYZUSkEIYFV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or chills, just my usual pains.",
+    "step": 5,
+    "timestamp": 1773253845.1539953,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253846.8097107,
+    "metadata": {
+      "thought": "User denies any fever or chills, which helps in ruling out infection as a cause.",
+      "done": true,
+      "tool_use_id": "tooluse_sPG2TfNtUrmbNdMYcvVCsG"
+    }
+  }
+]

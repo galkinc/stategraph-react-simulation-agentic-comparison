@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773249289.6181793,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Tell me a little more about your family. Are there any significant conditions that your parents or siblings had that you know of?",
+    "step": 0,
+    "timestamp": 1773249289.6181853,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dad had colon and thyroid cancer; one brother had stomach cancer.",
+    "step": 0,
+    "timestamp": 1773249290.969378,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any personal medical conditions?",
+    "step": 1,
+    "timestamp": 1773249292.4144459,
+    "metadata": {
+      "thought": "Gathered family medical history from user. Next step is to ask about personal medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_pptdh1a6Z9UGkEBPUetOjr"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No personal medical conditions, just family history...",
+    "step": 1,
+    "timestamp": 1773249293.5284636,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you experienced any unusual symptoms recently?",
+    "step": 2,
+    "timestamp": 1773249295.0144374,
+    "metadata": {
+      "thought": "User shared family medical history but no personal conditions. Next step is to ask about symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_JhnW2Q9gKGe3Bwzi4iKLYH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, haven't noticed anything unusual...",
+    "step": 2,
+    "timestamp": 1773249296.181903,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 3,
+    "timestamp": 1773249297.6490827,
+    "metadata": {
+      "thought": "User has no personal symptoms. Next step is to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_E0NZeJo6QX6obtCEAzniGy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about current meds, but I take thyroid pills.",
+    "step": 3,
+    "timestamp": 1773249298.806508,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773249300.1389525,
+    "metadata": {
+      "thought": "User takes thyroid medication. Next step is to confirm if done.",
+      "done": true,
+      "tool_use_id": "tooluse_810PuVMKwqHUMVdHRhYJHV"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773249301.584071,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_uUa9Jq87flW9QimO51iM1j"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773249303.0139234,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_4szX9XjD3HyEtrnBysoXj3"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773249304.4643664,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_RMXf22Xs7WgCOqp7zLPzLd"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773249305.9420793,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_997LmyxAYdKnPI4uOB3bOL"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773249307.8213003,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_9rlXjlIHrz49uAxcVdBtbp"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773249309.1961088,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_oy8dSMTrViZ0Gg9JzHoINi"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773249310.6183922,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_Y0Jspqgkk4Weahg4qdLMWp"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773249311.9904988,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_dX3OUjOfIZgMw2axiru8zN"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773249313.9074898,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_mU2R6AGPGpZEhKW5dZXXHh"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773249315.3155622,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_9o9HmfrFbJbvzQAtUlr1T9"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773249316.9307933,
+    "metadata": {
+      "thought": "Conversation is complete. Provided information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_nhufjXBUBWQU48s0x19vaZ"
+    }
+  }
+]

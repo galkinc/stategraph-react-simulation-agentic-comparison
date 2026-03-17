@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247967.1195478,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Just to go over few things let me ask, any aches and pains?",
+    "step": 0,
+    "timestamp": 1773247967.1195517,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip and shoulder pain, also leg swelling.",
+    "step": 0,
+    "timestamp": 1773247968.1422122,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did pain start?",
+    "step": 1,
+    "timestamp": 1773247969.639379,
+    "metadata": {
+      "thought": "User reports left hip, shoulder pain, and leg swelling. These symptoms could indicate various conditions. I need to gather more details to narrow down possibilities.",
+      "done": false,
+      "tool_use_id": "tooluse_ASZMry77xLHxjQ8PQUTL5b"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip pain started two weeks ago, shoulder pain recently.",
+    "step": 1,
+    "timestamp": 1773247970.7323892,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is swelling constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773247972.3293836,
+    "metadata": {
+      "thought": "User reports left hip pain for two weeks and recent shoulder pain. I need to determine if there's a connection between these symptoms and any swelling.",
+      "done": false,
+      "tool_use_id": "tooluse_y043pDX3MLDqga0kpmGXUL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling's been constant for the past weeks...",
+    "step": 2,
+    "timestamp": 1773247973.4237068,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or medical history?",
+    "step": 3,
+    "timestamp": 1773247975.0236828,
+    "metadata": {
+      "thought": "User reports constant leg swelling for weeks. I need to ask about any other symptoms or medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_moblcMfYk3QKDng82kVhSg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just vision and hearing issues.",
+    "step": 3,
+    "timestamp": 1773247976.1116033,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did vision/hearing issues start?",
+    "step": 4,
+    "timestamp": 1773247977.7028239,
+    "metadata": {
+      "thought": "User reports no other symptoms except vision and hearing issues. I need to determine if these are recent or long-standing.",
+      "done": false,
+      "tool_use_id": "tooluse_tkyZ7YjtXtCY3X95wZJDYa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when they began...",
+    "step": 4,
+    "timestamp": 1773247978.8230443,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or medications taken?",
+    "step": 5,
+    "timestamp": 1773247980.4115336,
+    "metadata": {
+      "thought": "User is unsure about the onset of vision and hearing issues. I need to ask about any treatments or medications.",
+      "done": false,
+      "tool_use_id": "tooluse_Yyk1T1FV3Z03HByoFzzNyc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, I don't recall specific treatments.",
+    "step": 5,
+    "timestamp": 1773247981.4811854,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you seen a doctor?",
+    "step": 6,
+    "timestamp": 1773247983.2092104,
+    "metadata": {
+      "thought": "User is unsure about treatments or medications. I need to summarize the symptoms and ask if they've seen a doctor.",
+      "done": false,
+      "tool_use_id": "tooluse_WFA36j6v6HX3q1r1qSbeon"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I haven't seen a doctor yet...",
+    "step": 6,
+    "timestamp": 1773247984.3558068,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Important to consult a doctor soon.",
+    "step": 7,
+    "timestamp": 1773247986.0773783,
+    "metadata": {
+      "thought": "User hasn't seen a doctor. I need to emphasize the importance of medical consultation.",
+      "done": true,
+      "tool_use_id": "tooluse_no3OGcGVOUnVOnCHzirTOf"
+    }
+  }
+]

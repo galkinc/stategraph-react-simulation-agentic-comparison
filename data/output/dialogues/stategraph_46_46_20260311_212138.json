@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253298.4715219,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you a smoker?",
+    "step": 0,
+    "timestamp": 1773253298.4715254,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been smoking since I was ten...",
+    "step": 0,
+    "timestamp": 1773253299.726143,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any chest pain or shortness of breath?",
+    "step": 1,
+    "timestamp": 1773253301.298735,
+    "metadata": {
+      "thought": "User disclosed smoking history, which is a significant risk factor for various conditions. Next step is to ask about specific symptoms related to smoking.",
+      "done": false,
+      "tool_use_id": "tooluse_RbeFRmAfrAJAvBTaPCg42F"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No chest pain, just a bit of shortness sometimes.",
+    "step": 1,
+    "timestamp": 1773253302.5030658,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any coughing or wheezing?",
+    "step": 2,
+    "timestamp": 1773253304.0423913,
+    "metadata": {
+      "thought": "User reports occasional shortness of breath but no chest pain. Next step is to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ZhAf0EHGHiYOFHnVXRr0sH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any coughing or wheezing lately.",
+    "step": 2,
+    "timestamp": 1773253305.2320774,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fatigue or weight loss?",
+    "step": 3,
+    "timestamp": 1773253306.728241,
+    "metadata": {
+      "thought": "User denies recent coughing or wheezing. Next step is to ask about other potential symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_N9yqOhFglGXvB228zHczGT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fatigue or weight loss, just quitting slowly.",
+    "step": 3,
+    "timestamp": 1773253307.927283,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253309.4038196,
+    "metadata": {
+      "thought": "User reports quitting smoking slowly. No significant symptoms noted. Need to confirm if enough information is collected.",
+      "done": true,
+      "tool_use_id": "tooluse_Z2nNTfUsBvXyNDOvpN11St"
+    }
+  }
+]

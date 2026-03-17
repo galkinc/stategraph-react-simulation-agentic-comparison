@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247672.575213,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How many days has it been since your headaches started?",
+    "step": 0,
+    "timestamp": 1773247672.5752175,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Two days now, but no vision changes...",
+    "step": 0,
+    "timestamp": 1773247673.7403526,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are your headaches unilateral or bilateral?",
+    "step": 1,
+    "timestamp": 1773247675.3046749,
+    "metadata": {
+      "thought": "User mentioned headaches but no vision changes. Need to confirm if it's unilateral or bilateral.",
+      "done": false,
+      "tool_use_id": "tooluse_2VQdiAvw0RsKHa9nCGzBXh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall if they're one-sided or both sides.",
+    "step": 1,
+    "timestamp": 1773247676.441292,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "On a scale of 1-10, how severe is your pain?",
+    "step": 2,
+    "timestamp": 1773247677.9564316,
+    "metadata": {
+      "thought": "User is unsure if headaches are unilateral or bilateral. Need to ask about pain intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_BlBdd48Ql5fgJ0ntth23ks"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My headaches feel pretty intense, around an 8.",
+    "step": 2,
+    "timestamp": 1773247679.0825253,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have nausea or vomiting?",
+    "step": 3,
+    "timestamp": 1773247680.5940406,
+    "metadata": {
+      "thought": "User described intense headaches. Need to ask about associated symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_mu7InapLABMtCQUDFQJ5yM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea or vomiting, just dizziness...",
+    "step": 3,
+    "timestamp": 1773247681.682749,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like sensitivity to light?",
+    "step": 4,
+    "timestamp": 1773247683.2260575,
+    "metadata": {
+      "thought": "User has intense headaches, dizziness, no nausea. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_TBLWuTaA8zz6i0PryQVq6t"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No sensitivity to light, just dizziness...",
+    "step": 4,
+    "timestamp": 1773247684.296884,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 5,
+    "timestamp": 1773247685.845115,
+    "metadata": {
+      "thought": "User has intense headaches, dizziness, no nausea or light sensitivity. Need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_hRp3ZRVJYSwlREsxrEcbwq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any medications right now...",
+    "step": 5,
+    "timestamp": 1773247687.0935614,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247688.605208,
+    "metadata": {
+      "thought": "User has intense headaches, dizziness, no other symptoms, no medication use. Information is sufficient.",
+      "done": true,
+      "tool_use_id": "tooluse_q76rvn85WCMb1xy1beBpiw"
+    }
+  }
+]

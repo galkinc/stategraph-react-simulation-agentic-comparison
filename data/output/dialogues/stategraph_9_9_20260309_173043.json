@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066643.2531412,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good afternoon, ma'am.",
+    "step": 0,
+    "timestamp": 1773066643.253145,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My bunions are back, doctor...",
+    "step": 0,
+    "timestamp": 1773066644.3999581,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your bunions start returning?",
+    "step": 1,
+    "timestamp": 1773066645.8730938,
+    "metadata": {
+      "thought": "Need to confirm the specific symptoms and details of the bunions.",
+      "done": false,
+      "tool_use_id": "tooluse_CPCWJo2DoJMCoimc8kYGOj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Bunions started returning after the surgery, years ago.",
+    "step": 1,
+    "timestamp": 1773066647.0923522,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms since surgery?",
+    "step": 2,
+    "timestamp": 1773066648.5139287,
+    "metadata": {
+      "thought": "Need to know if there are any other symptoms or changes.",
+      "done": false,
+      "tool_use_id": "tooluse_LEnPRfUfAeoodskWgkDqVP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right foot hurts more, toes look odd...",
+    "step": 2,
+    "timestamp": 1773066649.6853254,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or medications?",
+    "step": 3,
+    "timestamp": 1773066651.094935,
+    "metadata": {
+      "thought": "Need to confirm if there are any treatments or medications.",
+      "done": false,
+      "tool_use_id": "tooluse_KIIEkYvdvadbCe7mlqOkbJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use creams, but they don't help much.",
+    "step": 3,
+    "timestamp": 1773066652.262973,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773066653.6853933,
+    "metadata": {
+      "thought": "Have enough information to determine next steps.",
+      "done": true,
+      "tool_use_id": "tooluse_0IRjYm95plugkHQePSOlKo"
+    }
+  }
+]

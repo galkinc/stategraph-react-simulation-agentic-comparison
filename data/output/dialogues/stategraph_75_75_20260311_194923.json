@@ -1,0 +1,192 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247763.330276,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been having this pain in your ear?",
+    "step": 0,
+    "timestamp": 1773247763.3302798,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall having ear pain...",
+    "step": 0,
+    "timestamp": 1773247764.433222,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773247765.7153609,
+    "metadata": {
+      "thought": "User denies having ear pain, no new information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_ltEd3XXcKLoGLpNWEiDPpJ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773247767.1218846,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_AiMeNxy2oOKJDH4ltJEbJa"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773247768.5502446,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_ZrHsY9Djzdutu5KEr2bHCb"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773247769.9528809,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_y8gE5lTeepSNVDM0sSN9qq"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247771.2468145,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_n4G9Cv4aRUBM695pZrmMwB"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247772.6325366,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_Nk2NxYS3j936MPbMmNX6Za"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247774.0485363,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_rgXipFsrrPQGEeA1dAnAvg"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773247775.4176989,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_fXCKS3efEEQZMUSKIwB4yh"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773247776.8698683,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_4lWeDcf6RgA6l7LaTmbcOe"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773247778.3110883,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_vvyLwSVw4JvgpVU79MUrKX"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773247779.7294436,
+    "metadata": {
+      "thought": "Conversation is complete as no symptoms or conditions were reported.",
+      "done": true,
+      "tool_use_id": "tooluse_WqhWY6TWNII8xWSHbZlySY"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773247781.1889334,
+    "metadata": {
+      "thought": "User denies having ear pain, no new information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_DbN966pNPqt4xJPANp06Fl"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773247782.5920756,
+    "metadata": {
+      "thought": "User denies having ear pain, no new information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_pcN72iNSLuM6bMUjI7Txhj"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773247784.078877,
+    "metadata": {
+      "thought": "User denies having ear pain, no new information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_xJ91raIVkKa8nFp4xe4FS1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773247785.5755174,
+    "metadata": {
+      "thought": "User denies having ear pain, no new information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_cGYcsmWmDS0zH0bThIaihm"
+    }
+  }
+]

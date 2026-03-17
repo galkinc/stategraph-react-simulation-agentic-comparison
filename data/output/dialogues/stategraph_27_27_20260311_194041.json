@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247241.3630157,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you ever had surgery?",
+    "step": 0,
+    "timestamp": 1773247241.3630192,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, had gallbladder and appendix surgeries, plus colon resection.",
+    "step": 0,
+    "timestamp": 1773247242.5754776,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain or discomfort post-surgery?",
+    "step": 1,
+    "timestamp": 1773247243.963124,
+    "metadata": {
+      "thought": "User has mentioned previous surgeries, which are relevant medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_G8b1l7xURfXjshKcTX3IhQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just some minor discomfort lately...",
+    "step": 1,
+    "timestamp": 1773247245.1113286,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly do you feel discomfort?",
+    "step": 2,
+    "timestamp": 1773247246.5562491,
+    "metadata": {
+      "thought": "User reports minor discomfort, need to specify location.",
+      "done": false,
+      "tool_use_id": "tooluse_B6JMEWlXnH5naUA8a0FkfR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any current discomfort...",
+    "step": 2,
+    "timestamp": 1773247247.7847526,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 3,
+    "timestamp": 1773247249.270807,
+    "metadata": {
+      "thought": "User denies current discomfort, but previous surgeries are noted.",
+      "done": false,
+      "tool_use_id": "tooluse_UJBlOvII2RMuXn8AZ9GVJP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new symptoms since surgeries, just fatigue...",
+    "step": 3,
+    "timestamp": 1773247250.514885,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 4,
+    "timestamp": 1773247252.0194216,
+    "metadata": {
+      "thought": "User reports fatigue, need to clarify specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_E0hXj3ZnZxlOHFqFi0SMlG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling tired often lately, not sure why.",
+    "step": 4,
+    "timestamp": 1773247253.0918722,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or activity?",
+    "step": 5,
+    "timestamp": 1773247254.5863614,
+    "metadata": {
+      "thought": "User reports ongoing fatigue, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_BjObwpBFtAhtUYH0NkIfmW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major changes, just routine since surgeries...",
+    "step": 5,
+    "timestamp": 1773247255.649049,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 6,
+    "timestamp": 1773247257.1184194,
+    "metadata": {
+      "thought": "User denies major changes, fatigue persists.",
+      "done": false,
+      "tool_use_id": "tooluse_ApUf5iA1xrEXuEYVbTuWu4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other major health issues now...",
+    "step": 6,
+    "timestamp": 1773247258.4648266,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247260.0058336,
+    "metadata": {
+      "thought": "User denies other health issues, fatigue noted.",
+      "done": true,
+      "tool_use_id": "tooluse_CmrsTpQlpugh0GI0VDck8m"
+    }
+  }
+]

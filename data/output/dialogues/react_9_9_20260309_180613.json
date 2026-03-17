@@ -1,0 +1,207 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068773.3427336,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good afternoon, ma'am.",
+    "step": 0,
+    "timestamp": 1773068773.3427434,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right foot's bunion's back, worse than left...",
+    "step": 0,
+    "timestamp": 1773068774.6325176,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did bunion pain start?",
+    "step": 1,
+    "timestamp": 1773068776.1198714,
+    "metadata": {
+      "thought": "User reports worsening bunion on right foot compared to left. Need to confirm specific symptoms and pain details.",
+      "done": false,
+      "tool_use_id": "tooluse_2uCIb0HtnqrEoL6HJDfTOn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Bunion pain started around thirteen years ago...",
+    "step": 1,
+    "timestamp": 1773068777.2590907,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773068778.1591983,
+    "metadata": {
+      "thought": "User reports bunion pain started 13 years ago. Need to know if it's constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_83zvNp3Qn5iMG9NaV7NjpA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Intermittent pain, mostly in the right foot...",
+    "step": 2,
+    "timestamp": 1773068779.2902455,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling or redness?",
+    "step": 3,
+    "timestamp": 1773068780.0649874,
+    "metadata": {
+      "thought": "User reports intermittent bunion pain mostly in right foot. Need to know if there's swelling or redness.",
+      "done": false,
+      "tool_use_id": "tooluse_ysrZC5k1LyNZBHhX4bwUzN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling or redness, just discomfort...",
+    "step": 3,
+    "timestamp": 1773068781.160204,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Change in shoe size?",
+    "step": 4,
+    "timestamp": 1773068782.1346695,
+    "metadata": {
+      "thought": "No swelling or redness, just discomfort. Need to know if there's any change in shoe size.",
+      "done": false,
+      "tool_use_id": "tooluse_UVkFsZRyM7IVEBVLHHaA1n"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right shoe size has definitely gotten bigger.",
+    "step": 4,
+    "timestamp": 1773068783.4688416,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific footwear causing discomfort?",
+    "step": 5,
+    "timestamp": 1773068784.4257476,
+    "metadata": {
+      "thought": "User reports change in shoe size. Need to know if there's any footwear causing discomfort.",
+      "done": false,
+      "tool_use_id": "tooluse_VLu82ok2bPXUJPeuLW5yAw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "High heels make my right foot hurt a lot.",
+    "step": 5,
+    "timestamp": 1773068785.531082,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any relief found?",
+    "step": 6,
+    "timestamp": 1773068786.4108481,
+    "metadata": {
+      "thought": "User reports discomfort with high heels. Need to know if there's any relief found.",
+      "done": false,
+      "tool_use_id": "tooluse_Djw8ZQt0SNNVZb7M5eLRGP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No relief; pain still hurts my right foot.",
+    "step": 6,
+    "timestamp": 1773068787.5962374,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any home remedies tried?",
+    "step": 7,
+    "timestamp": 1773068788.5711331,
+    "metadata": {
+      "thought": "User reports no relief. Need to know if there's any home remedies tried.",
+      "done": false,
+      "tool_use_id": "tooluse_1Ayu4CfmVJZ6tml1LeloBT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Tried ice packs, but no real relief...",
+    "step": 7,
+    "timestamp": 1773068789.8113415,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medical treatments sought?",
+    "step": 8,
+    "timestamp": 1773068790.734235,
+    "metadata": {
+      "thought": "User tried ice packs with no relief. Need to know if any medical treatments sought.",
+      "done": false,
+      "tool_use_id": "tooluse_5bVXxHwwMFU67y9cCaNpqR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I tried over-the-counter creams, but they didn't help.",
+    "step": 8,
+    "timestamp": 1773068792.7379339,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms present?",
+    "step": 9,
+    "timestamp": 1773068793.7849452,
+    "metadata": {
+      "thought": "User tried over-the-counter creams with no help. Need to know if any other symptoms present.",
+      "done": false,
+      "tool_use_id": "tooluse_tsspbLy13L9u2nRKP0M1HZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right foot hurts more, toes are strange, discomfort.",
+    "step": 9,
+    "timestamp": 1773068795.0321426,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Change in toe shape?",
+    "step": 10,
+    "timestamp": 1773068796.1423414,
+    "metadata": {
+      "thought": "User reports toes feeling strange with discomfort. Need to know if there's any change in toe shape.",
+      "done": true,
+      "tool_use_id": "tooluse_S6FifrE7TrYGwmxL4NSbg3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Toes look strange, especially on my right foot.",
+    "step": 10,
+    "timestamp": 1773068797.2553456,
+    "metadata": {}
+  }
+]

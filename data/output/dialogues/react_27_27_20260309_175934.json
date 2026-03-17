@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068374.5897403,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you ever had surgery?",
+    "step": 0,
+    "timestamp": 1773068374.58975,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, had gallbladder and appendix surgeries, plus colon resection.",
+    "step": 0,
+    "timestamp": 1773068375.8026118,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain or discomfort post-surgery?",
+    "step": 1,
+    "timestamp": 1773068377.1321428,
+    "metadata": {
+      "thought": "User has mentioned previous surgeries, which are relevant medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_Qhw2hTHTtED46ixU51dXIs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just some minor discomfort lately...",
+    "step": 1,
+    "timestamp": 1773068378.272273,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly do you feel discomfort?",
+    "step": 2,
+    "timestamp": 1773068379.1173186,
+    "metadata": {
+      "thought": "User reports minor discomfort, need to specify location.",
+      "done": false,
+      "tool_use_id": "tooluse_bWgfHqYOLJ6FYWsvkIQC2y"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any discomfort lately...",
+    "step": 2,
+    "timestamp": 1773068380.2388287,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like fatigue or nausea?",
+    "step": 3,
+    "timestamp": 1773068380.999059,
+    "metadata": {
+      "thought": "User denies discomfort, need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_BnkX9LblrqaeRw9lBux7X6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major fatigue or nausea lately...",
+    "step": 3,
+    "timestamp": 1773068382.1116567,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Changes in diet recently?",
+    "step": 4,
+    "timestamp": 1773068382.9790373,
+    "metadata": {
+      "thought": "User denies other symptoms, need to ask about diet.",
+      "done": false,
+      "tool_use_id": "tooluse_myD3BezLen0UYCRJ1oztZf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes, still eating same old stuff...",
+    "step": 4,
+    "timestamp": 1773068384.1498961,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new medications recently?",
+    "step": 5,
+    "timestamp": 1773068385.0411487,
+    "metadata": {
+      "thought": "User denies dietary changes, need to ask about medication.",
+      "done": false,
+      "tool_use_id": "tooluse_ta4plGyhoiJbzizLn22fQ8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new meds, just eye drops for surgery.",
+    "step": 5,
+    "timestamp": 1773068386.18769,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773068387.0491648,
+    "metadata": {
+      "thought": "User denies new medications, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_cD9NyW1fdPBIaiuaRqcBDN"
+    }
+  }
+]

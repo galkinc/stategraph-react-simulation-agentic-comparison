@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253083.0598824,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you ever had surgery?",
+    "step": 0,
+    "timestamp": 1773253083.059887,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, had gallbladder and appendix surgeries, plus colon resection.",
+    "step": 0,
+    "timestamp": 1773253084.2039552,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any complications from surgeries?",
+    "step": 1,
+    "timestamp": 1773253085.8046887,
+    "metadata": {
+      "thought": "User has mentioned previous surgeries, which are relevant medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_kr5IoOVj93CEjMbIidwxkP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No complications since my surgeries, thankfully...",
+    "step": 1,
+    "timestamp": 1773253087.059553,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current symptoms or pain?",
+    "step": 2,
+    "timestamp": 1773253088.5600402,
+    "metadata": {
+      "thought": "User has no complications post-surgery, but needs to mention any current symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_w5ISmSS3A7wMWeZVlAQyhW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just tired from surgeries...",
+    "step": 2,
+    "timestamp": 1773253098.6234896,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications post-surgery?",
+    "step": 3,
+    "timestamp": 1773253100.2650425,
+    "metadata": {
+      "thought": "User reports tiredness but no specific symptoms. Need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_ZgAL7fpuAhRukZl1bPDHD6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications after gallbladder or colon surgery...",
+    "step": 3,
+    "timestamp": 1773253101.4611118,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Medications for appendix surgery?",
+    "step": 4,
+    "timestamp": 1773253103.088751,
+    "metadata": {
+      "thought": "User reports no medications post-surgery. Need to confirm if appendix surgery involved medication.",
+      "done": false,
+      "tool_use_id": "tooluse_uqSaSflNC3BobD3wCnbSLd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific medications for appendix surgery.",
+    "step": 4,
+    "timestamp": 1773253104.343292,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253105.9399433,
+    "metadata": {
+      "thought": "User does not recall medications post appendix surgery. Conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_VMnZMr9ukXaMvSy6gWgk2R"
+    }
+  }
+]

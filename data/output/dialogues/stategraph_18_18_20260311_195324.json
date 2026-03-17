@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773248004.1104872,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "What brings you here today, sir?",
+    "step": 0,
+    "timestamp": 1773248004.1104908,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lightheadedness, shaky, weak, balance issues, metoprolol side effects.",
+    "step": 0,
+    "timestamp": 1773248005.2276523,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did symptoms start?",
+    "step": 1,
+    "timestamp": 1773248006.7411013,
+    "metadata": {
+      "thought": "User reports symptoms possibly related to medication side effects. Need to confirm details.",
+      "done": false,
+      "tool_use_id": "tooluse_zrzlrj0PoUph8o6FvO1eqz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms began after the metoprolol dose increase...",
+    "step": 1,
+    "timestamp": 1773248007.9493263,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other medications taken?",
+    "step": 2,
+    "timestamp": 1773248009.450677,
+    "metadata": {
+      "thought": "Confirmed symptom onset after medication change. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_SHT3IS6tj9c7UEyU5tmtcE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Only lorazepam and metoprolol, doctor...",
+    "step": 2,
+    "timestamp": 1773248010.6029744,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt this way?",
+    "step": 3,
+    "timestamp": 1773248012.0017948,
+    "metadata": {
+      "thought": "User lists medications. Need to ask about symptom duration.",
+      "done": false,
+      "tool_use_id": "tooluse_vBbLsrxFj2xGJN0I6h5S2H"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "About a week since the metoprolol dose increase.",
+    "step": 3,
+    "timestamp": 1773248013.158122,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How severe are these symptoms?",
+    "step": 4,
+    "timestamp": 1773248014.6425953,
+    "metadata": {
+      "thought": "Symptoms started a week ago. Need to ask about severity.",
+      "done": false,
+      "tool_use_id": "tooluse_qOeorxS19TsfR0HfgP4g2h"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Severe lightheadedness, shaky, weak, balance issues...",
+    "step": 4,
+    "timestamp": 1773248015.6817458,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do these affect your daily activities?",
+    "step": 5,
+    "timestamp": 1773248017.4184527,
+    "metadata": {
+      "thought": "Symptoms are severe. Need to ask if they impact daily life.",
+      "done": false,
+      "tool_use_id": "tooluse_mqlnrnhskPQuY6mPft7A70"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lightheadedness makes daily tasks hard...",
+    "step": 5,
+    "timestamp": 1773248018.4383214,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms noticed?",
+    "step": 6,
+    "timestamp": 1773248019.9345725,
+    "metadata": {
+      "thought": "Symptoms impact daily life. Gathering final details.",
+      "done": false,
+      "tool_use_id": "tooluse_4fWnlJSDzZOHYGNE2uiwy1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shaky and weak, sometimes feeling nauseous too...",
+    "step": 6,
+    "timestamp": 1773248021.0318701,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773248022.6544588,
+    "metadata": {
+      "thought": "All relevant details collected. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_6EuNsdsiOdwp59wsWQuKtx"
+    }
+  }
+]

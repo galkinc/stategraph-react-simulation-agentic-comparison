@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247925.6099095,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good afternoon, ma'am.",
+    "step": 0,
+    "timestamp": 1773247925.609913,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right foot hurts more than the left.",
+    "step": 0,
+    "timestamp": 1773247926.8613257,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly on your foot does it hurt?",
+    "step": 1,
+    "timestamp": 1773247928.3016524,
+    "metadata": {
+      "thought": "Ask for specific pain details to identify potential medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_vFNwhyOMgl2am3BIb7Dgxy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right foot, especially near the bunion, hurts a lot.",
+    "step": 1,
+    "timestamp": 1773247929.3329897,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773247930.8837087,
+    "metadata": {
+      "thought": "Identify if the pain is constant or intermittent and its duration.",
+      "done": false,
+      "tool_use_id": "tooluse_WgzJgBanTpJBW47JO7FlaM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's mostly constant, but it spikes sometimes...",
+    "step": 2,
+    "timestamp": 1773247932.0182364,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does anything worsen or relieve the pain?",
+    "step": 3,
+    "timestamp": 1773247933.4352493,
+    "metadata": {
+      "thought": "Ask about any activities that exacerbate or alleviate the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_2NoGS9Q8RIn6rH5508Q7G0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Standing long periods makes the pain worse...",
+    "step": 3,
+    "timestamp": 1773247934.5195277,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or long-term pain?",
+    "step": 4,
+    "timestamp": 1773247936.0327342,
+    "metadata": {
+      "thought": "Determine if there are any other symptoms or if the pain has been ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_Jw3LQ4lJ7Oxudg6w4rydut"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right foot hurts more; toes still look strange.",
+    "step": 4,
+    "timestamp": 1773247937.1144297,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain start?",
+    "step": 5,
+    "timestamp": 1773247938.7100515,
+    "metadata": {
+      "thought": "Gather information on the onset and duration of symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ITZEEKVz5FtvxI0uV3oKt6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started slowly, maybe a year ago...",
+    "step": 5,
+    "timestamp": 1773247939.7956395,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 6,
+    "timestamp": 1773247941.2520878,
+    "metadata": {
+      "thought": "Ask if the user is on any medications that could relate to the symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_UcI3TxOmfzLEUPhbZGUGb5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about current meds, but I take some pain relievers.",
+    "step": 6,
+    "timestamp": 1773247942.3794346,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247943.9939084,
+    "metadata": {
+      "thought": "Summarize gathered information and determine if it's sufficient for preliminary advice.",
+      "done": true,
+      "tool_use_id": "tooluse_l836hKcmv1nXJNWJ34qCvo"
+    }
+  }
+]

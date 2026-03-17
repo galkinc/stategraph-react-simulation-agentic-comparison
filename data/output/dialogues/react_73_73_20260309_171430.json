@@ -1,0 +1,99 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065670.6776757,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, I will ask you a few basic questions, okay?",
+    "step": 0,
+    "timestamp": 1773065670.6776867,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I drink a bit, but not like an alcoholic.",
+    "step": 0,
+    "timestamp": 1773065671.801847,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns or symptoms?",
+    "step": 1,
+    "timestamp": 1773065673.24773,
+    "metadata": {
+      "thought": "User mentions drinking but not like an alcoholic. This does not seem to be a medical condition or symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_1XK2DotjukzKSpXeujDuhY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major health concerns, just the occasional headache.",
+    "step": 1,
+    "timestamp": 1773065674.4354312,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you usually get headaches?",
+    "step": 2,
+    "timestamp": 1773065675.2345438,
+    "metadata": {
+      "thought": "User mentions occasional headaches. This could be a symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_1MpqTduUfEMcHhTT4yEEHd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Usually get them after drinking, not sure why.",
+    "step": 2,
+    "timestamp": 1773065676.371499,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or concerns?",
+    "step": 3,
+    "timestamp": 1773065677.1023657,
+    "metadata": {
+      "thought": "User links headaches to drinking. This could be a relevant symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_iB6CfKADh0ROXMDJWWp2BS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just the drinks...",
+    "step": 3,
+    "timestamp": 1773065678.2296796,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773065679.0621176,
+    "metadata": {
+      "thought": "User has no other symptoms. Headache linked to drinking.",
+      "done": true,
+      "tool_use_id": "tooluse_oOJ0l69XyNbXHQeukKslGh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 4,
+    "timestamp": 1773065679.0621738,
+    "metadata": {}
+  }
+]

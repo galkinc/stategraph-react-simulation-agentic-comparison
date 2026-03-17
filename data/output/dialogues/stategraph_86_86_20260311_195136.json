@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247896.9944189,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any thoughts of harming yourself or others?",
+    "step": 0,
+    "timestamp": 1773247896.9944227,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No plans to harm myself or others...",
+    "step": 0,
+    "timestamp": 1773247898.0315795,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in your mood or behavior?",
+    "step": 1,
+    "timestamp": 1773247899.2736967,
+    "metadata": {
+      "thought": "User denies having thoughts of self-harm or harming others.",
+      "done": false,
+      "tool_use_id": "tooluse_ev09ykUNAz8cFafRpCAIm3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mood hasn't changed much, just some lingering sadness.",
+    "step": 1,
+    "timestamp": 1773247900.408729,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Sadness duration and intensity?",
+    "step": 2,
+    "timestamp": 1773247901.8335736,
+    "metadata": {
+      "thought": "User reports lingering sadness but no mood changes.",
+      "done": false,
+      "tool_use_id": "tooluse_WsRpNRPSO6ELe1jG5Gn0xr"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt sad for months, but it's not always intense.",
+    "step": 2,
+    "timestamp": 1773247903.219872,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any physical symptoms?",
+    "step": 3,
+    "timestamp": 1773247904.6536453,
+    "metadata": {
+      "thought": "User reports prolonged sadness, not always intense.",
+      "done": false,
+      "tool_use_id": "tooluse_uzup4jqmBe8A86xlADDRWg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I have occasional headaches and stomachaches...",
+    "step": 3,
+    "timestamp": 1773247905.7192152,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 4,
+    "timestamp": 1773247907.2925608,
+    "metadata": {
+      "thought": "User reports occasional headaches and stomachaches.",
+      "done": false,
+      "tool_use_id": "tooluse_9ZmJ4loLBrX6u9o3kititl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had headaches and occasional stomachaches lately...",
+    "step": 4,
+    "timestamp": 1773247908.4389975,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use?",
+    "step": 5,
+    "timestamp": 1773247909.9488313,
+    "metadata": {
+      "thought": "User reports headaches and stomachaches.",
+      "done": false,
+      "tool_use_id": "tooluse_V5PfJCgYqmNqNSDoPWAcsQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't take any prescription medications...",
+    "step": 5,
+    "timestamp": 1773247911.1900399,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247912.7126074,
+    "metadata": {
+      "thought": "User denies taking prescription medications.",
+      "done": true,
+      "tool_use_id": "tooluse_NDJfwiNH0Nw5H0Gb40WbtE"
+    }
+  }
+]

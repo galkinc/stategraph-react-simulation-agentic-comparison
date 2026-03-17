@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252762.7989168,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did you move here from Philippines, sir?",
+    "step": 0,
+    "timestamp": 1773252762.798928,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I moved here long ago.",
+    "step": 0,
+    "timestamp": 1773252763.9134238,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate year of your move?",
+    "step": 1,
+    "timestamp": 1773252765.688215,
+    "metadata": {
+      "thought": "User's move time is unclear, but it's significant.",
+      "done": false,
+      "tool_use_id": "tooluse_ndqjOq47JJpFJioKQ0Y300"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "\"I'm not sure about the exact year of my move.\"",
+    "step": 1,
+    "timestamp": 1773252766.822811,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Roughly, when did you move here?",
+    "step": 2,
+    "timestamp": 1773252767.6089833,
+    "metadata": {
+      "thought": "User's move time is still unclear, but it's significant.",
+      "done": false,
+      "tool_use_id": "tooluse_CvGYbu2nR6LX5GIrfKazRp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved here around 1984, I think...",
+    "step": 2,
+    "timestamp": 1773252768.794655,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms since then?",
+    "step": 3,
+    "timestamp": 1773252769.5990777,
+    "metadata": {
+      "thought": "User provided approximate move year.",
+      "done": false,
+      "tool_use_id": "tooluse_vFZ4ce91xbZ6nA45xokeOj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had headaches and fatigue lately...",
+    "step": 3,
+    "timestamp": 1773252770.780967,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did headaches start?",
+    "step": 4,
+    "timestamp": 1773252771.605096,
+    "metadata": {
+      "thought": "User reported symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Z4isOKkJ9pGsAEdVxn9PH5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, headaches just started recently...",
+    "step": 4,
+    "timestamp": 1773252772.8331945,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 5,
+    "timestamp": 1773252773.7138734,
+    "metadata": {
+      "thought": "Symptoms timing is unclear.",
+      "done": false,
+      "tool_use_id": "tooluse_eesGOCxcXJONtNBPkzfB6U"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel really tired.",
+    "step": 5,
+    "timestamp": 1773252774.9849226,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 6,
+    "timestamp": 1773252775.8487303,
+    "metadata": {
+      "thought": "User confirmed fatigue.",
+      "done": false,
+      "tool_use_id": "tooluse_XE0JjgQLPcpsS6A0iyqnU9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel really tired.",
+    "step": 6,
+    "timestamp": 1773252777.00775,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773252778.4477377,
+    "metadata": {
+      "thought": "No new symptoms reported.",
+      "done": true,
+      "tool_use_id": "tooluse_ITfxj6Riv0XxAJ1fecuxhc"
+    }
+  }
+]

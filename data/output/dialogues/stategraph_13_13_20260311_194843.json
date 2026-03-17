@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247723.7579262,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did you move here from Philippines, sir?",
+    "step": 0,
+    "timestamp": 1773247723.7579296,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact year, but it was around '84.",
+    "step": 0,
+    "timestamp": 1773247724.9043949,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate duration since move?",
+    "step": 1,
+    "timestamp": 1773247726.2282088,
+    "metadata": {
+      "thought": "User mentioned moving around 1984, need to confirm exact year and duration",
+      "done": false,
+      "tool_use_id": "tooluse_pAOSk8f3ZYDwcj2pcZGSJ7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved recently, can't recall exact month...",
+    "step": 1,
+    "timestamp": 1773247727.3924346,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is it within last 5 years?",
+    "step": 2,
+    "timestamp": 1773247728.76928,
+    "metadata": {
+      "thought": "User can't recall exact month, need to confirm if it's recent",
+      "done": false,
+      "tool_use_id": "tooluse_KxyCwutmqvsGQ9X2WHc5MQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it feels like longer than five years.",
+    "step": 2,
+    "timestamp": 1773247729.907044,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate year you moved?",
+    "step": 3,
+    "timestamp": 1773247731.2688272,
+    "metadata": {
+      "thought": "User feels it's longer than 5 years, need to confirm exact year",
+      "done": false,
+      "tool_use_id": "tooluse_fIHNvqlRL7pIzxsJEPsggm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it was around 1984.",
+    "step": 3,
+    "timestamp": 1773247732.3480463,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate duration since move?",
+    "step": 4,
+    "timestamp": 1773247733.8231301,
+    "metadata": {
+      "thought": "User confirmed moving around 1984, need to confirm duration",
+      "done": false,
+      "tool_use_id": "tooluse_IPwXliAugj68udN7RG9A9q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved recently, can't recall exact month...",
+    "step": 4,
+    "timestamp": 1773247735.1864753,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is it within last 5 years?",
+    "step": 5,
+    "timestamp": 1773247736.7450724,
+    "metadata": {
+      "thought": "User can't recall exact month, need to confirm if it's recent",
+      "done": false,
+      "tool_use_id": "tooluse_Dd8BcAeB4tXphaz7iTIOt6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact year, but it's been a while.",
+    "step": 5,
+    "timestamp": 1773247737.8536134,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate year you moved?",
+    "step": 6,
+    "timestamp": 1773247739.229945,
+    "metadata": {
+      "thought": "User feels it's been a while, need to confirm exact year",
+      "done": false,
+      "tool_use_id": "tooluse_I5Lbxrud1jyD7UirDPeraL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved around 1984, I think...",
+    "step": 6,
+    "timestamp": 1773247740.3475146,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate duration since move?",
+    "step": 7,
+    "timestamp": 1773247741.7955153,
+    "metadata": {
+      "thought": "User confirmed moving around 1984, need to confirm duration",
+      "done": false,
+      "tool_use_id": "tooluse_onFeC3yUTbrMgCV8OgoLPN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved last month, can't recall the exact date.",
+    "step": 7,
+    "timestamp": 1773247742.9250078,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate month you moved?",
+    "step": 8,
+    "timestamp": 1773247744.3759434,
+    "metadata": {
+      "thought": "User moved last month, need to confirm exact month",
+      "done": false,
+      "tool_use_id": "tooluse_DYS59ti9wwFraa3QW3OcBj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it was around 1984.",
+    "step": 8,
+    "timestamp": 1773247745.5242796,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is it within last 5 years?",
+    "step": 9,
+    "timestamp": 1773247747.1575599,
+    "metadata": {
+      "thought": "User can't recall exact month, need to confirm if it's recent",
+      "done": false,
+      "tool_use_id": "tooluse_2ZE4s0v1Yqc2vSnzGYBX6d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact year, but it's before 1989.",
+    "step": 9,
+    "timestamp": 1773247748.2682588,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate year you moved?",
+    "step": 10,
+    "timestamp": 1773247749.7502506,
+    "metadata": {
+      "thought": "User confirmed moving before 1989, need to confirm exact year",
+      "done": false,
+      "tool_use_id": "tooluse_yvkUHGHyc2RKh07ONmtG55"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it was around 1984.",
+    "step": 10,
+    "timestamp": 1773247750.8805304,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate duration since move?",
+    "step": 11,
+    "timestamp": 1773247752.377411,
+    "metadata": {
+      "thought": "User confirmed moving around 1984, need to confirm duration",
+      "done": false,
+      "tool_use_id": "tooluse_qSbI3Xqyk3YSwQOk1r67E2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved recently, can't recall exact month...",
+    "step": 11,
+    "timestamp": 1773247753.4648757,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is it within last 5 years?",
+    "step": 12,
+    "timestamp": 1773247755.1550472,
+    "metadata": {
+      "thought": "User can't recall exact month, need to confirm if it's recent",
+      "done": false,
+      "tool_use_id": "tooluse_RvPPgu5p32Ny8XHMWrG5tb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact year, but it's been decades.",
+    "step": 12,
+    "timestamp": 1773247756.2975166,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate year you moved?",
+    "step": 13,
+    "timestamp": 1773247757.9083095,
+    "metadata": {
+      "thought": "User feels it's been decades, need to confirm exact year",
+      "done": false,
+      "tool_use_id": "tooluse_oqcbqL4BDkgnfbIxalfqK1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved around 1984, same year I think...",
+    "step": 13,
+    "timestamp": 1773247759.0635915,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate duration since move?",
+    "step": 14,
+    "timestamp": 1773247760.6295924,
+    "metadata": {
+      "thought": "User confirmed moving around 1984, need to confirm duration",
+      "done": false,
+      "tool_use_id": "tooluse_1mqw9jInqCyeK1HymUuE1n"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved here a few months ago, can't recall the exact date.",
+    "step": 14,
+    "timestamp": 1773247761.6814244,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate month you moved?",
+    "step": 15,
+    "timestamp": 1773247763.2138295,
+    "metadata": {
+      "thought": "User moved a few months ago, need to confirm exact month",
+      "done": false,
+      "tool_use_id": "tooluse_EDr4g7HNRlA2h6Usn4J8lN"
+    }
+  }
+]

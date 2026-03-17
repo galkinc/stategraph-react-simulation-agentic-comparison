@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246748.9656613,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you today?",
+    "step": 0,
+    "timestamp": 1773246748.9656699,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still dealing with daily headaches, though...",
+    "step": 0,
+    "timestamp": 1773246750.0004277,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did headaches start?",
+    "step": 1,
+    "timestamp": 1773246751.2507622,
+    "metadata": {
+      "thought": "Ask about headache specifics to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_4rAdGTH4LUsjwTdFLGW2YC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Headaches began six months ago, every day...",
+    "step": 1,
+    "timestamp": 1773246752.2919872,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have headaches changed recently?",
+    "step": 2,
+    "timestamp": 1773246753.016789,
+    "metadata": {
+      "thought": "Need to know if headaches have changed in intensity or frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_iT3WV2RnGzQ9MNOaNn0Mg4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They've stayed the same, no changes recently...",
+    "step": 2,
+    "timestamp": 1773246754.1349711,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Describe headache pain level?",
+    "step": 3,
+    "timestamp": 1773246754.802426,
+    "metadata": {
+      "thought": "Ask about pain characteristics to better understand the condition.",
+      "done": false,
+      "tool_use_id": "tooluse_9h3Y44jbXG1Mage91Zialh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain level is usually around a seven, sometimes eight.",
+    "step": 3,
+    "timestamp": 1773246755.8856847,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headache triggers or symptoms?",
+    "step": 4,
+    "timestamp": 1773246756.6406255,
+    "metadata": {
+      "thought": "Need to know if there are any triggers or associated symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_9HXD35aRRL5D5S1krgDcZP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known triggers, just constant pain...",
+    "step": 4,
+    "timestamp": 1773246757.6853962,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken for headaches?",
+    "step": 5,
+    "timestamp": 1773246758.4424038,
+    "metadata": {
+      "thought": "Determine if any medications are being used.",
+      "done": false,
+      "tool_use_id": "tooluse_Z6by9nXGQA7b46rBN5Hl6p"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I take ibuprofen occasionally for headaches...",
+    "step": 5,
+    "timestamp": 1773246759.5745583,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773246760.3998625,
+    "metadata": {
+      "thought": "Gathering sufficient information for a preliminary assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_0PU4YBq2krPb2AQc6qvMF6"
+    }
+  }
+]

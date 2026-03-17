@@ -1,0 +1,207 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065650.4861462,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How many days has it been since your headaches started?",
+    "step": 0,
+    "timestamp": 1773065650.486152,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Two days now, with consistent dizziness...",
+    "step": 0,
+    "timestamp": 1773065651.5246034,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like nausea or vomiting?",
+    "step": 1,
+    "timestamp": 1773065653.0108666,
+    "metadata": {
+      "thought": "User reports headaches and dizziness for two days. Need to confirm if these are new symptoms or worsening of existing conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_Cja2LpERgC4iBTZEPUrwGm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea or vomiting, just dizziness...",
+    "step": 1,
+    "timestamp": 1773065654.0766642,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 2,
+    "timestamp": 1773065654.804293,
+    "metadata": {
+      "thought": "No nausea or vomiting reported. Need to ask about any medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_53KDI9OItvGN7M9qAmqyCI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just over-the-counter for headaches...",
+    "step": 2,
+    "timestamp": 1773065655.923432,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Symptoms persist or worsen?",
+    "step": 3,
+    "timestamp": 1773065656.779922,
+    "metadata": {
+      "thought": "User reports taking over-the-counter medication for headaches. Need to confirm if symptoms persist or worsen.",
+      "done": false,
+      "tool_use_id": "tooluse_HMHKyn2bII3MwVfYwYzrkg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizziness and headaches stay the same...",
+    "step": 3,
+    "timestamp": 1773065657.9325752,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers or associated factors?",
+    "step": 4,
+    "timestamp": 1773065658.7905567,
+    "metadata": {
+      "thought": "Symptoms remain unchanged. Need to ask about any triggers or associated factors.",
+      "done": false,
+      "tool_use_id": "tooluse_V9gV87SNwrUEvFqlCK04k6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but stress might be a factor.",
+    "step": 4,
+    "timestamp": 1773065659.899481,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this new stress?",
+    "step": 5,
+    "timestamp": 1773065660.7370868,
+    "metadata": {
+      "thought": "User suggests stress as a possible trigger. Need to confirm if this is a new factor.",
+      "done": false,
+      "tool_use_id": "tooluse_WV5mCUrU4396fFLl11ohnu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure if it's stress; never felt like this before.",
+    "step": 5,
+    "timestamp": 1773065661.7825568,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other new changes in routine?",
+    "step": 6,
+    "timestamp": 1773065662.590357,
+    "metadata": {
+      "thought": "Symptoms new and possibly stress-related. Need to gather more details for a comprehensive assessment.",
+      "done": false,
+      "tool_use_id": "tooluse_shXhvT7RAcRM2ZcllL80GZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new changes, just the dizziness and headaches.",
+    "step": 6,
+    "timestamp": 1773065663.6613595,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Impact on daily activities?",
+    "step": 7,
+    "timestamp": 1773065664.6013951,
+    "metadata": {
+      "thought": "No new changes in routine. Symptoms persist. Need to confirm if they impact daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_OzhrtRDHBZIiUUUYuTJooO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizziness affects my balance, but not daily tasks.",
+    "step": 7,
+    "timestamp": 1773065665.7256792,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in sleep patterns?",
+    "step": 8,
+    "timestamp": 1773065666.6189554,
+    "metadata": {
+      "thought": "Dizziness affects balance but not daily tasks. Need to ask about sleep patterns.",
+      "done": false,
+      "tool_use_id": "tooluse_T7w8MQu3M7QHkOztDmnGqM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in my sleep patterns...",
+    "step": 8,
+    "timestamp": 1773065667.746658,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other recent changes?",
+    "step": 9,
+    "timestamp": 1773065668.6707113,
+    "metadata": {
+      "thought": "No changes in sleep patterns. Need to ask about any other recent changes.",
+      "done": false,
+      "tool_use_id": "tooluse_k7W1EKlolZrKsbt8mHBrK8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other changes, just the dizziness and headaches.",
+    "step": 9,
+    "timestamp": 1773065669.773365,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773065670.6593559,
+    "metadata": {
+      "thought": "No other changes reported. Symptoms persist. Need to summarize and assess.",
+      "done": true,
+      "tool_use_id": "tooluse_acZsGOkxvB1JBu5flXy4rG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 10,
+    "timestamp": 1773065670.6594148,
+    "metadata": {}
+  }
+]

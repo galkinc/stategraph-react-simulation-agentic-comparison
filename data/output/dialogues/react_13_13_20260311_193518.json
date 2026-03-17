@@ -1,0 +1,171 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246918.5742462,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did you move here from Philippines, sir?",
+    "step": 0,
+    "timestamp": 1773246918.5742526,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact date...",
+    "step": 0,
+    "timestamp": 1773246919.5920138,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximate year you moved from Philippines?",
+    "step": 1,
+    "timestamp": 1773246920.9823775,
+    "metadata": {
+      "thought": "User did not provide exact date of moving from Philippines.",
+      "done": false,
+      "tool_use_id": "tooluse_fRGUodcMx2wrRFJtGrEYMy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it was around nineteen eighty four.",
+    "step": 1,
+    "timestamp": 1773246922.1861298,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms since moving?",
+    "step": 2,
+    "timestamp": 1773246922.9026024,
+    "metadata": {
+      "thought": "User provided approximate year of moving from Philippines.",
+      "done": false,
+      "tool_use_id": "tooluse_cWcJCbIrRZ0FrxLjvlqtJJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had headaches since the move, no other changes.",
+    "step": 2,
+    "timestamp": 1773246923.996758,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did headaches start?",
+    "step": 3,
+    "timestamp": 1773246924.793222,
+    "metadata": {
+      "thought": "User reported headaches since moving.",
+      "done": false,
+      "tool_use_id": "tooluse_MtUob1MQNCI03n77uILX2T"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall exactly when headaches began...",
+    "step": 3,
+    "timestamp": 1773246925.828039,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 4,
+    "timestamp": 1773246926.6441455,
+    "metadata": {
+      "thought": "User cannot recall exact onset of headaches.",
+      "done": false,
+      "tool_use_id": "tooluse_xiN0WHsfEHMW9IrwoI4A60"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been feeling more tired lately, no other changes.",
+    "step": 4,
+    "timestamp": 1773246927.8120575,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did tiredness start?",
+    "step": 5,
+    "timestamp": 1773246928.602136,
+    "metadata": {
+      "thought": "User reported feeling more tired.",
+      "done": false,
+      "tool_use_id": "tooluse_lMAy155507X5lU8q4tNfgm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when tiredness began...",
+    "step": 5,
+    "timestamp": 1773246929.7706254,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 6,
+    "timestamp": 1773246930.5983567,
+    "metadata": {
+      "thought": "User cannot recall exact onset of tiredness.",
+      "done": false,
+      "tool_use_id": "tooluse_fAEWi6VYa9Kji4uRm6yer3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel really tired.",
+    "step": 6,
+    "timestamp": 1773246931.6615732,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use?",
+    "step": 7,
+    "timestamp": 1773246932.391417,
+    "metadata": {
+      "thought": "User reported feeling really tired.",
+      "done": false,
+      "tool_use_id": "tooluse_3tZLI6NDjfg4RiG0ccAYYd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't take any prescription medications...",
+    "step": 7,
+    "timestamp": 1773246933.433637,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Done with symptoms?",
+    "step": 8,
+    "timestamp": 1773246934.3491797,
+    "metadata": {
+      "thought": "User does not take prescription medications.",
+      "done": true,
+      "tool_use_id": "tooluse_03pQDdVJGGK0x762POIvje"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific symptoms, but I have G C.",
+    "step": 8,
+    "timestamp": 1773246935.4124422,
+    "metadata": {}
+  }
+]

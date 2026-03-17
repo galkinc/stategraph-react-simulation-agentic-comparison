@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247986.1083024,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi there! I am Doctor Frankland.",
+    "step": 0,
+    "timestamp": 1773247986.1083066,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what you mean by \"Firth grade.\" Can you clarify?",
+    "step": 0,
+    "timestamp": 1773247987.2178106,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What do you mean by 'Firth grade'?",
+    "step": 1,
+    "timestamp": 1773247988.537657,
+    "metadata": {
+      "thought": "User seems confused about 'Firth grade.' I need to clarify what this term means.",
+      "done": false,
+      "tool_use_id": "tooluse_93ls9wizx0Nxr4gPt7mY3h"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what 'Firth grade' means...",
+    "step": 1,
+    "timestamp": 1773247989.6582403,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this a medical term or something else?",
+    "step": 2,
+    "timestamp": 1773247991.1032848,
+    "metadata": {
+      "thought": "User is still confused about 'Firth grade.' I need to provide a clear explanation.",
+      "done": false,
+      "tool_use_id": "tooluse_MmYDGSDzHRnsmlan64g5yC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's a medical term for my condition...",
+    "step": 2,
+    "timestamp": 1773247992.1911397,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you describe your symptoms?",
+    "step": 3,
+    "timestamp": 1773247993.5857158,
+    "metadata": {
+      "thought": "User clarified that 'Firth grade' is a medical term. I need to identify what it refers to.",
+      "done": false,
+      "tool_use_id": "tooluse_tSnxs7lvo8fCJ5F6zJcAyy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I have occasional headaches and fatigue lately...",
+    "step": 3,
+    "timestamp": 1773247994.7209027,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you usually experience these symptoms?",
+    "step": 4,
+    "timestamp": 1773247996.1666272,
+    "metadata": {
+      "thought": "User described symptoms related to 'Firth grade.' I need to confirm if these symptoms match any known conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_WiANerfF2NyNBejujZG9HQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms mostly hit after meals, I'm not sure exactly.",
+    "step": 4,
+    "timestamp": 1773247997.388077,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 5,
+    "timestamp": 1773247998.9094114,
+    "metadata": {
+      "thought": "User provided timing for symptoms. I need to gather more details to identify 'Firth grade.'",
+      "done": false,
+      "tool_use_id": "tooluse_NHD4wxNi3gqbGiXgcMRTVl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just fatigue...",
+    "step": 5,
+    "timestamp": 1773247999.9847767,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you taken any medications recently?",
+    "step": 6,
+    "timestamp": 1773248001.5533497,
+    "metadata": {
+      "thought": "User has no other symptoms. I need to confirm if 'Firth grade' is a recognized term.",
+      "done": false,
+      "tool_use_id": "tooluse_hmDDevrr2l8K3bM6Fdp8sg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any recent medications...",
+    "step": 6,
+    "timestamp": 1773248002.6672118,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773248004.086761,
+    "metadata": {
+      "thought": "User has no recent medications. I need to conclude if 'Firth grade' is a recognized term.",
+      "done": true,
+      "tool_use_id": "tooluse_PLopr1At4t0ZcGqRfuDr1j"
+    }
+  }
+]

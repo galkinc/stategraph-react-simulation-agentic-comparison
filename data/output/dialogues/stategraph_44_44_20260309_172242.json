@@ -1,0 +1,220 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066162.2042115,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you in pain?",
+    "step": 0,
+    "timestamp": 1773066162.2042155,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I feel much better now...",
+    "step": 0,
+    "timestamp": 1773066163.2930574,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or concerns?",
+    "step": 1,
+    "timestamp": 1773066164.569552,
+    "metadata": {
+      "thought": "User reports feeling much better, no pain. No medical entities collected yet.",
+      "done": false,
+      "tool_use_id": "tooluse_qSW0hvZK67Y0goiE0xgYLM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just feeling better...",
+    "step": 1,
+    "timestamp": 1773066165.657586,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you start feeling better?",
+    "step": 2,
+    "timestamp": 1773066166.9929404,
+    "metadata": {
+      "thought": "User reports no other symptoms, feeling better. No medical entities collected yet.",
+      "done": false,
+      "tool_use_id": "tooluse_mtbN007QDdxanZwnDu1Bwy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Started feeling better a few days ago...",
+    "step": 2,
+    "timestamp": 1773066168.0889084,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in your routine?",
+    "step": 3,
+    "timestamp": 1773066169.485629,
+    "metadata": {
+      "thought": "User reports feeling better for a few days. Still no medical entities collected.",
+      "done": false,
+      "tool_use_id": "tooluse_YUQeFXcSxoHaforBbc6UXS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes, still following the same schedule...",
+    "step": 3,
+    "timestamp": 1773066170.634251,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're taking?",
+    "step": 4,
+    "timestamp": 1773066172.0629303,
+    "metadata": {
+      "thought": "User reports no changes in routine. Still no medical entities collected.",
+      "done": false,
+      "tool_use_id": "tooluse_0gQVj6jISRmF7Gku0f7McC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just feeling much better...",
+    "step": 4,
+    "timestamp": 1773066173.135812,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066174.639197,
+    "metadata": {
+      "thought": "User reports no medications, feeling much better. No medical entities collected yet.",
+      "done": true,
+      "tool_use_id": "tooluse_dhdzwmBLLKw1HtiAG0o9fU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066176.06052,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_g2LUr7ukTFzYHBdkNMsN5P"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773066177.4011164,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_57uMGGWM7Q8RmLf1Hio1S6"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066178.7331066,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_KftTFU51u1A4bOBDJy7ag5"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066180.2043033,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_vQQEhPI2E265Axd4NBoreh"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773066181.6219401,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_rL8WyhVgwORkQFK8lyMOAj"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773066183.075955,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_GC50kEUhcCRzjB8QdgfN7r"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773066184.5849504,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_KPfP3es3epqs9pOIznkne7"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773066186.059405,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_3C1ZFk8Kiy6cvhkbZoc4FI"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773066187.52686,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_XLeUKLEEsvHDIHGLOt7jt7"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773066188.9965568,
+    "metadata": {
+      "thought": "Conversation complete, no medical entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_lQbAX9EkiDvyWIZd6lvZaY"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252634.0420046,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How is everything else?",
+    "step": 0,
+    "timestamp": 1773252634.0420105,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shoulder's the main concern, otherwise I'm okay...",
+    "step": 0,
+    "timestamp": 1773252635.2959576,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any shoulder pain or stiffness?",
+    "step": 1,
+    "timestamp": 1773252636.8173547,
+    "metadata": {
+      "thought": "Ask about shoulder pain specifics",
+      "done": false,
+      "tool_use_id": "tooluse_ydzRZvI0RoHJPAf8HC0jSk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mild stiffness, but no sharp pain...",
+    "step": 1,
+    "timestamp": 1773252638.0957923,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long has this stiffness lasted?",
+    "step": 2,
+    "timestamp": 1773252638.9017751,
+    "metadata": {
+      "thought": "Need to know duration and intensity",
+      "done": false,
+      "tool_use_id": "tooluse_p4xokemRjAUR1pyFpeyhdj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly how long it's been stiff.",
+    "step": 2,
+    "timestamp": 1773252640.1075246,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any activities causing discomfort?",
+    "step": 3,
+    "timestamp": 1773252640.9198277,
+    "metadata": {
+      "thought": "Ask about any activities causing discomfort",
+      "done": false,
+      "tool_use_id": "tooluse_uigmGVaIJOTvZjA6Wcowby"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; it happens mostly when lifting.",
+    "step": 3,
+    "timestamp": 1773252642.1748426,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does it worsen or improve?",
+    "step": 4,
+    "timestamp": 1773252642.9579725,
+    "metadata": {
+      "thought": "Need to know if it worsens or improves",
+      "done": false,
+      "tool_use_id": "tooluse_1sF5fUd91EGjsfoJ4Lfhn1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It feels the same, no change...",
+    "step": 4,
+    "timestamp": 1773252644.2353072,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any numbness or tingling?",
+    "step": 5,
+    "timestamp": 1773252644.9351025,
+    "metadata": {
+      "thought": "Check for any other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_Xj5n1E4uB6gEG33llLL5cq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No numbness or tingling in my shoulder...",
+    "step": 5,
+    "timestamp": 1773252646.2019186,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252647.0036852,
+    "metadata": {
+      "thought": "Summarize and confirm if enough info collected",
+      "done": true,
+      "tool_use_id": "tooluse_6u0WvECOU749LH6uND2EAa"
+    }
+  }
+]

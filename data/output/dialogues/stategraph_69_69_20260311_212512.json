@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253512.5263486,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever, chills?",
+    "step": 0,
+    "timestamp": 1773253512.5263524,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or chills, everything's fine...",
+    "step": 0,
+    "timestamp": 1773253513.7983272,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headache, dizziness, or fatigue?",
+    "step": 1,
+    "timestamp": 1773253515.3612618,
+    "metadata": {
+      "thought": "User reports no fever or chills, which are common symptoms of many conditions. Next step is to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_GhG4TMIw9XDdh1lGemH6he"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches, dizziness, or fatigue here...",
+    "step": 1,
+    "timestamp": 1773253516.5426314,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in health or lifestyle?",
+    "step": 2,
+    "timestamp": 1773253517.9719663,
+    "metadata": {
+      "thought": "User reports no additional symptoms. Next step is to ask about any recent changes in health or lifestyle.",
+      "done": false,
+      "tool_use_id": "tooluse_DHyLCqmDZtpTckbepe8wTb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, everything's steady and fine...",
+    "step": 2,
+    "timestamp": 1773253519.24008,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific concerns or worries?",
+    "step": 3,
+    "timestamp": 1773253520.8049066,
+    "metadata": {
+      "thought": "User reports no recent changes. Next step is to ask about any specific concerns or worries.",
+      "done": false,
+      "tool_use_id": "tooluse_7Uy7oGRFx7dH4YwZ46Goq7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific worries, everything feels fine...",
+    "step": 3,
+    "timestamp": 1773253522.0099585,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253523.6220114,
+    "metadata": {
+      "thought": "User reports no specific concerns. Gathering is complete. No symptoms or conditions identified.",
+      "done": true,
+      "tool_use_id": "tooluse_ikS2i0xowcDrCgweHgDhf3"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253525.1951222,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_mKVF4HrJK8jCbEha0hPnvb"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253526.8335729,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_IGlahQCagsBPN8eJGpOTRy"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253528.4576592,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_QNZvmqGKHGWB4a1B0zAhe1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253530.1070082,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_Fm4XdXuG79zKVNFKtA9zD8"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773253531.8270485,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_GwJpUoJsqUTje6CwMC8uXu"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773253533.378502,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_Ds75h35tnuLGoc7lip8oFO"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773253534.9106266,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_Hi8RUmbM7PB130NeCKKlRX"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773253536.5571067,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_fOqGUC0mw0eLupoqVjl0ls"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773253538.1441634,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_j2wKViOKjSYjSLPbhUTwPD"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773253539.7520857,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_azZ43npLjTOk94a6xhQUGF"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773253541.4430196,
+    "metadata": {
+      "thought": "No symptoms or conditions identified. No further action needed.",
+      "done": true,
+      "tool_use_id": "tooluse_xmecT1dyTkcSUEX2drDKeO"
+    }
+  }
+]

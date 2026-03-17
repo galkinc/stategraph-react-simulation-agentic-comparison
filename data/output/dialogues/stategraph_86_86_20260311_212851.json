@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253731.439332,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had any thoughts of harming yourself or others?",
+    "step": 0,
+    "timestamp": 1773253731.4393358,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No plans to harm myself or others...",
+    "step": 0,
+    "timestamp": 1773253732.7104788,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in your mood or behavior?",
+    "step": 1,
+    "timestamp": 1773253734.175539,
+    "metadata": {
+      "thought": "User denies having thoughts of self-harm or harming others.",
+      "done": false,
+      "tool_use_id": "tooluse_P4k9GRcQlzMCHRA90plAGU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mood hasn't changed much, just some lingering sadness.",
+    "step": 1,
+    "timestamp": 1773253735.3653767,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Sadness duration and intensity?",
+    "step": 2,
+    "timestamp": 1773253736.915811,
+    "metadata": {
+      "thought": "User reports lingering sadness without recent mood changes.",
+      "done": false,
+      "tool_use_id": "tooluse_oLUcSn8GJfHM2WFPZzDue2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt sad for months, but it varies.",
+    "step": 2,
+    "timestamp": 1773253738.0232801,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 3,
+    "timestamp": 1773253739.5939999,
+    "metadata": {
+      "thought": "User reports prolonged sadness with varying intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_71warfUpiQBaAwxTWTyEuh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had headaches and feel really tired lately.",
+    "step": 3,
+    "timestamp": 1773253740.963239,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in sleep?",
+    "step": 4,
+    "timestamp": 1773253742.5086496,
+    "metadata": {
+      "thought": "User reports prolonged sadness, headaches, and fatigue.",
+      "done": false,
+      "tool_use_id": "tooluse_QFitzHSqwh7uNv9VR2RLt3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My sleep has been irregular, sometimes too much, sometimes too little.",
+    "step": 4,
+    "timestamp": 1773253743.7368672,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use?",
+    "step": 5,
+    "timestamp": 1773253745.3543487,
+    "metadata": {
+      "thought": "User reports irregular sleep patterns along with prolonged sadness, headaches, and fatigue.",
+      "done": false,
+      "tool_use_id": "tooluse_B5tWob6x9WOJ2BqXyKNVzn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't take any prescription medications...",
+    "step": 5,
+    "timestamp": 1773253746.7234654,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253748.33852,
+    "metadata": {
+      "thought": "User denies prescription medication use.",
+      "done": true,
+      "tool_use_id": "tooluse_fDdOb7Rhh5c7FED7HrOeK9"
+    }
+  }
+]

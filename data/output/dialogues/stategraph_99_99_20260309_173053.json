@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066653.8445988,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I'm glad to hear that your Afib is under control. I'd like for you to start taking baby aspirin again.",
+    "step": 0,
+    "timestamp": 1773066653.844603,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm unsure, but I'll ask my doctor about it.",
+    "step": 0,
+    "timestamp": 1773066654.9328897,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any symptoms or concerns?",
+    "step": 1,
+    "timestamp": 1773066656.4389048,
+    "metadata": {
+      "thought": "The user is unsure about taking baby aspirin again and plans to consult a doctor. The current information is insufficient to determine if the user has any conditions or treatments related to their Afib management.",
+      "done": false,
+      "tool_use_id": "tooluse_KLGv7xpCiAtBHVsVKJ9LzI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No symptoms, just routine check-up today...",
+    "step": 1,
+    "timestamp": 1773066657.548196,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you noticed any changes in your health recently?",
+    "step": 2,
+    "timestamp": 1773066659.1188295,
+    "metadata": {
+      "thought": "The user has no symptoms and is attending a routine check-up. This information does not provide any new medical conditions or treatments related to Afib management.",
+      "done": false,
+      "tool_use_id": "tooluse_DdULFLie0CzRj82tXOIkCq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just my usual routine...",
+    "step": 2,
+    "timestamp": 1773066660.2023535,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 3,
+    "timestamp": 1773066661.6907802,
+    "metadata": {
+      "thought": "The user reports no recent changes in health and follows a usual routine. This information does not provide any new medical conditions or treatments related to Afib management.",
+      "done": false,
+      "tool_use_id": "tooluse_xK6l4nnpJnSOQDvPRe4JxJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I'm taking Nexium for acid reflux...",
+    "step": 3,
+    "timestamp": 1773066662.7955198,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other medications or supplements?",
+    "step": 4,
+    "timestamp": 1773066664.328326,
+    "metadata": {
+      "thought": "The user is currently taking Nexium for acid reflux. This provides information about a medication but does not directly relate to Afib management.",
+      "done": false,
+      "tool_use_id": "tooluse_t1FcPGUK1Ij1hvaVAPO2oF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other meds or supplements right now...",
+    "step": 4,
+    "timestamp": 1773066665.3418858,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066666.8594003,
+    "metadata": {
+      "thought": "The user is not taking any other medications or supplements. The current information does not provide any new medical conditions or treatments related to Afib management.",
+      "done": true,
+      "tool_use_id": "tooluse_UYEGCzFerreTk0TLoUnbq8"
+    }
+  }
+]

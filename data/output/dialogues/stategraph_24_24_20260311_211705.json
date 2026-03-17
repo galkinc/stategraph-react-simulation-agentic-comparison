@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253025.1494265,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, ma'am. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773253025.1494308,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right hand still hurts, but I'm managing...",
+    "step": 0,
+    "timestamp": 1773253026.3755682,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly does the pain occur?",
+    "step": 1,
+    "timestamp": 1773253027.8806083,
+    "metadata": {
+      "thought": "Ask about pain specifics to identify potential medical condition.",
+      "done": false,
+      "tool_use_id": "tooluse_tR4pN7oPbGkmANMWW8PeyB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain mostly in my right hand, especially the thumb.",
+    "step": 1,
+    "timestamp": 1773253029.0701342,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773253031.2947862,
+    "metadata": {
+      "thought": "Need to know if pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_5WU5o1mtHpvp9z0F69EKcu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's mostly there but comes and goes...",
+    "step": 2,
+    "timestamp": 1773253032.5024343,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long does each episode last?",
+    "step": 3,
+    "timestamp": 1773253033.9611707,
+    "metadata": {
+      "thought": "Ask about pain intensity and duration.",
+      "done": false,
+      "tool_use_id": "tooluse_9cB9Pe6cVIwR6l1n4H1npE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Episodes last a few minutes, then ease off.",
+    "step": 3,
+    "timestamp": 1773253035.244871,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does anything trigger the pain?",
+    "step": 4,
+    "timestamp": 1773253036.8143826,
+    "metadata": {
+      "thought": "Need to know if pain is triggered by any activity.",
+      "done": false,
+      "tool_use_id": "tooluse_XHugHDn0ChiSGlQSZpFZIO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lifting heavy things triggers the pain...",
+    "step": 4,
+    "timestamp": 1773253037.9849467,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with the pain?",
+    "step": 5,
+    "timestamp": 1773253039.8510203,
+    "metadata": {
+      "thought": "Ask about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_7Ja8GvuKMMHD52jbjG5wA0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes my whole hand feels stiff, too...",
+    "step": 5,
+    "timestamp": 1773253041.1277332,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medication?",
+    "step": 6,
+    "timestamp": 1773253042.7587502,
+    "metadata": {
+      "thought": "Need to know if the user is on any medication.",
+      "done": false,
+      "tool_use_id": "tooluse_Pn87arzgk1J3xMK2q5bbXD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about any specific meds right now.",
+    "step": 6,
+    "timestamp": 1773253043.9740686,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injuries or activities?",
+    "step": 7,
+    "timestamp": 1773253045.6777494,
+    "metadata": {
+      "thought": "Ask about any recent injuries or activities.",
+      "done": false,
+      "tool_use_id": "tooluse_C1kDk8qg2AHJISEThNLFgq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries, just heavy lifting...",
+    "step": 7,
+    "timestamp": 1773253046.938303,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253048.5752635,
+    "metadata": {
+      "thought": "Gathering enough information to suggest next steps.",
+      "done": true,
+      "tool_use_id": "tooluse_JEYQ1WGk8z5miXDCG2hGO3"
+    }
+  }
+]

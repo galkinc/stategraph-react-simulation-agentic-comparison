@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252536.639577,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any difficulty in hearing?",
+    "step": 0,
+    "timestamp": 1773252536.6395826,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, my hearing hasn't changed recently...",
+    "step": 0,
+    "timestamp": 1773252537.9329734,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773252539.4468725,
+    "metadata": {
+      "thought": "User denies hearing changes, no new conditions identified.",
+      "done": true,
+      "tool_use_id": "tooluse_6NsJC0LKJx2tZsKR42vOKj"
+    }
+  }
+]

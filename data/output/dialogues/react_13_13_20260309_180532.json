@@ -1,0 +1,254 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068732.4572213,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did you move here from Philippines, sir?",
+    "step": 0,
+    "timestamp": 1773068732.4572313,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; I moved here around '84.",
+    "step": 0,
+    "timestamp": 1773068733.6781764,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you move here from Philippines, sir?",
+    "step": 1,
+    "timestamp": 1773068735.1307478,
+    "metadata": {
+      "thought": "Need to extract time expression from user's response",
+      "done": false,
+      "tool_use_id": "tooluse_LraPwyL5y1qjtbI88LAGSF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact year...",
+    "step": 1,
+    "timestamp": 1773068736.2031004,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Approximately, what decade did you move here?",
+    "step": 2,
+    "timestamp": 1773068736.9865692,
+    "metadata": {
+      "thought": "User is unsure about the exact year, need more details",
+      "done": false,
+      "tool_use_id": "tooluse_uIlBgZdrEhUT0Z0WcqjoVy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Moved here around the mid-eighties, I think...",
+    "step": 2,
+    "timestamp": 1773068738.1105418,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you mean around 1984 or mid-1980s?",
+    "step": 3,
+    "timestamp": 1773068738.8623364,
+    "metadata": {
+      "thought": "User mentioned mid-eighties, need to confirm and extract time expression",
+      "done": false,
+      "tool_use_id": "tooluse_vWuHqInOpA41rHamKwsfvi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Think it's around 1984, not exact...",
+    "step": 3,
+    "timestamp": 1773068739.9421206,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you recall any specific events around that time?",
+    "step": 4,
+    "timestamp": 1773068740.7546372,
+    "metadata": {
+      "thought": "User confirmed around 1984, need to extract time expression",
+      "done": false,
+      "tool_use_id": "tooluse_asJ7d452B5Em8ttDI1p9YS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but I was young then...",
+    "step": 4,
+    "timestamp": 1773068741.8835545,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you noticed any health changes since moving?",
+    "step": 5,
+    "timestamp": 1773068742.709631,
+    "metadata": {
+      "thought": "User is unsure, need to confirm if any symptoms or conditions",
+      "done": false,
+      "tool_use_id": "tooluse_SkXGGban948ssDGL5FFjj0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I'm feeling a bit more anxious.",
+    "step": 5,
+    "timestamp": 1773068743.8433406,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you describe your anxiety symptoms?",
+    "step": 6,
+    "timestamp": 1773068744.6221435,
+    "metadata": {
+      "thought": "User mentioned feeling anxious, need to extract condition",
+      "done": false,
+      "tool_use_id": "tooluse_bPrgtEmH5HeCCeFzSBJP85"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I feel nervous and worried a lot, sometimes it's hard to sleep.",
+    "step": 6,
+    "timestamp": 1773068745.7632382,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you feel most nervous?",
+    "step": 7,
+    "timestamp": 1773068746.5900197,
+    "metadata": {
+      "thought": "User described anxiety symptoms, need to confirm and extract condition",
+      "done": false,
+      "tool_use_id": "tooluse_qMYRYkzsVKvAwAhB022ZCE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm most nervous during my counselling sessions...",
+    "step": 7,
+    "timestamp": 1773068747.6616318,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take any medication for anxiety?",
+    "step": 8,
+    "timestamp": 1773068748.5864375,
+    "metadata": {
+      "thought": "User linked anxiety to specific situations, need to confirm and extract condition",
+      "done": false,
+      "tool_use_id": "tooluse_nkw6i5tafR4dZebkShpTHd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't take any meds for anxiety...",
+    "step": 8,
+    "timestamp": 1773068749.7040927,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments for anxiety?",
+    "step": 9,
+    "timestamp": 1773068750.5566761,
+    "metadata": {
+      "thought": "User does not take medication, need to confirm if any treatments used",
+      "done": false,
+      "tool_use_id": "tooluse_f0MoI4UiLIEP4eIXOufhdy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't tried any treatments for anxiety yet.",
+    "step": 9,
+    "timestamp": 1773068751.6280842,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt this way?",
+    "step": 10,
+    "timestamp": 1773068752.5401263,
+    "metadata": {
+      "thought": "User has not tried treatments, need to confirm if any symptoms duration",
+      "done": false,
+      "tool_use_id": "tooluse_ZOPjC4i7hbRkF7WvhMM92f"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, been struggling for years...",
+    "step": 10,
+    "timestamp": 1773068753.6899352,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms?",
+    "step": 11,
+    "timestamp": 1773068754.644143,
+    "metadata": {
+      "thought": "User mentioned struggling for years, need to confirm and extract condition",
+      "done": false,
+      "tool_use_id": "tooluse_35Ou8uzQ5986kdxr1kINLs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms right now.",
+    "step": 11,
+    "timestamp": 1773068755.7701826,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you seen a doctor about this?",
+    "step": 12,
+    "timestamp": 1773068756.6744747,
+    "metadata": {
+      "thought": "User does not recall other symptoms, need to confirm if any treatments used",
+      "done": false,
+      "tool_use_id": "tooluse_ltnb65gWrvm9Dcjw414rny"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't seen a doctor about this...",
+    "step": 12,
+    "timestamp": 1773068757.712456,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773068758.648993,
+    "metadata": {
+      "thought": "User has not seen a doctor, conversation is complete",
+      "done": true,
+      "tool_use_id": "tooluse_UtpIHl3pQRU0n48Rje28Zh"
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065728.822006,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When were you diagnosed with type two diabetes?",
+    "step": 0,
+    "timestamp": 1773065728.822012,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Two years ago, but I'm not sure about the exact date.",
+    "step": 0,
+    "timestamp": 1773065729.9413667,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you recall the month of diagnosis?",
+    "step": 1,
+    "timestamp": 1773065731.2784436,
+    "metadata": {
+      "thought": "User mentioned having type two diabetes but not the exact date. I need to clarify the exact date.",
+      "done": false,
+      "tool_use_id": "tooluse_2bPYT2CYyQaX05xRhK3hCA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't remember the exact month of diagnosis.",
+    "step": 1,
+    "timestamp": 1773065732.3761146,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you noticed any specific symptoms?",
+    "step": 2,
+    "timestamp": 1773065733.1858826,
+    "metadata": {
+      "thought": "User can't recall the exact month. I need to ask about any symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_JMn8TQRNcERugmmuOGtjzu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some fatigue lately, but nothing severe.",
+    "step": 2,
+    "timestamp": 1773065734.267975,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you've noticed?",
+    "step": 3,
+    "timestamp": 1773065735.0390348,
+    "metadata": {
+      "thought": "User mentioned fatigue as a symptom. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_7gOQPgW3fWLwwPdktN31vY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just fatigue and occasional headaches lately...",
+    "step": 3,
+    "timestamp": 1773065736.0971117,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medication?",
+    "step": 4,
+    "timestamp": 1773065736.848659,
+    "metadata": {
+      "thought": "User mentioned fatigue and headaches. I need to ask about treatment.",
+      "done": false,
+      "tool_use_id": "tooluse_TJwg3m8s35gQ8rDvNE3ypq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication, just natural remedies...",
+    "step": 4,
+    "timestamp": 1773065737.9278982,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What natural remedies are you using?",
+    "step": 5,
+    "timestamp": 1773065738.7925916,
+    "metadata": {
+      "thought": "User uses natural remedies. I need to ask about specific remedies.",
+      "done": false,
+      "tool_use_id": "tooluse_7CeeHwMqARdvo6zU9BSSGc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not using any natural remedies right now...",
+    "step": 5,
+    "timestamp": 1773065739.925333,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773065740.6948323,
+    "metadata": {
+      "thought": "User does not use natural remedies. I have enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_l3oJhvXd7IA8jcKEFeHWlS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 6,
+    "timestamp": 1773065740.6948895,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253748.3598404,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning, young man.",
+    "step": 0,
+    "timestamp": 1773253748.3598444,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Morning, doctor. Just fine, thanks...",
+    "step": 0,
+    "timestamp": 1773253749.5173717,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent headaches or dizziness?",
+    "step": 1,
+    "timestamp": 1773253751.0097532,
+    "metadata": {
+      "thought": "User is polite but not providing symptoms. Ask about common symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_EreeB8BEQfiMIACE06LIj8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent headaches or dizziness, just the head hit.",
+    "step": 1,
+    "timestamp": 1773253752.277049,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, vomiting, or confusion?",
+    "step": 2,
+    "timestamp": 1773253753.7791343,
+    "metadata": {
+      "thought": "User had a head injury. Ask about symptoms related to head injury.",
+      "done": false,
+      "tool_use_id": "tooluse_MSh7MvYejge1I8DvcUCZv4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, vomiting, or confusion, just a headache.",
+    "step": 2,
+    "timestamp": 1773253754.9722047,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Headache intensity on a scale 1-10?",
+    "step": 3,
+    "timestamp": 1773253756.4807785,
+    "metadata": {
+      "thought": "User has a headache post head injury. Ask about pain specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_R9hxwu0k3jR9HY7m62Ncfh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall if I had a headache.",
+    "step": 3,
+    "timestamp": 1773253757.7092881,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any blurred vision or sensitivity to light?",
+    "step": 4,
+    "timestamp": 1773253759.2572892,
+    "metadata": {
+      "thought": "User is unsure about headache. Ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_4buwmRsJDsNGsNzsVLJp6D"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, no blurred vision or light sensitivity...",
+    "step": 4,
+    "timestamp": 1773253760.4534352,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or concerns?",
+    "step": 5,
+    "timestamp": 1773253762.0257893,
+    "metadata": {
+      "thought": "User has no severe symptoms. Ask about any other concerns.",
+      "done": false,
+      "tool_use_id": "tooluse_NhhjnEvG5sus2D3KsMIqG2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just ankle pain...",
+    "step": 5,
+    "timestamp": 1773253763.321421,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Ankle pain intensity on a scale 1-10?",
+    "step": 6,
+    "timestamp": 1773253764.9027472,
+    "metadata": {
+      "thought": "User has ankle pain. Ask about pain specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_vG3BTerfcvR1PKSNSa01OQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain's around a 3, not too bad.",
+    "step": 6,
+    "timestamp": 1773253766.0693374,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How did you injure your ankle?",
+    "step": 7,
+    "timestamp": 1773253767.654744,
+    "metadata": {
+      "thought": "User has mild ankle pain. Ask about injury details.",
+      "done": false,
+      "tool_use_id": "tooluse_xLwEeEQQBBWvq1yiAmCU0I"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Got hurt in a fight at juvie...",
+    "step": 7,
+    "timestamp": 1773253768.8768287,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other injuries from the fight?",
+    "step": 8,
+    "timestamp": 1773253770.6501036,
+    "metadata": {
+      "thought": "User had a fight. Ask about any injuries besides head and ankle.",
+      "done": false,
+      "tool_use_id": "tooluse_W7fSQWXJk7HBAAc1JtZeef"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other injuries, just elbow and ankle...",
+    "step": 8,
+    "timestamp": 1773253771.8491015,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773253773.61485,
+    "metadata": {
+      "thought": "User has minor injuries. Consider if further questions are needed.",
+      "done": true,
+      "tool_use_id": "tooluse_kVIP48KQurlVh14WSzQZ5N"
+    }
+  }
+]

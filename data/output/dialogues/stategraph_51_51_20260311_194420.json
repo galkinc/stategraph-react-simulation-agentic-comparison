@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247460.3358111,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit?",
+    "step": 0,
+    "timestamp": 1773247460.335815,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure when I'll quit smoking...",
+    "step": 0,
+    "timestamp": 1773247461.3243427,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any withdrawal symptoms?",
+    "step": 1,
+    "timestamp": 1773247462.7655134,
+    "metadata": {
+      "thought": "User is uncertain about quitting smoking, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_1yHz61GyngvlPO4V0MCjN7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any withdrawal symptoms lately...",
+    "step": 1,
+    "timestamp": 1773247463.948537,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you smoke regularly?",
+    "step": 2,
+    "timestamp": 1773247465.2371495,
+    "metadata": {
+      "thought": "User has no recent withdrawal symptoms, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_ys377Rk5xysMVqyZCE8jFj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't smoke, but I used to...",
+    "step": 2,
+    "timestamp": 1773247466.4043117,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you stop smoking?",
+    "step": 3,
+    "timestamp": 1773247467.8296883,
+    "metadata": {
+      "thought": "User used to smoke but doesn't anymore, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_5mVSKbvcQvJ06FexihlM58"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact date I quit.",
+    "step": 3,
+    "timestamp": 1773247468.9914265,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you remember any triggers to smoke?",
+    "step": 4,
+    "timestamp": 1773247470.4443717,
+    "metadata": {
+      "thought": "User is uncertain about the exact date they quit smoking.",
+      "done": false,
+      "tool_use_id": "tooluse_NCwgVP7j98uumu6GR3AqSq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific triggers for smoking...",
+    "step": 4,
+    "timestamp": 1773247471.540116,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you feel anxious or stressed?",
+    "step": 5,
+    "timestamp": 1773247472.9320927,
+    "metadata": {
+      "thought": "User doesn't recall specific smoking triggers, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_7GjZY6o4QLT3w6zUEFBBCZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall feeling anxious or stressed lately.",
+    "step": 5,
+    "timestamp": 1773247474.0317988,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms?",
+    "step": 6,
+    "timestamp": 1773247475.4671788,
+    "metadata": {
+      "thought": "User doesn't recall feeling anxious or stressed, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_HsE5ESiYBt64VbH75heXSl"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms...",
+    "step": 6,
+    "timestamp": 1773247476.6042538,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 7,
+    "timestamp": 1773247478.0677998,
+    "metadata": {
+      "thought": "User doesn't recall any other symptoms, conversation nearly complete.",
+      "done": true,
+      "tool_use_id": "tooluse_SzPu5qGf4UpAB5GPAV4qdz"
+    }
+  }
+]

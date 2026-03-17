@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253048.595657,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you keeping up with your food journal?",
+    "step": 0,
+    "timestamp": 1773253048.5956614,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm trying to, but sometimes I forget...",
+    "step": 0,
+    "timestamp": 1773253049.8451762,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual symptoms after eating?",
+    "step": 1,
+    "timestamp": 1773253051.1081421,
+    "metadata": {
+      "thought": "Ask about specific symptoms related to diet",
+      "done": false,
+      "tool_use_id": "tooluse_fBeMBJwPTk2wCovMIgpNoB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms after eating, just high blood sugar.",
+    "step": 1,
+    "timestamp": 1773253052.381822,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is high blood sugar a diagnosed condition?",
+    "step": 2,
+    "timestamp": 1773253053.9492235,
+    "metadata": {
+      "thought": "Need to confirm if high blood sugar is a symptom or condition",
+      "done": false,
+      "tool_use_id": "tooluse_WJ2MihSgbmIxck54tlkz3p"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I have high blood sugar levels...",
+    "step": 2,
+    "timestamp": 1773253055.16614,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When was high blood sugar diagnosed?",
+    "step": 3,
+    "timestamp": 1773253070.7995808,
+    "metadata": {
+      "thought": "Confirm if high blood sugar is a diagnosed condition",
+      "done": false,
+      "tool_use_id": "tooluse_4mx0DcSgh8hBIRPGP59QDN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure when exactly it was diagnosed.",
+    "step": 3,
+    "timestamp": 1773253072.1394699,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on medication for it?",
+    "step": 4,
+    "timestamp": 1773253073.6815357,
+    "metadata": {
+      "thought": "Need to ask about treatment or medication for high blood sugar",
+      "done": false,
+      "tool_use_id": "tooluse_DQjY3YjMTygny4erHbAqGA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure if I'm on medication right now.",
+    "step": 4,
+    "timestamp": 1773253074.8543007,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent diet changes?",
+    "step": 5,
+    "timestamp": 1773253076.4358244,
+    "metadata": {
+      "thought": "Ask about any recent changes in diet or lifestyle",
+      "done": false,
+      "tool_use_id": "tooluse_vocuVBaSS6i2pTWbhryUET"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've started healthy eating, feeling better...",
+    "step": 5,
+    "timestamp": 1773253077.782123,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or conditions?",
+    "step": 6,
+    "timestamp": 1773253080.2983012,
+    "metadata": {
+      "thought": "Confirm if there are any other symptoms or conditions",
+      "done": false,
+      "tool_use_id": "tooluse_C6BG5TPhqGAikxvfU684Os"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new symptoms, just managing high blood sugar.",
+    "step": 6,
+    "timestamp": 1773253081.5200453,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253083.0363328,
+    "metadata": {
+      "thought": "Conclude the conversation with a summary",
+      "done": true,
+      "tool_use_id": "tooluse_3PPyuQMeHBcSJpMe0zbaxl"
+    }
+  }
+]

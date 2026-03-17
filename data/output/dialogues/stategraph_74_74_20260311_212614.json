@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253574.7430818,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. What brings you into the practice today?",
+    "step": 0,
+    "timestamp": 1773253574.743086,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Missing periods, no bleeding, first time talking to doctor.",
+    "step": 0,
+    "timestamp": 1773253575.9922187,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medical conditions or treatments?",
+    "step": 1,
+    "timestamp": 1773253577.5010064,
+    "metadata": {
+      "thought": "Need to confirm if the user has any medical conditions or treatments",
+      "done": false,
+      "tool_use_id": "tooluse_Og6GhaAwxpJlX0Mo5FiSnI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medical conditions or treatments, just missing periods.",
+    "step": 1,
+    "timestamp": 1773253578.7109144,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're taking?",
+    "step": 2,
+    "timestamp": 1773253580.213487,
+    "metadata": {
+      "thought": "Need to confirm if the user has any medications",
+      "done": false,
+      "tool_use_id": "tooluse_gmyL16jWfiIysMQ0aQTPZo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not taking any medications right now...",
+    "step": 2,
+    "timestamp": 1773253581.4975688,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Other symptoms you're experiencing?",
+    "step": 3,
+    "timestamp": 1773253583.3000085,
+    "metadata": {
+      "thought": "Need to confirm if the user has any other symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_OOt7q7jd2uy2zIrN1V8nka"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just missing periods...",
+    "step": 3,
+    "timestamp": 1773253584.4883568,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253586.5990455,
+    "metadata": {
+      "thought": "Have enough information to proceed",
+      "done": true,
+      "tool_use_id": "tooluse_lIj6IclXVoLqabjJYo86mK"
+    }
+  }
+]

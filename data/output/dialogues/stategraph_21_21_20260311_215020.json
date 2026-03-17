@@ -1,0 +1,74 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773255020.725268,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Do you smoke?",
+    "step": 0,
+    "timestamp": 1773255020.7252738,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't smoke, but I used to...",
+    "step": 0,
+    "timestamp": 1773255022.1760495,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any symptoms since quitting smoking?",
+    "step": 1,
+    "timestamp": 1773255023.5561001,
+    "metadata": {
+      "thought": "Need to confirm if the user still has symptoms related to smoking cessation.",
+      "done": false,
+      "tool_use_id": "tooluse_cJo69RrLeqoom8Ht8srmUS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new symptoms since quitting smoking...",
+    "step": 1,
+    "timestamp": 1773255024.8364122,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long ago did you quit?",
+    "step": 2,
+    "timestamp": 1773255026.5036356,
+    "metadata": {
+      "thought": "No new symptoms reported, but need to confirm duration of smoking cessation.",
+      "done": false,
+      "tool_use_id": "tooluse_Un6kSd9BMckiE5V8P9MhEk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I stopped about five years ago...",
+    "step": 2,
+    "timestamp": 1773255027.890314,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773255029.3597386,
+    "metadata": {
+      "thought": "No new symptoms and duration of cessation known. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_zf68sR2QCxXDxwdG31XEar"
+    }
+  }
+]

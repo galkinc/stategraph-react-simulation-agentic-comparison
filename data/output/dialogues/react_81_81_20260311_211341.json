@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252821.587299,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I hear someone just had a birthday! How young are you now, ma'am?",
+    "step": 0,
+    "timestamp": 1773252821.5873046,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just turned fifty eight, doctor...",
+    "step": 0,
+    "timestamp": 1773252822.8085682,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773252824.2443097,
+    "metadata": {
+      "thought": "Ask about symptoms related to age",
+      "done": false,
+      "tool_use_id": "tooluse_gEPanMewUfSloFT7oM5Gxw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms lately, just some stiffness...",
+    "step": 1,
+    "timestamp": 1773252825.4867637,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly do you feel stiffness?",
+    "step": 2,
+    "timestamp": 1773252826.3752086,
+    "metadata": {
+      "thought": "Stiffness could relate to joints or muscles",
+      "done": false,
+      "tool_use_id": "tooluse_pFr9tc4At1phBeGHEC1Nng"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stiffness mostly in my knee's outer part...",
+    "step": 2,
+    "timestamp": 1773252827.6042743,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is knee stiffness constant or intermittent?",
+    "step": 3,
+    "timestamp": 1773252828.3398125,
+    "metadata": {
+      "thought": "Need to know if it's constant or intermittent",
+      "done": false,
+      "tool_use_id": "tooluse_VwOIdG8jySMxuSGfgGcjbT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Knee stiffness happens mostly when I sit for long.",
+    "step": 3,
+    "timestamp": 1773252829.5242743,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does it cause pain or swelling?",
+    "step": 4,
+    "timestamp": 1773252830.5246365,
+    "metadata": {
+      "thought": "Need to know if there's pain or swelling",
+      "done": false,
+      "tool_use_id": "tooluse_tSwPfSTEhRIX2hGoyKDvaB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain or swelling in lateral compartment...",
+    "step": 4,
+    "timestamp": 1773252831.6639147,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms recently?",
+    "step": 5,
+    "timestamp": 1773252832.436026,
+    "metadata": {
+      "thought": "Need to know if there's any other symptom",
+      "done": false,
+      "tool_use_id": "tooluse_7NlBmc7Q9w9tB4Q5oPKNSh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new symptoms since the knee pain...",
+    "step": 5,
+    "timestamp": 1773252833.6080086,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252834.481796,
+    "metadata": {
+      "thought": "Gathered enough information",
+      "done": true,
+      "tool_use_id": "tooluse_ShcT0mP1eFYJJe66B0U20A"
+    }
+  }
+]

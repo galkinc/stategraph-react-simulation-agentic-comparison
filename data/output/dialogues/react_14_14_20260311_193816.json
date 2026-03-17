@@ -1,0 +1,225 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247096.3157082,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you, sir?",
+    "step": 0,
+    "timestamp": 1773247096.3157132,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm sixty-two years old, doctor...",
+    "step": 0,
+    "timestamp": 1773247097.436291,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773247098.9246495,
+    "metadata": {
+      "thought": "User has provided age, but no specific symptoms or medical conditions. Need to ask about symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_PbF4w4MzBIt5jdaCvw7nSC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms, just the usual pain...",
+    "step": 1,
+    "timestamp": 1773247100.153547,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where and when does the pain occur?",
+    "step": 2,
+    "timestamp": 1773247101.0601661,
+    "metadata": {
+      "thought": "User reports usual pain but no specifics. Need to know more about the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_8OHkT36ZZLQhhpWo2LAszN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain mainly in shoulders and hands, especially at night.",
+    "step": 2,
+    "timestamp": 1773247102.1617625,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 3,
+    "timestamp": 1773247103.0397742,
+    "metadata": {
+      "thought": "User describes pain in shoulders and hands, especially at night. Need to know if it's constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_PqpAyP4UW0q7nzbetgOPHd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been mostly intermittent, but sometimes it flares up.",
+    "step": 3,
+    "timestamp": 1773247106.0481064,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any relief when pain flares up?",
+    "step": 4,
+    "timestamp": 1773247106.9175286,
+    "metadata": {
+      "thought": "User describes intermittent pain that flares up. Need to know if there's any relief.",
+      "done": false,
+      "tool_use_id": "tooluse_aoSsQ7j4DE5m2i2jVTYjU8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Oxycodone helps a bit for three hours...",
+    "step": 4,
+    "timestamp": 1773247108.108978,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take any other medications?",
+    "step": 5,
+    "timestamp": 1773247108.958061,
+    "metadata": {
+      "thought": "User reports pain relief with Oxycodone. Need to confirm medication details.",
+      "done": false,
+      "tool_use_id": "tooluse_FqJWKlP25pcOD2msmzogph"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I take oxycodone for pain relief...",
+    "step": 5,
+    "timestamp": 1773247110.5530655,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any side effects from Oxycodone?",
+    "step": 6,
+    "timestamp": 1773247111.4275866,
+    "metadata": {
+      "thought": "User takes Oxycodone for pain. Need to confirm if any side effects.",
+      "done": false,
+      "tool_use_id": "tooluse_fV5M1NwXfkLIn1d3BODEm9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Oxycodone gives me relief, but sometimes I feel dizzy.",
+    "step": 6,
+    "timestamp": 1773247112.5915384,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is dizziness new or ongoing?",
+    "step": 7,
+    "timestamp": 1773247113.5640924,
+    "metadata": {
+      "thought": "User reports dizziness as a side effect. Need to confirm if this is new.",
+      "done": false,
+      "tool_use_id": "tooluse_lcS1ZPsle0aU9ewaDExGAi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dizziness has been an old issue, not new.",
+    "step": 7,
+    "timestamp": 1773247114.627637,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides pain?",
+    "step": 8,
+    "timestamp": 1773247115.5815494,
+    "metadata": {
+      "thought": "Dizziness is not new. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_rXqEjBOXhqtXI8izzv9J0L"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't feel hot things in my hands, and things slip out.",
+    "step": 8,
+    "timestamp": 1773247116.7943342,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are these issues new or ongoing?",
+    "step": 9,
+    "timestamp": 1773247117.7606626,
+    "metadata": {
+      "thought": "User reports sensory issues and coordination problems. Need to confirm if these are new.",
+      "done": false,
+      "tool_use_id": "tooluse_ugDJqTZjLuD6oNdJZWhnH2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "These issues have been ongoing for six months.",
+    "step": 9,
+    "timestamp": 1773247118.8518877,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any past medical history?",
+    "step": 10,
+    "timestamp": 1773247119.8828256,
+    "metadata": {
+      "thought": "User reports ongoing sensory and coordination issues for six months. Need to ask about medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_Vr8DaYpAaV6twFbDl9fGvk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Diabetes, high blood pressure, stroke, two heart attacks.",
+    "step": 10,
+    "timestamp": 1773247121.145652,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do symptoms correlate with past conditions?",
+    "step": 11,
+    "timestamp": 1773247122.1614184,
+    "metadata": {
+      "thought": "User has significant medical history. Need to confirm if symptoms correlate with medical history.",
+      "done": true,
+      "tool_use_id": "tooluse_oSPunp1hGda2ug0r153KaF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Diabetes and stroke cause my current pain and numbness.",
+    "step": 11,
+    "timestamp": 1773247123.376895,
+    "metadata": {}
+  }
+]

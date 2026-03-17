@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247511.4901247,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Welcome to the office, Miss A. I am Doctor Luna.",
+    "step": 0,
+    "timestamp": 1773247511.4901283,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My mom had lung cancer; I'm not sure about other illnesses.",
+    "step": 0,
+    "timestamp": 1773247512.6582036,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is lung cancer confirmed?",
+    "step": 1,
+    "timestamp": 1773247514.002823,
+    "metadata": {
+      "thought": "Need to confirm if lung cancer is negated or confirmed.",
+      "done": false,
+      "tool_use_id": "tooluse_OdLbgtM4xAUpmU4zYFY8dd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My mom had lung cancer, confirmed...",
+    "step": 1,
+    "timestamp": 1773247515.1439815,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health issues?",
+    "step": 2,
+    "timestamp": 1773247516.5089736,
+    "metadata": {
+      "thought": "Now need to confirm other potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_tEl6yGeDrMW93647rOFD9q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; family health details are vague.",
+    "step": 2,
+    "timestamp": 1773247517.6926062,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or meds?",
+    "step": 3,
+    "timestamp": 1773247519.1059306,
+    "metadata": {
+      "thought": "No other conditions mentioned, but need to confirm.",
+      "done": false,
+      "tool_use_id": "tooluse_F2C9QQ9MM86wPeB6ZwXYck"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific treatments or meds...",
+    "step": 3,
+    "timestamp": 1773247520.2371094,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773247521.6060212,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_rm6FdY49hoGlYGrUZgb7kn"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247522.9941773,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_fbaWiNQCRKNCRjefMgSUhy"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247524.4694545,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_HLxcD4x5WxSUkadmmXYffe"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247526.0419912,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_qHSOwp6FJnfkQ0oMHZVdEJ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773247527.5304055,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_638e3KDoNCxUpEKUljDrfX"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773247528.9614496,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_4n1nskErJuUa5IHWqrdwfg"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773247530.4095314,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_v3K69TUSqbosmDjJE5Sh8a"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773247531.8532543,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_NWbNInQPsBIzkzzhErjJ2M"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773247533.3401403,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_1uo5curHl0PVGbHNOJzhdD"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773247534.739104,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_bKXByM6ge6l5tbVTVrDUvN"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773247536.2274673,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_IBzOLTpbnBSQhKxHzgzv0G"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773247537.6797392,
+    "metadata": {
+      "thought": "No other details provided, but have enough info.",
+      "done": true,
+      "tool_use_id": "tooluse_f5GcIUOvZkI5BLU2xTXLSW"
+    }
+  }
+]

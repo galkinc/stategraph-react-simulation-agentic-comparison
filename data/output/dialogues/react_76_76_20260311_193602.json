@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246962.3865852,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When were you diagnosed with type two diabetes?",
+    "step": 0,
+    "timestamp": 1773246962.3865967,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when I was diagnosed.",
+    "step": 0,
+    "timestamp": 1773246963.5638778,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you remember any symptoms around that time?",
+    "step": 1,
+    "timestamp": 1773246965.0074625,
+    "metadata": {
+      "thought": "User is unsure about the exact time of diagnosis for type two diabetes.",
+      "done": false,
+      "tool_use_id": "tooluse_ux0vHKt9vks4252TVGSWse"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific symptoms back then...",
+    "step": 1,
+    "timestamp": 1773246966.1605048,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take any diabetes medications now?",
+    "step": 2,
+    "timestamp": 1773246966.9376414,
+    "metadata": {
+      "thought": "User does not recall specific symptoms around the time of diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_LYipa7oy1cKXS5UAmNtO8p"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't take any diabetes meds...",
+    "step": 2,
+    "timestamp": 1773246968.351343,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other medical conditions?",
+    "step": 3,
+    "timestamp": 1773246969.1442313,
+    "metadata": {
+      "thought": "User does not take diabetes medications now.",
+      "done": false,
+      "tool_use_id": "tooluse_n6JroLztDGm64X5u9NR5c4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other medical conditions...",
+    "step": 3,
+    "timestamp": 1773246970.3278987,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any family history of diabetes?",
+    "step": 4,
+    "timestamp": 1773246971.1342144,
+    "metadata": {
+      "thought": "User does not recall any other medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_GRbNiHpjnpwszbQrUfVvdP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of diabetes here...",
+    "step": 4,
+    "timestamp": 1773246972.205428,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246972.9872794,
+    "metadata": {
+      "thought": "User has no family history of diabetes.",
+      "done": true,
+      "tool_use_id": "tooluse_SHfkLW1CFni5u34xmQJguF"
+    }
+  }
+]

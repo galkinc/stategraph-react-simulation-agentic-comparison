@@ -1,0 +1,189 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065906.3774953,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Do you smoke?",
+    "step": 0,
+    "timestamp": 1773065906.377501,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I’ve never smoked...",
+    "step": 0,
+    "timestamp": 1773065907.5669987,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any history of lung conditions?",
+    "step": 1,
+    "timestamp": 1773065908.9665883,
+    "metadata": {
+      "thought": "User has stated they have never smoked, which is relevant for medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_5oiM7tY4hQHNKaVixcjaiC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No lung conditions, but I worked with chemicals.",
+    "step": 1,
+    "timestamp": 1773065910.0448737,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any ongoing respiratory symptoms?",
+    "step": 2,
+    "timestamp": 1773065910.8238218,
+    "metadata": {
+      "thought": "User has no smoking history but worked with chemicals, which could be relevant for medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_TxoKGbufYHh9hdBQHvsmmw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No ongoing respiratory issues, just occasional cough...",
+    "step": 2,
+    "timestamp": 1773065911.8973906,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When does the cough occur?",
+    "step": 3,
+    "timestamp": 1773065912.753643,
+    "metadata": {
+      "thought": "User has no smoking history, no ongoing respiratory issues, but occasional cough and worked with chemicals.",
+      "done": false,
+      "tool_use_id": "tooluse_Nw8tNIzP0C0fd3rw4Voiya"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Coughs mostly after handling chemicals at work...",
+    "step": 3,
+    "timestamp": 1773065913.8255675,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 4,
+    "timestamp": 1773065914.6259258,
+    "metadata": {
+      "thought": "User has no smoking history, occasional cough after handling chemicals.",
+      "done": false,
+      "tool_use_id": "tooluse_TDBNYg4799RJz6rDBQtoC8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I sometimes feel dizzy.",
+    "step": 4,
+    "timestamp": 1773065915.791582,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Dizziness triggers identified?",
+    "step": 5,
+    "timestamp": 1773065916.628399,
+    "metadata": {
+      "thought": "User reports occasional dizziness, which could be related to chemical exposure.",
+      "done": false,
+      "tool_use_id": "tooluse_d3KeK6kIrpDMRYdZXEyKMf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but I used chemicals a lot.",
+    "step": 5,
+    "timestamp": 1773065917.692586,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 6,
+    "timestamp": 1773065918.4835637,
+    "metadata": {
+      "thought": "User has no smoking history, occasional cough, sometimes feels dizzy, worked with chemicals.",
+      "done": false,
+      "tool_use_id": "tooluse_iX0R3jMzOdRxWltiHy6Dtn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other health issues, just occasional headaches...",
+    "step": 6,
+    "timestamp": 1773065919.5864246,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do headaches occur?",
+    "step": 7,
+    "timestamp": 1773065920.4900715,
+    "metadata": {
+      "thought": "User has no smoking history, occasional cough, dizziness, occasional headaches, worked with chemicals.",
+      "done": false,
+      "tool_use_id": "tooluse_ygAbR2OuWfPxIsDi5qJ6II"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Headaches happen mostly after long work days...",
+    "step": 7,
+    "timestamp": 1773065921.5858371,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use?",
+    "step": 8,
+    "timestamp": 1773065922.3820915,
+    "metadata": {
+      "thought": "User has no smoking history, occasional cough, dizziness, headaches after long work days, worked with chemicals.",
+      "done": false,
+      "tool_use_id": "tooluse_MFIGW9PVYDeyBQFOlyOgX6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication use, just vitamins...",
+    "step": 8,
+    "timestamp": 1773065923.4682305,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 9,
+    "timestamp": 1773065924.374661,
+    "metadata": {
+      "thought": "User has no smoking history, occasional cough, dizziness, headaches after long work days, takes vitamins.",
+      "done": true,
+      "tool_use_id": "tooluse_zE8CTzoWkJKKjcexGsfnZz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just occasional headaches...",
+    "step": 9,
+    "timestamp": 1773065925.484516,
+    "metadata": {}
+  }
+]

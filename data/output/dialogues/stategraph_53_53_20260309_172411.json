@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066251.3936777,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you Miss G?",
+    "step": 0,
+    "timestamp": 1773066251.393682,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still dealing with ear pain and sinus pressure.",
+    "step": 0,
+    "timestamp": 1773066252.4884758,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly is the pain?",
+    "step": 1,
+    "timestamp": 1773066253.8938155,
+    "metadata": {
+      "thought": "Ask about pain location and intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_qMyoo7RxIMKYNLiTd7F7gy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ear pain and left side sinus pressure...",
+    "step": 1,
+    "timestamp": 1773066254.9576216,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How severe is the pain?",
+    "step": 2,
+    "timestamp": 1773066256.3623602,
+    "metadata": {
+      "thought": "Ask about pain intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_rUh8hS4WBvqjZzdMGHtyRT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The pain is moderate, but it's eased a bit.",
+    "step": 2,
+    "timestamp": 1773066257.615418,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 3,
+    "timestamp": 1773066259.0655558,
+    "metadata": {
+      "thought": "Ask about any treatments used.",
+      "done": false,
+      "tool_use_id": "tooluse_kUmteK2H3konRxYeawJC30"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments yet, just resting...",
+    "step": 3,
+    "timestamp": 1773066260.171856,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 4,
+    "timestamp": 1773066261.8274066,
+    "metadata": {
+      "thought": "Ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_nzrTmoJ5DTr4MLo7YpQ0r1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications taken, just over-the-counter pain relief...",
+    "step": 4,
+    "timestamp": 1773066262.8692737,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066264.3670566,
+    "metadata": {
+      "thought": "Gathered enough information.",
+      "done": true,
+      "tool_use_id": "tooluse_erSEmTyhYxScf04SBY1NMQ"
+    }
+  }
+]

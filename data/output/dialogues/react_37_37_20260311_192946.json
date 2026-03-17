@@ -1,0 +1,227 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246586.6062975,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning. So, you are here for your follow up today.",
+    "step": 0,
+    "timestamp": 1773246586.606303,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for my follow-up, feeling much better now.",
+    "step": 0,
+    "timestamp": 1773246587.8407066,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms persist?",
+    "step": 1,
+    "timestamp": 1773246589.049751,
+    "metadata": {
+      "thought": "User is feeling much better, but still needs follow-up. Ask about specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_jnLSRAgcm7hTPVZuCnbtNb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific symptoms left, just follow-up checks...",
+    "step": 1,
+    "timestamp": 1773246590.3038933,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How is your general health?",
+    "step": 2,
+    "timestamp": 1773246591.0509167,
+    "metadata": {
+      "thought": "User has no symptoms but needs follow-up checks. Ask about general health.",
+      "done": false,
+      "tool_use_id": "tooluse_ScMM4zLQ41tb9jbFT1GSfQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm feeling much better now, no more pain.",
+    "step": 2,
+    "timestamp": 1773246592.2164733,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 3,
+    "timestamp": 1773246593.007158,
+    "metadata": {
+      "thought": "User feels much better and no pain. Ask about any other concerns.",
+      "done": false,
+      "tool_use_id": "tooluse_2RXx1bBnMdvDXtcRiLPBZH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other health concerns, just follow-up...",
+    "step": 3,
+    "timestamp": 1773246594.085803,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any follow-up appointments?",
+    "step": 4,
+    "timestamp": 1773246595.0080605,
+    "metadata": {
+      "thought": "User has no other health concerns. Confirm follow-up details.",
+      "done": false,
+      "tool_use_id": "tooluse_UhT5S6s8fI2ywagVyuenTK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No follow-up appointments scheduled, feeling much better now.",
+    "step": 4,
+    "timestamp": 1773246596.0560482,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Need anything else now?",
+    "step": 5,
+    "timestamp": 1773246596.9182835,
+    "metadata": {
+      "thought": "User has no follow-up appointments. Confirm if they need anything else.",
+      "done": true,
+      "tool_use_id": "tooluse_18FCErzgqrHWw2the5UBmz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I'm good now, thank you...",
+    "step": 5,
+    "timestamp": 1773246598.0182998,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773246598.8551078,
+    "metadata": {
+      "thought": "User feels good and no further needs. End conversation.",
+      "done": true,
+      "tool_use_id": "tooluse_0qBIAzulgetWXC8BqxKPGj"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246599.7493627,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_sSM5KBiWa61n8s8lE16Q8o"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773246600.5972583,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_hAACtseLf5QmZ51OYJjRDU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773246601.4062388,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_Kml2LU5DuCdIU1PyS4I7yx"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773246602.1762724,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_Ogdn4s1GmSGLA79aB0FbOJ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773246602.9768443,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_lNIMWadiAm4J4ULwHAhDkV"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773246603.8408923,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_LRVZe1J6nBW9xkdXYkwBf3"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773246604.598193,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_IgAD8Px8E3CPDvsBR2QjYb"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773246605.387261,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_Evs8gyvkmfaQ8d1Y4pVz1I"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773246606.1898537,
+    "metadata": {
+      "thought": "Ending conversation as user feels good and no further needs.",
+      "done": true,
+      "tool_use_id": "tooluse_85mMtBgHf7RUMs9mRehho5"
+    }
+  }
+]

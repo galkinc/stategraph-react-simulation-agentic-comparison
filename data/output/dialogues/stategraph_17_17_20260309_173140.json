@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066700.6925728,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi there! I am Doctor Frankland.",
+    "step": 0,
+    "timestamp": 1773066700.6925776,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm feeling a bit unwell, Doctor...",
+    "step": 0,
+    "timestamp": 1773066701.778054,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain or discomfort?",
+    "step": 1,
+    "timestamp": 1773066703.203033,
+    "metadata": {
+      "thought": "Need to identify specific symptoms to understand the user's condition.",
+      "done": false,
+      "tool_use_id": "tooluse_vD7C1GHvxFxUOhk5gtnj0I"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mild headache, nothing else really...",
+    "step": 1,
+    "timestamp": 1773066704.2443612,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the headache start?",
+    "step": 2,
+    "timestamp": 1773066705.7061856,
+    "metadata": {
+      "thought": "User reports mild headache. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_CPXKw56VjtpCH3dhzwKg5H"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall exactly when it began...",
+    "step": 2,
+    "timestamp": 1773066706.7854192,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, dizziness, or fatigue?",
+    "step": 3,
+    "timestamp": 1773066708.169158,
+    "metadata": {
+      "thought": "User reports mild headache but unsure of onset. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_26AbsJ0EcF95eryjr8yJ0U"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, dizziness, or fatigue...",
+    "step": 3,
+    "timestamp": 1773066709.2542572,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent stress or changes in routine?",
+    "step": 4,
+    "timestamp": 1773066710.718625,
+    "metadata": {
+      "thought": "User reports no additional symptoms besides headache. Need to ask about recent activities.",
+      "done": false,
+      "tool_use_id": "tooluse_9vtDbIa78BiAXFzUmJJ0Ul"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent stress, just usual life changes...",
+    "step": 4,
+    "timestamp": 1773066711.8509645,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any new medications or supplements?",
+    "step": 5,
+    "timestamp": 1773066713.3491974,
+    "metadata": {
+      "thought": "User reports usual life changes. Need to ask about medications.",
+      "done": false,
+      "tool_use_id": "tooluse_UkcmUoHf5EE3Nq78oRgTuX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new meds or supplements, just my usual.",
+    "step": 5,
+    "timestamp": 1773066714.3925724,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066715.8764882,
+    "metadata": {
+      "thought": "User reports no new medications. Need to summarize findings.",
+      "done": true,
+      "tool_use_id": "tooluse_QxQFORsLarPfEBU2ys2eqg"
+    }
+  }
+]

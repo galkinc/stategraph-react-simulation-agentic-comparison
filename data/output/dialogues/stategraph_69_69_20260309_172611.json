@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066371.9858878,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever, chills?",
+    "step": 0,
+    "timestamp": 1773066371.985891,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or chills, everything's fine...",
+    "step": 0,
+    "timestamp": 1773066373.099713,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headache, nausea, or fatigue?",
+    "step": 1,
+    "timestamp": 1773066374.5577297,
+    "metadata": {
+      "thought": "User reports no fever or chills, which are common symptoms of many conditions. Next step is to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_qb2jJUXboZhDJUBpgj9n6x"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches, nausea, or fatigue here...",
+    "step": 1,
+    "timestamp": 1773066375.6721334,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in health or lifestyle?",
+    "step": 2,
+    "timestamp": 1773066377.1314037,
+    "metadata": {
+      "thought": "User reports no additional symptoms. Next step is to ask about any recent changes in health or lifestyle.",
+      "done": false,
+      "tool_use_id": "tooluse_czdMNaGPP5r9NYSjM5bHOm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes, everything's stable and fine...",
+    "step": 2,
+    "timestamp": 1773066378.225039,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else concerning you?",
+    "step": 3,
+    "timestamp": 1773066379.6776502,
+    "metadata": {
+      "thought": "User reports no changes in health or lifestyle. No significant symptoms reported. Need to confirm if there's anything else.",
+      "done": false,
+      "tool_use_id": "tooluse_63HIIWGSLklPnZp88MyODP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, everything is fine, really...",
+    "step": 3,
+    "timestamp": 1773066380.7345366,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773066382.1262019,
+    "metadata": {
+      "thought": "User confirms no other concerns. No significant symptoms or changes reported. Can conclude the conversation.",
+      "done": true,
+      "tool_use_id": "tooluse_FYnBHNjR5nqjKw66aLtihw"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066383.550391,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_LbNeztPqF4unEgMOzG6UA4"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066384.9046874,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_JnwMhpzWBaWXt41gb0Udtn"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773066386.3135743,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_vaJRYG78QJo3IPQw2BZ0M3"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066387.7614346,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_YOkx9wtUS3H1H5vAVjSo5F"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066389.1535013,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_aHwa6PvDlXEEGF2W8GTrFf"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773066390.5861177,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_iKJ5bVGXCyD1EokQjjJp3T"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773066392.071952,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_Gv3qIPA74v3rqGc65iKm8S"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773066393.4590354,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_1Cn8LoRETm5jfkF4I3MGsW"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773066394.931045,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_CPAeobylgzzIQmxMdyOlTc"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773066396.5032716,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_kgGX9d2YuJMZTQULOxzXhY"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773066397.9628713,
+    "metadata": {
+      "thought": "Conversation complete with no significant symptoms or changes reported.",
+      "done": true,
+      "tool_use_id": "tooluse_76YNkA0EbAsiT2nAT8cVWF"
+    }
+  }
+]

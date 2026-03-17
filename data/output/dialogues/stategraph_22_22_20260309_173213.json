@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066733.9313521,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I looked over your report from urgent care.",
+    "step": 0,
+    "timestamp": 1773066733.931356,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Urgent care said I had a mild infection.",
+    "step": 0,
+    "timestamp": 1773066735.0416903,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What type of infection did they diagnose?",
+    "step": 1,
+    "timestamp": 1773066736.4730077,
+    "metadata": {
+      "thought": "User mentioned a mild infection from urgent care. I need to confirm the specific type of infection.",
+      "done": false,
+      "tool_use_id": "tooluse_XR7612OV6e96QZNcerP3Wi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall the exact type of infection.",
+    "step": 1,
+    "timestamp": 1773066737.602848,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 2,
+    "timestamp": 1773066739.070588,
+    "metadata": {
+      "thought": "User couldn't recall the type of infection. I need to ask about symptoms to identify it.",
+      "done": false,
+      "tool_use_id": "tooluse_0lJuTalMc9qowynOyHuocV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what symptoms I have yet.",
+    "step": 2,
+    "timestamp": 1773066740.1430767,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any general symptoms you're experiencing?",
+    "step": 3,
+    "timestamp": 1773066741.6160326,
+    "metadata": {
+      "thought": "User is unsure about symptoms. I need to ask about general symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_x89MntVJEEbgQ3jV6LKn77"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I've had some fatigue lately.",
+    "step": 3,
+    "timestamp": 1773066742.6746175,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms like fever or cough?",
+    "step": 4,
+    "timestamp": 1773066744.0409384,
+    "metadata": {
+      "thought": "User mentioned fatigue. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_e2KAPQRoAv1iwPnJ0wnGsj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or cough, just a sore throat.",
+    "step": 4,
+    "timestamp": 1773066745.1218746,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had these symptoms?",
+    "step": 5,
+    "timestamp": 1773066746.6347125,
+    "metadata": {
+      "thought": "User has fatigue, sore throat. I need to ask about duration.",
+      "done": false,
+      "tool_use_id": "tooluse_gGZY4TFPRG3PCeNVhRjwIU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started about two weeks ago...",
+    "step": 5,
+    "timestamp": 1773066747.7594845,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 6,
+    "timestamp": 1773066749.3532012,
+    "metadata": {
+      "thought": "User has had symptoms for two weeks. I need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_oktlgcvD72bbmnnR8ROofU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not on any medications right now...",
+    "step": 6,
+    "timestamp": 1773066750.3832495,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments suggested by urgent care?",
+    "step": 7,
+    "timestamp": 1773066751.8367362,
+    "metadata": {
+      "thought": "User has no medications. I need to confirm if any treatments were suggested.",
+      "done": false,
+      "tool_use_id": "tooluse_mKGn8BpBCGqlxAhqADXIBu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Urgent care just said to follow up...",
+    "step": 7,
+    "timestamp": 1773066752.9589949,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066754.447373,
+    "metadata": {
+      "thought": "User was advised to follow up. I have enough information to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_O3oismGcZqanDhyDybxZ70"
+    }
+  }
+]

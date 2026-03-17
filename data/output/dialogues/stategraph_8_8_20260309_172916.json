@@ -1,0 +1,192 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066556.8784537,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit your I V and inhalation drugs Mister X Y Z?",
+    "step": 0,
+    "timestamp": 1773066556.8784575,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't have a plan to quit those yet.",
+    "step": 0,
+    "timestamp": 1773066558.0126011,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773066559.41709,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_FpOLw20cb8kqt427rv1etb"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773066560.8512099,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_eZK6gs9CoR3XYo20vXSo9p"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773066562.2720356,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_mFZptDKAJRD9IWaM86AKuL"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773066563.6688914,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_GneOFagFbuXHHcnuhpLde8"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773066565.0823116,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_reZXCrjykZyzYPasRDCvrR"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066566.4885302,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_9qmSUhih4VlVDz4ftt2wJS"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773066567.9068725,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_Ah03LmkJH46ioTepp0SXsZ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066569.3152714,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_CQr43Ifa4EomazAXakYbc7"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066570.7489812,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_kVr03IFWx9OhFv8PxvSp6S"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773066572.2007403,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_u9JEUWW4GO1WedUAikZrp6"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773066573.6323314,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_0DhBqp68InS6kqGqBcRZL5"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773066575.029072,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_gmaY4YXASzNvXtjvFDeNGe"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773066576.4896996,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_O9MJRIqtcWKbkdJYqIgvDW"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773066577.9801354,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_pg1RD8x6ORZGOpeuSf2mmT"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773066579.5328476,
+    "metadata": {
+      "thought": "User has not mentioned quitting IV and inhalation drugs, so no further information is needed at this moment.",
+      "done": true,
+      "tool_use_id": "tooluse_De9bToPm9soUPQNHat7kln"
+    }
+  }
+]

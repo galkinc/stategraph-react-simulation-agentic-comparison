@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253813.0057223,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you, sir?",
+    "step": 0,
+    "timestamp": 1773253813.005726,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm sixty-two years old, doctor...",
+    "step": 0,
+    "timestamp": 1773253814.1996164,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773253815.617785,
+    "metadata": {
+      "thought": "User has provided age, but no specific symptoms or conditions. Next step is to ask about common symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_pYOIMmkGnRJhd884vv0f1S"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent unusual symptoms, just old pain...",
+    "step": 1,
+    "timestamp": 1773253816.8746576,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where does the pain usually occur?",
+    "step": 2,
+    "timestamp": 1773253818.389952,
+    "metadata": {
+      "thought": "User mentioned old pain but no specifics. Need to ask about pain location and duration.",
+      "done": false,
+      "tool_use_id": "tooluse_qgbHn36v35HFyT0rSQJl7A"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain mainly in my shoulders and hands, sometimes in my back.",
+    "step": 2,
+    "timestamp": 1773253819.5549178,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long does the pain last?",
+    "step": 3,
+    "timestamp": 1773253821.110458,
+    "metadata": {
+      "thought": "User described pain locations but no duration. Need to ask about pain duration.",
+      "done": false,
+      "tool_use_id": "tooluse_d7mEcZvFSwWACQX1vjIMxQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain lasts all night, waking me up...",
+    "step": 3,
+    "timestamp": 1773253822.3675125,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried for pain?",
+    "step": 4,
+    "timestamp": 1773253823.949654,
+    "metadata": {
+      "thought": "User described pain duration but no other specifics. Need to ask about any treatments tried.",
+      "done": false,
+      "tool_use_id": "tooluse_bRQAQQ0RWsIagsx2bswUGX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Oxycodone helps a bit, but not gabapentin...",
+    "step": 4,
+    "timestamp": 1773253825.232914,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any side effects from treatments?",
+    "step": 5,
+    "timestamp": 1773253826.911226,
+    "metadata": {
+      "thought": "User mentioned treatments. Need to ask about any side effects.",
+      "done": false,
+      "tool_use_id": "tooluse_JaRuLEE2qneDO3xlm03kvf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Oxycodone helps, but I still have pain...",
+    "step": 5,
+    "timestamp": 1773253828.1322465,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253829.6937497,
+    "metadata": {
+      "thought": "User described treatment effects. Ready to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_N6djCBYWu38Q8pIZ2VLUG9"
+    }
+  }
+]

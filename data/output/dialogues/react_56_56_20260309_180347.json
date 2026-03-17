@@ -1,0 +1,227 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068627.4814117,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Welcome to the office, Miss A. I am Doctor Luna.",
+    "step": 0,
+    "timestamp": 1773068627.4814212,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about my health history, Doctor.",
+    "step": 0,
+    "timestamp": 1773068628.7508905,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any known medical conditions?",
+    "step": 1,
+    "timestamp": 1773068630.0135949,
+    "metadata": {
+      "thought": "Need to gather basic health history information.",
+      "done": false,
+      "tool_use_id": "tooluse_mfwHRPGAloZwkIWGLexwSR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any personal health issues...",
+    "step": 1,
+    "timestamp": 1773068631.044367,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any significant family medical history?",
+    "step": 2,
+    "timestamp": 1773068631.7880704,
+    "metadata": {
+      "thought": "Next step is to ask about family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_UXSubCXbZpI1sgTz2HazXu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; dad had gout, maybe blood clots.",
+    "step": 2,
+    "timestamp": 1773068632.8503656,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current symptoms you're experiencing?",
+    "step": 3,
+    "timestamp": 1773068633.5431983,
+    "metadata": {
+      "thought": "Next step is to ask about current symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_6eCd35Rd09eOREgk6xSlk5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel generally okay.",
+    "step": 3,
+    "timestamp": 1773068634.6335797,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 4,
+    "timestamp": 1773068635.413484,
+    "metadata": {
+      "thought": "No current symptoms noted, but need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_j1Ppzy6bXjBGIPM4eDuiGW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure if I take any medications now.",
+    "step": 4,
+    "timestamp": 1773068636.5807931,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any past surgeries or treatments?",
+    "step": 5,
+    "timestamp": 1773068637.3796551,
+    "metadata": {
+      "thought": "No current medications noted, conversation nearly complete.",
+      "done": false,
+      "tool_use_id": "tooluse_BYe1g70K2KSwwKtu9g5Xrc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My sister had surgery for tumors, but I'm not sure details.",
+    "step": 5,
+    "timestamp": 1773068638.4963214,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773068639.191045,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_5aVhBCMjleEeS0yfGjkJ0o"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773068640.0043213,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_C2R0lV6ZSnqLgWnpEPPd6I"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773068640.829299,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_EamqX9KUHRogzlUfTz8h46"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773068641.6018534,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_KdbLABxjgYUlkMLOsP804u"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773068642.4431345,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_QftKTi5NYw53Tsdeyp2l30"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773068643.3168197,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_7lIzdYmjPjzCevhd0cKMNg"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773068644.0525713,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_OLegBl2FaWiTca1GYv2TOL"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773068644.9329147,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_c6Zu66PA3eoqjH9I4Tap2U"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773068645.7638092,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_YxxZqUz4SHUwId4KdkW4jq"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773068646.613078,
+    "metadata": {
+      "thought": "End of symptom elicitation, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_7sgd6FsxCyq9Y97Qr7STOI"
+    }
+  }
+]

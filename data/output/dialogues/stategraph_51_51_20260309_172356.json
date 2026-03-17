@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066236.5367267,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit?",
+    "step": 0,
+    "timestamp": 1773066236.5367308,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure when I'll quit...",
+    "step": 0,
+    "timestamp": 1773066237.6256082,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any symptoms?",
+    "step": 1,
+    "timestamp": 1773066238.874211,
+    "metadata": {
+      "thought": "User is uncertain about quitting, need more details.",
+      "done": false,
+      "tool_use_id": "tooluse_AcTeWYx53O1DS4MSPdKlrs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm feeling a bit dizzy lately...",
+    "step": 1,
+    "timestamp": 1773066239.97353,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did dizziness start?",
+    "step": 2,
+    "timestamp": 1773066241.313346,
+    "metadata": {
+      "thought": "User reports dizziness, need to confirm symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_LgIbMpUVTvv9vrsNQIQevI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, maybe a week ago...",
+    "step": 2,
+    "timestamp": 1773066242.3831615,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 3,
+    "timestamp": 1773066243.7442493,
+    "metadata": {
+      "thought": "User reports dizziness for about a week.",
+      "done": false,
+      "tool_use_id": "tooluse_IDDHVB2C413jJlQVyTSr6O"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just the usual fatigue...",
+    "step": 3,
+    "timestamp": 1773066244.789901,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use?",
+    "step": 4,
+    "timestamp": 1773066246.1637182,
+    "metadata": {
+      "thought": "User reports fatigue in addition to dizziness.",
+      "done": false,
+      "tool_use_id": "tooluse_KOfDzsGBNFVRsjD3BeGqCc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications right now, just vitamins...",
+    "step": 4,
+    "timestamp": 1773066247.2164295,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet?",
+    "step": 5,
+    "timestamp": 1773066248.7504535,
+    "metadata": {
+      "thought": "User takes vitamins, no other medications.",
+      "done": false,
+      "tool_use_id": "tooluse_l6hv84bMeAQL0zSEbUhzSg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in my diet recently...",
+    "step": 5,
+    "timestamp": 1773066249.863674,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066251.37032,
+    "metadata": {
+      "thought": "User reports no diet changes, sufficient info collected.",
+      "done": true,
+      "tool_use_id": "tooluse_uAksuWKTZE1wYsOrCuq7Oy"
+    }
+  }
+]

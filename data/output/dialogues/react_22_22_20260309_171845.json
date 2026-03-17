@@ -1,0 +1,135 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065925.4911451,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I looked over your report from urgent care.",
+    "step": 0,
+    "timestamp": 1773065925.4911509,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Urgent care was quick, but I'm still unsure about my symptoms.",
+    "step": 0,
+    "timestamp": 1773065926.7150197,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773065927.9152303,
+    "metadata": {
+      "thought": "Need to gather specific symptom details to assist further.",
+      "done": false,
+      "tool_use_id": "tooluse_151KjjEIOlf5gaac71kzyj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what symptoms I have yet.",
+    "step": 1,
+    "timestamp": 1773065929.004202,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any pain or discomfort?",
+    "step": 2,
+    "timestamp": 1773065929.851538,
+    "metadata": {
+      "thought": "Need to gather more specific symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_QGvSKdWuTF4OANYC4BCzoc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just some mild discomfort...",
+    "step": 2,
+    "timestamp": 1773065930.9301784,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly do you feel the discomfort?",
+    "step": 3,
+    "timestamp": 1773065931.6847095,
+    "metadata": {
+      "thought": "Need to gather more details about the mild discomfort.",
+      "done": false,
+      "tool_use_id": "tooluse_ISDhzsMEVHS5s0uSxPW0Y4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I feel it mostly in my lower back.",
+    "step": 3,
+    "timestamp": 1773065932.7063096,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the discomfort start?",
+    "step": 4,
+    "timestamp": 1773065933.4684238,
+    "metadata": {
+      "thought": "Need to determine if the symptom is recent or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_BsR3olojsrbdWYvs4LRpEi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Discomfort began last week, suddenly...",
+    "step": 4,
+    "timestamp": 1773065934.5606143,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides the back discomfort?",
+    "step": 5,
+    "timestamp": 1773065935.3596056,
+    "metadata": {
+      "thought": "Need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_4kGqz9RuO9Raft8ifnFWmm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just the back pain...",
+    "step": 5,
+    "timestamp": 1773065936.4479475,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773065937.238451,
+    "metadata": {
+      "thought": "Have enough information to determine if the conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_K7TT7BV5vChdKh6InbPLQ5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 6,
+    "timestamp": 1773065937.2385075,
+    "metadata": {}
+  }
+]

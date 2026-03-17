@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252918.02856,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "I'm glad to hear that your Afib is under control. I'd like for you to start taking baby aspirin again.",
+    "step": 0,
+    "timestamp": 1773252918.0285654,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the aspirin; I'll ask my doctor.",
+    "step": 0,
+    "timestamp": 1773252919.3512406,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773252920.9931617,
+    "metadata": {
+      "thought": "The user is not sure about taking aspirin and prefers to consult a doctor. The tool is not needed in this case.",
+      "done": true,
+      "tool_use_id": "tooluse_JllCfeaOcAUvxOjiZZbEGa"
+    }
+  }
+]

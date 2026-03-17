@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246884.3848174,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, I will ask you a few basic questions, okay?",
+    "step": 0,
+    "timestamp": 1773246884.3848233,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I drink occasionally, not heavily. My husband is here.",
+    "step": 0,
+    "timestamp": 1773246885.5384471,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you experience any symptoms after drinking?",
+    "step": 1,
+    "timestamp": 1773246886.9611282,
+    "metadata": {
+      "thought": "Need to confirm if alcohol consumption is a symptom or risk factor.",
+      "done": false,
+      "tool_use_id": "tooluse_l6MzrKleYHNIR7TcOw3joB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any symptoms after drinking...",
+    "step": 1,
+    "timestamp": 1773246888.0960977,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms?",
+    "step": 2,
+    "timestamp": 1773246888.858927,
+    "metadata": {
+      "thought": "Need to gather more information about any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_IiEg0jQiVOlPVu7VzDos7W"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms right now.",
+    "step": 2,
+    "timestamp": 1773246890.006432,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any past medical history?",
+    "step": 3,
+    "timestamp": 1773246890.7819886,
+    "metadata": {
+      "thought": "No specific symptoms reported, but need to ask about duration and any past medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_2988S6qT44sTG8Hpe6dANB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No significant medical history, just occasional drinking...",
+    "step": 3,
+    "timestamp": 1773246891.9018981,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773246892.748021,
+    "metadata": {
+      "thought": "No significant symptoms or medical history reported. Need to confirm if this is sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_AwXnFkmVlx0HH3JZLZTuXm"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246893.4941518,
+    "metadata": {
+      "thought": "Conversation is complete with enough information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_XsYoiWvAlx07yZLxTJ6lPD"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773246894.292876,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_MhOR1TzSM0bARTZXJE0Izi"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246895.0576115,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_LmZwWnkahRzuLGxk7a4y5N"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773246895.935462,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_WxDByx6ptawP3t9pGfUo6J"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773246896.6695592,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_VAxKfjiSuf5KYIJFqAGUl0"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773246897.4499536,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_EMQeAtdRLC1Snuf0ntrN9p"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773246898.1975245,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_xcSeY5nMUyECc7utMp4Aqo"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773246898.9404578,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_pGJeTHchqIT4lg1BPVsK7c"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773246899.6662972,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_AAV6tx6lnlHsuNR3bag9CI"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773246900.4510834,
+    "metadata": {
+      "thought": "No specific symptoms or medical history reported.",
+      "done": true,
+      "tool_use_id": "tooluse_JRvD2o8xB9GNFAucjaXjKQ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773246901.2329414,
+    "metadata": {
+      "thought": "Conversation is complete with enough information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_ih2zTIuNBSZYF9r5gDXuT4"
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066306.5326476,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hey, bud. What brings you in today?",
+    "step": 0,
+    "timestamp": 1773066306.5326524,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash on my arms and torso, started recently.",
+    "step": 0,
+    "timestamp": 1773066307.6550176,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the rash first appear?",
+    "step": 1,
+    "timestamp": 1773066308.850213,
+    "metadata": {
+      "thought": "Need to gather more details about the rash.",
+      "done": false,
+      "tool_use_id": "tooluse_WyuN8YBTqAJvFnnbT6WNIj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Rash started about a day or two ago.",
+    "step": 1,
+    "timestamp": 1773066309.9523277,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the rash spreading?",
+    "step": 2,
+    "timestamp": 1773066311.2933404,
+    "metadata": {
+      "thought": "Next, I need to know if the rash is spreading.",
+      "done": false,
+      "tool_use_id": "tooluse_vOygD1YUJFCFUUIaVlxUAB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, it hasn't changed much...",
+    "step": 2,
+    "timestamp": 1773066312.3683443,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the rash itchy or painful?",
+    "step": 3,
+    "timestamp": 1773066313.7542048,
+    "metadata": {
+      "thought": "Next, I need to know if the rash is itchy or painful.",
+      "done": false,
+      "tool_use_id": "tooluse_BFfh11bcSa1FK7Cp4usL1s"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "The rash isn't really itchy or painful...",
+    "step": 3,
+    "timestamp": 1773066314.8169034,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with the rash?",
+    "step": 4,
+    "timestamp": 1773066316.1615887,
+    "metadata": {
+      "thought": "Next, I need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Tkt47lqTK5TuB0HWWHUTPF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just the rash...",
+    "step": 4,
+    "timestamp": 1773066317.258624,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the rash different in color or texture?",
+    "step": 5,
+    "timestamp": 1773066318.7391672,
+    "metadata": {
+      "thought": "I need to know if the rash is different in color or texture.",
+      "done": false,
+      "tool_use_id": "tooluse_e5d680jINHOE2TxxNc9fAB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It's red and feels itchy, not scaly...",
+    "step": 5,
+    "timestamp": 1773066319.7961664,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the rash spreading now?",
+    "step": 6,
+    "timestamp": 1773066321.235573,
+    "metadata": {
+      "thought": "I need to know if the rash is spreading.",
+      "done": false,
+      "tool_use_id": "tooluse_OyEs97AhI1QNogkAe1ryji"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, haven't checked recently...",
+    "step": 6,
+    "timestamp": 1773066322.317146,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in your routine?",
+    "step": 7,
+    "timestamp": 1773066323.848586,
+    "metadata": {
+      "thought": "I need to know if the rash is associated with any recent changes.",
+      "done": false,
+      "tool_use_id": "tooluse_zDnFlaBrijfBVtcifAxWPT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just the rash...",
+    "step": 7,
+    "timestamp": 1773066324.9452658,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 8,
+    "timestamp": 1773066326.4091737,
+    "metadata": {
+      "thought": "I need to know if the user is taking any medications.",
+      "done": false,
+      "tool_use_id": "tooluse_enirlj7uRUGItZAjepPHaY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications; just over-the-counter creams...",
+    "step": 8,
+    "timestamp": 1773066327.5151734,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773066329.0457187,
+    "metadata": {
+      "thought": "I have enough information to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_OgRG936RrAdn4BrM6hJoRi"
+    }
+  }
+]

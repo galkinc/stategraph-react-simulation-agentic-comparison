@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247059.3160255,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good afternoon, ma'am.",
+    "step": 0,
+    "timestamp": 1773247059.316031,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right foot hurts more than the left.",
+    "step": 0,
+    "timestamp": 1773247060.4983165,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When does your foot pain occur most?",
+    "step": 1,
+    "timestamp": 1773247061.935786,
+    "metadata": {
+      "thought": "Ask about pain specifics to identify potential medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_Pd535x1RGRJFDEKmues6U9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Foot pain mostly happens after long walks...",
+    "step": 1,
+    "timestamp": 1773247063.2034557,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773247064.039867,
+    "metadata": {
+      "thought": "Need to know if pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_VYsfWKRGXwSSjudZxtp6FS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Intermittent, but it hurts a lot when it comes back.",
+    "step": 2,
+    "timestamp": 1773247065.2416806,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling or redness in your foot?",
+    "step": 3,
+    "timestamp": 1773247066.0539873,
+    "metadata": {
+      "thought": "Ask about any swelling or redness to check for inflammation.",
+      "done": false,
+      "tool_use_id": "tooluse_DVz5W6o9IgYYd30z0vi6yk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling or redness, just discomfort...",
+    "step": 3,
+    "timestamp": 1773247067.2310617,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Were you injured recently?",
+    "step": 4,
+    "timestamp": 1773247068.0232322,
+    "metadata": {
+      "thought": "Need to know if any injury was involved.",
+      "done": false,
+      "tool_use_id": "tooluse_T0hqu2DcSZQ42wN5CKucKI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, no injuries recently, just discomfort...",
+    "step": 4,
+    "timestamp": 1773247069.1141906,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Wearing proper fitting shoes?",
+    "step": 5,
+    "timestamp": 1773247069.8584454,
+    "metadata": {
+      "thought": "Ask about footwear to check for fit issues.",
+      "done": false,
+      "tool_use_id": "tooluse_KqRBB8dDI0cWLbzvUz2jfQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I usually wear shoes that don't fit well.",
+    "step": 5,
+    "timestamp": 1773247071.0156174,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247071.7771487,
+    "metadata": {
+      "thought": "Insufficient information to determine a diagnosis.",
+      "done": true,
+      "tool_use_id": "tooluse_T4WIQJQfzr2xcWbPD13SV2"
+    }
+  }
+]

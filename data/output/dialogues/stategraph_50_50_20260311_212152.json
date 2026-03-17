@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253312.1231153,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Okay, so let's go over the plan again. I'd like you to apply Acticoat dressing daily and make sure you're spending at least eight hours out of the chair for pressure relief. Any questions?",
+    "step": 0,
+    "timestamp": 1773253312.1231194,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'll try to follow the plan, but I'm not sure about daily",
+    "step": 0,
+    "timestamp": 1773253313.3816452,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you need more info on daily Acticoat dressing?",
+    "step": 1,
+    "timestamp": 1773253314.719947,
+    "metadata": {
+      "thought": "Clarify if the user needs more information about the daily application of Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_xRaCzUeOSpLWFsJFRwZB4x"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about Acticoat dressing specifics...",
+    "step": 1,
+    "timestamp": 1773253316.354843,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What do you need to know about Acticoat dressing?",
+    "step": 2,
+    "timestamp": 1773253317.809637,
+    "metadata": {
+      "thought": "Provide detailed information about Acticoat dressing to address user's uncertainty",
+      "done": false,
+      "tool_use_id": "tooluse_kR1P6jdinSsDmJUdcVU5Jf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall details about Acticoat dressing...",
+    "step": 2,
+    "timestamp": 1773253319.0436783,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Acticoat is a type of antimicrobial dressing.",
+    "step": 3,
+    "timestamp": 1773253320.500815,
+    "metadata": {
+      "thought": "Explain what Acticoat dressing is and its purpose",
+      "done": false,
+      "tool_use_id": "tooluse_rf3UNlAPq5rRWlP1c7biUX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't know much about Acticoat, but it sounds serious.",
+    "step": 3,
+    "timestamp": 1773253321.9250295,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "It's used to prevent infection in wounds.",
+    "step": 4,
+    "timestamp": 1773253323.5206814,
+    "metadata": {
+      "thought": "Reassure the user and provide more details about Acticoat dressing",
+      "done": false,
+      "tool_use_id": "tooluse_85DunhJt5CbRUf14dusJGu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I use antibiotic ointment.",
+    "step": 4,
+    "timestamp": 1773253324.763791,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What antibiotic ointment do you use?",
+    "step": 5,
+    "timestamp": 1773253326.3590307,
+    "metadata": {
+      "thought": "Clarify if the user uses a specific antibiotic ointment and its purpose",
+      "done": false,
+      "tool_use_id": "tooluse_twsPogGfJFA3FYxMaqPMrB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall the exact ointment name...",
+    "step": 5,
+    "timestamp": 1773253327.51532,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Antibiotic ointments help prevent infection.",
+    "step": 6,
+    "timestamp": 1773253329.0421371,
+    "metadata": {
+      "thought": "Provide general information about antibiotic ointments and their use",
+      "done": false,
+      "tool_use_id": "tooluse_vrqL5duwfwvZ4rxwEcCids"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've used ointments before, but I'm not sure which ones.",
+    "step": 6,
+    "timestamp": 1773253330.2632494,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Different ointments have various uses.",
+    "step": 7,
+    "timestamp": 1773253331.8528025,
+    "metadata": {
+      "thought": "Offer to provide more details on different types of antibiotic ointments",
+      "done": false,
+      "tool_use_id": "tooluse_naH7klTNufm7D6nSetmhnn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure which ointment you mean...",
+    "step": 7,
+    "timestamp": 1773253332.961924,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you need help finding ointment details?",
+    "step": 8,
+    "timestamp": 1773253334.451831,
+    "metadata": {
+      "thought": "Conclude the conversation as no specific ointment was recalled",
+      "done": true,
+      "tool_use_id": "tooluse_gtbgP3mDOqSzhevp70pgyO"
+    }
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253397.9865417,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Welcome to the office, Miss A. I am Doctor Luna.",
+    "step": 0,
+    "timestamp": 1773253397.9865453,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about my family's full health history.",
+    "step": 0,
+    "timestamp": 1773253399.178967,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773253400.5764,
+    "metadata": {
+      "thought": "Need to ask about symptoms first before health history",
+      "done": false,
+      "tool_use_id": "tooluse_Wyc4cFKe12qNBbwKGHiPSj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; no current symptoms come to mind.",
+    "step": 1,
+    "timestamp": 1773253401.784272,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any past symptoms or medical history?",
+    "step": 2,
+    "timestamp": 1773253403.2974586,
+    "metadata": {
+      "thought": "Ask about past symptoms or medical history",
+      "done": false,
+      "tool_use_id": "tooluse_gUx09yJtuwxMTzMDmu0QDd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dad had gout, maybe blood clots; mom had lung cancer.",
+    "step": 2,
+    "timestamp": 1773253404.5883648,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other family medical history?",
+    "step": 3,
+    "timestamp": 1773253406.1279016,
+    "metadata": {
+      "thought": "Gathering family medical history",
+      "done": false,
+      "tool_use_id": "tooluse_iWQifXfcqQDrU4SxfLvOYv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but my mom had lung cancer.",
+    "step": 3,
+    "timestamp": 1773253407.2991776,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253408.7868032,
+    "metadata": {
+      "thought": "No further family medical history provided",
+      "done": true,
+      "tool_use_id": "tooluse_CRnWTSArmG3kUJAPzwZH0h"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253410.3318057,
+    "metadata": {
+      "thought": "No current symptoms, family history noted",
+      "done": true,
+      "tool_use_id": "tooluse_CMEQTBLIsMbRPQOsD0dPEQ"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773253411.8932905,
+    "metadata": {
+      "thought": "No further family medical history provided",
+      "done": true,
+      "tool_use_id": "tooluse_cr2xsaPbWqXH4YQqLPpzjI"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253413.3383436,
+    "metadata": {
+      "thought": "No further family medical history provided",
+      "done": true,
+      "tool_use_id": "tooluse_dlGpIQ8cppsVknyasx6VhH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773253414.8739464,
+    "metadata": {
+      "thought": "No current symptoms, family history noted",
+      "done": true,
+      "tool_use_id": "tooluse_FC9U2NpXGF5LR4ky5pWTmV"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773253416.3892703,
+    "metadata": {
+      "thought": "No further family medical history provided",
+      "done": true,
+      "tool_use_id": "tooluse_kOP0d2sxtT3jXkQ7HxBeGt"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773253417.9607277,
+    "metadata": {
+      "thought": "No further family medical history provided",
+      "done": true,
+      "tool_use_id": "tooluse_0lPxEAvkCNbJkNflP71wG7"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773253419.5321567,
+    "metadata": {
+      "thought": "No current symptoms, family history noted",
+      "done": true,
+      "tool_use_id": "tooluse_GwjayyCotjEfCoOgEaHgZf"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773253421.0213664,
+    "metadata": {
+      "thought": "No further family medical history provided",
+      "done": true,
+      "tool_use_id": "tooluse_hoo7VVT4eMjAos87BWHvju"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773253422.6201756,
+    "metadata": {
+      "thought": "No current symptoms, family history noted",
+      "done": true,
+      "tool_use_id": "tooluse_6RnoUjW8ybs9CLD0n6kASF"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773253424.0748954,
+    "metadata": {
+      "thought": "No further family medical history provided",
+      "done": true,
+      "tool_use_id": "tooluse_D4EemmPThFzUvdvESILbXM"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773253425.659776,
+    "metadata": {
+      "thought": "No current symptoms, family history noted",
+      "done": true,
+      "tool_use_id": "tooluse_KaxHot7WCFDhr5f6Ewpl8H"
+    }
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065771.5958333,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Let me give you some medication in your I V.",
+    "step": 0,
+    "timestamp": 1773065771.5958395,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I hope this helps me feel better...",
+    "step": 0,
+    "timestamp": 1773065772.7381678,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any specific symptoms?",
+    "step": 1,
+    "timestamp": 1773065774.217422,
+    "metadata": {
+      "thought": "User expressed a desire to feel better, but no specific symptoms or conditions were mentioned. I need to gather more information to proceed.",
+      "done": false,
+      "tool_use_id": "tooluse_6hf8FiMFIsFID3mmBhNMdD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Nausea, headache, and stomach cramps...",
+    "step": 1,
+    "timestamp": 1773065775.2918391,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 2,
+    "timestamp": 1773065776.0636468,
+    "metadata": {
+      "thought": "User provided specific symptoms: nausea, headache, and stomach cramps. I need to gather more details to determine the next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_7CKf6m7se8BeC91AKZwk87"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms began yesterday morning, feel worse today...",
+    "step": 2,
+    "timestamp": 1773065777.152704,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 3,
+    "timestamp": 1773065778.0261397,
+    "metadata": {
+      "thought": "User reported symptoms starting yesterday and worsening today. I need to gather more details to determine the next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_vmid0d9kV2FQ13DjwTfz72"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I’ve also been having a headache lately...",
+    "step": 3,
+    "timestamp": 1773065779.0853724,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever, dizziness, or fatigue?",
+    "step": 4,
+    "timestamp": 1773065779.8789022,
+    "metadata": {
+      "thought": "User reported a persistent headache in addition to the previously mentioned symptoms. I need to gather more details to determine the next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_G2uWinfba0qtUiVQKBVbmm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever, but dizziness and fatigue...",
+    "step": 4,
+    "timestamp": 1773065780.946261,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in diet or activity?",
+    "step": 5,
+    "timestamp": 1773065781.8347547,
+    "metadata": {
+      "thought": "User reported dizziness and fatigue but no fever. I need to gather more details to determine the next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_fH7OCjTP4mLhxYkSFF8IMa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just feeling really off lately.",
+    "step": 5,
+    "timestamp": 1773065782.9376256,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication use recently?",
+    "step": 6,
+    "timestamp": 1773065783.8170633,
+    "metadata": {
+      "thought": "User reported no recent changes but feeling off lately. I need to gather more details to determine the next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_lW22KyRpZlxiuK1QlzpxJw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent meds, just over-the-counter stuff...",
+    "step": 6,
+    "timestamp": 1773065784.8923025,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any allergies or past medical history?",
+    "step": 7,
+    "timestamp": 1773065785.774266,
+    "metadata": {
+      "thought": "User reported no recent medications but over-the-counter use. I need to gather more details to determine the next steps.",
+      "done": false,
+      "tool_use_id": "tooluse_RoyvidDUaavcTf55s9CVZ0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies, but had flu last year.",
+    "step": 7,
+    "timestamp": 1773065786.934676,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773065787.796714,
+    "metadata": {
+      "thought": "User reported no known allergies but had flu last year. I have sufficient information to proceed.",
+      "done": true,
+      "tool_use_id": "tooluse_dNxX39n7gxjQwkTnLRk6kP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 8,
+    "timestamp": 1773065787.796738,
+    "metadata": {}
+  }
+]

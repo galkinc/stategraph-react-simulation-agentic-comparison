@@ -1,0 +1,56 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252426.7341635,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Tell me a little more about your family. Are there any significant conditions that your parents or siblings had that you know of?",
+    "step": 0,
+    "timestamp": 1773252426.7341688,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dad had color and thyroid cancer; two brothers died, one from stomach",
+    "step": 0,
+    "timestamp": 1773252428.0806715,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other medical conditions in your family?",
+    "step": 1,
+    "timestamp": 1773252429.643389,
+    "metadata": {
+      "thought": "User has provided information about family medical history. I need to extract and categorize this information.",
+      "done": false,
+      "tool_use_id": "tooluse_cDs5p1tEM24hgVYBRctzgk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other medical conditions, just family history...",
+    "step": 1,
+    "timestamp": 1773252430.8306677,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 2,
+    "timestamp": 1773252431.6251404,
+    "metadata": {
+      "thought": "User has provided family medical history. I have sufficient information now.",
+      "done": true,
+      "tool_use_id": "tooluse_DvlNg9qE2nwAcfIto7qcT3"
+    }
+  }
+]

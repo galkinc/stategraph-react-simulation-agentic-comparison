@@ -1,0 +1,645 @@
+{
+  "batch_id": "20260311_210541",
+  "strategy": "all",
+  "total_profiles": 45,
+  "strategies_run": [
+    "react",
+    "stategraph"
+  ],
+  "results": [
+    {
+      "dialogue_id": "24",
+      "strategy": "react",
+      "run_id": "24_20260311_210541",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "25",
+      "strategy": "react",
+      "run_id": "25_20260311_210552",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "27",
+      "strategy": "react",
+      "run_id": "27_20260311_210603",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "29",
+      "strategy": "react",
+      "run_id": "29_20260311_210618",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "3",
+      "strategy": "react",
+      "run_id": "3_20260311_210645",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "30",
+      "strategy": "react",
+      "run_id": "30_20260311_210648",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "32",
+      "strategy": "react",
+      "run_id": "32_20260311_210706",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "37",
+      "strategy": "react",
+      "run_id": "37_20260311_210711",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "40",
+      "strategy": "react",
+      "run_id": "40_20260311_210729",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "0",
+      "strategy": "react",
+      "run_id": "0_20260311_210740",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "41",
+      "strategy": "react",
+      "run_id": "41_20260311_210755",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "43",
+      "strategy": "react",
+      "run_id": "43_20260311_210815",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "44",
+      "strategy": "react",
+      "run_id": "44_20260311_210823",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "46",
+      "strategy": "react",
+      "run_id": "46_20260311_210845",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "48",
+      "strategy": "react",
+      "run_id": "48_20260311_210856",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "50",
+      "strategy": "react",
+      "run_id": "50_20260311_210859",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "51",
+      "strategy": "react",
+      "run_id": "51_20260311_210914",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "53",
+      "strategy": "react",
+      "run_id": "53_20260311_210922",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "55",
+      "strategy": "react",
+      "run_id": "55_20260311_210936",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "56",
+      "strategy": "react",
+      "run_id": "56_20260311_210946",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "1",
+      "strategy": "react",
+      "run_id": "1_20260311_211009",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "61",
+      "strategy": "react",
+      "run_id": "61_20260311_211020",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "63",
+      "strategy": "react",
+      "run_id": "63_20260311_211034",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "65",
+      "strategy": "react",
+      "run_id": "65_20260311_211047",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "66",
+      "strategy": "react",
+      "run_id": "66_20260311_211117",
+      "batch_id": "20260311_210541",
+      "success": false,
+      "error": "LLM interaction failed at step 7"
+    },
+    {
+      "dialogue_id": "69",
+      "strategy": "react",
+      "run_id": "69_20260311_211131",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "71",
+      "strategy": "react",
+      "run_id": "71_20260311_211153",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "73",
+      "strategy": "react",
+      "run_id": "73_20260311_211204",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "74",
+      "strategy": "react",
+      "run_id": "74_20260311_211229",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "13",
+      "strategy": "react",
+      "run_id": "13_20260311_211242",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "75",
+      "strategy": "react",
+      "run_id": "75_20260311_211258",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "76",
+      "strategy": "react",
+      "run_id": "76_20260311_211308",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "8",
+      "strategy": "react",
+      "run_id": "8_20260311_211317",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "81",
+      "strategy": "react",
+      "run_id": "81_20260311_211341",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "83",
+      "strategy": "react",
+      "run_id": "83_20260311_211354",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "86",
+      "strategy": "react",
+      "run_id": "86_20260311_211410",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "89",
+      "strategy": "react",
+      "run_id": "89_20260311_211428",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "9",
+      "strategy": "react",
+      "run_id": "9_20260311_211453",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "99",
+      "strategy": "react",
+      "run_id": "99_20260311_211518",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "14",
+      "strategy": "react",
+      "run_id": "14_20260311_211520",
+      "batch_id": "20260311_210541",
+      "success": false,
+      "error": "LLM interaction failed at step 5"
+    },
+    {
+      "dialogue_id": "16",
+      "strategy": "react",
+      "run_id": "16_20260311_211531",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "17",
+      "strategy": "react",
+      "run_id": "17_20260311_211543",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "18",
+      "strategy": "react",
+      "run_id": "18_20260311_211557",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "21",
+      "strategy": "react",
+      "run_id": "21_20260311_211622",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "22",
+      "strategy": "react",
+      "run_id": "22_20260311_211631",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "24",
+      "strategy": "stategraph",
+      "run_id": "24_20260311_211705",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "25",
+      "strategy": "stategraph",
+      "run_id": "25_20260311_211728",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "27",
+      "strategy": "stategraph",
+      "run_id": "27_20260311_211803",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "29",
+      "strategy": "stategraph",
+      "run_id": "29_20260311_211825",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "3",
+      "strategy": "stategraph",
+      "run_id": "3_20260311_211848",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "30",
+      "strategy": "stategraph",
+      "run_id": "30_20260311_211851",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "32",
+      "strategy": "stategraph",
+      "run_id": "32_20260311_211914",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "37",
+      "strategy": "stategraph",
+      "run_id": "37_20260311_211943",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "40",
+      "strategy": "stategraph",
+      "run_id": "40_20260311_212008",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "0",
+      "strategy": "stategraph",
+      "run_id": "0_20260311_212021",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "41",
+      "strategy": "stategraph",
+      "run_id": "41_20260311_212041",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "43",
+      "strategy": "stategraph",
+      "run_id": "43_20260311_212101",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "44",
+      "strategy": "stategraph",
+      "run_id": "44_20260311_212112",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "46",
+      "strategy": "stategraph",
+      "run_id": "46_20260311_212138",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "48",
+      "strategy": "stategraph",
+      "run_id": "48_20260311_212149",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "50",
+      "strategy": "stategraph",
+      "run_id": "50_20260311_212152",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "51",
+      "strategy": "stategraph",
+      "run_id": "51_20260311_212214",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "53",
+      "strategy": "stategraph",
+      "run_id": "53_20260311_212233",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "55",
+      "strategy": "stategraph",
+      "run_id": "55_20260311_212301",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "56",
+      "strategy": "stategraph",
+      "run_id": "56_20260311_212317",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "1",
+      "strategy": "stategraph",
+      "run_id": "1_20260311_212345",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "61",
+      "strategy": "stategraph",
+      "run_id": "61_20260311_212402",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "63",
+      "strategy": "stategraph",
+      "run_id": "63_20260311_212416",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "65",
+      "strategy": "stategraph",
+      "run_id": "65_20260311_212430",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "66",
+      "strategy": "stategraph",
+      "run_id": "66_20260311_212444",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "69",
+      "strategy": "stategraph",
+      "run_id": "69_20260311_212512",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "71",
+      "strategy": "stategraph",
+      "run_id": "71_20260311_212541",
+      "batch_id": "20260311_210541",
+      "success": false,
+      "error": "Execution failed: An error occurred (serviceUnavailableException) when calling the ConverseStream operation: Service capacity limit has been reached. Please try again later."
+    },
+    {
+      "dialogue_id": "73",
+      "strategy": "stategraph",
+      "run_id": "73_20260311_212546",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "74",
+      "strategy": "stategraph",
+      "run_id": "74_20260311_212614",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "13",
+      "strategy": "stategraph",
+      "run_id": "13_20260311_212626",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "75",
+      "strategy": "stategraph",
+      "run_id": "75_20260311_212709",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "76",
+      "strategy": "stategraph",
+      "run_id": "76_20260311_212723",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "8",
+      "strategy": "stategraph",
+      "run_id": "8_20260311_212740",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "81",
+      "strategy": "stategraph",
+      "run_id": "81_20260311_212751",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "83",
+      "strategy": "stategraph",
+      "run_id": "83_20260311_212808",
+      "batch_id": "20260311_210541",
+      "success": false
+    },
+    {
+      "dialogue_id": "86",
+      "strategy": "stategraph",
+      "run_id": "86_20260311_212851",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "89",
+      "strategy": "stategraph",
+      "run_id": "89_20260311_212908",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "9",
+      "strategy": "stategraph",
+      "run_id": "9_20260311_212933",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "99",
+      "strategy": "stategraph",
+      "run_id": "99_20260311_212952",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "14",
+      "strategy": "stategraph",
+      "run_id": "14_20260311_213012",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "16",
+      "strategy": "stategraph",
+      "run_id": "16_20260311_213029",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "17",
+      "strategy": "stategraph",
+      "run_id": "17_20260311_213046",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "18",
+      "strategy": "stategraph",
+      "run_id": "18_20260311_213109",
+      "batch_id": "20260311_210541",
+      "success": true
+    },
+    {
+      "dialogue_id": "21",
+      "strategy": "stategraph",
+      "run_id": "21_20260311_213126",
+      "batch_id": "20260311_210541",
+      "success": false,
+      "error": "Execution failed: An error occurred (serviceUnavailableException) when calling the ConverseStream operation: Service capacity limit has been reached. Please try again later."
+    },
+    {
+      "dialogue_id": "22",
+      "strategy": "stategraph",
+      "run_id": "22_20260311_213147",
+      "batch_id": "20260311_210541",
+      "success": true
+    }
+  ]
+}

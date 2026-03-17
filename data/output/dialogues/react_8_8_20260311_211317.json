@@ -1,0 +1,218 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252797.9185188,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit your I V and inhalation drugs Mister X Y Z?",
+    "step": 0,
+    "timestamp": 1773252797.9185245,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about quitting my IV and inhalers.",
+    "step": 0,
+    "timestamp": 1773252799.1255217,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you want to stop your IV and inhalers?",
+    "step": 1,
+    "timestamp": 1773252800.3977876,
+    "metadata": {
+      "thought": "Need to clarify if the user is considering stopping medications",
+      "done": false,
+      "tool_use_id": "tooluse_NnEQgPGlxChvf04zAOQJBn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall needing IV or inhalers...",
+    "step": 1,
+    "timestamp": 1773252801.6091492,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Were you prescribed IV or inhalers?",
+    "step": 2,
+    "timestamp": 1773252802.4382327,
+    "metadata": {
+      "thought": "User does not recall needing IV or inhalers, need to confirm if they were prescribed",
+      "done": false,
+      "tool_use_id": "tooluse_iGbcnadiomp2dkOj4pUaKi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No IV or inhalers, just oral meds...",
+    "step": 2,
+    "timestamp": 1773252803.7642236,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What oral medications do you take?",
+    "step": 3,
+    "timestamp": 1773252804.5533936,
+    "metadata": {
+      "thought": "User only takes oral medications, need to identify them",
+      "done": false,
+      "tool_use_id": "tooluse_djiKzEHxxYy5cbxJEmShrG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about the exact names, but I take something for",
+    "step": 3,
+    "timestamp": 1773252805.7366133,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you know the brand or type of oral meds?",
+    "step": 4,
+    "timestamp": 1773252806.4677656,
+    "metadata": {
+      "thought": "User is unsure about medication names, need to ask for more details",
+      "done": false,
+      "tool_use_id": "tooluse_xXfycMA3YSZyQHqtpNqinV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall the exact brand of my meds.",
+    "step": 4,
+    "timestamp": 1773252807.581669,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any side effects from them?",
+    "step": 5,
+    "timestamp": 1773252808.4045725,
+    "metadata": {
+      "thought": "User cannot recall medication brands, need to ask about symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_K56jDJPvrYUzsAlwyKL2py"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I haven't noticed any side effects.",
+    "step": 5,
+    "timestamp": 1773252809.6885128,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been taking them?",
+    "step": 6,
+    "timestamp": 1773252810.576416,
+    "metadata": {
+      "thought": "User does not notice side effects, need to ask about duration",
+      "done": false,
+      "tool_use_id": "tooluse_KeUjnujRKW31SatLBmqkpA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been on them for about three months now.",
+    "step": 6,
+    "timestamp": 1773252811.8635318,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you want to stop taking them?",
+    "step": 7,
+    "timestamp": 1773252812.710036,
+    "metadata": {
+      "thought": "User has been on oral meds for three months, need to confirm if they are considering stopping",
+      "done": false,
+      "tool_use_id": "tooluse_dKJB39cFh1FL6FduzM6s9H"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I need to discuss it.",
+    "step": 7,
+    "timestamp": 1773252813.986775,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have a healthcare provider?",
+    "step": 8,
+    "timestamp": 1773252814.838925,
+    "metadata": {
+      "thought": "User wants to discuss stopping meds, need to confirm if they have a healthcare provider",
+      "done": false,
+      "tool_use_id": "tooluse_Zh15NkXOhbT6c3R0rpFQf0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I have a healthcare provider for my treatment.",
+    "step": 8,
+    "timestamp": 1773252816.0647392,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you discussed stopping them with your provider?",
+    "step": 9,
+    "timestamp": 1773252816.9642534,
+    "metadata": {
+      "thought": "User has a healthcare provider, need to ask if they have discussed stopping meds",
+      "done": false,
+      "tool_use_id": "tooluse_CoZgyuqrUeuTr6pW8Bbn4i"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't talked about stopping treatment with my provider.",
+    "step": 9,
+    "timestamp": 1773252818.2718856,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Should you discuss stopping with your provider?",
+    "step": 10,
+    "timestamp": 1773252819.3161728,
+    "metadata": {
+      "thought": "User hasn't discussed stopping meds with provider, suggest bringing it up",
+      "done": false,
+      "tool_use_id": "tooluse_x3CrJckVIbJxMRAEzEvMzJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I'll ask my provider.",
+    "step": 10,
+    "timestamp": 1773252820.610647,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252821.5765312,
+    "metadata": {
+      "thought": "User will discuss stopping meds with provider, sufficient information collected",
+      "done": true,
+      "tool_use_id": "tooluse_6geOu2nlVlvqgQwP3mmm8o"
+    }
+  }
+]

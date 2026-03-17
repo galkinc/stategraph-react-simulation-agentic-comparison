@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253456.6824927,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How is everything else?",
+    "step": 0,
+    "timestamp": 1773253456.682497,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Shoulder's still bothering me, otherwise okay...",
+    "step": 0,
+    "timestamp": 1773253457.8377407,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain, weakness, or stiffness in shoulder?",
+    "step": 1,
+    "timestamp": 1773253459.3785753,
+    "metadata": {
+      "thought": "Ask about specific shoulder symptoms to identify potential medical conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_j1G4E0v65oQX8Sa3eXE1UZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mild pain, some stiffness, but no weakness...",
+    "step": 1,
+    "timestamp": 1773253460.5247753,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did shoulder symptoms begin?",
+    "step": 2,
+    "timestamp": 1773253462.027804,
+    "metadata": {
+      "thought": "Need to know when symptoms started and duration.",
+      "done": false,
+      "tool_use_id": "tooluse_BvDrOZ30qyUf5yUPp8YAMF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when it started...",
+    "step": 2,
+    "timestamp": 1773253463.3092828,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent heavy lifting or falls?",
+    "step": 3,
+    "timestamp": 1773253464.920274,
+    "metadata": {
+      "thought": "Ask about any recent activities that may have caused the symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_PqFcSOABeIxVz5L8R68IOI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No heavy lifting or falls recently...",
+    "step": 3,
+    "timestamp": 1773253466.0670304,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications for shoulder?",
+    "step": 4,
+    "timestamp": 1773253467.642899,
+    "metadata": {
+      "thought": "Determine if any medications are being used.",
+      "done": false,
+      "tool_use_id": "tooluse_o8MoqOxV9sLulhcYAiMPwy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications for shoulder, just rest...",
+    "step": 4,
+    "timestamp": 1773253468.8219016,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253470.4039388,
+    "metadata": {
+      "thought": "Have enough information to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_vwE4yjelE6sWESXg1tY3ir"
+    }
+  }
+]

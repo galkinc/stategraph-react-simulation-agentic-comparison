@@ -1,0 +1,81 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065549.3239253,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit?",
+    "step": 0,
+    "timestamp": 1773065549.3239317,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't set a quit date yet...",
+    "step": 0,
+    "timestamp": 1773065550.4180279,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you smoke regularly?",
+    "step": 1,
+    "timestamp": 1773065551.8820317,
+    "metadata": {
+      "thought": "User hasn't set a quit date yet, need more details.",
+      "done": false,
+      "tool_use_id": "tooluse_z1iYMm9h9bBL200ljzWpE5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't smoke, doctor...",
+    "step": 1,
+    "timestamp": 1773065553.0063195,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 2,
+    "timestamp": 1773065553.6999114,
+    "metadata": {
+      "thought": "User doesn't smoke, need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Pxiut8RkUdvkSxhe7JM5Nf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other health issues, just the usual check-ups.",
+    "step": 2,
+    "timestamp": 1773065554.840316,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 3,
+    "timestamp": 1773065555.6760874,
+    "metadata": {
+      "thought": "User has no other health issues, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_awKDKRfZ0TxQIYguOGh9yJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 3,
+    "timestamp": 1773065555.6761112,
+    "metadata": {}
+  }
+]

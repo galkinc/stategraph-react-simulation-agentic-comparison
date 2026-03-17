@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773249189.7351136,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did your pain begin?",
+    "step": 0,
+    "timestamp": 1773249189.735124,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started eight years ago after a fall.",
+    "step": 0,
+    "timestamp": 1773249191.0798812,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain location?",
+    "step": 1,
+    "timestamp": 1773249192.5354748,
+    "metadata": {
+      "thought": "User reported pain onset after a fall eight years ago.",
+      "done": false,
+      "tool_use_id": "tooluse_m99Ev7sZNdW1HA6oGUE7An"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mostly in my lower back, sometimes up higher.",
+    "step": 1,
+    "timestamp": 1773249193.6336873,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain intensity or frequency?",
+    "step": 2,
+    "timestamp": 1773249194.4096913,
+    "metadata": {
+      "thought": "User specified lower back pain, sometimes higher.",
+      "done": false,
+      "tool_use_id": "tooluse_OBHlEqjY208ud2PQQwhxqw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been constant, but varies in intensity...",
+    "step": 2,
+    "timestamp": 1773249195.686018,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain triggers or relief?",
+    "step": 3,
+    "timestamp": 1773249196.5161738,
+    "metadata": {
+      "thought": "User described constant pain with varying intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_h7TxeB0drN8e8bIQvaH0a6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Standing long periods worsens my back pain...",
+    "step": 3,
+    "timestamp": 1773249197.6292531,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication used?",
+    "step": 4,
+    "timestamp": 1773249198.4408417,
+    "metadata": {
+      "thought": "User mentioned pain worsens with standing.",
+      "done": false,
+      "tool_use_id": "tooluse_FLiBlwN0HnhJaxQcYbGDF1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've tried ibuprofen, but it's not always effective.",
+    "step": 4,
+    "timestamp": 1773249199.5130174,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other treatments tried?",
+    "step": 5,
+    "timestamp": 1773249200.3249424,
+    "metadata": {
+      "thought": "User tried ibuprofen with mixed results.",
+      "done": false,
+      "tool_use_id": "tooluse_9NODiszl1pGOK1WITKGFa3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Tried physical therapy, but it didn't help much.",
+    "step": 5,
+    "timestamp": 1773249201.4567616,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 6,
+    "timestamp": 1773249202.3412335,
+    "metadata": {
+      "thought": "User tried physical therapy with limited success.",
+      "done": false,
+      "tool_use_id": "tooluse_KyUOoMVCv5SnQF06m9Yptt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms besides the pain.",
+    "step": 6,
+    "timestamp": 1773249203.4709942,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773249204.3737068,
+    "metadata": {
+      "thought": "User reports no other symptoms besides pain.",
+      "done": true,
+      "tool_use_id": "tooluse_yyel6RB0oBG49VGaGBCiUz"
+    }
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252586.746743,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Welcome to the office, Miss A. I am Doctor Luna.",
+    "step": 0,
+    "timestamp": 1773252586.7467492,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about my health history, Doctor.",
+    "step": 0,
+    "timestamp": 1773252587.9501333,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any known medical conditions?",
+    "step": 1,
+    "timestamp": 1773252589.292679,
+    "metadata": {
+      "thought": "Need to gather basic health history information.",
+      "done": false,
+      "tool_use_id": "tooluse_ZzhxA5At239q5VO9r7YWwf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any personal medical conditions...",
+    "step": 1,
+    "timestamp": 1773252590.4819334,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any significant family medical history?",
+    "step": 2,
+    "timestamp": 1773252592.0164106,
+    "metadata": {
+      "thought": "Next step is to ask about family medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_bi81w7lMeFyCGrWeNvKE4N"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mom had lung cancer; dad had gout, maybe clots.",
+    "step": 2,
+    "timestamp": 1773252593.3102155,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any current symptoms or discomfort?",
+    "step": 3,
+    "timestamp": 1773252594.194142,
+    "metadata": {
+      "thought": "Next step is to ask about current symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_TlwJZZ0mNDeuLNqvFhIrYO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No current symptoms, just feeling fine...",
+    "step": 3,
+    "timestamp": 1773252595.3617582,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently taking any medications?",
+    "step": 4,
+    "timestamp": 1773252596.3034394,
+    "metadata": {
+      "thought": "Next step is to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_MZ1e4XoPQolf51XLVajlCW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure if I'm on any meds now.",
+    "step": 4,
+    "timestamp": 1773252597.4903111,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you want to share?",
+    "step": 5,
+    "timestamp": 1773252598.3158994,
+    "metadata": {
+      "thought": "Final step is to summarize and confirm.",
+      "done": true,
+      "tool_use_id": "tooluse_2B812u59GrVhvu64Oz3K0J"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My dad had gout and possibly blood clots.",
+    "step": 5,
+    "timestamp": 1773252599.5943198,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you want to share?",
+    "step": 6,
+    "timestamp": 1773252600.4106789,
+    "metadata": {
+      "thought": "Final step is to summarize and confirm.",
+      "done": true,
+      "tool_use_id": "tooluse_B4fjQ4oGW7Ak2oq3iEof1C"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about more details; family health is vague.",
+    "step": 6,
+    "timestamp": 1773252601.6557584,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773252602.5329874,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_RnT35NdFk9HNtUdKmrVfo2"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773252603.3560102,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_fvME5prBOu4oSp8uhb59Sc"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252604.1767335,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_AtrAPJeVDr7AnkHG9Y7kZO"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773252605.0331721,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_UQFI4xdMHkX0xxKOqFoolV"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252605.9053316,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_X0SjTHEJevTERZOI2xiilI"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773252606.7914295,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_ldPIA2hf5mjryF0I2grkHc"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773252607.667391,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_Ca3MEnUWvEnRgXv5b88wiv"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773252608.4712963,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_z6LBjOiOnvh2WWqFmh0XBT"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773252609.3478684,
+    "metadata": {
+      "thought": "Conversation is complete, no further questions.",
+      "done": true,
+      "tool_use_id": "tooluse_YGB1MYc3W0eqeY1SD9C90o"
+    }
+  }
+]

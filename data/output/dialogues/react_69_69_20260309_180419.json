@@ -1,0 +1,220 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773068659.9523263,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any fever, chills?",
+    "step": 0,
+    "timestamp": 1773068659.952336,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever or chills, all is well...",
+    "step": 0,
+    "timestamp": 1773068661.1974974,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headache, dizziness, or fatigue?",
+    "step": 1,
+    "timestamp": 1773068662.6531568,
+    "metadata": {
+      "thought": "User has not reported fever or chills, which are common symptoms of many conditions. Next step is to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_kxMGHKwSkMlQ7bV3uPa4nK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches, dizziness, or fatigue here...",
+    "step": 1,
+    "timestamp": 1773068663.7005687,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, vomiting, or stomach pain?",
+    "step": 2,
+    "timestamp": 1773068664.56649,
+    "metadata": {
+      "thought": "User has not reported common symptoms like fever, headache, dizziness, or fatigue. Next step is to ask about other less common symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_nievuccGb2Kxg9nTQdnUX1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, no stomach pain, everything's fine...",
+    "step": 2,
+    "timestamp": 1773068665.7111244,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any cough, shortness of breath?",
+    "step": 3,
+    "timestamp": 1773068666.518511,
+    "metadata": {
+      "thought": "User has not reported any common or less common symptoms. Next step is to ask about respiratory symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_pXoGZ9fwhOqpQz8qnVrP0E"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No cough or shortness of breath here...",
+    "step": 3,
+    "timestamp": 1773068667.6044915,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual symptoms or pain?",
+    "step": 4,
+    "timestamp": 1773068668.3626916,
+    "metadata": {
+      "thought": "User has not reported any symptoms. Need to ask about any other unusual symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_wKSjzYMnXxHF6Nv0hCe4vs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms, everything feels fine...",
+    "step": 4,
+    "timestamp": 1773068669.4487503,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773068670.156289,
+    "metadata": {
+      "thought": "User has not reported any symptoms. No further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_L7RDXEwvhGVQ9utpfpliws"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773068670.9762304,
+    "metadata": {
+      "thought": "Conversation is complete as user reported no symptoms.",
+      "done": true,
+      "tool_use_id": "tooluse_hzZogBEpzpnbIfaAolk9ND"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773068671.809563,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_SywEOsllZ7VxK0lLwi0wsr"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773068672.592148,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_mPyul47GF9ciNJCDjLMSCm"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773068673.3457916,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_WrJQd5lwsE3Cwtg1V8J7FN"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773068674.1225846,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_YZ4gMVk8jMr8UgsQXBppxH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773068674.9276824,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_NbJr9U8ZD8Buh3Nvm9FHGw"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773068675.764437,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_UCfZyYOt6TlVDVZcBSl70Y"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773068676.4968095,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_tVrYyJlClxnAwBWXASYw9p"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773068677.3211281,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_q4SG2nuqKkGsw8X9vxKLDO"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773068678.0832357,
+    "metadata": {
+      "thought": "No symptoms reported, conversation is complete.",
+      "done": true,
+      "tool_use_id": "tooluse_RqTG9pb4PfLwkxrWKv5vvE"
+    }
+  }
+]

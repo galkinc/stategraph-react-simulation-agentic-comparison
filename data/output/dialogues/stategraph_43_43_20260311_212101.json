@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253261.4265459,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, sir. What brought you in today?",
+    "step": 0,
+    "timestamp": 1773253261.42655,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling from a Yellow Jacket wasp sting today.",
+    "step": 0,
+    "timestamp": 1773253262.6674185,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is swelling localized or widespread?",
+    "step": 1,
+    "timestamp": 1773253264.0039895,
+    "metadata": {
+      "thought": "Need to confirm if swelling is localized or widespread, and if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_XBSqF7Vl11riguoGIGoi1f"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling's mostly in the stung areas, not widespread.",
+    "step": 1,
+    "timestamp": 1773253265.3233774,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain, redness, or itching?",
+    "step": 2,
+    "timestamp": 1773253266.9773233,
+    "metadata": {
+      "thought": "Next, need to ask about other symptoms like pain, redness, or itching.",
+      "done": false,
+      "tool_use_id": "tooluse_2XgiIJ0kTEo9WhcdhZtvHh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just swelling and some redness...",
+    "step": 2,
+    "timestamp": 1773253268.3568146,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or creams used?",
+    "step": 3,
+    "timestamp": 1773253269.8548274,
+    "metadata": {
+      "thought": "Ask about any treatments or medications used.",
+      "done": false,
+      "tool_use_id": "tooluse_OTuVTeoa0oEQhZs5eHsC5M"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments, just ice packs...",
+    "step": 3,
+    "timestamp": 1773253271.1089213,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773253272.5852084,
+    "metadata": {
+      "thought": "Gathering enough information now to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_K3MNau2w8FQVwBNhazZ9mu"
+    }
+  }
+]

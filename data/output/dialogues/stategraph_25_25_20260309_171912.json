@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065952.1519094,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you keeping up with your food journal?",
+    "step": 0,
+    "timestamp": 1773065952.1519134,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I try to keep it, but sometimes forget.",
+    "step": 0,
+    "timestamp": 1773065953.2275171,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual symptoms after meals?",
+    "step": 1,
+    "timestamp": 1773065954.6304214,
+    "metadata": {
+      "thought": "Need to ask about specific symptoms related to diet.",
+      "done": false,
+      "tool_use_id": "tooluse_Qq1tH4pD9ap2E7N6P3Oa60"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms after meals lately...",
+    "step": 1,
+    "timestamp": 1773065955.660328,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How's your overall health and energy?",
+    "step": 2,
+    "timestamp": 1773065957.0677853,
+    "metadata": {
+      "thought": "No specific symptoms noted, but need to ask about general health.",
+      "done": false,
+      "tool_use_id": "tooluse_ymPnCqQdetjGQCmbtYaqJd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Feeling much better, energy levels are up...",
+    "step": 2,
+    "timestamp": 1773065958.1665058,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in sleep or stress?",
+    "step": 3,
+    "timestamp": 1773065959.608629,
+    "metadata": {
+      "thought": "User reports improvement, but need to confirm no underlying issues.",
+      "done": false,
+      "tool_use_id": "tooluse_L0Xvxmz0SrfRv95L7MGCvI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stress is lower, but sleep is still inconsistent.",
+    "step": 3,
+    "timestamp": 1773065960.6747692,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific sleep issues?",
+    "step": 4,
+    "timestamp": 1773065962.0615296,
+    "metadata": {
+      "thought": "User reports lower stress but inconsistent sleep, need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_2QlGFGdjAYQQlffABcJ4qf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No sleep issues, just tired sometimes...",
+    "step": 4,
+    "timestamp": 1773065963.0453765,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Tiredness affects daily activities?",
+    "step": 5,
+    "timestamp": 1773065964.4768558,
+    "metadata": {
+      "thought": "User reports tiredness but no specific sleep issues, need to confirm.",
+      "done": false,
+      "tool_use_id": "tooluse_vr8sPh2fvTcbcVxpTBzhDC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not really, I'm more energetic now...",
+    "step": 5,
+    "timestamp": 1773065965.5900803,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 6,
+    "timestamp": 1773065967.0435736,
+    "metadata": {
+      "thought": "User reports increased energy, but need to confirm no underlying issues.",
+      "done": false,
+      "tool_use_id": "tooluse_wIOibkmAE0Jihee6qkPuiR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other concerns, just managing my blood sugar.",
+    "step": 6,
+    "timestamp": 1773065968.0825286,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How's your blood sugar control?",
+    "step": 7,
+    "timestamp": 1773065969.514118,
+    "metadata": {
+      "thought": "User manages blood sugar, need to ask about diet and medication.",
+      "done": false,
+      "tool_use_id": "tooluse_lFmnNrXP1gT2XoMQXQo7dv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My blood sugar is stable, thanks to my sponsor's advice.",
+    "step": 7,
+    "timestamp": 1773065970.672965,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773065972.1683187,
+    "metadata": {
+      "thought": "User reports stable blood sugar, no further questions needed.",
+      "done": true,
+      "tool_use_id": "tooluse_ncnwuRJNtttJ9HqdsGnuh6"
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253208.0579715,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you ready for home?",
+    "step": 0,
+    "timestamp": 1773253208.0579753,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I'll need some help at home.",
+    "step": 0,
+    "timestamp": 1773253209.4990535,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What symptoms are you experiencing?",
+    "step": 1,
+    "timestamp": 1773253210.7896984,
+    "metadata": {
+      "thought": "Need to identify specific symptoms or conditions for medical advice.",
+      "done": false,
+      "tool_use_id": "tooluse_O8ffdIWSeqyms6it1eiBOb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm feeling headaches and fatigue lately...",
+    "step": 1,
+    "timestamp": 1773253212.0542536,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had these symptoms?",
+    "step": 2,
+    "timestamp": 1773253213.5399568,
+    "metadata": {
+      "thought": "Collected symptoms: headaches and fatigue. Need to ask about duration and any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_JuqU4NgKmw9qcIrpgBVVDH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms started about a week ago...",
+    "step": 2,
+    "timestamp": 1773253214.7245917,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides headaches?",
+    "step": 3,
+    "timestamp": 1773253216.2223585,
+    "metadata": {
+      "thought": "Ask about other symptoms to get a complete picture.",
+      "done": false,
+      "tool_use_id": "tooluse_KlsSSocwJbBhyStWDCSXVR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no other symptoms lately.",
+    "step": 3,
+    "timestamp": 1773253217.449764,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 4,
+    "timestamp": 1773253219.0458605,
+    "metadata": {
+      "thought": "Symptoms identified: headaches, fatigue, no other symptoms. Need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_zTQ0jrfITqjga8qqsXSh1f"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I don't take any meds.",
+    "step": 4,
+    "timestamp": 1773253220.334647,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773253221.9366465,
+    "metadata": {
+      "thought": "No medications being taken. Symptoms noted. Ready to summarize and offer advice.",
+      "done": true,
+      "tool_use_id": "tooluse_YetOCYbXdfWCexJfQjFL8x"
+    }
+  }
+]

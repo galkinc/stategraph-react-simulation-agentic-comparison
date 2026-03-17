@@ -1,0 +1,60 @@
+# IDE & Environment Files
+.idea/
+.vscode/
+*.code-workspace
+
+*.egg-info/
+*.egg
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+djangoenv/
+
+# Temporary Files
+.tmp
+.tmp/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Data (keep processed structure, exclude raw data)
+data/raw/*
+data/raw_comprehend/*
+data/processed/*
+!data/processed/.gitkeep
+
+# Output data (optional - exclude if contains sensitive info)
+!data/output/research_metrics.jsonl
+!data/output/dialogues/*
+!data/output/.gitkeep
+!data/output/aggregate_metrics.json
+
+# Ruff cache
+.ruff_cache
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.so
+*.pyd
+

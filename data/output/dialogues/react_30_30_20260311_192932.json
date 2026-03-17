@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246572.1562774,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi mister Jones.  Do you remember me from the last time you were here? How old are you now?",
+    "step": 0,
+    "timestamp": 1773246572.1562834,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm fifty-two, doc. Remember me from before...",
+    "step": 0,
+    "timestamp": 1773246573.235264,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773246574.693458,
+    "metadata": {
+      "thought": "User has provided their age, which is useful for medical context. Next, I need to gather more specific symptom information to proceed.",
+      "done": false,
+      "tool_use_id": "tooluse_M6EGdtcBIjj9hqr8K0pWbH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Whole body aches, cold, and I'm really weak.",
+    "step": 1,
+    "timestamp": 1773246575.8027763,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have these symptoms lasted?",
+    "step": 2,
+    "timestamp": 1773246576.6908283,
+    "metadata": {
+      "thought": "User has described symptoms: whole body aches, cold, and weakness. Next, I need to ask about the duration and any medications being taken.",
+      "done": false,
+      "tool_use_id": "tooluse_KP6OnenIYJm54p12GuOEwt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it feels like forever.",
+    "step": 2,
+    "timestamp": 1773246577.7566278,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 3,
+    "timestamp": 1773246578.5971072,
+    "metadata": {
+      "thought": "User is unsure about the duration of symptoms. Next, I need to ask about any medications being taken.",
+      "done": false,
+      "tool_use_id": "tooluse_TYnCERpChhE0grWQjXEAuo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just drugs. Can't remember specifics...",
+    "step": 3,
+    "timestamp": 1773246579.7157598,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you can recall about your drugs?",
+    "step": 4,
+    "timestamp": 1773246580.5542085,
+    "metadata": {
+      "thought": "User mentioned taking drugs but couldn't recall specifics. I'll ask if there's anything else to add.",
+      "done": false,
+      "tool_use_id": "tooluse_SAPnN99mgFN7k4pvxn15Z1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I used heroin and cocaine, but not alcohol now.",
+    "step": 4,
+    "timestamp": 1773246581.7658865,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you'd like to share?",
+    "step": 5,
+    "timestamp": 1773246582.6708882,
+    "metadata": {
+      "thought": "User disclosed past drug use but no current alcohol consumption. I'll confirm if this is all the information needed.",
+      "done": true,
+      "tool_use_id": "tooluse_gJnKAwZhzVLmeRxXo6zQvq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I used to drink a lot, but now I use heroin.",
+    "step": 5,
+    "timestamp": 1773246583.759246,
+    "metadata": {}
+  }
+]

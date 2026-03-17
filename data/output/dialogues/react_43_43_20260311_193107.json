@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246667.375707,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, sir. What brought you in today?",
+    "step": 0,
+    "timestamp": 1773246667.3757124,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling from a Yellow Jacket wasp sting today.",
+    "step": 0,
+    "timestamp": 1773246668.546426,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is swelling localized or widespread?",
+    "step": 1,
+    "timestamp": 1773246670.0005994,
+    "metadata": {
+      "thought": "Need to confirm if swelling is localized or widespread, and ask about pain level.",
+      "done": false,
+      "tool_use_id": "tooluse_KoDhejrM5WkuQa0W0Z5j2u"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling is mostly in stung areas, not widespread.",
+    "step": 1,
+    "timestamp": 1773246671.1178415,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is there pain or itching?",
+    "step": 2,
+    "timestamp": 1773246671.8710845,
+    "metadata": {
+      "thought": "Next, I need to ask about pain level and any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_hknJfmamMmNXkZYhzUhboD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain, just some mild itching here...",
+    "step": 2,
+    "timestamp": 1773246673.0181088,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medication taken?",
+    "step": 3,
+    "timestamp": 1773246673.7607315,
+    "metadata": {
+      "thought": "Ask if any medications were taken for relief.",
+      "done": false,
+      "tool_use_id": "tooluse_q5NbLoXUZKnX7ncYviAFTF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication taken, just swelling now...",
+    "step": 3,
+    "timestamp": 1773246674.9278848,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773246675.7598898,
+    "metadata": {
+      "thought": "No further questions needed; sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_WvP4taaQo89lnDOBF05OiF"
+    }
+  }
+]

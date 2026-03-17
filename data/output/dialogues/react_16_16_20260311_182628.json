@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773242788.5471256,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Just to go over few things let me ask, any aches and pains?",
+    "step": 0,
+    "timestamp": 1773242788.5471478,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip and shoulder pain, plus leg swelling.",
+    "step": 0,
+    "timestamp": 1773242790.8166907,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did pain start?",
+    "step": 1,
+    "timestamp": 1773242792.5495226,
+    "metadata": {
+      "thought": "User reports left hip, shoulder pain, and leg swelling. These could indicate various conditions. I need to ask about the onset and duration of these symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Dzvdc5wgQPB9A861ln7U1i"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip pain started a month ago, shoulder pain recently.",
+    "step": 1,
+    "timestamp": 1773242793.8342621,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did leg swelling start?",
+    "step": 2,
+    "timestamp": 1773242794.7260764,
+    "metadata": {
+      "thought": "User reports left hip pain for a month and recent shoulder pain. I need to ask about swelling duration.",
+      "done": false,
+      "tool_use_id": "tooluse_jfK6KtdxRJAeaP3VGS1nOa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had leg swelling for about two weeks now.",
+    "step": 2,
+    "timestamp": 1773242795.976648,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments or meds?",
+    "step": 3,
+    "timestamp": 1773242796.9627159,
+    "metadata": {
+      "thought": "User reports leg swelling for two weeks. I need to ask about any treatments or medications.",
+      "done": false,
+      "tool_use_id": "tooluse_I0hfvO9QLnfy8KLYHAsZJ7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about specific treatments or meds.",
+    "step": 3,
+    "timestamp": 1773242798.225896,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 4,
+    "timestamp": 1773242799.1999354,
+    "metadata": {
+      "thought": "User unsure about treatments or medications. I need to ask if any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_knXUFHivBSfDn62SqhucfR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just vision and hearing issues.",
+    "step": 4,
+    "timestamp": 1773242800.4196222,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did vision issues start?",
+    "step": 5,
+    "timestamp": 1773242801.5920768,
+    "metadata": {
+      "thought": "User reports vision and hearing issues. I need to ask about onset and duration.",
+      "done": false,
+      "tool_use_id": "tooluse_epLjo5pBPNeBIAGwWhn78d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, maybe a few months ago.",
+    "step": 5,
+    "timestamp": 1773242802.8458295,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did hearing issues start?",
+    "step": 6,
+    "timestamp": 1773242803.9242387,
+    "metadata": {
+      "thought": "User unsure about vision issues onset. I need to ask about hearing issues.",
+      "done": false,
+      "tool_use_id": "tooluse_NYse6AQWyYGQlCTqJ130VD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when hearing issues began.",
+    "step": 6,
+    "timestamp": 1773242805.0650182,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773242806.127244,
+    "metadata": {
+      "thought": "User unsure about hearing issues onset. I'll conclude the information gathering.",
+      "done": true,
+      "tool_use_id": "tooluse_sbnLOl7XL5ntfjUtYGuNmU"
+    }
+  }
+]

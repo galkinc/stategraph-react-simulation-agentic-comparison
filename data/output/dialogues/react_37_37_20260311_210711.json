@@ -1,0 +1,213 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252431.6359065,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning. So, you are here for your follow up today.",
+    "step": 0,
+    "timestamp": 1773252431.6359124,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm here for my follow-up, feeling much better now.",
+    "step": 0,
+    "timestamp": 1773252432.8987713,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms persist?",
+    "step": 1,
+    "timestamp": 1773252434.3442621,
+    "metadata": {
+      "thought": "User is feeling much better, but still needs follow-up. Ask about specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_HZzs30lDvYx4Tnywz5bt5F"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific symptoms left, just follow-up...",
+    "step": 1,
+    "timestamp": 1773252435.5578372,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How is your overall health?",
+    "step": 2,
+    "timestamp": 1773252436.3512301,
+    "metadata": {
+      "thought": "User has no specific symptoms left, just follow-up. Ask about overall health.",
+      "done": false,
+      "tool_use_id": "tooluse_UK6Ft5r4TBkX8WMWfuXwZh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm much better now, no more pain or fever.",
+    "step": 2,
+    "timestamp": 1773252437.5887582,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 3,
+    "timestamp": 1773252438.4851103,
+    "metadata": {
+      "thought": "User reports no pain or fever, just follow-up. Ask about any other concerns.",
+      "done": false,
+      "tool_use_id": "tooluse_kb4pS13Hwm7MP9xPuSCT7z"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other health concerns, just follow-up...",
+    "step": 3,
+    "timestamp": 1773252439.7793138,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773252440.530703,
+    "metadata": {
+      "thought": "User reports no other health concerns, just follow-up. Consider follow-up complete.",
+      "done": true,
+      "tool_use_id": "tooluse_R8arxnExNFDi8gM3YeRnWN"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252441.3131852,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_OyEJPll0fTcDBf2boyUsgt"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252442.112306,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_V3ETp4v54T5IQwmpJz2NnH"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773252442.867836,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_Jx8yjKZ7849BxCrV56KYMX"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773252443.654777,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_qf5OkboiqJsvPCx3pk05Ns"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773252444.4169533,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_R81MbWc0RDEjE5aQkhgo8H"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773252445.2211144,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_YLK2ZTmUXkm42ot0MNSIBm"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252446.049195,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_PD5SPCFUjGI68u46l33TPq"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773252446.8561802,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_VLr46F1cZxvycnqyqjlDke"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773252447.6779783,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_YcnjXhICudSiLWmvHiJxRE"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773252448.54618,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_XhJAVNsr6QhCq0x7wbc1Q7"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773252449.384147,
+    "metadata": {
+      "thought": "Follow-up complete, no new symptoms or concerns.",
+      "done": true,
+      "tool_use_id": "tooluse_79PaAoiy2yyclXsGNjHliW"
+    }
+  }
+]

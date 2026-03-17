@@ -1,0 +1,117 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065555.6854458,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you Miss G?",
+    "step": 0,
+    "timestamp": 1773065555.6854517,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ear pain and sinus pressure still linger...",
+    "step": 0,
+    "timestamp": 1773065556.828642,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Ear pain duration and intensity?",
+    "step": 1,
+    "timestamp": 1773065558.2070396,
+    "metadata": {
+      "thought": "Ask about pain specifics to identify condition.",
+      "done": false,
+      "tool_use_id": "tooluse_kXAM2fPkBUBP3amq8Hq0Lg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ear pain's been around three weeks, now lessened.",
+    "step": 1,
+    "timestamp": 1773065559.3572,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms besides ear pain?",
+    "step": 2,
+    "timestamp": 1773065560.161146,
+    "metadata": {
+      "thought": "Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_oIf5I1weP4vnoGMwUhggDH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I have difficulty hearing and left-sided sinus pressure.",
+    "step": 2,
+    "timestamp": 1773065561.356167,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 3,
+    "timestamp": 1773065562.1250646,
+    "metadata": {
+      "thought": "Need to ask about treatment.",
+      "done": false,
+      "tool_use_id": "tooluse_GZ06oZ3rKYzRQYK9cKEOOt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments tried, just rest...",
+    "step": 3,
+    "timestamp": 1773065563.2880669,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 4,
+    "timestamp": 1773065564.1264024,
+    "metadata": {
+      "thought": "Ask about medication history.",
+      "done": false,
+      "tool_use_id": "tooluse_1ysXhC9lPHQcWi81ZCbsVv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications; just trying natural remedies...",
+    "step": 4,
+    "timestamp": 1773065565.2117028,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773065566.0084422,
+    "metadata": {
+      "thought": "Conversation complete, sufficient info collected.",
+      "done": true,
+      "tool_use_id": "tooluse_ApCQ0W5Mha0X3ugwPcUgor"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 5,
+    "timestamp": 1773065566.008498,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247951.5986073,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How old are you, sir?",
+    "step": 0,
+    "timestamp": 1773247951.5986109,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm sixty-two years old, doctor...",
+    "step": 0,
+    "timestamp": 1773247952.699592,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent unusual symptoms?",
+    "step": 1,
+    "timestamp": 1773247954.1028671,
+    "metadata": {
+      "thought": "User has provided age, but no specific symptoms or medical conditions. Need to ask about symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_uSpuDC8IGKICgR7R9OuzHX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent unusual symptoms, just old pain issues.",
+    "step": 1,
+    "timestamp": 1773247955.1838784,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where do you feel the pain?",
+    "step": 2,
+    "timestamp": 1773247956.5856082,
+    "metadata": {
+      "thought": "User has mentioned chronic pain but no specifics. Need to ask about pain details.",
+      "done": false,
+      "tool_use_id": "tooluse_blBVVthSsf8iDzGNezykmg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain mostly in my back and sometimes in my shoulders.",
+    "step": 2,
+    "timestamp": 1773247957.6881483,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had this pain?",
+    "step": 3,
+    "timestamp": 1773247959.1858866,
+    "metadata": {
+      "thought": "User described pain locations but no specifics on duration or intensity. Need more details.",
+      "done": false,
+      "tool_use_id": "tooluse_16V5HJ35EyX5YGP6P93kbb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been an issue for many years now.",
+    "step": 3,
+    "timestamp": 1773247960.3307962,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any pain medication?",
+    "step": 4,
+    "timestamp": 1773247961.78479,
+    "metadata": {
+      "thought": "User described chronic pain but no medication use. Need to ask about medications.",
+      "done": false,
+      "tool_use_id": "tooluse_96EwQPEegeXvsT6TWpNrHg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not on any pain medication...",
+    "step": 4,
+    "timestamp": 1773247962.9104342,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms recently?",
+    "step": 5,
+    "timestamp": 1773247964.5056949,
+    "metadata": {
+      "thought": "User has provided comprehensive pain details but no other symptoms. Need to ask about other potential symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_H7rhC5Htoh9jaqp7yHv4MF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still feeling clumsiness, pain, and lack of sleep.",
+    "step": 5,
+    "timestamp": 1773247965.532816,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247967.1004891,
+    "metadata": {
+      "thought": "User has provided additional symptoms. Now have enough information.",
+      "done": true,
+      "tool_use_id": "tooluse_tL5zFxj4tiXV1LkhIoTFaK"
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247138.9923553,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hi there! I am Doctor Frankland.",
+    "step": 0,
+    "timestamp": 1773247138.9923604,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Hi, Doctor Frankland. I'm here for my check-up.",
+    "step": 0,
+    "timestamp": 1773247140.1264346,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did symptoms start?",
+    "step": 1,
+    "timestamp": 1773247141.4753697,
+    "metadata": {
+      "thought": "User is here for a check-up. I need to gather basic information.",
+      "done": false,
+      "tool_use_id": "tooluse_T3IIx0bkPCvJJTAcZcyIxH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms began about three months ago...",
+    "step": 1,
+    "timestamp": 1773247142.6015801,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms noticed?",
+    "step": 2,
+    "timestamp": 1773247143.2899523,
+    "metadata": {
+      "thought": "User mentioned symptoms began three months ago. Next, I need to ask about specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_z6yYkNz7B5EHjJpZZo1A1Z"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had some headaches and dizziness lately...",
+    "step": 2,
+    "timestamp": 1773247144.394394,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you get headaches?",
+    "step": 3,
+    "timestamp": 1773247145.2468452,
+    "metadata": {
+      "thought": "User reported headaches and dizziness. Next, I need to ask about the frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_SaiY96rZnVbmpLS85tcnjn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall having frequent headaches recently...",
+    "step": 3,
+    "timestamp": 1773247146.2978091,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you feel dizzy?",
+    "step": 4,
+    "timestamp": 1773247147.1505525,
+    "metadata": {
+      "thought": "User mentioned infrequent headaches. Next, I need to ask about dizziness frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_YrGxvgeG0KiZADSowwaTNa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall feeling dizzy recently...",
+    "step": 4,
+    "timestamp": 1773247148.2558768,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 5,
+    "timestamp": 1773247148.9922311,
+    "metadata": {
+      "thought": "User mentioned infrequent dizziness. I need to ask about any medications.",
+      "done": false,
+      "tool_use_id": "tooluse_GHgBE19QzG8mJcIU7v0jap"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just vitamins for now...",
+    "step": 5,
+    "timestamp": 1773247150.0340333,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other health concerns?",
+    "step": 6,
+    "timestamp": 1773247150.9118156,
+    "metadata": {
+      "thought": "User takes vitamins. I need to confirm if this is sufficient.",
+      "done": false,
+      "tool_use_id": "tooluse_9BRQPAwT1UlBOPVVO2gEna"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other health concerns, just the Firth grade.",
+    "step": 6,
+    "timestamp": 1773247151.9914384,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247152.873177,
+    "metadata": {
+      "thought": "User has no other health concerns. I have enough information now.",
+      "done": true,
+      "tool_use_id": "tooluse_cLhMOWsvtbWuBw7fb1CNMG"
+    }
+  }
+]

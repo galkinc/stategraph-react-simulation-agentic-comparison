@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247377.2936804,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did your pain begin?",
+    "step": 0,
+    "timestamp": 1773247377.2936852,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started eight years ago after a fall.",
+    "step": 0,
+    "timestamp": 1773247378.3859215,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain location?",
+    "step": 1,
+    "timestamp": 1773247379.7606213,
+    "metadata": {
+      "thought": "User reported pain onset after a fall eight years ago.",
+      "done": false,
+      "tool_use_id": "tooluse_Co2IdAahN26qFhwGeR0T6V"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Low back, mostly around the lower spine area.",
+    "step": 1,
+    "timestamp": 1773247380.82427,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain intensity level?",
+    "step": 2,
+    "timestamp": 1773247382.2653947,
+    "metadata": {
+      "thought": "User specified low back pain location.",
+      "done": false,
+      "tool_use_id": "tooluse_Yp6XpdoyWqSMR69Aa3N5Wu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's been around a six most days lately.",
+    "step": 2,
+    "timestamp": 1773247383.3785667,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain triggers?",
+    "step": 3,
+    "timestamp": 1773247384.844437,
+    "metadata": {
+      "thought": "User reported pain intensity level.",
+      "done": false,
+      "tool_use_id": "tooluse_fgkQLiLkE9kx3ZUnGZp6TX"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lifting heavy things makes my back hurt more.",
+    "step": 3,
+    "timestamp": 1773247385.9571643,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 4,
+    "timestamp": 1773247387.3709998,
+    "metadata": {
+      "thought": "User identified pain trigger.",
+      "done": false,
+      "tool_use_id": "tooluse_GcFnzSarce81wanR1BM89G"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any other symptoms besides back pain.",
+    "step": 4,
+    "timestamp": 1773247388.5288415,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247389.8743615,
+    "metadata": {
+      "thought": "User reported no other symptoms.",
+      "done": true,
+      "tool_use_id": "tooluse_LVe5TZgUMDdR7k5fRGMDCS"
+    }
+  }
+]

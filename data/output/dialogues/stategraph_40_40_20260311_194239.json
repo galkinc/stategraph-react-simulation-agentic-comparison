@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247359.4026954,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you ready for home?",
+    "step": 0,
+    "timestamp": 1773247359.4026995,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but I'll try to manage...",
+    "step": 0,
+    "timestamp": 1773247360.4950216,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain or discomfort?",
+    "step": 1,
+    "timestamp": 1773247361.9540884,
+    "metadata": {
+      "thought": "User is uncertain about their condition. Need to gather more specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_v5pCFPDV3vRMUhRSCXxFZz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific pain, just general fatigue lately...",
+    "step": 1,
+    "timestamp": 1773247363.0745983,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 2,
+    "timestamp": 1773247364.4762123,
+    "metadata": {
+      "thought": "User reports general fatigue. Need to ask about duration and other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_TWTblEZTwkD7NqhFuRxW4o"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've felt tired for about a month now.",
+    "step": 2,
+    "timestamp": 1773247365.5533838,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with fatigue?",
+    "step": 3,
+    "timestamp": 1773247366.989261,
+    "metadata": {
+      "thought": "User reports fatigue for a month. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_JtDknM3NsOQ0AYf6dFVoKx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just fatigue...",
+    "step": 3,
+    "timestamp": 1773247368.0504344,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in diet or sleep?",
+    "step": 4,
+    "timestamp": 1773247369.5807588,
+    "metadata": {
+      "thought": "User reports fatigue with no other symptoms. Need to ask about lifestyle factors.",
+      "done": false,
+      "tool_use_id": "tooluse_dEuRttokgbZmG01LLyzwbH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in diet or sleep recently...",
+    "step": 4,
+    "timestamp": 1773247370.689164,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "High stress levels recently?",
+    "step": 5,
+    "timestamp": 1773247372.1921036,
+    "metadata": {
+      "thought": "No recent changes in lifestyle. Fatigue persists. Need to ask about stress.",
+      "done": false,
+      "tool_use_id": "tooluse_9EbmGjhAst2eC3eJzr2w76"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stress levels are high, but I'm managing...",
+    "step": 5,
+    "timestamp": 1773247373.2232983,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other concerns?",
+    "step": 6,
+    "timestamp": 1773247374.705284,
+    "metadata": {
+      "thought": "User reports high stress but managing. Fatigue continues. Need to finalize questions.",
+      "done": false,
+      "tool_use_id": "tooluse_jVN4h3WUZHPE0nVS4JVtZ8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other concerns, just family matters...",
+    "step": 6,
+    "timestamp": 1773247375.859559,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773247377.2732599,
+    "metadata": {
+      "thought": "User reports no other health concerns. Fatigue and high stress noted. Consider if enough information.",
+      "done": true,
+      "tool_use_id": "tooluse_NK5tsqlgFMheniFiGRHzKf"
+    }
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065740.7111235,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit your I V and inhalation drugs Mister X Y Z?",
+    "step": 0,
+    "timestamp": 1773065740.7111285,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not planning to quit my IV and inhalation drugs.",
+    "step": 0,
+    "timestamp": 1773065741.8265374,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you experience any side effects from these medications?",
+    "step": 1,
+    "timestamp": 1773065743.3112023,
+    "metadata": {
+      "thought": "User has mentioned they are not planning to quit their IV and inhalation drugs, but no specific details were provided. I need to gather more information about their symptoms, medical history, and current conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_tVcW732TxH91bRv5CvckZU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes feel tired, but nothing severe...",
+    "step": 1,
+    "timestamp": 1773065744.4233384,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you first start feeling tired?",
+    "step": 2,
+    "timestamp": 1773065745.2601678,
+    "metadata": {
+      "thought": "User mentioned feeling tired but not severe. I need to gather more details about the onset and duration of this symptom.",
+      "done": false,
+      "tool_use_id": "tooluse_qRJvLYRzSy0GYXBfzCg1G8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall the exact time I first felt tired.",
+    "step": 2,
+    "timestamp": 1773065746.36933,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any other symptoms you're experiencing?",
+    "step": 3,
+    "timestamp": 1773065747.220422,
+    "metadata": {
+      "thought": "User cannot recall the exact time they first felt tired. I need to gather more information about their general health and any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ij5MJeWaKQwLQNemDbn3Qp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm still feeling low, but no new symptoms.",
+    "step": 3,
+    "timestamp": 1773065748.3773248,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any medical history?",
+    "step": 4,
+    "timestamp": 1773065749.2376919,
+    "metadata": {
+      "thought": "User is still feeling low but no new symptoms. I need to gather information about their medical history and any other relevant details.",
+      "done": false,
+      "tool_use_id": "tooluse_uEZszgba05BRq1ewxsQoYn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medical history beyond depression treatment...",
+    "step": 4,
+    "timestamp": 1773065750.3440127,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you changed your medication dosage recently?",
+    "step": 5,
+    "timestamp": 1773065751.1910684,
+    "metadata": {
+      "thought": "User has no significant medical history beyond depression treatment. I need to gather information about their current medications and any changes in dosage.",
+      "done": false,
+      "tool_use_id": "tooluse_7N4t21LaUaqUpUxljHM1p5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes to my medication dosage lately...",
+    "step": 5,
+    "timestamp": 1773065752.2987251,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in your daily routine or lifestyle?",
+    "step": 6,
+    "timestamp": 1773065753.216043,
+    "metadata": {
+      "thought": "User has not changed their medication dosage. I need to gather information about their lifestyle and any other factors that might affect their symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_PrQmRazjeLOPs5HMK49mGw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Routine's a bit more stable now, less chaos.",
+    "step": 6,
+    "timestamp": 1773065754.4024553,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How's your sleep been recently?",
+    "step": 7,
+    "timestamp": 1773065755.247339,
+    "metadata": {
+      "thought": "User's routine has become more stable. I need to gather final information about their sleep and any other relevant factors.",
+      "done": false,
+      "tool_use_id": "tooluse_XKWdf9hyhWztzVp53r1F0A"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sleep's been a bit irregular lately...",
+    "step": 7,
+    "timestamp": 1773065756.4005384,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773065757.263191,
+    "metadata": {
+      "thought": "User's sleep has been irregular. I have gathered sufficient information to proceed with the next steps.",
+      "done": true,
+      "tool_use_id": "tooluse_WT8iq7leDDEwcn5yq5vcYP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 8,
+    "timestamp": 1773065757.2632148,
+    "metadata": {}
+  }
+]

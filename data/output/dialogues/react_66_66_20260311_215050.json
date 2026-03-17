@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773255050.7016053,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773255050.701617,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My skin's been acting up lately; not sure why.",
+    "step": 0,
+    "timestamp": 1773255052.1005633,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any rash, redness, or itching on your skin?",
+    "step": 1,
+    "timestamp": 1773255054.2124698,
+    "metadata": {
+      "thought": "Ask about specific skin issues to identify potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_MSzxlGoMliqGhrz3e67WoL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Itching sometimes, but not always, hard to say.",
+    "step": 1,
+    "timestamp": 1773255055.4881916,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had this itching?",
+    "step": 2,
+    "timestamp": 1773255056.162098,
+    "metadata": {
+      "thought": "Need to know duration and any treatments tried.",
+      "done": false,
+      "tool_use_id": "tooluse_4Zjgf62qFuSnT4aTpa87Jk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had the itching for about three weeks now.",
+    "step": 2,
+    "timestamp": 1773255057.3669028,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments?",
+    "step": 3,
+    "timestamp": 1773255058.1406076,
+    "metadata": {
+      "thought": "Ask if any treatments have been tried.",
+      "done": false,
+      "tool_use_id": "tooluse_xRHIT3MUgGZB6YbPoLEU9R"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't tried any treatments yet...",
+    "step": 3,
+    "timestamp": 1773255059.3474689,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any medications?",
+    "step": 4,
+    "timestamp": 1773255060.1523385,
+    "metadata": {
+      "thought": "Need to ask about any medications being taken.",
+      "done": false,
+      "tool_use_id": "tooluse_leOgy5DE1XKyvCZCNvXI1T"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; my local doctor didn't mention meds.",
+    "step": 4,
+    "timestamp": 1773255061.3181531,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773255062.1064286,
+    "metadata": {
+      "thought": "Gathering enough information to determine if further action is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_eL9TWoSwNQLLlSW544Vm03"
+    }
+  }
+]

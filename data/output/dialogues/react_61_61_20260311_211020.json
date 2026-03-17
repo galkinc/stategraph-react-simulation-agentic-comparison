@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252620.4545836,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "So, ma'am, what brings you in for a visit today?",
+    "step": 0,
+    "timestamp": 1773252620.4545941,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Hay fever acting up, plus sinus issues today.",
+    "step": 0,
+    "timestamp": 1773252621.760637,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nasal discharge or congestion?",
+    "step": 1,
+    "timestamp": 1773252623.3086524,
+    "metadata": {
+      "thought": "Need to confirm specific symptoms for hay fever and sinus issues.",
+      "done": false,
+      "tool_use_id": "tooluse_DFP1Vv6Qz5QIYwN1nhYGP5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I have some sinus congestion, but no nasal discharge.",
+    "step": 1,
+    "timestamp": 1773252624.5761843,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Headache or pressure in face?",
+    "step": 2,
+    "timestamp": 1773252625.3584552,
+    "metadata": {
+      "thought": "Need to confirm if there are other symptoms related to sinus congestion.",
+      "done": false,
+      "tool_use_id": "tooluse_AAbF3tsXmxmMmQbO9e97Os"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, I don't usually get headaches like that.",
+    "step": 2,
+    "timestamp": 1773252626.6701767,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Itchy eyes or throat?",
+    "step": 3,
+    "timestamp": 1773252627.507547,
+    "metadata": {
+      "thought": "Need to confirm if there are other symptoms related to hay fever.",
+      "done": false,
+      "tool_use_id": "tooluse_G5Ectb1rfqnZ5hpk3LWUoM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My eyes do itch sometimes, not the throat.",
+    "step": 3,
+    "timestamp": 1773252628.7654457,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did symptoms start?",
+    "step": 4,
+    "timestamp": 1773252629.6551018,
+    "metadata": {
+      "thought": "Need to confirm if symptoms are recent or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_pUELeZsYzNcKUiukQ7I6j1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when they started...",
+    "step": 4,
+    "timestamp": 1773252630.844535,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 5,
+    "timestamp": 1773252631.756157,
+    "metadata": {
+      "thought": "Need to confirm if the user is on any medication.",
+      "done": false,
+      "tool_use_id": "tooluse_LvCDnXOgRot2uE9SgmFOWo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I take benzoyl peroxide and Daypro...",
+    "step": 5,
+    "timestamp": 1773252632.983265,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773252634.0328155,
+    "metadata": {
+      "thought": "Have enough information to conclude the symptom elicitation.",
+      "done": true,
+      "tool_use_id": "tooluse_YfzxopWs0fVQmSUome6hpM"
+    }
+  }
+]

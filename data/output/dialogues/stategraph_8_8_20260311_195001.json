@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247801.0884888,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When are you planning to quit your I V and inhalation drugs Mister X Y Z?",
+    "step": 0,
+    "timestamp": 1773247801.0884929,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about quitting those drugs...",
+    "step": 0,
+    "timestamp": 1773247802.2003872,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any side effects from these drugs?",
+    "step": 1,
+    "timestamp": 1773247803.6319442,
+    "metadata": {
+      "thought": "User is uncertain about quitting medications. Need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_yKOk8hGhp15LAxCxit8YjP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; haven't noticed any side effects yet.",
+    "step": 1,
+    "timestamp": 1773247804.770315,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you start taking these medications?",
+    "step": 2,
+    "timestamp": 1773247825.118758,
+    "metadata": {
+      "thought": "User is uncertain and hasn't noticed side effects. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_ACiHY6gCoOaWeasGWHUPRh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I started the meds three months ago...",
+    "step": 2,
+    "timestamp": 1773247826.254768,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What are the names of these drugs?",
+    "step": 3,
+    "timestamp": 1773247827.7089484,
+    "metadata": {
+      "thought": "User started medications three months ago. Need to gather more details about the medications.",
+      "done": false,
+      "tool_use_id": "tooluse_lxJLQR4pCNDCOtyNlUB5GD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about their exact names right now.",
+    "step": 3,
+    "timestamp": 1773247828.8921046,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have a prescription or medical records?",
+    "step": 4,
+    "timestamp": 1773247830.4758234,
+    "metadata": {
+      "thought": "User unsure about medication names. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_DXBGQ5ZdBvFU3G080bgQqN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall my exact prescription details...",
+    "step": 4,
+    "timestamp": 1773247831.5786934,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you seeing a doctor regularly?",
+    "step": 5,
+    "timestamp": 1773247833.1026614,
+    "metadata": {
+      "thought": "User doesn't recall prescription details. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_1VhC3fSgXSomFO7gxavd1d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Yes, I'm seeing a doctor regularly for my depression.",
+    "step": 5,
+    "timestamp": 1773247834.1809542,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Has your doctor mentioned stopping these drugs?",
+    "step": 6,
+    "timestamp": 1773247835.7719893,
+    "metadata": {
+      "thought": "User sees a doctor for depression. Need to gather more details about the doctor's advice.",
+      "done": false,
+      "tool_use_id": "tooluse_O5V4ci29G5JbuwNwlDrS6t"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, my doctor hasn't mentioned stopping my meds yet.",
+    "step": 6,
+    "timestamp": 1773247836.9246573,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any concerns about these drugs?",
+    "step": 7,
+    "timestamp": 1773247838.4951203,
+    "metadata": {
+      "thought": "User's doctor hasn't mentioned stopping meds. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_6NF2KBY35XamhRWlJ7aBQp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm worried about side effects from the medication.",
+    "step": 7,
+    "timestamp": 1773247839.647058,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you describe your concerns in detail?",
+    "step": 8,
+    "timestamp": 1773247841.0742745,
+    "metadata": {
+      "thought": "User is worried about potential side effects. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_6aPB5W3Dl2VYj6e4nS34cO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm worried about feeling lonely and hopeless often.",
+    "step": 8,
+    "timestamp": 1773247842.1885583,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have these feelings persisted?",
+    "step": 9,
+    "timestamp": 1773247843.7074084,
+    "metadata": {
+      "thought": "User expresses feeling lonely and hopeless. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_lSbcCzgRKFP5iGlyTXTjPP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had these feelings for about six months.",
+    "step": 9,
+    "timestamp": 1773247844.8041303,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have these feelings impacted your daily life?",
+    "step": 10,
+    "timestamp": 1773247846.275279,
+    "metadata": {
+      "thought": "User has had feelings for six months. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_qHihtjL503vHwsUu2NJdyw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They've made daily tasks harder for me...",
+    "step": 10,
+    "timestamp": 1773247847.443556,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any other symptoms?",
+    "step": 11,
+    "timestamp": 1773247848.9691114,
+    "metadata": {
+      "thought": "User's feelings impact daily tasks. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_Oefo3z7GQgdkPCwEW97cKS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I'm on medication for depression.",
+    "step": 11,
+    "timestamp": 1773247850.1946762,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you remember the medication names?",
+    "step": 12,
+    "timestamp": 1773247851.7548702,
+    "metadata": {
+      "thought": "User on medication for depression. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_3qrCujOVyHMMNTmfYDg8cu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't recall the exact medication names...",
+    "step": 12,
+    "timestamp": 1773247852.8649616,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any medical records?",
+    "step": 13,
+    "timestamp": 1773247854.561909,
+    "metadata": {
+      "thought": "User can't recall medication names. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_pJbgsLXDzAtbYYkaYeTFt1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall if I have medical records.",
+    "step": 13,
+    "timestamp": 1773247855.6575146,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you comfortable sharing your doctor's contact info?",
+    "step": 14,
+    "timestamp": 1773247857.3005471,
+    "metadata": {
+      "thought": "User doesn't recall having medical records. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_otqOfdn5TMkL2BMbrSNizn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sorry, can't share that info; privacy matters...",
+    "step": 14,
+    "timestamp": 1773247858.3833308,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is there anything else you'd like to discuss?",
+    "step": 15,
+    "timestamp": 1773247860.0515096,
+    "metadata": {
+      "thought": "User can't share doctor's contact info due to privacy.",
+      "done": false,
+      "tool_use_id": "tooluse_7wcbQtBWJa7Yjjnx6NEMMr"
+    }
+  }
+]

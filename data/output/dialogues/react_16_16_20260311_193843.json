@@ -1,0 +1,153 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247123.3874688,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Just to go over few things let me ask, any aches and pains?",
+    "step": 0,
+    "timestamp": 1773247123.3874767,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip and shoulder hurt a lot, also swelling in leg.",
+    "step": 0,
+    "timestamp": 1773247124.6729054,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 1,
+    "timestamp": 1773247126.053265,
+    "metadata": {
+      "thought": "User reports pain in left hip, shoulder, and swelling in leg. Need to confirm if these symptoms are ongoing or recent.",
+      "done": false,
+      "tool_use_id": "tooluse_IHIyT24oCoBcfDXBmvA8ha"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Left hip pain started two months ago...",
+    "step": 1,
+    "timestamp": 1773247127.065362,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did shoulder and leg swelling start?",
+    "step": 2,
+    "timestamp": 1773247127.9842777,
+    "metadata": {
+      "thought": "User reports left hip pain starting two months ago. Need to confirm if shoulder pain and leg swelling started around the same time.",
+      "done": false,
+      "tool_use_id": "tooluse_XiRQoi6FpODS9tKFkR2or9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Swelling started a couple weeks ago, too...",
+    "step": 2,
+    "timestamp": 1773247129.1545694,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent injury or trauma?",
+    "step": 3,
+    "timestamp": 1773247130.0254264,
+    "metadata": {
+      "thought": "User reports swelling in the leg starting a couple weeks ago. Need to determine if there's any trauma or injury involved.",
+      "done": false,
+      "tool_use_id": "tooluse_JkSichlc22jVkikK0eEgug"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent injuries, just general pain...",
+    "step": 3,
+    "timestamp": 1773247131.145713,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 4,
+    "timestamp": 1773247132.0603178,
+    "metadata": {
+      "thought": "User denies recent injuries but reports general pain. Need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_RaYVvIqPQtaUkOvHWqh2kO"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; I don't recall the exact medications.",
+    "step": 4,
+    "timestamp": 1773247133.1886551,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do symptoms affect daily activities?",
+    "step": 5,
+    "timestamp": 1773247133.9658432,
+    "metadata": {
+      "thought": "User unsure about current medications. Need to ask if symptoms affect daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_t74mMCYVkoGr8ZvMVERbze"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My hip and shoulder pain make daily tasks hard.",
+    "step": 5,
+    "timestamp": 1773247135.0311718,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are symptoms worsening?",
+    "step": 6,
+    "timestamp": 1773247135.8385866,
+    "metadata": {
+      "thought": "User reports that hip and shoulder pain affect daily tasks. Need to confirm if symptoms are worsening.",
+      "done": false,
+      "tool_use_id": "tooluse_JpitVFuATUWE9Jz0V8nDKd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My hip and shoulder pain feel constant, not improving.",
+    "step": 6,
+    "timestamp": 1773247136.94075,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or concerns?",
+    "step": 7,
+    "timestamp": 1773247137.8396003,
+    "metadata": {
+      "thought": "User reports constant, unimproving hip and shoulder pain. Symptoms are severe enough to affect daily life. Need to gather more details for a comprehensive assessment.",
+      "done": true,
+      "tool_use_id": "tooluse_CZ0TBxhKzg1RaM1jfUkC0a"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other symptoms, just vision and hearing issues.",
+    "step": 7,
+    "timestamp": 1773247138.9834454,
+    "metadata": {}
+  }
+]

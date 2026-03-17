@@ -1,0 +1,171 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065798.2444496,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning, young man.",
+    "step": 0,
+    "timestamp": 1773065798.2444646,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Morning, doctor. Just fine, thanks...",
+    "step": 0,
+    "timestamp": 1773065799.3733463,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms today?",
+    "step": 1,
+    "timestamp": 1773065800.7256181,
+    "metadata": {
+      "thought": "User is polite but not providing symptoms. Ask for specific symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_nYEXVZoHilvM0DW1CpXWKi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain, but I'm okay otherwise...",
+    "step": 1,
+    "timestamp": 1773065801.8136022,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you had ankle pain?",
+    "step": 2,
+    "timestamp": 1773065802.5897253,
+    "metadata": {
+      "thought": "User reports ankle pain. Ask about duration and intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_J43zTwNvr9Xrcaz1bxNykb"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain's been there a while, not sure exactly.",
+    "step": 2,
+    "timestamp": 1773065803.7124763,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "On a scale, how intense is it?",
+    "step": 3,
+    "timestamp": 1773065804.4167967,
+    "metadata": {
+      "thought": "User is vague about pain duration. Ask about intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_3a8fzuotOZIp2NYY7Hu4M3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain is mild, elbow still hurts a bit.",
+    "step": 3,
+    "timestamp": 1773065805.5165591,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did elbow pain start?",
+    "step": 4,
+    "timestamp": 1773065806.3441422,
+    "metadata": {
+      "thought": "User reports elbow pain. Ask about elbow pain specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_FGldbuh0s8xEH5bl9QIZJc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Elbow pain started during the fight in juvie.",
+    "step": 4,
+    "timestamp": 1773065807.4924812,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments for elbow?",
+    "step": 5,
+    "timestamp": 1773065808.2901723,
+    "metadata": {
+      "thought": "User reports injury context. Ask about any treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_izGdSLwfCuqI3qKTEohRfg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments; just kept it wrapped...",
+    "step": 5,
+    "timestamp": 1773065809.4285555,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 6,
+    "timestamp": 1773065810.2601104,
+    "metadata": {
+      "thought": "User reports no formal treatment. Ask about medications.",
+      "done": false,
+      "tool_use_id": "tooluse_FmluZqZDH0nZnZtqZ0es67"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just rest and ice...",
+    "step": 6,
+    "timestamp": 1773065811.379833,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Symptoms worsen recently?",
+    "step": 7,
+    "timestamp": 1773065812.1709943,
+    "metadata": {
+      "thought": "User reports self-care. Ask if symptoms worsen.",
+      "done": false,
+      "tool_use_id": "tooluse_GwmmtUK0VE9KDUowfbvRRd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain feels the same, no changes...",
+    "step": 7,
+    "timestamp": 1773065813.2311158,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773065814.0369668,
+    "metadata": {
+      "thought": "User reports stable symptoms. Consider conversation complete.",
+      "done": true,
+      "tool_use_id": "tooluse_flA6ysmSLwM9wu1OWk3wgs"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 8,
+    "timestamp": 1773065814.037023,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065385.1173353,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you keeping up with your food journal?",
+    "step": 0,
+    "timestamp": 1773065385.1173427,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I try to keep it, but sometimes forget.",
+    "step": 0,
+    "timestamp": 1773065386.2021663,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual symptoms after meals?",
+    "step": 1,
+    "timestamp": 1773065387.395985,
+    "metadata": {
+      "thought": "Ask about specific symptoms related to diet",
+      "done": false,
+      "tool_use_id": "tooluse_VUIBVZjl987SSAmegquktj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms after meals lately...",
+    "step": 1,
+    "timestamp": 1773065388.561959,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes recently?",
+    "step": 2,
+    "timestamp": 1773065389.738603,
+    "metadata": {
+      "thought": "Need to gather more specific symptom details",
+      "done": false,
+      "tool_use_id": "tooluse_0Qq7PSpzluAumjoVXw0CkW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No new symptoms, just feeling better overall...",
+    "step": 2,
+    "timestamp": 1773065390.8853004,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in your daily routine?",
+    "step": 3,
+    "timestamp": 1773065391.6405714,
+    "metadata": {
+      "thought": "Determine if there are any other underlying issues",
+      "done": false,
+      "tool_use_id": "tooluse_OBIAhpEmfzWIZXCmFQmFM4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Routine's getting better; sponsor's advice helps a lot.",
+    "step": 3,
+    "timestamp": 1773065392.7888792,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any fatigue, stress, or sleep issues?",
+    "step": 4,
+    "timestamp": 1773065393.53212,
+    "metadata": {
+      "thought": "Routine improvement is good, but need more symptom details",
+      "done": false,
+      "tool_use_id": "tooluse_qkg0kYjvwwnYzRhkBOtXAW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sleep is okay, but stress is sometimes high.",
+    "step": 4,
+    "timestamp": 1773065394.6138225,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any headaches or stomach issues?",
+    "step": 5,
+    "timestamp": 1773065395.3167908,
+    "metadata": {
+      "thought": "High stress could be a factor",
+      "done": false,
+      "tool_use_id": "tooluse_kXuJYdmaPuxRFjUUCq2UIp"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No headaches or stomach issues lately...",
+    "step": 5,
+    "timestamp": 1773065396.4190123,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other concerns or questions?",
+    "step": 6,
+    "timestamp": 1773065397.2603986,
+    "metadata": {
+      "thought": "No new symptoms, but stress noted",
+      "done": true,
+      "tool_use_id": "tooluse_58s5z5L5gmLSF3rKULhiuj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still thinking about healthy eating choices...",
+    "step": 6,
+    "timestamp": 1773065398.3313956,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you'd like to discuss?",
+    "step": 7,
+    "timestamp": 1773065399.0448668,
+    "metadata": {
+      "thought": "Healthy eating is important, but no new symptoms",
+      "done": true,
+      "tool_use_id": "tooluse_pkYOQn1bN5W1SsMVyevrCc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Snacks for managing high blood sugar...",
+    "step": 7,
+    "timestamp": 1773065400.138783,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific foods you're interested in?",
+    "step": 8,
+    "timestamp": 1773065401.205991,
+    "metadata": {
+      "thought": "Need to gather specific dietary advice",
+      "done": false,
+      "tool_use_id": "tooluse_Kq0GcHDZRd3BS6RGbKIw9s"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but low-sugar options would help...",
+    "step": 8,
+    "timestamp": 1773065402.2591436,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any preferences or dietary restrictions?",
+    "step": 9,
+    "timestamp": 1773065403.1103637,
+    "metadata": {
+      "thought": "Low-sugar options are good, but need specifics",
+      "done": false,
+      "tool_use_id": "tooluse_ROUgR93v1XXGyxtp2W2jfe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No specific preferences, just healthy choices...",
+    "step": 9,
+    "timestamp": 1773065404.2146099,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any allergies or intolerances?",
+    "step": 10,
+    "timestamp": 1773065405.0316145,
+    "metadata": {
+      "thought": "Healthy choices are good, but need more specifics",
+      "done": false,
+      "tool_use_id": "tooluse_p5O2ungodBMDXE61N758OU"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies or intolerances...",
+    "step": 10,
+    "timestamp": 1773065406.1582212,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other dietary questions?",
+    "step": 11,
+    "timestamp": 1773065406.9819105,
+    "metadata": {
+      "thought": "No allergies noted, but need more specifics",
+      "done": true,
+      "tool_use_id": "tooluse_U1mxLCnSl7aLkOhyxCqzFw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not right now, just healthy snacks for blood sugar.",
+    "step": 11,
+    "timestamp": 1773065408.0328023,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Anything else you'd like to discuss?",
+    "step": 12,
+    "timestamp": 1773065408.9971263,
+    "metadata": {
+      "thought": "Healthy snacks are good, but no new symptoms",
+      "done": true,
+      "tool_use_id": "tooluse_HFHm2TAx1NuPhuSLzmQdc7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Snacks for managing high blood sugar, please...",
+    "step": 12,
+    "timestamp": 1773065410.1510768,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Low-sugar snacks you'd like to try?",
+    "step": 13,
+    "timestamp": 1773065411.2113802,
+    "metadata": {
+      "thought": "Need to provide healthy snack options",
+      "done": false,
+      "tool_use_id": "tooluse_eOts9hMIUFG6TLvgPijEca"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I like nuts and yogurt for snacks...",
+    "step": 13,
+    "timestamp": 1773065412.3497884,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any portion sizes or frequency?",
+    "step": 14,
+    "timestamp": 1773065413.221469,
+    "metadata": {
+      "thought": "Nuts and yogurt are good options",
+      "done": false,
+      "tool_use_id": "tooluse_1dSzFipmP9DibLTIfaxL6y"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but I'm watching my blood sugar.",
+    "step": 14,
+    "timestamp": 1773065414.2955885,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you snack?",
+    "step": 15,
+    "timestamp": 1773065415.256466,
+    "metadata": {
+      "thought": "Need to advise on portion control",
+      "done": false,
+      "tool_use_id": "tooluse_DCQiREQyY5VE2vjzWADEBj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I try to snack a few times a day, mostly healthy.",
+    "step": 15,
+    "timestamp": 1773065416.4222696,
+    "metadata": {}
+  }
+]

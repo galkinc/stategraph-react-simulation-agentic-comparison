@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252834.4885905,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Let me give you some medication in your I V.",
+    "step": 0,
+    "timestamp": 1773252834.488596,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I hope this IV helps me feel better.",
+    "step": 0,
+    "timestamp": 1773252835.7008545,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms or pain areas?",
+    "step": 1,
+    "timestamp": 1773252837.242759,
+    "metadata": {
+      "thought": "User mentioned feeling better after IV, but no specific symptoms or conditions were mentioned. Need to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_Xw8eNAIms4lnauy5srlAYh"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Nausea and stomach cramps, feeling really queasy...",
+    "step": 1,
+    "timestamp": 1773252838.5065045,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did nausea and cramps start?",
+    "step": 2,
+    "timestamp": 1773252839.3833477,
+    "metadata": {
+      "thought": "User reported nausea and stomach cramps. Need to confirm if these symptoms started recently and any other related symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_3oW3HCtbPwIVvDZQFK179R"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall exactly when cramps began...",
+    "step": 2,
+    "timestamp": 1773252840.762309,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms? Any medications taken?",
+    "step": 3,
+    "timestamp": 1773252841.5754533,
+    "metadata": {
+      "thought": "User is unsure about the onset of symptoms. Need to ask about other symptoms and any medications taken.",
+      "done": false,
+      "tool_use_id": "tooluse_p6Tn9XkFvNsefgbaOOq5Ko"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; no medications taken...",
+    "step": 3,
+    "timestamp": 1773252842.8974085,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Symptoms worsening or improving?",
+    "step": 4,
+    "timestamp": 1773252843.7001019,
+    "metadata": {
+      "thought": "User reported no medications taken. Need to confirm if symptoms are worsening or improving.",
+      "done": false,
+      "tool_use_id": "tooluse_Q45syBT5Q3HQDwCsvnwyBv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Still feeling really sick, no improvement...",
+    "step": 4,
+    "timestamp": 1773252844.9309745,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any vomiting or diarrhea?",
+    "step": 5,
+    "timestamp": 1773252845.8033855,
+    "metadata": {
+      "thought": "User reports no improvement in symptoms. Need to gather more details for a potential diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_4MBnelJLTDRM0eAFChW96A"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No vomiting, but stomach feels really upset...",
+    "step": 5,
+    "timestamp": 1773252847.0480645,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Recent changes in diet or activity?",
+    "step": 6,
+    "timestamp": 1773252847.9539921,
+    "metadata": {
+      "thought": "User reports persistent stomach upset without vomiting. Need to ask about diet and recent activities.",
+      "done": false,
+      "tool_use_id": "tooluse_Xl78VlZfLG6cQpgyWwMUmq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes in diet or activity...",
+    "step": 6,
+    "timestamp": 1773252849.138091,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773252850.0366914,
+    "metadata": {
+      "thought": "User reports no recent changes in diet or activity. Symptoms persist without clear cause. Recommend seeking medical advice.",
+      "done": true,
+      "tool_use_id": "tooluse_zJw366yOlpURR6UTJhRqkc"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066715.8947568,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "What brings you here today, sir?",
+    "step": 0,
+    "timestamp": 1773066715.8947606,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lightheadedness, balance issues, shaky, metoprolol side effects...",
+    "step": 0,
+    "timestamp": 1773066716.9887488,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did symptoms start?",
+    "step": 1,
+    "timestamp": 1773066718.4462898,
+    "metadata": {
+      "thought": "User reports symptoms possibly related to medication side effects. Need to confirm details.",
+      "done": false,
+      "tool_use_id": "tooluse_iRCOJprZThjpDNDTeq3CL9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms began after the metoprolol dose increase...",
+    "step": 1,
+    "timestamp": 1773066719.5621448,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any dizziness or fainting?",
+    "step": 2,
+    "timestamp": 1773066721.0930436,
+    "metadata": {
+      "thought": "Confirmed medication and symptom onset timing. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_DV1DJb368uf8XasNIgQW3Y"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Fainting hasn't happened, but I feel dizzy often.",
+    "step": 2,
+    "timestamp": 1773066722.1692016,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you feel dizzy?",
+    "step": 3,
+    "timestamp": 1773066723.6458642,
+    "metadata": {
+      "thought": "Symptoms confirmed. Need to assess duration and frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_ww8Dc5Ivbv6wKmlidayYVf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Often, especially when I change positions...",
+    "step": 3,
+    "timestamp": 1773066724.650828,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What's your current metoprolol dosage?",
+    "step": 4,
+    "timestamp": 1773066726.2148414,
+    "metadata": {
+      "thought": "Symptoms and triggers identified. Need to confirm medication dosage.",
+      "done": false,
+      "tool_use_id": "tooluse_OY93MmyHzBaJsBGr8O0VHT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure of the exact metoprolol dosage.",
+    "step": 4,
+    "timestamp": 1773066727.3063912,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other medications taken?",
+    "step": 5,
+    "timestamp": 1773066728.8797436,
+    "metadata": {
+      "thought": "Exact dosage unknown. Need to ask about other medications.",
+      "done": false,
+      "tool_use_id": "tooluse_zsVWwiL465WIFlztmZynFo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Only lorazepam and metoprolol, no others...",
+    "step": 5,
+    "timestamp": 1773066729.9790206,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066731.492523,
+    "metadata": {
+      "thought": "All relevant information collected. Can assess situation.",
+      "done": true,
+      "tool_use_id": "tooluse_oPLxKiHzIQAgBLis4phVL2"
+    }
+  }
+]

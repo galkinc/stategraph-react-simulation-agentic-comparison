@@ -1,0 +1,220 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773246516.1104484,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you keeping up with your food journal?",
+    "step": 0,
+    "timestamp": 1773246516.1104572,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm trying, but sometimes I forget to write it down.",
+    "step": 0,
+    "timestamp": 1773246517.3978949,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual symptoms after meals?",
+    "step": 1,
+    "timestamp": 1773246518.6114504,
+    "metadata": {
+      "thought": "Ask about specific symptoms related to diet",
+      "done": false,
+      "tool_use_id": "tooluse_tfalsA9OXQTaB7GEhQh2d3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms after meals lately...",
+    "step": 1,
+    "timestamp": 1773246520.1054418,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What do you typically eat daily?",
+    "step": 2,
+    "timestamp": 1773246520.866482,
+    "metadata": {
+      "thought": "Need to gather more detailed dietary information",
+      "done": false,
+      "tool_use_id": "tooluse_TsxLjMauIAFFxpLOB3wfDd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I'm trying healthy snacks now.",
+    "step": 2,
+    "timestamp": 1773246522.3414319,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Which snacks do you prefer?",
+    "step": 3,
+    "timestamp": 1773246523.1147387,
+    "metadata": {
+      "thought": "Ask about specific healthy snacks",
+      "done": false,
+      "tool_use_id": "tooluse_sauJkZhSBC0xanCLbZxLTL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I prefer healthy snacks, like fruits and nuts.",
+    "step": 3,
+    "timestamp": 1773246524.277993,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any side effects from these snacks?",
+    "step": 4,
+    "timestamp": 1773246525.0273464,
+    "metadata": {
+      "thought": "Need to confirm if there are any side effects",
+      "done": false,
+      "tool_use_id": "tooluse_qqlXVXTUvDwYRarMNgAjzT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No side effects, just lower blood sugar...",
+    "step": 4,
+    "timestamp": 1773246526.8912203,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773246527.6976895,
+    "metadata": {
+      "thought": "No further questions needed",
+      "done": true,
+      "tool_use_id": "tooluse_7Ei6IegQBdrs8pZxMyxaRO"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773246528.5862572,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_Ftk70wYDuhfKS02hqNGnqU"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773246529.4037688,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_xT4eOCueJHEufvt25ZwqVF"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773246530.4011965,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_ybSe3ItqCAI0HApG0gWGui"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773246531.2867236,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_szLJUsk1Mao64qxEXxRoWT"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 10,
+    "timestamp": 1773246532.5771656,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_8jwGSDTLc8Dwc0HDIsLwvy"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773246533.5559845,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_cfE05sxpjaexcicafwHMtL"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 12,
+    "timestamp": 1773246534.36428,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_3TmozFTpvVcQipZUB6uaUT"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 13,
+    "timestamp": 1773246535.2067738,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_VLxE8CMZguCMxNqGSNuyx1"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 14,
+    "timestamp": 1773246536.7593608,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_1IzC9mUyCl5WqwXp5mJoFz"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 15,
+    "timestamp": 1773246537.734275,
+    "metadata": {
+      "thought": "Concluded information gathering",
+      "done": true,
+      "tool_use_id": "tooluse_KnysBBhM2Rp4pLBIWhMBnF"
+    }
+  }
+]

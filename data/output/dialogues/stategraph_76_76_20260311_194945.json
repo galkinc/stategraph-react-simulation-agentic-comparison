@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247785.6057553,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When were you diagnosed with type two diabetes?",
+    "step": 0,
+    "timestamp": 1773247785.605759,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Two years ago, but I'm not sure about the exact date.",
+    "step": 0,
+    "timestamp": 1773247786.8303196,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you recall the month of diagnosis?",
+    "step": 1,
+    "timestamp": 1773247788.1829665,
+    "metadata": {
+      "thought": "User mentioned having type two diabetes but not the exact date.",
+      "done": false,
+      "tool_use_id": "tooluse_DvaliUTFtxXwc0MfhhA4OC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall the exact month of diagnosis.",
+    "step": 1,
+    "timestamp": 1773247789.2463582,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any symptoms since diagnosis?",
+    "step": 2,
+    "timestamp": 1773247790.658596,
+    "metadata": {
+      "thought": "User still unsure about the exact month of diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_1g2Kv24VNS9uGdRH3oWLRJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had fatigue and occasional headaches since diagnosis.",
+    "step": 2,
+    "timestamp": 1773247791.810546,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 3,
+    "timestamp": 1773247793.1896336,
+    "metadata": {
+      "thought": "User reported fatigue and headaches since diabetes diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_BBRAHYJLrTa4Pn7mkB8RiW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no other symptoms really.",
+    "step": 3,
+    "timestamp": 1773247794.3205829,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 4,
+    "timestamp": 1773247795.788431,
+    "metadata": {
+      "thought": "User reports no other symptoms besides fatigue and headaches.",
+      "done": false,
+      "tool_use_id": "tooluse_6JrbPyEuFSRHvASRZV5AXA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any specific medications right now.",
+    "step": 4,
+    "timestamp": 1773247796.939731,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in diet?",
+    "step": 5,
+    "timestamp": 1773247798.4086049,
+    "metadata": {
+      "thought": "User reports no specific medications taken.",
+      "done": false,
+      "tool_use_id": "tooluse_9lnHtpmB0fLdXKy9Sifgdx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes in my diet, everything's the same.",
+    "step": 5,
+    "timestamp": 1773247799.6060598,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773247801.0686524,
+    "metadata": {
+      "thought": "User reports no recent changes in diet.",
+      "done": true,
+      "tool_use_id": "tooluse_pB60PRDLOh6MNKb2X4hbDG"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066136.7471695,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "It looks like your white blood cell count is normal according to your most recent labs. But, I do want to keep an eye on it given your history of high white blood cells.",
+    "step": 0,
+    "timestamp": 1773066136.7471733,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My pain hasn't changed, though...",
+    "step": 0,
+    "timestamp": 1773066137.8690128,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly do you feel the pain?",
+    "step": 1,
+    "timestamp": 1773066139.2897363,
+    "metadata": {
+      "thought": "Need to gather more details about the pain to determine if it's a symptom of a condition.",
+      "done": false,
+      "tool_use_id": "tooluse_5Eo4ZYsaOTV6HrlBnxymyq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mainly in my left shoulder and lower back.",
+    "step": 1,
+    "timestamp": 1773066140.3633718,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is the pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773066141.853264,
+    "metadata": {
+      "thought": "Next, I need to know if the pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_rdO4LBPv4TjcN69y4VJE7e"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Intermittent, mostly sharp, especially after sitting long...",
+    "step": 2,
+    "timestamp": 1773066142.9391334,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any triggers or reliefs?",
+    "step": 3,
+    "timestamp": 1773066144.3609428,
+    "metadata": {
+      "thought": "Now I need to know if there are any triggers or relieving factors for the pain.",
+      "done": false,
+      "tool_use_id": "tooluse_iSbuzosQRwji4GC6hqvFgT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stress worsens pain; rest helps a bit...",
+    "step": 3,
+    "timestamp": 1773066145.4880648,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with pain?",
+    "step": 4,
+    "timestamp": 1773066146.9631436,
+    "metadata": {
+      "thought": "I need to know if the pain is associated with any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_aCV4SLAlIy2pQSbq1w8kBI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Peeing more often, but nothing else...",
+    "step": 4,
+    "timestamp": 1773066148.0524821,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medications?",
+    "step": 5,
+    "timestamp": 1773066149.5069313,
+    "metadata": {
+      "thought": "I need to confirm if the user is on any medications.",
+      "done": false,
+      "tool_use_id": "tooluse_9SAkLb0jtZBWJSo8csJMsk"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just smoking to manage pain...",
+    "step": 5,
+    "timestamp": 1773066150.5614855,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066152.006021,
+    "metadata": {
+      "thought": "Have collected enough information to determine if further action is needed.",
+      "done": true,
+      "tool_use_id": "tooluse_hUvU5xMIYIuJt1TNtKBwzo"
+    }
+  }
+]

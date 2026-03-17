@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066622.61752,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning, young man.",
+    "step": 0,
+    "timestamp": 1773066622.6175241,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Good morning, doctor. I'm okay, just some old injuries.",
+    "step": 0,
+    "timestamp": 1773066623.7367418,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain or discomfort?",
+    "step": 1,
+    "timestamp": 1773066625.1110535,
+    "metadata": {
+      "thought": "Need to identify specific injuries.",
+      "done": false,
+      "tool_use_id": "tooluse_4yFD1P4fsjOumwSM3Zm6Sa"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Mostly just ankle pain, left elbow still hurts.",
+    "step": 1,
+    "timestamp": 1773066626.23961,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain start?",
+    "step": 2,
+    "timestamp": 1773066627.6095912,
+    "metadata": {
+      "thought": "Identifying the nature of ankle and elbow pain.",
+      "done": false,
+      "tool_use_id": "tooluse_JUuXY6oI13aFznavoH56mQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain in my ankle started during the fight.",
+    "step": 2,
+    "timestamp": 1773066628.7359247,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did elbow pain begin?",
+    "step": 3,
+    "timestamp": 1773066630.1540377,
+    "metadata": {
+      "thought": "Need to know if the elbow pain is recent.",
+      "done": false,
+      "tool_use_id": "tooluse_JEtE0c2UGcA649aZJYkIZu"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Elbow pain started during the fight at juvie.",
+    "step": 3,
+    "timestamp": 1773066631.2355719,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 4,
+    "timestamp": 1773066632.6669598,
+    "metadata": {
+      "thought": "Determine if any treatments have been used.",
+      "done": false,
+      "tool_use_id": "tooluse_IMpSpfmvBHRtcAJlAHH8lB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just ice and rest for my ankle and elbow.",
+    "step": 4,
+    "timestamp": 1773066633.7769506,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 5,
+    "timestamp": 1773066635.2654717,
+    "metadata": {
+      "thought": "No medications mentioned, but could ask.",
+      "done": false,
+      "tool_use_id": "tooluse_ICxCgl4xiZR0yFwsG5baXP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just rest and ice...",
+    "step": 5,
+    "timestamp": 1773066636.323895,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long does pain last?",
+    "step": 6,
+    "timestamp": 1773066637.8896034,
+    "metadata": {
+      "thought": "Gathering final details on pain duration.",
+      "done": false,
+      "tool_use_id": "tooluse_YiDz7Fq0NlBd7uxWpCmhdG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain varies; sometimes it lingers a bit.",
+    "step": 6,
+    "timestamp": 1773066639.017666,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Elbow pain duration?",
+    "step": 7,
+    "timestamp": 1773066640.5152278,
+    "metadata": {
+      "thought": "Finalizing information on pain duration.",
+      "done": false,
+      "tool_use_id": "tooluse_N8dWn8uyfR5zw9Y12MF1Ed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Elbow pain's been there since that fight...",
+    "step": 7,
+    "timestamp": 1773066641.6228366,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 8,
+    "timestamp": 1773066643.2309754,
+    "metadata": {
+      "thought": "All necessary information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_wy1GlFmcSR24e8jnTzp1y1"
+    }
+  }
+]

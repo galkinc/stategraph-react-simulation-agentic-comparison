@@ -1,0 +1,164 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247875.5593188,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Let me give you some medication in your I V.",
+    "step": 0,
+    "timestamp": 1773247875.5593228,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I hope this helps me feel better soon.",
+    "step": 0,
+    "timestamp": 1773247876.674021,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773247878.1338897,
+    "metadata": {
+      "thought": "User expressed hope for feeling better soon after receiving IV medication. No specific symptoms or conditions mentioned yet.",
+      "done": false,
+      "tool_use_id": "tooluse_HWG0ket1g6uYU7zj3rAXkq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Nausea, stomach pain, and dizziness...",
+    "step": 1,
+    "timestamp": 1773247879.1862018,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 2,
+    "timestamp": 1773247880.684015,
+    "metadata": {
+      "thought": "User reported nausea, stomach pain, and dizziness. These could be symptoms of various conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_XEcHjHsNNlADgqvz7HW8zA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms began yesterday morning, feeling worse today...",
+    "step": 2,
+    "timestamp": 1773247881.8753774,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms or changes?",
+    "step": 3,
+    "timestamp": 1773247883.4035077,
+    "metadata": {
+      "thought": "User's symptoms started yesterday and have worsened. This duration is important for diagnosis.",
+      "done": false,
+      "tool_use_id": "tooluse_Fn14loCzyKYtIMeydx9Mf0"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm also having stomach cramps and headaches...",
+    "step": 3,
+    "timestamp": 1773247884.544915,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in diet or stress?",
+    "step": 4,
+    "timestamp": 1773247886.1159892,
+    "metadata": {
+      "thought": "User added stomach cramps and headaches to the list of symptoms. These are important for a comprehensive symptom profile.",
+      "done": false,
+      "tool_use_id": "tooluse_vaEIy3O2cNKy2KxUGJYY6q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just feeling really sick...",
+    "step": 4,
+    "timestamp": 1773247887.2157156,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 5,
+    "timestamp": 1773247888.7998455,
+    "metadata": {
+      "thought": "User reported no recent changes in diet or stress. Symptoms are ongoing and worsening.",
+      "done": false,
+      "tool_use_id": "tooluse_QdRpUMWWuap4snwBs7z6rw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no meds right now.",
+    "step": 5,
+    "timestamp": 1773247889.9370728,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When was your last meal?",
+    "step": 6,
+    "timestamp": 1773247891.4917972,
+    "metadata": {
+      "thought": "User is not sure about current medications but confirms no medications are being taken.",
+      "done": false,
+      "tool_use_id": "tooluse_2K5BsUC20CJW9UltUh95zJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Last meal was yesterday evening, but I'm not sure.",
+    "step": 6,
+    "timestamp": 1773247892.6290693,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known allergies or past medical history?",
+    "step": 7,
+    "timestamp": 1773247894.2790034,
+    "metadata": {
+      "thought": "User's last meal was yesterday evening, but timing is uncertain. This information is useful for symptom correlation.",
+      "done": false,
+      "tool_use_id": "tooluse_BHH2sdXpdO8A43gsaFo9lo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies, but frequent stomach issues...",
+    "step": 7,
+    "timestamp": 1773247895.332057,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "None, just need to know your symptoms.",
+    "step": 8,
+    "timestamp": 1773247896.9754024,
+    "metadata": {
+      "thought": "User has no known allergies but reports frequent stomach issues. This history is important for understanding the context of current symptoms.",
+      "done": true,
+      "tool_use_id": "tooluse_hU6cXPo5KR9jo4IRlXksoU"
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066507.6103754,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been having this pain in your ear?",
+    "step": 0,
+    "timestamp": 1773066507.6103792,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No ear pain, just the eczema acting up.",
+    "step": 0,
+    "timestamp": 1773066508.5997663,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any itching or redness with eczema?",
+    "step": 1,
+    "timestamp": 1773066509.9504988,
+    "metadata": {
+      "thought": "Ask about eczema symptoms",
+      "done": false,
+      "tool_use_id": "tooluse_YxwXkyMScfiv2M5U0Te1Oy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Itching and redness flare ups, especially in winter.",
+    "step": 1,
+    "timestamp": 1773066510.976161,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any creams or ointments used?",
+    "step": 2,
+    "timestamp": 1773066512.3658063,
+    "metadata": {
+      "thought": "Confirm if any treatments used",
+      "done": false,
+      "tool_use_id": "tooluse_6Dh9TaNfACp1z3MvmjX2h4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use hydrocortisone cream sometimes, but it’s not always effective.",
+    "step": 2,
+    "timestamp": 1773066513.5106099,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other treatments tried?",
+    "step": 3,
+    "timestamp": 1773066514.940014,
+    "metadata": {
+      "thought": "Check for other treatments",
+      "done": false,
+      "tool_use_id": "tooluse_eodpcaYTh4ulIQoQ7tT5dL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Tried creams and ointments, but nothing really worked.",
+    "step": 3,
+    "timestamp": 1773066516.0537236,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 4,
+    "timestamp": 1773066517.4019873,
+    "metadata": {
+      "thought": "Determine if done",
+      "done": true,
+      "tool_use_id": "tooluse_xw98cfYk6q0JZ8JFKvwjSI"
+    }
+  }
+]

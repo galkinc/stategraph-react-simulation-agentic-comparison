@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247041.189368,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good morning, young man.",
+    "step": 0,
+    "timestamp": 1773247041.189379,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Good morning, doctor. I'm feeling okay today...",
+    "step": 0,
+    "timestamp": 1773247042.3065927,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms or discomfort?",
+    "step": 1,
+    "timestamp": 1773247043.6359978,
+    "metadata": {
+      "thought": "User seems to be feeling okay but needs further assessment to ensure no underlying issues.",
+      "done": false,
+      "tool_use_id": "tooluse_LpaULuknSkC0TAnKc0jFhy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ankle pain, but I can walk fine...",
+    "step": 1,
+    "timestamp": 1773247044.7247765,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the ankle pain start?",
+    "step": 2,
+    "timestamp": 1773247045.531624,
+    "metadata": {
+      "thought": "User reports ankle pain but can walk fine. Need to determine if it's a recent onset or chronic.",
+      "done": false,
+      "tool_use_id": "tooluse_aqdqxr5nvEoegduDQLMbeE"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure exactly when the ankle pain started.",
+    "step": 2,
+    "timestamp": 1773247046.6779084,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent falls or injuries?",
+    "step": 3,
+    "timestamp": 1773247047.4977458,
+    "metadata": {
+      "thought": "User is unsure when the ankle pain started. Need to ask about any recent activities that may have caused it.",
+      "done": false,
+      "tool_use_id": "tooluse_8d2n47dGq1Z2xOmlZU8Rzn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent falls, just my left elbow injury.",
+    "step": 3,
+    "timestamp": 1773247048.6394703,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling, redness, or warmth in ankle?",
+    "step": 4,
+    "timestamp": 1773247049.4329278,
+    "metadata": {
+      "thought": "User has an elbow injury but no recent falls. Need to ask about any swelling, redness, or warmth in the ankle.",
+      "done": false,
+      "tool_use_id": "tooluse_fe9fGWbSiOwPmaAydcGLaA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling or redness in my left ankle.",
+    "step": 4,
+    "timestamp": 1773247050.5693831,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any difficulty moving or activities?",
+    "step": 5,
+    "timestamp": 1773247051.361436,
+    "metadata": {
+      "thought": "User has no swelling or redness in the ankle. Need to ask about any limitations in movement or activities.",
+      "done": false,
+      "tool_use_id": "tooluse_KeCLWIzeRSerqEyT9SlnaV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No difficulty, can walk fine, no pain...",
+    "step": 5,
+    "timestamp": 1773247052.4912653,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain when resting or at night?",
+    "step": 6,
+    "timestamp": 1773247053.2457829,
+    "metadata": {
+      "thought": "User reports no difficulty and can walk fine. Ankle pain seems mild.",
+      "done": false,
+      "tool_use_id": "tooluse_zWFJykDizEm4pbwM02kFmo"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Nighttime, my ankle still aches a bit...",
+    "step": 6,
+    "timestamp": 1773247054.369108,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any previous ankle issues or injuries?",
+    "step": 7,
+    "timestamp": 1773247055.2342453,
+    "metadata": {
+      "thought": "User reports mild pain at night. Need to ask about any previous ankle issues.",
+      "done": false,
+      "tool_use_id": "tooluse_K0EDH77gHiYwrFNFsaaGTT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No previous ankle issues, just some pain now.",
+    "step": 7,
+    "timestamp": 1773247056.328879,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications for ankle pain?",
+    "step": 8,
+    "timestamp": 1773247057.174728,
+    "metadata": {
+      "thought": "User has no previous ankle issues. Need to ask about any medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_9v1clCHUznOIQkRiOANGIz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications for ankle pain, just rest...",
+    "step": 8,
+    "timestamp": 1773247058.4025545,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773247059.3094256,
+    "metadata": {
+      "thought": "User uses rest for ankle pain. No medications. Need to summarize findings.",
+      "done": true,
+      "tool_use_id": "tooluse_02z4PeNq8AvJN9EPFMOOhi"
+    }
+  }
+]

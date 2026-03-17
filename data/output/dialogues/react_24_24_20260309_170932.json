@@ -1,0 +1,135 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065372.9004998,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, ma'am. How are you doing today?",
+    "step": 0,
+    "timestamp": 1773065372.9005103,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My hand still hurts, but I'm managing...",
+    "step": 0,
+    "timestamp": 1773065374.1475067,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Where exactly does your hand hurt?",
+    "step": 1,
+    "timestamp": 1773065375.3737454,
+    "metadata": {
+      "thought": "Ask about the pain's location and intensity.",
+      "done": false,
+      "tool_use_id": "tooluse_1Ffq9QgnOMFjbdxIBzQFUA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Right hand mostly, especially around the thumb...",
+    "step": 1,
+    "timestamp": 1773065376.4978664,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How intense is the pain on a scale of 1-10?",
+    "step": 2,
+    "timestamp": 1773065377.210753,
+    "metadata": {
+      "thought": "Ask about pain intensity and duration.",
+      "done": false,
+      "tool_use_id": "tooluse_xKihQkwIIsDc5g17CFnMT5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain is usually around a 7 most days.",
+    "step": 2,
+    "timestamp": 1773065378.3430986,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did the pain first start?",
+    "step": 3,
+    "timestamp": 1773065379.1774924,
+    "metadata": {
+      "thought": "Ask about pain duration.",
+      "done": false,
+      "tool_use_id": "tooluse_ippVxV62KXn61WQi4v1Re2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started last month, got worse recently...",
+    "step": 3,
+    "timestamp": 1773065380.2670102,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you tried any treatments?",
+    "step": 4,
+    "timestamp": 1773065381.1551442,
+    "metadata": {
+      "thought": "Ask if any treatments were tried.",
+      "done": false,
+      "tool_use_id": "tooluse_XGAXuwxu8MUCtWLERy9H2g"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Tried some pain relievers, but nothing long-term...",
+    "step": 4,
+    "timestamp": 1773065382.2535698,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently on any medication?",
+    "step": 5,
+    "timestamp": 1773065383.1252465,
+    "metadata": {
+      "thought": "Ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_K1KoJmgQI0aI7i3jc7iBGB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication, just vitamins...",
+    "step": 5,
+    "timestamp": 1773065384.2663863,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773065385.1120024,
+    "metadata": {
+      "thought": "Have sufficient information for symptom elicitation.",
+      "done": true,
+      "tool_use_id": "tooluse_YNHG2ajfgpzUfeEHhX3H9E"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "",
+    "step": 6,
+    "timestamp": 1773065385.1120262,
+    "metadata": {}
+  }
+]

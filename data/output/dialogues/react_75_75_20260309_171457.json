@@ -1,0 +1,297 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773065697.401039,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you been having this pain in your ear?",
+    "step": 0,
+    "timestamp": 1773065697.4010441,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No ear pain, just eczema acting up...",
+    "step": 0,
+    "timestamp": 1773065698.4816954,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did your eczema symptoms start?",
+    "step": 1,
+    "timestamp": 1773065699.915476,
+    "metadata": {
+      "thought": "User reports eczema but no ear pain. Need to gather more details on eczema.",
+      "done": false,
+      "tool_use_id": "tooluse_rC13Doz3jRRXxnSVdiYpUF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Eczema has been around since I was a child.",
+    "step": 1,
+    "timestamp": 1773065701.0041425,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you currently using any treatments for eczema?",
+    "step": 2,
+    "timestamp": 1773065701.8099113,
+    "metadata": {
+      "thought": "User has a history of eczema. Need to know if it's currently treated.",
+      "done": false,
+      "tool_use_id": "tooluse_Mtl3n9dnSk2SttIlm6tq69"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Using creams, but not sure if they help much.",
+    "step": 2,
+    "timestamp": 1773065702.8839602,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What brand or type of creams are you using?",
+    "step": 3,
+    "timestamp": 1773065703.712477,
+    "metadata": {
+      "thought": "User uses creams for eczema but unsure of effectiveness. Need to know specific cream names.",
+      "done": false,
+      "tool_use_id": "tooluse_L0YJJ5oLQpvwYUgNh11xlm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use generic creams for my eczema...",
+    "step": 3,
+    "timestamp": 1773065704.867403,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you noticed any side effects from the creams?",
+    "step": 4,
+    "timestamp": 1773065705.595495,
+    "metadata": {
+      "thought": "User uses generic creams for eczema. Need to know if there are any side effects.",
+      "done": false,
+      "tool_use_id": "tooluse_QG5dTjvboAwTse7Zn5imSz"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No side effects, just dry skin sometimes...",
+    "step": 4,
+    "timestamp": 1773065706.7827208,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does dry skin interfere with your daily routine?",
+    "step": 5,
+    "timestamp": 1773065707.6629112,
+    "metadata": {
+      "thought": "User uses generic creams with occasional dryness. Need to know if dryness affects daily activities.",
+      "done": false,
+      "tool_use_id": "tooluse_bdzB8JM0mqKh7a9O2Q4Nnc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Dry skin makes my routine harder, especially mornings.",
+    "step": 5,
+    "timestamp": 1773065708.8511527,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any other symptoms you experience?",
+    "step": 6,
+    "timestamp": 1773065709.7056708,
+    "metadata": {
+      "thought": "User finds dry skin from eczema affects mornings. Need to know if there are other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_bbSsOM28B5jWTZHzGIOMLc"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just dry patches, no major pain...",
+    "step": 6,
+    "timestamp": 1773065710.781885,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do symptoms vary throughout the day?",
+    "step": 7,
+    "timestamp": 1773065711.629898,
+    "metadata": {
+      "thought": "User has dry patches with no major pain. Need to know if symptoms vary.",
+      "done": false,
+      "tool_use_id": "tooluse_7Pab6ClHormCxWV4PDw9Mn"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Eczema flares up more in the evenings lately.",
+    "step": 7,
+    "timestamp": 1773065712.7425342,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you know any triggers for your eczema?",
+    "step": 8,
+    "timestamp": 1773065713.5412004,
+    "metadata": {
+      "thought": "User's eczema worsens in evenings. Need to know if there are triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_ebvtLTTLsRnKbAsAt2Pypm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but stress seems to worsen it.",
+    "step": 8,
+    "timestamp": 1773065714.6187673,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is stress a known trigger for your eczema?",
+    "step": 9,
+    "timestamp": 1773065715.4273236,
+    "metadata": {
+      "thought": "User suspects stress worsens eczema. Need to know if stress is a known trigger.",
+      "done": false,
+      "tool_use_id": "tooluse_mYOhRvJLHEVc9eB1rmz4Wy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stress sometimes makes my eczema flare up...",
+    "step": 9,
+    "timestamp": 1773065716.5075612,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there other known triggers for your eczema?",
+    "step": 10,
+    "timestamp": 1773065717.390254,
+    "metadata": {
+      "thought": "User confirms stress worsens eczema. Need to know if there are other known triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_e6cf60MfmFsTmq1wl87KR9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but stress seems to worsen it.",
+    "step": 10,
+    "timestamp": 1773065718.5050917,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you using any other treatments for your eczema?",
+    "step": 11,
+    "timestamp": 1773065719.3153172,
+    "metadata": {
+      "thought": "User suspects stress worsens eczema. Need to know if there are any other treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_9N1x2mkkOmDtujKxIhbWoD"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just using moisturizers, no other treatments...",
+    "step": 11,
+    "timestamp": 1773065720.4056938,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you have any known allergies?",
+    "step": 12,
+    "timestamp": 1773065721.4598212,
+    "metadata": {
+      "thought": "User uses moisturizers but no other treatments. Need to know if there are any allergies.",
+      "done": false,
+      "tool_use_id": "tooluse_p0K7tbzNStl2RcSZZKAYCv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No known allergies, just the eczema...",
+    "step": 12,
+    "timestamp": 1773065722.608239,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are there any other symptoms you experience?",
+    "step": 13,
+    "timestamp": 1773065723.5332875,
+    "metadata": {
+      "thought": "User has no known allergies. Need to know if there are any other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_HkOjm62ZlXWpi0z471XSjH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Just dry patches, nothing major...",
+    "step": 13,
+    "timestamp": 1773065724.5778499,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does your eczema affect your sleep?",
+    "step": 14,
+    "timestamp": 1773065725.6789365,
+    "metadata": {
+      "thought": "User has only dry patches. Need to know if symptoms affect sleep.",
+      "done": false,
+      "tool_use_id": "tooluse_SQDuluSwEym4ul4y4dkMf9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Eczema sometimes makes it hard for me to sleep.",
+    "step": 14,
+    "timestamp": 1773065726.7814426,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Does your eczema impact any other areas of your life?",
+    "step": 15,
+    "timestamp": 1773065727.6625214,
+    "metadata": {
+      "thought": "User's eczema sometimes affects sleep. Need to know if there are any other impacts.",
+      "done": false,
+      "tool_use_id": "tooluse_CHiXubOPtKinJdIZj9lQEN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "It affects my sleep and mood sometimes...",
+    "step": 15,
+    "timestamp": 1773065728.8155496,
+    "metadata": {}
+  }
+]

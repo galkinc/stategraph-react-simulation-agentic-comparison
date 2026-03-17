@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773247028.4640548,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Let me give you some medication in your I V.",
+    "step": 0,
+    "timestamp": 1773247028.4640608,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I hope this helps me feel better...",
+    "step": 0,
+    "timestamp": 1773247029.5390546,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms you're experiencing?",
+    "step": 1,
+    "timestamp": 1773247031.0317233,
+    "metadata": {
+      "thought": "User is expressing hope for feeling better after receiving medication. No new information provided.",
+      "done": false,
+      "tool_use_id": "tooluse_Yr0Ss4yxwEWRH3NK21Pv1A"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Nausea and stomach cramps, feeling really queasy...",
+    "step": 1,
+    "timestamp": 1773247032.196681,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 2,
+    "timestamp": 1773247033.0327697,
+    "metadata": {
+      "thought": "User reports nausea, stomach cramps, and feeling queasy. This provides specific symptoms to collect.",
+      "done": false,
+      "tool_use_id": "tooluse_ggQc94f6JmQH1igjiP1H16"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms began yesterday morning, feeling really queasy...",
+    "step": 2,
+    "timestamp": 1773247034.0860085,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you're experiencing?",
+    "step": 3,
+    "timestamp": 1773247034.8463662,
+    "metadata": {
+      "thought": "User reports symptoms began yesterday morning. This provides onset duration.",
+      "done": false,
+      "tool_use_id": "tooluse_XzvDt5B5fxD0KZpBMYYsoA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm also having stomach cramps and headaches...",
+    "step": 3,
+    "timestamp": 1773247035.9717245,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications you're currently taking?",
+    "step": 4,
+    "timestamp": 1773247036.8300526,
+    "metadata": {
+      "thought": "User reports additional symptoms: headaches. Collecting all symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Jv8gttmawXUpLPb5XqH1dd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not taking any medications right now...",
+    "step": 4,
+    "timestamp": 1773247037.9262884,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773247038.7804725,
+    "metadata": {
+      "thought": "User reports no current medications. Collecting all relevant information.",
+      "done": true,
+      "tool_use_id": "tooluse_0UY88ZWkx6BKBkbcz0lNxH"
+    }
+  }
+]

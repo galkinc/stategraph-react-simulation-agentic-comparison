@@ -1,0 +1,182 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253353.8894262,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "How are you Miss G?",
+    "step": 0,
+    "timestamp": 1773253353.88943,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ear pain and sinus pressure persist, but better.",
+    "step": 0,
+    "timestamp": 1773253355.109872,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did pain start?",
+    "step": 1,
+    "timestamp": 1773253356.7456346,
+    "metadata": {
+      "thought": "User reports ear pain and sinus pressure persisting but improving. Need to gather more details on symptom specifics.",
+      "done": false,
+      "tool_use_id": "tooluse_KupHvKT9ggj6ld1vruFth7"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started almost three weeks ago...",
+    "step": 1,
+    "timestamp": 1773253359.2793322,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any treatments tried?",
+    "step": 2,
+    "timestamp": 1773253360.9456627,
+    "metadata": {
+      "thought": "User reports pain started three weeks ago. Need to know if any treatments were tried.",
+      "done": false,
+      "tool_use_id": "tooluse_edqxGJm26hRGunC4NyV2nG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No treatments tried, just rest and over-the-counter meds.",
+    "step": 2,
+    "timestamp": 1773253362.1406982,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Which OTC meds taken?",
+    "step": 3,
+    "timestamp": 1773253363.683447,
+    "metadata": {
+      "thought": "User reports no treatments, just rest and OTC meds. Need to specify medications used.",
+      "done": false,
+      "tool_use_id": "tooluse_b2xl0R301tIX8TVlJBxvFT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've taken some ibuprofen for the headache...",
+    "step": 3,
+    "timestamp": 1773253364.9196177,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Other symptoms present?",
+    "step": 4,
+    "timestamp": 1773253366.5661163,
+    "metadata": {
+      "thought": "User reports taking ibuprofen for headache. Need to confirm if any other symptoms present.",
+      "done": false,
+      "tool_use_id": "tooluse_6BMcuAoj0nnoyiHBVp0tkG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Chronic left-sided headache and sinus pressure persist...",
+    "step": 4,
+    "timestamp": 1773253367.8126948,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Symptoms worsen times?",
+    "step": 5,
+    "timestamp": 1773253369.7836592,
+    "metadata": {
+      "thought": "User reports chronic left-sided headache and sinus pressure. Need to determine if symptoms worsen at any time.",
+      "done": false,
+      "tool_use_id": "tooluse_qvnkTRXymjAxrHQhTMEYHf"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ear pain fluctuates, but headache is mostly steady.",
+    "step": 5,
+    "timestamp": 1773253370.9813018,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers noticed?",
+    "step": 6,
+    "timestamp": 1773253372.6999233,
+    "metadata": {
+      "thought": "User reports fluctuating ear pain and steady headache. Need to ask about any triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_diXoipPrlhzdrD4ZKHE3gF"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No triggers, just pressure on left sinus...",
+    "step": 6,
+    "timestamp": 1773253373.9696262,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any relief found?",
+    "step": 7,
+    "timestamp": 1773253375.6720843,
+    "metadata": {
+      "thought": "User reports no triggers, sinus pressure on left. Need to confirm if any relief found.",
+      "done": false,
+      "tool_use_id": "tooluse_FcWvIA8wIuOizCYMHIG5RH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Ear pain is slightly better, but still there.",
+    "step": 7,
+    "timestamp": 1773253376.8630152,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Fever or other signs?",
+    "step": 8,
+    "timestamp": 1773253378.5382671,
+    "metadata": {
+      "thought": "User reports slight improvement in ear pain. Need to ask about fever or other signs.",
+      "done": false,
+      "tool_use_id": "tooluse_WibukdCn6RDBem48BZBMY1"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No fever, just ear pain and sinus pressure.",
+    "step": 8,
+    "timestamp": 1773253379.7679195,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 9,
+    "timestamp": 1773253381.4475951,
+    "metadata": {
+      "thought": "User reports no fever, only ear pain and sinus pressure. Symptom details collected sufficiently.",
+      "done": true,
+      "tool_use_id": "tooluse_5OD4gS3lMgP8zX5u5McL82"
+    }
+  }
+]

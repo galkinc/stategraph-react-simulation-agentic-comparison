@@ -1,0 +1,110 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252352.5071626,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Are you keeping up with your food journal?",
+    "step": 0,
+    "timestamp": 1773252352.507169,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm trying, but I forget sometimes...",
+    "step": 0,
+    "timestamp": 1773252353.7792845,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any unusual symptoms after meals?",
+    "step": 1,
+    "timestamp": 1773252355.152837,
+    "metadata": {
+      "thought": "Ask about specific symptoms related to diet",
+      "done": false,
+      "tool_use_id": "tooluse_Lan1KdUZh1VBd5wklKhQY2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No unusual symptoms after meals, just high blood sugar.",
+    "step": 1,
+    "timestamp": 1773252356.3631809,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "High blood sugar considered a symptom?",
+    "step": 2,
+    "timestamp": 1773252357.1692991,
+    "metadata": {
+      "thought": "Need to confirm if high blood sugar is a symptom",
+      "done": false,
+      "tool_use_id": "tooluse_dgNLhZkUNXiSmobk0fINlv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "High blood sugar is a concern for me.",
+    "step": 2,
+    "timestamp": 1773252358.4763288,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Taking medication for high blood sugar?",
+    "step": 3,
+    "timestamp": 1773252359.2981257,
+    "metadata": {
+      "thought": "Confirm if any medications are being taken for high blood sugar",
+      "done": false,
+      "tool_use_id": "tooluse_CQs7qfipwTyBBEsb5SNjV9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure if I'm taking medication for high blood sugar.",
+    "step": 3,
+    "timestamp": 1773252360.4903069,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications currently taken?",
+    "step": 4,
+    "timestamp": 1773252361.343101,
+    "metadata": {
+      "thought": "Need to ask about any medications taken",
+      "done": false,
+      "tool_use_id": "tooluse_Iegp1H5SH7jDEMwh3fG37m"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall specific medications right now...",
+    "step": 4,
+    "timestamp": 1773252362.589116,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 5,
+    "timestamp": 1773252363.4016457,
+    "metadata": {
+      "thought": "No specific medications mentioned, conversation complete",
+      "done": true,
+      "tool_use_id": "tooluse_Xz1U0H1TjUKB0OMhyUWepa"
+    }
+  }
+]

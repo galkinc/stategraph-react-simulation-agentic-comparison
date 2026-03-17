@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253586.7593355,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did you move here from Philippines, sir?",
+    "step": 0,
+    "timestamp": 1773253586.7593396,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure; I moved here in '84.",
+    "step": 0,
+    "timestamp": 1773253588.0393226,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific symptoms since moving?",
+    "step": 1,
+    "timestamp": 1773253589.578095,
+    "metadata": {
+      "thought": "User mentioned moving from Philippines in '84, need to extract this information.",
+      "done": false,
+      "tool_use_id": "tooluse_0L2DN9Ns6C7Y87t93HhkdC"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, haven't noticed any specific symptoms.",
+    "step": 1,
+    "timestamp": 1773253590.8885329,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How's your general health?",
+    "step": 2,
+    "timestamp": 1773253592.400852,
+    "metadata": {
+      "thought": "User has not noticed any specific symptoms, need to ask about general health.",
+      "done": false,
+      "tool_use_id": "tooluse_W9u21KHDzMWMKWWTDWSDJK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My general health is okay, no major issues.",
+    "step": 2,
+    "timestamp": 1773253593.5858834,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any medication?",
+    "step": 3,
+    "timestamp": 1773253595.1113443,
+    "metadata": {
+      "thought": "User's general health is okay, ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_xeQnrzSyPDpv66eHOL3oxJ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure about any medication I take.",
+    "step": 3,
+    "timestamp": 1773253596.3444111,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you seen a doctor recently?",
+    "step": 4,
+    "timestamp": 1773253597.9138877,
+    "metadata": {
+      "thought": "User unsure about medication, ask about recent doctor visits.",
+      "done": false,
+      "tool_use_id": "tooluse_PPbu5XleXus4dJHccHbwlI"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't seen a doctor recently, though...",
+    "step": 4,
+    "timestamp": 1773253599.2569594,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in lifestyle?",
+    "step": 5,
+    "timestamp": 1773253600.7934616,
+    "metadata": {
+      "thought": "User hasn't seen a doctor, ask about any recent changes.",
+      "done": false,
+      "tool_use_id": "tooluse_GrOga8JrpIB8RanzC8GJQj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I quit meth recently, but still smoke...",
+    "step": 5,
+    "timestamp": 1773253601.9871585,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you smoke?",
+    "step": 6,
+    "timestamp": 1773253603.559858,
+    "metadata": {
+      "thought": "User quit meth but smokes, need to confirm substance use.",
+      "done": false,
+      "tool_use_id": "tooluse_Clgt61C1pFOm6Qi1uGo7QP"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I smoke daily, but not heavily...",
+    "step": 6,
+    "timestamp": 1773253604.8273962,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any health concerns from smoking?",
+    "step": 7,
+    "timestamp": 1773253606.4292479,
+    "metadata": {
+      "thought": "User smokes daily, need to confirm if any health concerns arise.",
+      "done": false,
+      "tool_use_id": "tooluse_7fLnROXAgI3k9jLdKfhm0N"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I have trouble breathing sometimes from smoking...",
+    "step": 7,
+    "timestamp": 1773253607.5903103,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you have trouble breathing?",
+    "step": 8,
+    "timestamp": 1773253609.2260547,
+    "metadata": {
+      "thought": "User has trouble breathing from smoking, need to confirm frequency.",
+      "done": false,
+      "tool_use_id": "tooluse_cI1A3EMTo91HMe0f8jJS8M"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall having trouble breathing often...",
+    "step": 8,
+    "timestamp": 1773253610.4754949,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you notice?",
+    "step": 9,
+    "timestamp": 1773253612.1284246,
+    "metadata": {
+      "thought": "User doesn't recall frequent trouble breathing, but smokes daily.",
+      "done": false,
+      "tool_use_id": "tooluse_ZRdC3OZLvoKxoxtB5ARSh8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I've been feeling really tired lately.",
+    "step": 9,
+    "timestamp": 1773253613.3445714,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this new tiredness?",
+    "step": 10,
+    "timestamp": 1773253614.9586112,
+    "metadata": {
+      "thought": "User feels tired, need to confirm if it's new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_iK7uI5UjXRWiQTAA1Yl1iS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it feels familiar...",
+    "step": 10,
+    "timestamp": 1773253616.2310739,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How's your sleep lately?",
+    "step": 11,
+    "timestamp": 1773253617.855761,
+    "metadata": {
+      "thought": "User feels familiar tiredness, need to ask about sleep patterns.",
+      "done": false,
+      "tool_use_id": "tooluse_21PE0oO1iRDj9MSLqBJB2L"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've been having trouble sleeping at night...",
+    "step": 11,
+    "timestamp": 1773253618.9919386,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this new sleep trouble?",
+    "step": 12,
+    "timestamp": 1773253620.7884073,
+    "metadata": {
+      "thought": "User has trouble sleeping, need to confirm if it's new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_zck0ujxhvVwZhIiRei4ccj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had trouble sleeping for months now...",
+    "step": 12,
+    "timestamp": 1773253621.9453108,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you notice?",
+    "step": 13,
+    "timestamp": 1773253623.7194738,
+    "metadata": {
+      "thought": "User has had sleep trouble for months, need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_LweWm0xrvBB0fX5caoU0MB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but I feel really tired.",
+    "step": 13,
+    "timestamp": 1773253624.8973649,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is this new tiredness?",
+    "step": 14,
+    "timestamp": 1773253626.5539608,
+    "metadata": {
+      "thought": "User feels tired again, need to confirm if it's new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_FMTUAAZ6o38qLQrp9XQs8P"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but it's been ongoing...",
+    "step": 14,
+    "timestamp": 1773253627.8217854,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any lifestyle changes recently?",
+    "step": 15,
+    "timestamp": 1773253629.5856557,
+    "metadata": {
+      "thought": "User's tiredness is ongoing, need to ask about lifestyle changes.",
+      "done": false,
+      "tool_use_id": "tooluse_J5Btzyi77SCOzTexkiElpj"
+    }
+  }
+]

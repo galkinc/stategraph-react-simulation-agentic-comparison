@@ -1,0 +1,218 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773252957.0921328,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "What brings you here today, sir?",
+    "step": 0,
+    "timestamp": 1773252957.0921478,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Lightheadedness, shaky, weak, balance issues...",
+    "step": 0,
+    "timestamp": 1773252958.8955433,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did these symptoms start?",
+    "step": 1,
+    "timestamp": 1773252960.4316165,
+    "metadata": {
+      "thought": "User reports symptoms of lightheadedness, shakiness, weakness, and balance issues. Need to confirm if these are new or ongoing.",
+      "done": false,
+      "tool_use_id": "tooluse_80k8s5fWGckCQwobaA5K4d"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms began after the metoprolol dose increase...",
+    "step": 1,
+    "timestamp": 1773252961.6344202,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What's your current metoprolol dosage?",
+    "step": 2,
+    "timestamp": 1773252962.4476476,
+    "metadata": {
+      "thought": "User reports symptoms began after metoprolol dose increase. Need to confirm medication details.",
+      "done": false,
+      "tool_use_id": "tooluse_i8MLkMsNmZSgpIBUYIvPz3"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My metoprolol dose was just increased recently...",
+    "step": 2,
+    "timestamp": 1773252963.669169,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do symptoms worsen with activity?",
+    "step": 3,
+    "timestamp": 1773252964.6110997,
+    "metadata": {
+      "thought": "User confirms metoprolol dose increase. Need to confirm if symptoms correlate with dose change.",
+      "done": false,
+      "tool_use_id": "tooluse_6zoi57FWNnNkPhr0IxGYPw"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms worsen when I stand up quickly...",
+    "step": 3,
+    "timestamp": 1773252965.905905,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any dizziness or fainting spells?",
+    "step": 4,
+    "timestamp": 1773252966.7339876,
+    "metadata": {
+      "thought": "User reports symptoms worsen with rapid standing. Need to confirm if there are other associated symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_1VzlJECkCtRojWAOqtm2Je"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I've had dizziness, not fainting, though...",
+    "step": 4,
+    "timestamp": 1773252967.9294066,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are symptoms constant or intermittent?",
+    "step": 5,
+    "timestamp": 1773252968.9746027,
+    "metadata": {
+      "thought": "User reports dizziness but no fainting. Need to confirm if symptoms are constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_21LXM5ZCMeXMnAprPVFRFR"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Symptoms are mostly constant, but get better after sitting.",
+    "step": 5,
+    "timestamp": 1773252970.2074237,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any triggers or relief factors?",
+    "step": 6,
+    "timestamp": 1773252971.1766376,
+    "metadata": {
+      "thought": "User reports mostly constant symptoms that improve with sitting. Need to confirm if there are any triggers or relief factors.",
+      "done": false,
+      "tool_use_id": "tooluse_ej39BEnsZbnTuzn7ers5Ie"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Standing up triggers it; sitting helps...",
+    "step": 6,
+    "timestamp": 1773252972.3288236,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, headache, or chest pain?",
+    "step": 7,
+    "timestamp": 1773252973.2812755,
+    "metadata": {
+      "thought": "User reports standing triggers symptoms, sitting helps. Need to confirm if there are any other associated symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_QZ7RZj2XKHvAULEbbtnmy9"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, headache, or chest pain...",
+    "step": 7,
+    "timestamp": 1773252974.4696767,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in diet or activity?",
+    "step": 8,
+    "timestamp": 1773252975.4640822,
+    "metadata": {
+      "thought": "User reports no additional symptoms. Need to confirm if there are any other factors.",
+      "done": false,
+      "tool_use_id": "tooluse_RBH9VG7yyKjSX6maJYGkHA"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes in diet or activity...",
+    "step": 8,
+    "timestamp": 1773252976.6713228,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other medications or supplements?",
+    "step": 9,
+    "timestamp": 1773252977.6354108,
+    "metadata": {
+      "thought": "User reports no recent changes. Symptoms likely related to metoprolol. Need to confirm if there are any other factors.",
+      "done": false,
+      "tool_use_id": "tooluse_9eBN1Dt8zC7XEI8T1nlO3t"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no new ones recently.",
+    "step": 9,
+    "timestamp": 1773252978.84889,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any family history of similar symptoms?",
+    "step": 10,
+    "timestamp": 1773252980.0039053,
+    "metadata": {
+      "thought": "User unsure about new medications. Symptoms likely related to metoprolol. Need to confirm if there are any other factors.",
+      "done": false,
+      "tool_use_id": "tooluse_tJMjjMSjalRh78QBB4zJ57"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No family history of these symptoms, I'm not sure.",
+    "step": 10,
+    "timestamp": 1773252981.1838624,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 11,
+    "timestamp": 1773252982.380242,
+    "metadata": {
+      "thought": "User unsure about family history. Symptoms likely related to metoprolol. Have sufficient information to conclude.",
+      "done": true,
+      "tool_use_id": "tooluse_3GFyW35NzB7MhbNbVe5aie"
+    }
+  }
+]

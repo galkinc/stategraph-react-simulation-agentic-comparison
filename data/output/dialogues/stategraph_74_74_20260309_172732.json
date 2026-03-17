@@ -1,0 +1,128 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066452.8699095,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Hello, miss. What brings you into the practice today?",
+    "step": 0,
+    "timestamp": 1773066452.8699133,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Missing periods, no bleeding, first time talking to a doctor.",
+    "step": 0,
+    "timestamp": 1773066453.9189494,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any nausea, fatigue, or breast tenderness?",
+    "step": 1,
+    "timestamp": 1773066455.3205507,
+    "metadata": {
+      "thought": "User reports missing periods and no bleeding, first time consulting a doctor. Need to gather more details on symptoms and medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_Sa0kXUfdmJfFGqCNUMCr39"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No nausea, fatigue, or breast tenderness...",
+    "step": 1,
+    "timestamp": 1773066456.380983,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any changes in weight or appetite?",
+    "step": 2,
+    "timestamp": 1773066457.8231168,
+    "metadata": {
+      "thought": "User reports no nausea, fatigue, or breast tenderness. Need to ask about other symptoms and medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_XYWm2oDYv0bHsH3I032I1K"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No changes in weight or appetite recently...",
+    "step": 2,
+    "timestamp": 1773066458.9331367,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any stress, travel, or recent illnesses?",
+    "step": 3,
+    "timestamp": 1773066460.4168892,
+    "metadata": {
+      "thought": "User reports no changes in weight or appetite. Need to gather more comprehensive medical history.",
+      "done": false,
+      "tool_use_id": "tooluse_iSiv3bjH8wGFykkdYgPcpN"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No major stress or travel, no recent illnesses.",
+    "step": 3,
+    "timestamp": 1773066461.519526,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Using any birth control? Family history?",
+    "step": 4,
+    "timestamp": 1773066463.0902781,
+    "metadata": {
+      "thought": "User reports no major stress, travel, or recent illnesses. Need to ask about contraceptive use and family history.",
+      "done": false,
+      "tool_use_id": "tooluse_CwQxWQS3FuwAF3hXlNoUsW"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No birth control, no family history of issues.",
+    "step": 4,
+    "timestamp": 1773066464.1398528,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain or unusual discharge?",
+    "step": 5,
+    "timestamp": 1773066465.5845513,
+    "metadata": {
+      "thought": "User reports no birth control use and no family history. Need to finalize symptom details.",
+      "done": false,
+      "tool_use_id": "tooluse_izMf0QOlbll4Coh1FDuveG"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No pain or discharge, just missing periods...",
+    "step": 5,
+    "timestamp": 1773066466.6436813,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 6,
+    "timestamp": 1773066468.1670556,
+    "metadata": {
+      "thought": "User reports no pain or discharge, just missing periods. Have gathered sufficient information.",
+      "done": true,
+      "tool_use_id": "tooluse_v7sXlgkJ7cOaXqTPqdl5oy"
+    }
+  }
+]

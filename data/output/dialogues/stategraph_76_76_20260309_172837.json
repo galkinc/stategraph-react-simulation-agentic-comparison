@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066517.431977,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When were you diagnosed with type two diabetes?",
+    "step": 0,
+    "timestamp": 1773066517.4319808,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Two years ago, but I'm not sure exactly when.",
+    "step": 0,
+    "timestamp": 1773066518.4783273,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you recall the month of diagnosis?",
+    "step": 1,
+    "timestamp": 1773066519.942538,
+    "metadata": {
+      "thought": "User mentioned having type two diabetes but is unsure of the exact diagnosis date. I need to clarify the specific date.",
+      "done": false,
+      "tool_use_id": "tooluse_QhH769OQl43UPb9ymH0Sfm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't remember the exact month of diagnosis.",
+    "step": 1,
+    "timestamp": 1773066521.011032,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Did you have any specific symptoms?",
+    "step": 2,
+    "timestamp": 1773066522.433145,
+    "metadata": {
+      "thought": "User is still unsure of the exact month of diagnosis. I need to ask about any symptoms they experienced around that time.",
+      "done": false,
+      "tool_use_id": "tooluse_8TSNpxWu9b5iBHpvel4rIm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure what symptoms I might have.",
+    "step": 2,
+    "timestamp": 1773066523.4924765,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Were you feeling unusually thirsty?",
+    "step": 3,
+    "timestamp": 1773066524.9181278,
+    "metadata": {
+      "thought": "User is unsure of symptoms. I need to ask about common symptoms of type two diabetes.",
+      "done": false,
+      "tool_use_id": "tooluse_gtyBUiArbG96Wxt52NMNzT"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not really, just my usual thirst...",
+    "step": 3,
+    "timestamp": 1773066525.961003,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had frequent urination?",
+    "step": 4,
+    "timestamp": 1773066527.4166584,
+    "metadata": {
+      "thought": "User denies unusual thirst. I need to ask about other common symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_BkDLzIoht4dWz3nDmvhMWv"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not really, haven't noticed frequent urination...",
+    "step": 4,
+    "timestamp": 1773066528.4681659,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you experienced blurred vision?",
+    "step": 5,
+    "timestamp": 1773066529.9316168,
+    "metadata": {
+      "thought": "User denies frequent urination. I need to ask about other common symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Ol7SG8DXQy4fYXqPRIC4y8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No blurred vision, just occasional headaches...",
+    "step": 5,
+    "timestamp": 1773066531.032063,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have these headaches lasted?",
+    "step": 6,
+    "timestamp": 1773066532.561623,
+    "metadata": {
+      "thought": "User denies blurred vision but mentions occasional headaches. I need to ask about the duration of these symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Nw73jV2NdOAMsqzor5ntoq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "They've been going on for about two weeks now.",
+    "step": 6,
+    "timestamp": 1773066533.6374686,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had fatigue or weakness?",
+    "step": 7,
+    "timestamp": 1773066535.054831,
+    "metadata": {
+      "thought": "User mentions headaches lasting two weeks. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_5XaIcrbnuvgJhUCKqZoOSe"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I haven't noticed any unusual fatigue lately...",
+    "step": 7,
+    "timestamp": 1773066536.1467664,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had slow-healing wounds?",
+    "step": 8,
+    "timestamp": 1773066537.6249022,
+    "metadata": {
+      "thought": "User denies unusual fatigue. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_ZCCdyHVcVTy2Thrbq38sAK"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Never had slow-healing wounds, as far as I know.",
+    "step": 8,
+    "timestamp": 1773066538.743201,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had recurring infections?",
+    "step": 9,
+    "timestamp": 1773066540.3112268,
+    "metadata": {
+      "thought": "User denies slow-healing wounds. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_JnMnOJGCTZ26dlXwGxKfR8"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not really, haven't had many infections lately...",
+    "step": 9,
+    "timestamp": 1773066541.3959906,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have you had tingling or numbness?",
+    "step": 10,
+    "timestamp": 1773066542.9768245,
+    "metadata": {
+      "thought": "User denies recurring infections. I need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_VRsgoUTZIaJ2XUVcNcP1R2"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No tingling or numbness, just fatigue...",
+    "step": 10,
+    "timestamp": 1773066544.0619323,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long have you felt fatigued?",
+    "step": 11,
+    "timestamp": 1773066545.747184,
+    "metadata": {
+      "thought": "User denies tingling or numbness but mentions fatigue. I need to ask about the duration of fatigue.",
+      "done": false,
+      "tool_use_id": "tooluse_DoPdcjExM65lK5K5gG6n9A"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Fatigue's been there for months, not sure exactly.",
+    "step": 11,
+    "timestamp": 1773066546.851025,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you on any diabetes medication?",
+    "step": 12,
+    "timestamp": 1773066548.5279775,
+    "metadata": {
+      "thought": "User mentions fatigue lasting months. I need to ask about any treatments.",
+      "done": false,
+      "tool_use_id": "tooluse_XujGBltLhPrYTRPjHHp3jm"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No diabetes meds, just watch my diet...",
+    "step": 12,
+    "timestamp": 1773066549.6604636,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Are you taking any other medications?",
+    "step": 13,
+    "timestamp": 1773066551.2690516,
+    "metadata": {
+      "thought": "User denies diabetes medication but mentions dietary control. I need to ask about other medications.",
+      "done": false,
+      "tool_use_id": "tooluse_yxPINgUVcmh7IN9ro8SSUt"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other medications, just what's prescribed...",
+    "step": 13,
+    "timestamp": 1773066552.414643,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What medications are you prescribed?",
+    "step": 14,
+    "timestamp": 1773066553.9535687,
+    "metadata": {
+      "thought": "User denies other medications. I need to ask about prescribed medications.",
+      "done": false,
+      "tool_use_id": "tooluse_62KIsgPEKINyeHkVn7BlpY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medications, just vitamins...",
+    "step": 14,
+    "timestamp": 1773066555.050239,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What type of vitamins are you taking?",
+    "step": 15,
+    "timestamp": 1773066556.8597753,
+    "metadata": {
+      "thought": "User denies other medications but mentions vitamins. I need to ask about the type of vitamins.",
+      "done": false,
+      "tool_use_id": "tooluse_1waF40m41OLzEHwJXrh4vf"
+    }
+  }
+]

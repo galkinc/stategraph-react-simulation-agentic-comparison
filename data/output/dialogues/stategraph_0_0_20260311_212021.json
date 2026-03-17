@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253221.9549603,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did your pain begin?",
+    "step": 0,
+    "timestamp": 1773253221.9549646,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain started eight years ago after a fall.",
+    "step": 0,
+    "timestamp": 1773253223.1504571,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any specific pain location?",
+    "step": 1,
+    "timestamp": 1773253224.6422706,
+    "metadata": {
+      "thought": "User reports pain onset eight years ago after a fall.",
+      "done": false,
+      "tool_use_id": "tooluse_nbG6PUAhRgI69aDzxMmkYV"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Low back pain, mainly around the lower spine.",
+    "step": 1,
+    "timestamp": 1773253225.8984323,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Pain intensity on a scale of 1-10?",
+    "step": 2,
+    "timestamp": 1773253227.3751955,
+    "metadata": {
+      "thought": "User reports low back pain mainly around the lower spine.",
+      "done": false,
+      "tool_use_id": "tooluse_wmz0RNoKtUsfF2R7YJIGqL"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain's usually a 5, but spikes to 8 sometimes.",
+    "step": 2,
+    "timestamp": 1773253228.6631825,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any pain relief methods?",
+    "step": 3,
+    "timestamp": 1773253230.1883905,
+    "metadata": {
+      "thought": "User reports pain usually 5, spikes to 8.",
+      "done": false,
+      "tool_use_id": "tooluse_W7BdXvjSh8ENZ49grb2ymi"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I use heat pads sometimes, but it’s not always effective.",
+    "step": 3,
+    "timestamp": 1773253231.4657178,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other treatments tried?",
+    "step": 4,
+    "timestamp": 1773253232.9525943,
+    "metadata": {
+      "thought": "User uses heat pads, sometimes effective.",
+      "done": false,
+      "tool_use_id": "tooluse_LqfYzDFWnU8SexL6PVOfBM"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Tried physical therapy, but it didn't help much.",
+    "step": 4,
+    "timestamp": 1773253234.1671295,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any medications taken?",
+    "step": 5,
+    "timestamp": 1773253235.7392895,
+    "metadata": {
+      "thought": "User tried physical therapy with little help.",
+      "done": false,
+      "tool_use_id": "tooluse_EEmvGgjn5ePEbWTBFVbv7X"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't recall any specific medications taken...",
+    "step": 5,
+    "timestamp": 1773253237.077718,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms?",
+    "step": 6,
+    "timestamp": 1773253238.6314993,
+    "metadata": {
+      "thought": "User does not recall specific medications.",
+      "done": false,
+      "tool_use_id": "tooluse_5NKUGhdzjn6Od3dY4PJQnH"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I'm not sure, but no new symptoms lately.",
+    "step": 6,
+    "timestamp": 1773253239.9353893,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253241.5691423,
+    "metadata": {
+      "thought": "User reports no new symptoms.",
+      "done": true,
+      "tool_use_id": "tooluse_breOf9Ez9ZnoTOJ8rl37VL"
+    }
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773066468.1846986,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "When did you move here from Philippines, sir?",
+    "step": 0,
+    "timestamp": 1773066468.1847026,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I moved here around 1984, but I'm not sir.",
+    "step": 0,
+    "timestamp": 1773066469.252872,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in your health since moving?",
+    "step": 1,
+    "timestamp": 1773066470.6189983,
+    "metadata": {
+      "thought": "User provided a timeline of moving to the current location. This is useful for understanding potential environmental factors.",
+      "done": false,
+      "tool_use_id": "tooluse_vupi6uaHF8dOjwgDne9Hbj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No recent changes, just the usual G C symptoms.",
+    "step": 1,
+    "timestamp": 1773066471.7548175,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Can you specify what 'G C' symptoms are?",
+    "step": 2,
+    "timestamp": 1773066473.1874106,
+    "metadata": {
+      "thought": "User mentioned 'usual G C symptoms' but did not specify what 'G C' refers to. Need clarification.",
+      "done": false,
+      "tool_use_id": "tooluse_Vs9AsyIeDXhePbREetmHfg"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I can't specify 'G C' details, sorry...",
+    "step": 2,
+    "timestamp": 1773066474.2574348,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other general symptoms you experience?",
+    "step": 3,
+    "timestamp": 1773066475.6554475,
+    "metadata": {
+      "thought": "User cannot specify 'G C' symptoms. Need to ask about general symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Ti8pkzXFk7s7vgX6ROVEfy"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Sometimes headaches, but not always...",
+    "step": 3,
+    "timestamp": 1773066476.6581156,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When do you usually get headaches?",
+    "step": 4,
+    "timestamp": 1773066477.9984484,
+    "metadata": {
+      "thought": "User mentioned occasional headaches. Need to gather more details.",
+      "done": false,
+      "tool_use_id": "tooluse_ykNnBnVQr9wTsds2fU3eaq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, they come and go...",
+    "step": 4,
+    "timestamp": 1773066479.0513284,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How long do the headaches last?",
+    "step": 5,
+    "timestamp": 1773066480.5162656,
+    "metadata": {
+      "thought": "User's headaches are intermittent. Need to ask about duration.",
+      "done": false,
+      "tool_use_id": "tooluse_WReAbvVjrtYieDusMml0BB"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, they come and go...",
+    "step": 5,
+    "timestamp": 1773066481.5779858,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any known triggers for headaches?",
+    "step": 6,
+    "timestamp": 1773066483.1563482,
+    "metadata": {
+      "thought": "User's headaches are intermittent and duration is unclear. Need to ask about triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_cJqIC47ExffEp2BWg2T1MY"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Smoking usually makes my head throb...",
+    "step": 6,
+    "timestamp": 1773066484.172398,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other triggers for your headaches?",
+    "step": 7,
+    "timestamp": 1773066485.6761186,
+    "metadata": {
+      "thought": "User identified smoking as a headache trigger. Need to ask about other triggers.",
+      "done": false,
+      "tool_use_id": "tooluse_uIcsK9s8gzJu4wwDcNWn4P"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Smoking is the only trigger I know...",
+    "step": 7,
+    "timestamp": 1773066486.8050513,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you take any medication for headaches?",
+    "step": 8,
+    "timestamp": 1773066488.3231614,
+    "metadata": {
+      "thought": "User identified smoking as the only known headache trigger. Need to ask about medication use.",
+      "done": false,
+      "tool_use_id": "tooluse_nrsfZCwla5M1ILtKVWVMGZ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No medication for headaches, just over-the-counter stuff...",
+    "step": 8,
+    "timestamp": 1773066489.444595,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Which over-the-counter medication do you use?",
+    "step": 9,
+    "timestamp": 1773066490.9511583,
+    "metadata": {
+      "thought": "User uses over-the-counter medication for headaches. Need to specify the medication.",
+      "done": false,
+      "tool_use_id": "tooluse_4nG0bUrK53kk5aZv8a8iez"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don’t use any over-the-counter meds...",
+    "step": 9,
+    "timestamp": 1773066492.0424237,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms you experience regularly?",
+    "step": 10,
+    "timestamp": 1773066493.6328151,
+    "metadata": {
+      "thought": "User does not use over-the-counter medication for headaches. Need to ask about other symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_Omn8OZZqtYk7SxIlL7PCLq"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Fatigue, headaches, and sometimes stomach pain...",
+    "step": 10,
+    "timestamp": 1773066494.7106025,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "How often do you experience these symptoms?",
+    "step": 11,
+    "timestamp": 1773066496.2770913,
+    "metadata": {
+      "thought": "User reports fatigue, headaches, and stomach pain. Need to ask about duration and frequency of these symptoms.",
+      "done": false,
+      "tool_use_id": "tooluse_YJaSMXri8JKHSyW14zCQ6Q"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Not sure, but they happen often lately...",
+    "step": 11,
+    "timestamp": 1773066497.3501797,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent changes in your lifestyle?",
+    "step": 12,
+    "timestamp": 1773066499.015929,
+    "metadata": {
+      "thought": "User's symptoms occur frequently. Need to ask about any recent changes in lifestyle.",
+      "done": false,
+      "tool_use_id": "tooluse_2FJgM07hb40BcAyYrJGrB6"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Stopped using meth, but still smoke...",
+    "step": 12,
+    "timestamp": 1773066500.1261775,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "What type of smoking do you continue?",
+    "step": 13,
+    "timestamp": 1773066501.7614272,
+    "metadata": {
+      "thought": "User stopped using meth but continues smoking. Need to clarify the type of smoking.",
+      "done": false,
+      "tool_use_id": "tooluse_4kR0xbimJgAKkFcvIQ69XS"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I don't smoke, doctor...",
+    "step": 13,
+    "timestamp": 1773066502.9577994,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Do you use any other substances?",
+    "step": 14,
+    "timestamp": 1773066504.6441882,
+    "metadata": {
+      "thought": "User clarified they do not smoke. Need to ask about any other substance use.",
+      "done": false,
+      "tool_use_id": "tooluse_L56IrrrzDLc5u3lO9f35HQ"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No other substances, just smoke...",
+    "step": 14,
+    "timestamp": 1773066505.713272,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any recent stress or lifestyle changes?",
+    "step": 15,
+    "timestamp": 1773066507.44486,
+    "metadata": {
+      "thought": "User clarified they do not use other substances besides smoking. Need to ask about any recent stress or changes.",
+      "done": false,
+      "tool_use_id": "tooluse_rzzKT3kuHSoGYfJPTuoKgI"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253309.432271,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Any difficulty in hearing?",
+    "step": 0,
+    "timestamp": 1773253309.432277,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No, my hearing is the same, unchanged...",
+    "step": 0,
+    "timestamp": 1773253310.6223316,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 1,
+    "timestamp": 1773253312.0951686,
+    "metadata": {
+      "thought": "User denies hearing issues, no new entities collected.",
+      "done": true,
+      "tool_use_id": "tooluse_8g2NnX7kCNUGe19snVCeFr"
+    }
+  }
+]

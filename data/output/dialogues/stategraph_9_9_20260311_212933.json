@@ -1,0 +1,146 @@
+[
+  {
+    "role": "patient",
+    "text": "Hi",
+    "step": 0,
+    "timestamp": 1773253773.7754915,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "doctor",
+    "text": "Good afternoon, ma'am.",
+    "step": 0,
+    "timestamp": 1773253773.7754958,
+    "metadata": {
+      "type": "seed"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My right foot hurts more than the left.",
+    "step": 0,
+    "timestamp": 1773253775.038703,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When does your foot pain occur?",
+    "step": 1,
+    "timestamp": 1773253776.276609,
+    "metadata": {
+      "thought": "Ask about pain specifics to identify potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_h34nSrqlFXqQrxcYiY4fUj"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain mostly happens after long walks...",
+    "step": 1,
+    "timestamp": 1773253777.4983168,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Is pain constant or intermittent?",
+    "step": 2,
+    "timestamp": 1773253778.967497,
+    "metadata": {
+      "thought": "Need to know if pain is constant or intermittent.",
+      "done": false,
+      "tool_use_id": "tooluse_1nhMYEzMLRYCVLMuVRepNx"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "Pain is mostly constant, though it flares up sometimes.",
+    "step": 2,
+    "timestamp": 1773253780.1756325,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any swelling or redness in your foot?",
+    "step": 3,
+    "timestamp": 1773253781.6037161,
+    "metadata": {
+      "thought": "Ask about any swelling or redness to identify potential conditions.",
+      "done": false,
+      "tool_use_id": "tooluse_91a9Cj4KkMxLrwkqVXuiG5"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "No swelling or redness, just discomfort...",
+    "step": 3,
+    "timestamp": 1773253782.7688982,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Any other symptoms with the pain?",
+    "step": 4,
+    "timestamp": 1773253784.3099167,
+    "metadata": {
+      "thought": "Ask about any other symptoms to gather more information.",
+      "done": false,
+      "tool_use_id": "tooluse_wQX6bDFOllkIR8hOvbXkwd"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My toes look strange, and it hurts a lot.",
+    "step": 4,
+    "timestamp": 1773253785.517601,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "Have your toes changed in appearance?",
+    "step": 5,
+    "timestamp": 1773253787.0471926,
+    "metadata": {
+      "thought": "Need to know if there's any change in toe appearance.",
+      "done": false,
+      "tool_use_id": "tooluse_562cXTncwrQ6bNRdm1aE2e"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "My toes look strange, especially on the right foot.",
+    "step": 5,
+    "timestamp": 1773253788.244777,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": "When did you first notice the toe changes?",
+    "step": 6,
+    "timestamp": 1773253789.84245,
+    "metadata": {
+      "thought": "Gathering enough information to determine if further action is needed.",
+      "done": false,
+      "tool_use_id": "tooluse_PYpAVdtLrQR9kAO8rcBoN4"
+    }
+  },
+  {
+    "role": "patient",
+    "text": "I noticed the toe changes a few years ago.",
+    "step": 6,
+    "timestamp": 1773253791.077454,
+    "metadata": {}
+  },
+  {
+    "role": "doctor",
+    "text": null,
+    "step": 7,
+    "timestamp": 1773253792.7199283,
+    "metadata": {
+      "thought": "No further questions needed, sufficient information collected.",
+      "done": true,
+      "tool_use_id": "tooluse_gbaI1Ec9D92ArDyFkKDly4"
+    }
+  }
+]
