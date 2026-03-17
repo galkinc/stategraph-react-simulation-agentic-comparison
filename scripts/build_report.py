@@ -43,7 +43,7 @@ def build_report():
             content = f.read()
 
         # Fix image paths: ./figures/ -> figures/ (for REPORT.md context)
-        content = content.replace('(./figures/', '(figures/')
+        content = content.replace('(../figures/', '(figures/')
 
         content_parts.append(content)
         content_parts.append("\n")  # Single blank line between all parts
