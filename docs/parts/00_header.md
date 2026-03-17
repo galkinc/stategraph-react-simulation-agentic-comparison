@@ -12,11 +12,11 @@
 
 **Result (summary):**
 
-- **Latency:** ReAct completes dialogues ~2 seconds faster on average (mean delta: −2023 ms; 95% CI: [−3847 ms, −757 ms]).
+- **Latency:** ReAct is faster by ~600ms per step (−568ms message + −168ms simulator), accumulating to ~2s per dialogue (mean delta: −2023ms; 95% CI: [−3847ms, −757ms]).
 - **Outcome metrics:** task completion and entity coverage show **no statistically significant differences** between architectures.
 - **Efficiency metrics:** steps and token usage are statistically indistinguishable.
 
-**Interpretation:**  
+**Interpretation:**
 For **short-horizon linear workflows**, orchestration architecture primarily affects **latency**, while outcome quality and efficiency remain comparable.
 
 Findings are specific to short-horizon, constrained dialogue settings.
@@ -41,22 +41,6 @@ Full statistical analysis is presented in §4.
 | **Coverage Final** | 1.10 | 1.07 | **0.0** | [−0.18, +0.22] | 0.59 | ❌ No |
 
 **Takeaway:** For linear slot-filling dialogues, ReAct shows lower latency without statistically significant differences in outcome quality or efficiency.
-
-### Practical Recommendations
-
-**Use ReAct when:**
-✅ Linear workflows (A → B → C)
-✅ Short horizon (<10 steps)
-✅ Simple tool use (1-2 tools)
-✅ Latency-critical UX
-✅ Rapid prototyping
-
-**Use StateGraph when:**
-✅ Branching logic (if-else based on data)
-✅ Long conversations (10-20+ steps)
-✅ Complex state (track multiple variables)
-✅ Tool orchestration (3+ tools with dependencies)
-✅ Human handoffs (pause/resume, async workflows)
 
 ---
 
