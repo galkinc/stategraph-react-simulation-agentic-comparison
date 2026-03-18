@@ -32,7 +32,7 @@ Findings apply to short-horizon, linear slot-filling dialogues and may not gener
 - **Design:** paired comparison (same scenarios under both strategies)  
 - **Scenarios:** 45 simulated doctor–patient dialogues  
 - **Runs:** 135 paired executions  
-- **Model:** Claude 3 Haiku (AWS Bedrock)  
+- **Model:** amazon.nova-micro-v1  
 - **Control:** identical prompts, tools, and simulator  
 
 ---
