@@ -56,7 +56,7 @@ Full statistical analysis is presented in §4.
 
 ---
 
-# 01. Introduction
+# 1. Introduction
 
 ## 1.1 Motivation
 
@@ -174,7 +174,7 @@ Formal metric definitions are provided in §3.
 | **§5 Discussion** | Interpretation and implications |
 | **§6 Threats to Validity** | Study limitations |
 | **§7 Conclusion** | Summary and future work |
-# 02. Experimental Design
+# 2. Experimental Design
 
 ## 2.1 Research Question
 
@@ -404,7 +404,7 @@ dataset licensing constraints but are available upon request.
 This experimental design prioritizes **internal validity**
 (controlled comparison) over external generalization.
 Limitations are discussed in §06 Threats to Validity.
-# 03. Metrics
+# 3. Metrics
 
 ## 3.1 Overview
 
@@ -574,7 +574,7 @@ The following statistical tests are used to evaluate differences between strateg
 
 For detailed formulas, data flow diagrams, and calculation examples, see the source code:
 `metrics_aggregator/run_metrics.py` and `src/strategies/`.
-# 04. Results
+# 4. Results
 
 *Delta = ReAct − StateGraph (negative value indicates ReAct is faster or lower).*
 
@@ -978,7 +978,7 @@ ReAct completes dialogues **~2 seconds faster** than StateGraph on average.
 
 *For metric definitions and formulas, see §3 Metrics. For interpretation and discussion, see §5 Discussion.*
 
-# 05. Discussion
+# 5. Discussion
 
 ## 5.1 Main Result
 
@@ -1152,7 +1152,7 @@ Several extensions could further evaluate these findings:
 - experiments with real user interactions
 
 The experimental framework and datasets used in this study are available in the repository to enable further investigation.
-# 06. Threats to Validity
+# 6. Threats to Validity
 
 This section discusses potential threats to the validity of the study's conclusions using the standard taxonomy: **internal**, **external**, **construct**, and **statistical conclusion** validity.
 
@@ -1249,7 +1249,7 @@ Within this scope, the experimental design isolates orchestration architecture a
 
 Results may be influenced by simulator simplicity and lack of adversarial behavior.
 
-# 07. Conclusion
+# 7. Conclusion
 
 This study compared two agent orchestration strategies — a **ReAct-style cyclic loop** and a **LangGraph StateGraph** — across **135 paired experimental runs** (45 scenarios × 3 batches, both strategies applied) of simulated doctor–patient dialogues.
 
