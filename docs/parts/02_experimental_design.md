@@ -1,4 +1,4 @@
-# 02. Experimental Design
+# 2. Experimental Design
 
 ## 2.1 Research Question
 

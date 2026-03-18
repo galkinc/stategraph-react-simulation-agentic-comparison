@@ -1,4 +1,4 @@
-# 03. Metrics
+# 3. Metrics
 
 ## 3.1 Overview
 

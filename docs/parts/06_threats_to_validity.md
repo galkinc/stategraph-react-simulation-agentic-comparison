@@ -1,4 +1,4 @@
-# 06. Threats to Validity
+# 6. Threats to Validity
 
 This section discusses potential threats to the validity of the study's conclusions using the standard taxonomy: **internal**, **external**, **construct**, and **statistical conclusion** validity.
 

@@ -1,4 +1,4 @@
-# 05. Discussion
+# 5. Discussion
 
 ## 5.1 Main Result
 

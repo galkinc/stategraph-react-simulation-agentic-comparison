@@ -1,4 +1,4 @@
-# 04. Results
+# 4. Results
 
 *Delta = ReAct − StateGraph (negative value indicates ReAct is faster or lower).*
 

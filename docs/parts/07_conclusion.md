@@ -1,4 +1,4 @@
-# 07. Conclusion
+# 7. Conclusion
 
 This study compared two agent orchestration strategies — a **ReAct-style cyclic loop** and a **LangGraph StateGraph** — across **135 paired experimental runs** (45 scenarios × 3 batches, both strategies applied) of simulated doctor–patient dialogues.
 
