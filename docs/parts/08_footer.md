@@ -41,9 +41,9 @@
 ```bibtex
 @misc{stategraph-react-benchmark-2026,
   title={LangGraph vs. ReAct: An Engineering Benchmark for Conversational Agents},
-  author={[Your Name]},
+  author=[Kirill Galkin](https://github.com/galkinc),
   year={2026},
-  url={https://github.com/[your-username]/stategraph-react-simulation-agentic-comparison}
+  url={https://github.com/galkinc/stategraph-react-simulation-agentic-comparison}
 }
 ```
 
