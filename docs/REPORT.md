@@ -4,6 +4,10 @@
 
 ---
 
+> **Erratum (2026-10-20):** This report originally attributed the experiments to Claude 3 Haiku; the model actually used was **Amazon Nova Micro (`amazon.nova-micro-v1:0`) via AWS Bedrock**. The scenario source has also been clarified: dialogues are derived from the public **MTS-Dialog** dataset (Abacha et al., EACL 2023, CC BY 4.0). All affected sections have been corrected.
+
+---
+
 ### Abstract
 
 **Question:** Does orchestration architecture affect the performance of conversational agents?
@@ -101,7 +105,7 @@ The experiment compares two implementations of the same conversational agent:
 
 Both implementations share:
 
-- identical **LLM model** (Claude 3 Haiku via AWS Bedrock)
+- identical **LLM model** (Amazon Nova Micro via AWS Bedrock)
 - identical **prompts**
 - identical **tool and infrastructure interface**
 - identical **patient simulator**
@@ -129,7 +133,7 @@ This study focuses on a **specific class of conversational workflows**.
 - **Task type:** information-extraction (slot-filling) dialogues  
 - **Workflow structure:** primarily linear  
 - **Dialogue horizon:** short (median ~6–7 steps)  
-- **Model:** Claude 3 Haiku  
+- **Model:** Amazon Nova Micro  
 - **Metrics:** system-level performance (latency, tokens, steps, completion)
 
 ### Not Covered
@@ -270,7 +274,7 @@ Batching is used to reduce temporal variance in infrastructure load.
 
 ## 2.5 Scenario Construction
 
-Scenarios are derived from **real doctor–patient dialogue transcripts**.
+Scenarios are derived from the **MTS-Dialog dataset** — a public corpus of doctor–patient dialogues created with clinician annotators (Ben Abacha et al., EACL 2023; [github.com/abachaa/MTS-Dialog](https://github.com/abachaa/MTS-Dialog), CC BY 4.0).
 
 Transcripts are processed with **AWS Comprehend Medical** to extract
 clinical entities and construct structured patient profiles.
@@ -396,8 +400,11 @@ available in the repository.
 Aggregate experiment metrics are included in
 `data/output/aggregate_metrics.json`.
 
-Raw dialogue transcripts cannot be fully distributed due to
-dataset licensing constraints but are available upon request.
+The source dialogue corpus is **MTS-Dialog** — publicly available under CC BY 4.0
+at [github.com/abachaa/MTS-Dialog](https://github.com/abachaa/MTS-Dialog).
+The 45 scenarios were selected from the MTS-Dialog validation set by the filter in
+`src/data_process/raw_data_scripts/prepare.py`. Derived patient profiles and
+generated dialogue logs are available upon request.
 
 ---
 
@@ -1193,7 +1200,7 @@ Results may differ in other settings, including:
 - workflows involving multiple tools
 - domains with different dialogue structures
 
-The experiments also use a **single LLM (Claude 3 Haiku)** and **simulated users** rather than real human participants.  
+The experiments also use a **single LLM (Amazon Nova Micro)** and **simulated users** rather than real human participants.  
 Different models or real user behavior may lead to different interaction dynamics and latency patterns.
 
 The dataset was additionally filtered to remove dialogues where the doctor interacted with relatives rather than the patient directly.  
@@ -1294,7 +1301,7 @@ Future work may extend the comparison to longer workflows, additional task types
 
 ## Availability
 
-The implementation, experimental configuration, and aggregated metrics are available in the project repository at [repository URL]
+The implementation, experimental configuration, and aggregated metrics are available in the project repository at https://github.com/galkinc/stategraph-react-simulation-agentic-comparison
 
 Raw dialogue logs can be shared for replication and further analysis by request.
 
@@ -1304,7 +1311,7 @@ Raw dialogue logs can be shared for replication and further analysis by request.
 
 ### Dataset
 
-- **45 scenarios** derived from real doctor-patient dialogues
+- **45 scenarios** derived from the public MTS-Dialog doctor–patient corpus (CC BY 4.0)
 - **135 runs** (3 batches × 45 scenarios × 2 strategies)
 - **Grounded simulation:** Patient simulator constrained by structured profiles (AWS Comprehend Medical)
 
@@ -1322,7 +1329,7 @@ Raw dialogue logs can be shared for replication and further analysis by request.
 
 | Parameter | Value |
 | --------- | ----- |
-| Model | Anthropic Claude 3 Haiku (`anthropic.claude-3-haiku-20240307-v1:0`) |
+| Model | Amazon Nova Micro (`amazon.nova-micro-v1:0`) |
 | Max steps | 15 |
 | Coverage threshold | 0.2 |
 | Response length | 5-12 words |
@@ -1357,9 +1364,9 @@ MIT License — see [LICENSE](../LICENSE) for details.
 
 ## Acknowledgments
 
-- Real dialogue corpora for scenario generation
+- The MTS-Dialog dataset (Ben Abacha et al., EACL 2023) for scenario generation
 - AWS Comprehend Medical for entity extraction
-- Anthropic Claude 3 Haiku (Bedrock) for LLM
+- Amazon Nova Micro (AWS Bedrock) for LLM
 
 ---
 

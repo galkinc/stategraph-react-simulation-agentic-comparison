@@ -30,7 +30,7 @@ Findings apply to short-horizon, linear slot-filling dialogues and may not gener
 ## Experiment Summary
 
 - **Design:** paired comparison (same scenarios under both strategies)  
-- **Scenarios:** 45 simulated doctor–patient dialogues  
+- **Scenarios:** 45 doctor–patient dialogues derived from the public MTS-Dialog corpus  
 - **Runs:** 135 paired executions  
 - **Model:** amazon.nova-micro-v1  
 - **Control:** identical prompts, tools, and simulator  
@@ -131,13 +131,13 @@ data/
 
 ## Data & Availability
 
-* 45 scenarios derived from structured dialogue simulations
+* 45 scenarios derived from the MTS-Dialog public doctor–patient corpus
 * 135 runs (paired comparison across strategies)
 * Aggregated metrics available in `data/output/`
 
-**Note:**
-Dialogue transcripts are not publicly distributed,
-but may be shared upon request.
+**Source corpus:** [MTS-Dialog](https://github.com/abachaa/MTS-Dialog) — a public doctor–patient dialogue corpus (CC BY 4.0).
+The 45 scenarios were selected from the MTS-Dialog validation set by the filter in `src/data_process/raw_data_scripts/prepare.py`.
+Derived patient profiles and generated dialogue transcripts are available upon request.
 
 ---
 
