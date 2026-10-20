@@ -37,7 +37,7 @@ Everything needed to regenerate the scenario set is public:
 4. Run the AWS Comprehend Medical extraction over the patient turns.
 5. Assemble the patient profiles and feed them into the simulator (see `src/`).
 
-The derived artifacts (parsed dialogues, Comprehend Medical raw outputs, patient profiles) are not stored in this repository; they are available upon request.
+The derived artifacts (parsed dialogues, Comprehend Medical raw outputs, patient profiles) are not stored in this repository; they can be rebuilt from the public corpus following the steps above.
 
 ## Attribution
 
