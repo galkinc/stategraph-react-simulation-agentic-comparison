@@ -136,8 +136,10 @@ data/
 * Aggregated metrics available in `data/output/`
 
 **Source corpus:** [MTS-Dialog](https://github.com/abachaa/MTS-Dialog) — a public doctor–patient dialogue corpus (CC BY 4.0).
-The 45 scenarios were selected from the MTS-Dialog validation set by the filter in `src/data_process/raw_data_scripts/prepare.py`.
+The 45 scenarios were selected from the MTS-Dialog validation set by the scripted filter in `src/data_process/raw_data_scripts/prepare.py`, followed by a manual exclusion of 3 proxy dialogues (IDs 39, 59, 62 — see [docs/DATA.md](docs/DATA.md)).
 Derived patient profiles and generated dialogue transcripts are available upon request.
+
+See [docs/DATA.md](docs/DATA.md) for full dataset provenance, the selection pipeline, and step-by-step regeneration instructions.
 
 ---
 
