@@ -404,7 +404,8 @@ The source dialogue corpus is **MTS-Dialog** — publicly available under CC BY 
 at [github.com/abachaa/MTS-Dialog](https://github.com/abachaa/MTS-Dialog).
 The 45 scenarios were selected from the MTS-Dialog validation set by the filter in
 `src/data_process/raw_data_scripts/prepare.py`. Derived patient profiles and
-generated dialogue logs are available upon request.
+generated dialogue logs are not stored in this repository, but can be rebuilt
+from the public corpus (see `docs/DATA.md`).
 
 ---
 
